@@ -1,0 +1,419 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"  xmlns:owl ="http://www.w3.org/2002/07/owl#"  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:gumo="http://www.gumo.org/"  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"  xmlns:so="http://schema.org/"  xmlns:esco="http://data.europa.eu/esco/model#" xmlns:saro="http://vocab.cs.uni-bonn.de/saro#">
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#JobPosting">
+		<rdfs:subClassOf rdf:resource="http://schema.org/#JobPosting" />
+		<rdfs:comment>a listing that describes a job opening in a certain organization</rdfs:comment>
+		<rdfs:label>Job Posting</rdfs:label>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#JobRoleOrType">
+		<rdfs:comment>The title of the job</rdfs:comment>
+		<rdfs:label>Job Role or Type</rdfs:label>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#Sector">
+		<rdfs:comment>The sector associated with the job position</rdfs:comment>
+		<rdfs:label>Sector</rdfs:label>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#Demand">
+		<rdfs:comment>This class represents the gaps of skills for specific job title</rdfs:comment>
+		<rdfs:label>Demand</rdfs:label>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#DataSource">
+		<rdfs:comment>The data source represents both the data mined specifically for the project and other third party KBs. </rdfs:comment>
+		<rdfs:label>Data Source</rdfs:label>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#Skill">
+		<rdfs:subClassOf rdf:resource="http://data.europa.eu/esco/model#Concept" />
+		<rdfs:comment>The skill class represents the ability to carry out managerial or technical tasks</rdfs:comment>
+		<rdfs:label>Skill</rdfs:label>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#Expertise">
+		<rdfs:comment>An advanced or exceptional knowledge or skill in an area or topic </rdfs:comment>
+		<rdfs:label>Expertise</rdfs:label>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#ProficiencyLevel">
+		<rdfs:comment>This class represents a measurement system based on popular standards for the level of understanding and ability in a certain skill</rdfs:comment>
+		<rdfs:label>Proficiency Level</rdfs:label>
+	</rdfs:Class>	
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#InformationNeed">
+		<rdfs:comment>This class defines list of information which is required as a target to be fulfilled by training resource</rdfs:comment>
+		<rdfs:label>Information Need</rdfs:label>
+	</rdfs:Class>	
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#KnowledgeBase">
+		<rdfs:comment>A class represents the underlying set of know-what e.g. programming languages, design tools </rdfs:comment>
+		<rdfs:label>Knowledge Base</rdfs:label>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#TrainingResource">
+		<rdfs:comment>This class covers the resources which is created in purpose of specific curricula and related skill </rdfs:comment>
+		<rdfs:label>Training Resource</rdfs:label>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#JobSpecificSkill">
+		<rdfs:subClassOf rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+		<rdfs:comment>This class represents specialised and relevant skill for jobs within a specific economic sector, context or occupation </rdfs:comment>
+		<rdfs:label>Job Specific Skill</rdfs:label>
+	</rdfs:Class>	
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#TransversalSkill">
+		<rdfs:subClassOf rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+		<rdfs:comment>This class represents list of skills which are relevant to a broad range of occupations and sectors. They are often referred to as core skills, basic skills or soft skills </rdfs:comment>
+		<rdfs:label>Transversal Skill</rdfs:label>
+	</rdfs:Class>	
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#Product">
+		<rdfs:subClassOf rdf:resource="http://vocab.cs.uni-bonn.de/saro#JobSpecificSkill" />
+		<rdfs:comment>This class represents skill which is related to an ability to use a particular product to support the job task </rdfs:comment>
+		<rdfs:label>Product</rdfs:label>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#Topic">
+		<rdfs:subClassOf rdf:resource="/http://vocab.cs.uni-bonn.de/saro#JobSpecificSkill" />
+		<rdfs:comment>This class represents all demonstrated abilities to apply skills in a certain topic </rdfs:comment>
+		<rdfs:label>Topic</rdfs:label>
+	</rdfs:Class>
+		<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#Tool">
+		<rdfs:subClassOf rdf:resource="http://vocab.cs.uni-bonn.de/saro#JobSpecificSkill" />
+		<rdfs:comment>This class represents skill which is related to an ability to use a particular tool to support the job task </rdfs:comment>
+		<rdfs:label>Tool</rdfs:label>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#Capability">
+		<rdfs:comment>This class represents a list of skills which is required in a job role </rdfs:comment>
+		<rdfs:label>Capability</rdfs:label>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#Capacity">
+		<rdfs:comment>The class which covers the ability to apply the skills in a professional environment </rdfs:comment>
+		<rdfs:label>Capacity</rdfs:label>
+	</rdfs:Class>	
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#Curriculum">
+		<rdfs:comment>This class represents a collection of courses to develop skills </rdfs:comment>
+		<rdfs:label>Curriculum</rdfs:label>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#User">
+		<owl:sameAs rdf:resource="http://www.gumo.org/#User" />
+		<rdfs:comment>The User class represents people who able to do one or more tasks </rdfs:comment>
+		<rdfs:label>User</rdfs:label>
+	</rdfs:Class>	
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#Recruiter">
+		<rdfs:subClassOf rdf:resource="http://vocab.cs.uni-bonn.de/saro#User" />
+		<rdfs:comment>The Recruiter class is the class of people who usually take in charge for the recruitment process in an organization and he/she may also influence the language in and the interpretation of job advertisement </rdfs:comment>
+		<rdfs:label>Recruiter</rdfs:label>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#J.Public">
+		<rdfs:subClassOf rdf:resource="http://vocab.cs.uni-bonn.de/saro#User" />
+		<rdfs:comment>The J.Public class is a group of people which is called non-domain end user, who may or may not be a technology expert </rdfs:comment>
+		<rdfs:label>J.Public</rdfs:label>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#DecisionMaker">
+		<rdfs:subClassOf rdf:resource="/http://vocab.cs.uni-bonn.de/saro#User" />
+		<rdfs:comment>The Decision Maker class is a group of people who is responsible for the definition of new roles and essential skills for them, who will also influence training of new and existing employees </rdfs:comment>
+		<rdfs:label>Decision Maker</rdfs:label>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#EducatororTrainer">
+		<rdfs:subClassOf rdf:resource="http://vocab.cs.uni-bonn.de/saro#User" />
+		<rdfs:comment>The Educator or Trainer class represents the institution and personnel who will develop learning resources</rdfs:comment>
+		<rdfs:label>Educator or Trainer</rdfs:label>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#DomainSpecialist">
+		<rdfs:subClassOf rdf:resource="http://vocab.cs.uni-bonn.de/saro#User" />
+		<rdfs:comment>The Domain Specialist class represents the class of people who is practising or new in a certain domain</rdfs:comment>
+		<rdfs:label>Domain Specialist</rdfs:label>
+	</rdfs:Class>	
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#Trainee">
+		<rdfs:subClassOf rdf:resource="http://vocab.cs.uni-bonn.de/saro#DomainSpecialist" />
+		<rdfs:comment>The Trainee class represents a group of people who is new in a certain domain </rdfs:comment>
+		<rdfs:label>Trainee</rdfs:label>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#Practitioner">
+		<rdfs:subClassOf rdf:resource="http://vocab.cs.uni-bonn.de/saro#DomainSpecialist" />
+		<rdfs:comment>The Practitioner class represents a group of people who is practising in a certain domain </rdfs:comment>
+		<rdfs:label>Practitioner</rdfs:label>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#UserTask">
+		<rdfs:comment>The User Task class covers list of tasks for every type of user in the context </rdfs:comment>
+		<rdfs:label>User Task</rdfs:label>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://vocab.cs.uni-bonn.de/saro#Qualification">
+		<rdfs:subClassOf rdf:resource="http://data.europa.eu/esco/model#Concept" />
+		<rdfs:comment>The Qualification class represents the official or formal certification of one or more acquired skills or competences</rdfs:comment>
+		<rdfs:label>Qualification</rdfs:label>
+	</rdfs:Class>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#describes">
+		<rdfs:comment>Links one job posting to its role or type. </rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#JobPosting" />
+		<rdfs:label>describes</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#JobRoleOrType" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#advertisedIn">
+		<rdfs:comment>Links one job posting to one sector.  </rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#JobPosting" />
+		<rdfs:label>advertisedIn</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Sector" />
+	</rdf:Property>	
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#foundIn">
+		<rdfs:comment>Links one Job Role to a sector.  </rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#JobRoleOrType" />
+		<rdfs:label>foundIn</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Sector" />
+	</rdf:Property>	
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#requiresExpertise">
+		<rdfs:comment>One job role usually specify their required expertise, and the property points to one or more expertise. </rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#JobRoleOrType" />
+		<rdfs:label>requiresExpertise</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Expertise" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#requiresSkill">
+		<rdfs:comment>One job role usually specify their required skill, and the property points to one or more skill. </rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#JobRoleOrType" />
+		<rdfs:label>requiresSkill</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#frequencyOfMention">
+		<rdfs:comment>One skill usually specify their number of occurrence in a particular job posting, in which it points out to an integer. </rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+		<rdfs:label>frequencyOfMention</rdfs:label>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#coOccursWith">
+		<rdfs:comment>One skill possibly occurs together with another skill in a specific job posting, and the property points to one or more skill. </rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+		<rdfs:label>coOccursWith</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+	</rdf:Property>	
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#requiresCapability">
+		<rdfs:comment>One job role usually specify their required capability, and the property points to one or more capability. </rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#JobRoleOrType" />
+		<rdfs:label>requiresCapability</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Capability" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#requiresKnowledge">
+		<rdfs:comment>One job role usually specify their required knowledge, and the property points to one or more knowledge. </rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#JobRoleOrType" />
+		<rdfs:label>requiresKnowledge</rdfs:label>
+		<rdfs:range rdf:resource="http://www.gumo.org/#Knowledge" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#hasDemand">
+		<rdfs:comment>One sector could specify their demand, and the property points to one or more demand. </rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#Sector" />
+		<rdfs:label>hasDemand</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Demand" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#feedsInto">
+		<rdfs:comment>This property marks that a demand could contribute to one or more data source. </rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#Demand" />
+		<rdfs:label>feedsInto</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#DataSource" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#atProficiencyLevel">
+		<rdfs:comment>This property marks that a skill could have one ProficiencyLevel. </rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+		<rdfs:label>atProficiencyLevel</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#ProficiencyLevel" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#leadsTo">
+		<rdfs:comment>This property marks that a skill could lead to one or more expertise. </rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+		<rdfs:label>leadsTo</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Expertise" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#isCoreTo">
+		<rdfs:comment>This property marks that a skill is a core to one or more sector. </rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+		<rdfs:label>isCoreTo</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Sector" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#acquiredVia">
+		<rdfs:comment>This property marks that a skill can be acquired via one or more training resource. </rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+		<rdfs:label>acquiredVia</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#TrainingResource" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#requires">
+		<rdfs:comment>One skill can simultaneously consist of various skill subclasses as defined by SARO. These are semantically related to the parent skill through this property. </rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+		<rdfs:label>requires</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#drives">
+		<rdfs:comment>One skill can drive the information need. </rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+		<rdfs:label>drives</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#InformationNeed" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#leadsToQualification">
+		<rdfs:comment>This property marks that a skill could define one or more qualification. </rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+		<rdfs:label>leadsToQualification</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Qualification" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#drivenByInterest">
+		<rdfs:comment>This property is used to refer to interest which drives the information need.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#InformationNeed" />
+		<rdfs:label>drivenByInterest</rdfs:label>
+		<rdfs:range rdf:resource="http://www.gumo.org/#Interest" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#drivenByKnowledge">
+		<rdfs:comment>This property is used to refer to knowledge which drives the information need.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#InformationNeed" />
+		<rdfs:label>drivenByKnowledge</rdfs:label>
+		<rdfs:range rdf:resource="http://www.gumo.org/#Knowledge" />
+	</rdf:Property>	
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#definesSkill">
+		<rdfs:comment>This property is used to refer to skill which is defined by the knowledge base.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#KnowledgeBase" />
+		<rdfs:label>definesSkill</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+	</rdf:Property>	
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#derivedFrom">
+		<rdfs:comment>This property is used to refer to data source that derives the knowledge base.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#KnowledgeBase" />
+		<rdfs:label>derivedFrom</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#DataSource" />
+	</rdf:Property>	
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#createdFrom">
+		<rdfs:comment>This property is used to refer to knowledge base which creates the training resource.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#TrainingResource" />
+		<rdfs:label>createdFrom</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#KnowledgeBase" />
+	</rdf:Property>	
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#relatedTo">
+		<rdfs:comment>This property is used to refer to skill which relates to one or more training resource.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#TrainingResource" />
+		<rdfs:label>relatedTo</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+	</rdf:Property>		
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#satisfies">
+		<rdfs:comment>This property is used to refer to information need which is satisfied by the training resource.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#TrainingResource" />
+		<rdfs:label>satisfies</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#InformationNeed" />
+	</rdf:Property>	
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#describesResource">
+		<rdfs:comment>This property is used to refer to training resource which is described by the curriculum.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#Curriculum" />
+		<rdfs:label>describesResource</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#TrainingResource" />
+	</rdf:Property>		
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#follows">
+		<rdfs:comment>This property is used to refer to curriculum which is followed by a plan.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://www.gumo.org/#Plan" />
+		<rdfs:label>follows</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Curriculum" />
+	</rdf:Property>	
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#fillSkillGap">
+		<rdfs:comment>This property is used to refer to which skill does a goal will fill the defined gap.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://www.gumo.org/#Goal" />
+		<rdfs:label>fillSkillGap</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+	</rdf:Property>	
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#forUserType">
+		<rdfs:comment>This property is used to refer a specific user task with the user.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#UserTask" />
+		<rdfs:label>forUserType</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#User" />
+	</rdf:Property>	
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#develops">
+		<rdfs:comment>This property is used to link the training course which has been developed by an educator or trainer.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#EducatororTrainer" />
+		<rdfs:label>develops</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#TrainingResource" />
+	</rdf:Property>	
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#defines">
+		<rdfs:comment>This property is used to link the decision maker with the new roles which has been defined by him.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#DecisionMaker" />
+		<rdfs:label>defines</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#JobRoleOrType" />
+	</rdf:Property>	
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#allocatesResourcesTo">
+		<rdfs:comment>This property is used to link the decision maker with the training resources which has been allocated or influenced by him.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#DecisionMaker" />
+		<rdfs:label>allocatesResourcesTo</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#TrainingResource" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#browses">
+		<rdfs:comment>User type public is able to browse the demand, therefore this property is used to link public with specific demand.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#J.Public" />
+		<rdfs:label>browses</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Demand" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#seeksToFill">
+		<rdfs:comment>A recruiter is responsible for the recruitment process of specific job role, but first should get the demand picture of those role and therefore this property is used to link recruiter with specific demand.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#Recruiter" />
+		<rdfs:label>seeksToFill</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Demand" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#hasDemandFor">
+		<rdfs:comment>This property links the location to one or more job role or type which indicates that there is a demand for a location toward specific job role.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Location" />
+		<rdfs:label>hasDemandFor</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#JobRoleOrType" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#hasCapacity">
+		<rdfs:comment>This property is used to refer a location with the capacity for that specific location.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Location" />
+		<rdfs:label>hasCapacity</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Capacity" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#hasCapability">
+		<rdfs:comment>This property is used to refer a location with the capability for that specific location.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Location" />
+		<rdfs:label>hasCapability</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Capability" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#toAbsorb">
+		<rdfs:comment>This property is used to refer to a capacity which could absorb the specific skill.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#Capacity" />
+		<rdfs:label>toAbsorb</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#needsSkill">
+		<rdfs:comment>Links a capability with the required skill for that capability.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#Capability" />
+		<rdfs:label>needsSkill</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#requiresQualification">
+		<rdfs:comment>Links a capability with the required qualification for that capability.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#Capability" />
+		<rdfs:label>requiresQualification</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Qualification" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#hasSkill">
+		<rdfs:comment>Links a user with the skill of which he has been qualified for.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#User" />
+		<rdfs:label>hasSkill</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#hasSkillGap">
+		<rdfs:comment>Links a user with the skill of which he has not been qualified for.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#User" />
+		<rdfs:label>hasSkillGap</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#hasExpertise">
+		<rdfs:comment>Links a user with his expertise.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#User" />
+		<rdfs:label>hasExpertise</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Expertise" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#hasEssentialSkill">
+		<rdfs:comment>This property links the occupation with one or more skill in which those occupation must have.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://data.europa.eu/esco/model#Occupation" />
+		<rdfs:label>hasEssentialSkill</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Skill" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#legallyRequiredQualification">
+		<rdfs:comment>This property links the occupation with one or more qualification.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://data.europa.eu/esco/model#Occupation" />
+		<rdfs:label>legallyRequiredQualification</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#Qualification" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#feedsIntoKB">
+		<rdfs:comment>This property links the qualification with knowledge base that indicates the contribution for adding the knowledge base.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#Qualification" />
+		<rdfs:label>feedsIntoKB</rdfs:label>
+		<rdfs:range rdf:resource="http://vocab.cs.uni-bonn.de/saro#KnowledgeBase" />
+	</rdf:Property>
+	<rdf:Property rdf:about="http://vocab.cs.uni-bonn.de/saro#qualificationExpirationPeriod">
+		<rdfs:comment>Records the period of how long a qualification is valid.</rdfs:comment>
+		<rdfs:domain rdf:resource="http://vocab.cs.uni-bonn.de/saro#Qualification" />
+		<rdfs:label>qualificationExpirationPeriod</rdfs:label>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#duration" />
+	</rdf:Property>
+</rdf:RDF>
+  

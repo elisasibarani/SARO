@@ -1,0 +1,424 @@
+@prefix esco: <http://data.europa.eu/esco/model#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix gumo: <http://www.gumo.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix saro: <http://vocab.cs.uni-bonn.de/saro#> .
+@prefix schema: <http://schema.org/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+saro:Capability a rdfs:Class ;
+    rdfs:label "Capability" ;
+    rdfs:comment "This class represents a list of skills which is required in a job role " .
+
+saro:Capacity a rdfs:Class ;
+    rdfs:label "Capacity" ;
+    rdfs:comment "The class which covers the ability to apply the skills in a professional environment " .
+
+saro:Curriculum a rdfs:Class ;
+    rdfs:label "Curriculum" ;
+    rdfs:comment "This class represents a collection of courses to develop skills " .
+
+saro:DataSource a rdfs:Class ;
+    rdfs:label "Data Source" ;
+    rdfs:comment "The data source represents both the data mined specifically for the project and other third party KBs. " .
+
+saro:DecisionMaker a rdfs:Class ;
+    rdfs:label "Decision Maker" ;
+    rdfs:comment "The Decision Maker class is a group of people who is responsible for the definition of new roles and essential skills for them, who will also influence training of new and existing employees " ;
+    rdfs:subClassOf </http://vocab.cs.uni-bonn.de/saro#User> .
+
+saro:Demand a rdfs:Class ;
+    rdfs:label "Demand" ;
+    rdfs:comment "This class represents the gaps of skills for specific job title" .
+
+saro:DomainSpecialist a rdfs:Class ;
+    rdfs:label "Domain Specialist" ;
+    rdfs:comment "The Domain Specialist class represents the class of people who is practising or new in a certain domain" ;
+    rdfs:subClassOf saro:User .
+
+saro:EducatororTrainer a rdfs:Class ;
+    rdfs:label "Educator or Trainer" ;
+    rdfs:comment "The Educator or Trainer class represents the institution and personnel who will develop learning resources" ;
+    rdfs:subClassOf saro:User .
+
+saro:Expertise a rdfs:Class ;
+    rdfs:label "Expertise" ;
+    rdfs:comment "An advanced or exceptional knowledge or skill in an area or topic " .
+
+saro:InformationNeed a rdfs:Class ;
+    rdfs:label "Information Need" ;
+    rdfs:comment "This class defines list of information which is required as a target to be fulfilled by training resource" .
+
+saro:J.Public a rdfs:Class ;
+    rdfs:label "J.Public" ;
+    rdfs:comment "The J.Public class is a group of people which is called non-domain end user, who may or may not be a technology expert " ;
+    rdfs:subClassOf saro:User .
+
+saro:JobPosting a rdfs:Class ;
+    rdfs:label "Job Posting" ;
+    rdfs:comment "a listing that describes a job opening in a certain organization" ;
+    rdfs:subClassOf <http://schema.org/#JobPosting> .
+
+saro:JobRoleOrType a rdfs:Class ;
+    rdfs:label "Job Role or Type" ;
+    rdfs:comment "The title of the job" .
+
+saro:JobSpecificSkill a rdfs:Class ;
+    rdfs:label "Job Specific Skill" ;
+    rdfs:comment "This class represents specialised and relevant skill for jobs within a specific economic sector, context or occupation " ;
+    rdfs:subClassOf saro:Skill .
+
+saro:KnowledgeBase a rdfs:Class ;
+    rdfs:label "Knowledge Base" ;
+    rdfs:comment "A class represents the underlying set of know-what e.g. programming languages, design tools " .
+
+saro:Practitioner a rdfs:Class ;
+    rdfs:label "Practitioner" ;
+    rdfs:comment "The Practitioner class represents a group of people who is practising in a certain domain " ;
+    rdfs:subClassOf saro:DomainSpecialist .
+
+saro:Product a rdfs:Class ;
+    rdfs:label "Product" ;
+    rdfs:comment "This class represents skill which is related to an ability to use a particular product to support the job task " ;
+    rdfs:subClassOf saro:JobSpecificSkill .
+
+saro:ProficiencyLevel a rdfs:Class ;
+    rdfs:label "Proficiency Level" ;
+    rdfs:comment "This class represents a measurement system based on popular standards for the level of understanding and ability in a certain skill" .
+
+saro:Qualification a rdfs:Class ;
+    rdfs:label "Qualification" ;
+    rdfs:comment "The Qualification class represents the official or formal certification of one or more acquired skills or competences" ;
+    rdfs:subClassOf esco:Concept .
+
+saro:Recruiter a rdfs:Class ;
+    rdfs:label "Recruiter" ;
+    rdfs:comment "The Recruiter class is the class of people who usually take in charge for the recruitment process in an organization and he/she may also influence the language in and the interpretation of job advertisement " ;
+    rdfs:subClassOf saro:User .
+
+saro:Sector a rdfs:Class ;
+    rdfs:label "Sector" ;
+    rdfs:comment "The sector associated with the job position" .
+
+saro:Skill a rdfs:Class ;
+    rdfs:label "Skill" ;
+    rdfs:comment "The skill class represents the ability to carry out managerial or technical tasks" ;
+    rdfs:subClassOf esco:Concept .
+
+saro:Tool a rdfs:Class ;
+    rdfs:label "Tool" ;
+    rdfs:comment "This class represents skill which is related to an ability to use a particular tool to support the job task " ;
+    rdfs:subClassOf saro:JobSpecificSkill .
+
+saro:Topic a rdfs:Class ;
+    rdfs:label "Topic" ;
+    rdfs:comment "This class represents all demonstrated abilities to apply skills in a certain topic " ;
+    rdfs:subClassOf </http://vocab.cs.uni-bonn.de/saro#JobSpecificSkill> .
+
+saro:Trainee a rdfs:Class ;
+    rdfs:label "Trainee" ;
+    rdfs:comment "The Trainee class represents a group of people who is new in a certain domain " ;
+    rdfs:subClassOf saro:DomainSpecialist .
+
+saro:TrainingResource a rdfs:Class ;
+    rdfs:label "Training Resource" ;
+    rdfs:comment "This class covers the resources which is created in purpose of specific curricula and related skill " .
+
+saro:TransversalSkill a rdfs:Class ;
+    rdfs:label "Transversal Skill" ;
+    rdfs:comment "This class represents list of skills which are relevant to a broad range of occupations and sectors. They are often referred to as core skills, basic skills or soft skills " ;
+    rdfs:subClassOf saro:Skill .
+
+saro:User a rdfs:Class ;
+    rdfs:label "User" ;
+    rdfs:comment "The User class represents people who able to do one or more tasks " ;
+    = <http://www.gumo.org/#User> .
+
+saro:UserTask a rdfs:Class ;
+    rdfs:label "User Task" ;
+    rdfs:comment "The User Task class covers list of tasks for every type of user in the context " .
+
+saro:acquiredVia a rdf:Property ;
+    rdfs:label "acquiredVia" ;
+    rdfs:comment "This property marks that a skill can be acquired via one or more training resource. " ;
+    rdfs:domain saro:Skill ;
+    rdfs:range saro:TrainingResource .
+
+saro:advertisedIn a rdf:Property ;
+    rdfs:label "advertisedIn" ;
+    rdfs:comment "Links one job posting to one sector.  " ;
+    rdfs:domain saro:JobPosting ;
+    rdfs:range saro:Sector .
+
+saro:allocatesResourcesTo a rdf:Property ;
+    rdfs:label "allocatesResourcesTo" ;
+    rdfs:comment "This property is used to link the decision maker with the training resources which has been allocated or influenced by him." ;
+    rdfs:domain saro:DecisionMaker ;
+    rdfs:range saro:TrainingResource .
+
+saro:atProficiencyLevel a rdf:Property ;
+    rdfs:label "atProficiencyLevel" ;
+    rdfs:comment "This property marks that a skill could have one ProficiencyLevel. " ;
+    rdfs:domain saro:Skill ;
+    rdfs:range saro:ProficiencyLevel .
+
+saro:browses a rdf:Property ;
+    rdfs:label "browses" ;
+    rdfs:comment "User type public is able to browse the demand, therefore this property is used to link public with specific demand." ;
+    rdfs:domain saro:J.Public ;
+    rdfs:range saro:Demand .
+
+saro:createdFrom a rdf:Property ;
+    rdfs:label "createdFrom" ;
+    rdfs:comment "This property is used to refer to knowledge base which creates the training resource." ;
+    rdfs:domain saro:TrainingResource ;
+    rdfs:range saro:KnowledgeBase .
+
+saro:defines a rdf:Property ;
+    rdfs:label "defines" ;
+    rdfs:comment "This property is used to link the decision maker with the new roles which has been defined by him." ;
+    rdfs:domain saro:DecisionMaker ;
+    rdfs:range saro:JobRoleOrType .
+
+saro:definesSkill a rdf:Property ;
+    rdfs:label "definesSkill" ;
+    rdfs:comment "This property is used to refer to skill which is defined by the knowledge base." ;
+    rdfs:domain saro:KnowledgeBase ;
+    rdfs:range saro:Skill .
+
+saro:derivedFrom a rdf:Property ;
+    rdfs:label "derivedFrom" ;
+    rdfs:comment "This property is used to refer to data source that derives the knowledge base." ;
+    rdfs:domain saro:KnowledgeBase ;
+    rdfs:range saro:DataSource .
+
+saro:describes a rdf:Property ;
+    rdfs:label "describes" ;
+    rdfs:comment "Links one job posting to its role or type. " ;
+    rdfs:domain saro:JobPosting ;
+    rdfs:range saro:JobRoleOrType .
+
+saro:describesResource a rdf:Property ;
+    rdfs:label "describesResource" ;
+    rdfs:comment "This property is used to refer to training resource which is described by the curriculum." ;
+    rdfs:domain saro:Curriculum ;
+    rdfs:range saro:TrainingResource .
+
+saro:develops a rdf:Property ;
+    rdfs:label "develops" ;
+    rdfs:comment "This property is used to link the training course which has been developed by an educator or trainer." ;
+    rdfs:domain saro:EducatororTrainer ;
+    rdfs:range saro:TrainingResource .
+
+saro:drivenByInterest a rdf:Property ;
+    rdfs:label "drivenByInterest" ;
+    rdfs:comment "This property is used to refer to interest which drives the information need." ;
+    rdfs:domain saro:InformationNeed ;
+    rdfs:range <http://www.gumo.org/#Interest> .
+
+saro:drivenByKnowledge a rdf:Property ;
+    rdfs:label "drivenByKnowledge" ;
+    rdfs:comment "This property is used to refer to knowledge which drives the information need." ;
+    rdfs:domain saro:InformationNeed ;
+    rdfs:range <http://www.gumo.org/#Knowledge> .
+
+saro:drives a rdf:Property ;
+    rdfs:label "drives" ;
+    rdfs:comment "One skill can drive the information need. " ;
+    rdfs:domain saro:Skill ;
+    rdfs:range saro:InformationNeed .
+
+saro:feedsInto a rdf:Property ;
+    rdfs:label "feedsInto" ;
+    rdfs:comment "This property marks that a demand could contribute to one or more data source. " ;
+    rdfs:domain saro:Demand ;
+    rdfs:range saro:DataSource .
+
+saro:feedsIntoKB a rdf:Property ;
+    rdfs:label "feedsIntoKB" ;
+    rdfs:comment "This property links the qualification with knowledge base that indicates the contribution for adding the knowledge base." ;
+    rdfs:domain saro:Qualification ;
+    rdfs:range saro:KnowledgeBase .
+
+saro:fillSkillGap a rdf:Property ;
+    rdfs:label "fillSkillGap" ;
+    rdfs:comment "This property is used to refer to which skill does a goal will fill the defined gap." ;
+    rdfs:domain <http://www.gumo.org/#Goal> ;
+    rdfs:range saro:Skill .
+
+saro:follows a rdf:Property ;
+    rdfs:label "follows" ;
+    rdfs:comment "This property is used to refer to curriculum which is followed by a plan." ;
+    rdfs:domain <http://www.gumo.org/#Plan> ;
+    rdfs:range saro:Curriculum .
+
+saro:forUserType a rdf:Property ;
+    rdfs:label "forUserType" ;
+    rdfs:comment "This property is used to refer a specific user task with the user." ;
+    rdfs:domain saro:UserTask ;
+    rdfs:range saro:User .
+
+saro:foundIn a rdf:Property ;
+    rdfs:label "foundIn" ;
+    rdfs:comment "Links one Job Role to a sector.  " ;
+    rdfs:domain saro:JobRoleOrType ;
+    rdfs:range saro:Sector .
+
+saro:hasCapability a rdf:Property ;
+    rdfs:label "hasCapability" ;
+    rdfs:comment "This property is used to refer a location with the capability for that specific location." ;
+    rdfs:domain geo:Location ;
+    rdfs:range saro:Capability .
+
+saro:hasCapacity a rdf:Property ;
+    rdfs:label "hasCapacity" ;
+    rdfs:comment "This property is used to refer a location with the capacity for that specific location." ;
+    rdfs:domain geo:Location ;
+    rdfs:range saro:Capacity .
+
+saro:hasDemand a rdf:Property ;
+    rdfs:label "hasDemand" ;
+    rdfs:comment "One sector could specify their demand, and the property points to one or more demand. " ;
+    rdfs:domain saro:Sector ;
+    rdfs:range saro:Demand .
+
+saro:hasDemandFor a rdf:Property ;
+    rdfs:label "hasDemandFor" ;
+    rdfs:comment "This property links the location to one or more job role or type which indicates that there is a demand for a location toward specific job role." ;
+    rdfs:domain geo:Location ;
+    rdfs:range saro:JobRoleOrType .
+
+saro:hasEssentialSkill a rdf:Property ;
+    rdfs:label "hasEssentialSkill" ;
+    rdfs:comment "This property links the occupation with one or more skill in which those occupation must have." ;
+    rdfs:domain esco:Occupation ;
+    rdfs:range saro:Skill .
+
+saro:hasExpertise a rdf:Property ;
+    rdfs:label "hasExpertise" ;
+    rdfs:comment "Links a user with his expertise." ;
+    rdfs:domain saro:User ;
+    rdfs:range saro:Expertise .
+
+saro:hasSkill a rdf:Property ;
+    rdfs:label "hasSkill" ;
+    rdfs:comment "Links a user with the skill of which he has been qualified for." ;
+    rdfs:domain saro:User ;
+    rdfs:range saro:Skill .
+
+saro:hasSkillGap a rdf:Property ;
+    rdfs:label "hasSkillGap" ;
+    rdfs:comment "Links a user with the skill of which he has not been qualified for." ;
+    rdfs:domain saro:User ;
+    rdfs:range saro:Skill .
+
+saro:isCoreTo a rdf:Property ;
+    rdfs:label "isCoreTo" ;
+    rdfs:comment "This property marks that a skill is a core to one or more sector. " ;
+    rdfs:domain saro:Skill ;
+    rdfs:range saro:Sector .
+
+saro:leadsTo a rdf:Property ;
+    rdfs:label "leadsTo" ;
+    rdfs:comment "This property marks that a skill could lead to one or more expertise. " ;
+    rdfs:domain saro:Skill ;
+    rdfs:range saro:Expertise .
+
+saro:leadsToQualification a rdf:Property ;
+    rdfs:label "leadsToQualification" ;
+    rdfs:comment "This property marks that a skill could define one or more qualification. " ;
+    rdfs:domain saro:Skill ;
+    rdfs:range saro:Qualification .
+
+saro:legallyRequiredQualification a rdf:Property ;
+    rdfs:label "legallyRequiredQualification" ;
+    rdfs:comment "This property links the occupation with one or more qualification." ;
+    rdfs:domain esco:Occupation ;
+    rdfs:range saro:Qualification .
+
+saro:needsSkill a rdf:Property ;
+    rdfs:label "needsSkill" ;
+    rdfs:comment "Links a capability with the required skill for that capability." ;
+    rdfs:domain saro:Capability ;
+    rdfs:range saro:Skill .
+
+saro:qualificationExpirationPeriod a rdf:Property ;
+    rdfs:label "qualificationExpirationPeriod" ;
+    rdfs:comment "Records the period of how long a qualification is valid." ;
+    rdfs:domain saro:Qualification ;
+    rdfs:range xsd:duration .
+
+saro:relatedTo a rdf:Property ;
+    rdfs:label "relatedTo" ;
+    rdfs:comment "This property is used to refer to skill which relates to one or more training resource." ;
+    rdfs:domain saro:TrainingResource ;
+    rdfs:range saro:Skill .
+
+saro:requires a rdf:Property ;
+    rdfs:label "requires" ;
+    rdfs:comment "One skill can simultaneously consist of various skill subclasses as defined by SARO. These are semantically related to the parent skill through this property. " ;
+    rdfs:domain saro:Skill ;
+    rdfs:range saro:Skill .
+
+saro:requiresCapability a rdf:Property ;
+    rdfs:label "requiresCapability" ;
+    rdfs:comment "One job role usually specify their required capability, and the property points to one or more capability. " ;
+    rdfs:domain saro:JobRoleOrType ;
+    rdfs:range saro:Capability .
+
+saro:requiresExpertise a rdf:Property ;
+    rdfs:label "requiresExpertise" ;
+    rdfs:comment "One job role usually specify their required expertise, and the property points to one or more expertise. " ;
+    rdfs:domain saro:JobRoleOrType ;
+    rdfs:range saro:Expertise .
+
+saro:requiresKnowledge a rdf:Property ;
+    rdfs:label "requiresKnowledge" ;
+    rdfs:comment "One job role usually specify their required knowledge, and the property points to one or more knowledge. " ;
+    rdfs:domain saro:JobRoleOrType ;
+    rdfs:range saro:Knowledge .
+
+saro:requiresQualification a rdf:Property ;
+    rdfs:label "requiresQualification" ;
+    rdfs:comment "Links a capability with the required qualification for that capability." ;
+    rdfs:domain saro:Capability ;
+    rdfs:range saro:Qualification .
+
+saro:requiresSkill a rdf:Property ;
+    rdfs:label "requiresSkill" ;
+    rdfs:comment "One job role usually specify their required skill, and the property points to one or more skill. " ;
+    rdfs:domain saro:JobRoleOrType ;
+    rdfs:range saro:Skill .
+
+saro:frequencyOfMention a rdf:Property ;
+    rdfs:label "frequencyOfMention" ;
+    rdfs:comment "To specify the number of mentions (occurrence) of a skill in a particular job posting. " ;
+    rdfs:domain saro:Skill ;
+    rdfs:range xsd:integer .	
+	
+saro:coOccursWith a rdf:Property ;
+    rdfs:label "coOccursWith" ;
+    rdfs:comment "A specific skill may also link to another skill using this property to define the co-occurrence of the two skills in a job posting. " ;
+    rdfs:domain saro:Skill ;
+    rdfs:range saro:Skill .
+	
+saro:satisfies a rdf:Property ;
+    rdfs:label "satisfies" ;
+    rdfs:comment "This property is used to refer to information need which is satisfied by the training resource." ;
+    rdfs:domain saro:TrainingResource ;
+    rdfs:range saro:InformationNeed .
+
+saro:seeksToFill a rdf:Property ;
+    rdfs:label "seeksToFill" ;
+    rdfs:comment "A recruiter is responsible for the recruitment process of specific job role, but first should get the demand picture of those role and therefore this property is used to link recruiter with specific demand." ;
+    rdfs:domain saro:Recruiter ;
+    rdfs:range saro:Demand .
+
+saro:toAbsorb a rdf:Property ;
+    rdfs:label "toAbsorb" ;
+    rdfs:comment "This property is used to refer to a capacity which could absorb the specific skill." ;
+    rdfs:domain saro:Capacity ;
+    rdfs:range saro:Skill .
