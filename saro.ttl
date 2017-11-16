@@ -217,7 +217,7 @@ saro:drivenByInterest a rdf:Property ;
     rdfs:label "drivenByInterest" ;
     rdfs:comment "This property is used to refer to interest which drives the information need." ;
     rdfs:domain saro:InformationNeed ;
-    rdfs:range <http://www.gumo.org/#Interest> .
+    rdfs:range gumo:Interest .
 
 saro:drivenByKnowledge a rdf:Property ;
     rdfs:label "drivenByKnowledge" ;
