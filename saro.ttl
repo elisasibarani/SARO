@@ -28,7 +28,7 @@ saro:DataSource a rdfs:Class ;
 saro:DecisionMaker a rdfs:Class ;
     rdfs:label "Decision Maker" ;
     rdfs:comment "The Decision Maker class is a group of people who is responsible for the definition of new roles and essential skills for them, who will also influence training of new and existing employees " ;
-    rdfs:subClassOf </http://vocab.cs.uni-bonn.de/saro#User> .
+    rdfs:subClassOf saro:User .
 
 saro:Demand a rdfs:Class ;
     rdfs:label "Demand" ;
@@ -60,7 +60,7 @@ saro:J.Public a rdfs:Class ;
 saro:JobPosting a rdfs:Class ;
     rdfs:label "Job Posting" ;
     rdfs:comment "a listing that describes a job opening in a certain organization" ;
-    rdfs:subClassOf <http://schema.org/#JobPosting> .
+    rdfs:subClassOf so:JobPosting .
 
 saro:JobRoleOrType a rdfs:Class ;
     rdfs:label "Job Role or Type" ;
@@ -116,7 +116,7 @@ saro:Tool a rdfs:Class ;
 saro:Topic a rdfs:Class ;
     rdfs:label "Topic" ;
     rdfs:comment "This class represents all demonstrated abilities to apply skills in a certain topic " ;
-    rdfs:subClassOf </http://vocab.cs.uni-bonn.de/saro#JobSpecificSkill> .
+    rdfs:subClassOf saro:JobSpecificSkill .
 
 saro:Trainee a rdfs:Class ;
     rdfs:label "Trainee" ;
@@ -126,7 +126,7 @@ saro:Trainee a rdfs:Class ;
 saro:TrainingResource a rdfs:Class ;
     rdfs:label "Training Resource" ;
     rdfs:comment "This class covers the resources which is created in purpose of specific curricula and related skill " .
-
+	
 saro:TransversalSkill a rdfs:Class ;
     rdfs:label "Transversal Skill" ;
     rdfs:comment "This class represents list of skills which are relevant to a broad range of occupations and sectors. They are often referred to as core skills, basic skills or soft skills " ;
@@ -135,7 +135,7 @@ saro:TransversalSkill a rdfs:Class ;
 saro:User a rdfs:Class ;
     rdfs:label "User" ;
     rdfs:comment "The User class represents people who able to do one or more tasks " ;
-    = <http://www.gumo.org/#User> .
+    rdfs:subClassOf gumo:User .
 
 saro:UserTask a rdfs:Class ;
     rdfs:label "User Task" ;
