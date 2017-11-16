@@ -252,7 +252,7 @@ saro:fillSkillGap a rdf:Property ;
 saro:follows a rdf:Property ;
     rdfs:label "follows" ;
     rdfs:comment "This property is used to refer to curriculum which is followed by a plan." ;
-    rdfs:domain <http://www.gumo.org/#Plan> ;
+    rdfs:domain gumo:Plan ;
     rdfs:range saro:Curriculum .
 
 saro:forUserType a rdf:Property ;
