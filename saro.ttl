@@ -246,7 +246,7 @@ saro:feedsIntoKB a rdf:Property ;
 saro:fillSkillGap a rdf:Property ;
     rdfs:label "fillSkillGap" ;
     rdfs:comment "This property is used to refer to which skill does a goal will fill the defined gap." ;
-    rdfs:domain <http://www.gumo.org/#Goal> ;
+    rdfs:domain gumo:Goal ;
     rdfs:range saro:Skill .
 
 saro:follows a rdf:Property ;
