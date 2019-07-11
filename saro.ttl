@@ -223,7 +223,7 @@ saro:drivenByKnowledge a rdf:Property ;
     rdfs:label "drivenByKnowledge" ;
     rdfs:comment "This property is used to refer to knowledge which drives the information need." ;
     rdfs:domain saro:InformationNeed ;
-    rdfs:range <http://www.gumo.org/#Knowledge> .
+    rdfs:range gumo:Knowledge .
 
 saro:drives a rdf:Property ;
     rdfs:label "drives" ;
