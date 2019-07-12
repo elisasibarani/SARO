@@ -9,6 +9,8 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://w3id.org/saro> rdf:type owl:Ontology ;
+                                        dc:title "QualiChain ontology"@en.
 saro:Capability a owl:Class ;
     rdfs:label "Capability" ;
     rdfs:comment "This class represents a list of skills which is required in a job role " .
