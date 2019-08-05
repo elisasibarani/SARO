@@ -89,6 +89,8 @@ the work done in the <a href="http://edsa-project.eu/">EDSA project</a>.
 <p style="text-align: justify;"> @prefix esco: http://data.europa.eu/esco/model#</p>
 <p style="text-align: justify;"> @prefix rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#</p>
 <p style="text-align: justify;"> @prefix rdfs: http://www.w3.org/2000/01/rdf-schema#</p>
+<p style="text-align: justify;"> @prefix so: http://schema.org/#</p>
+<p style="text-align: justify;"> @prefix gumo: http://www.gumo.org/#</p>
 
 </div>
 
@@ -190,7 +192,7 @@ covered in the specifications below. For an example list please refer to
 <h3>DecisionMaker</h3>
 
 <table class="ontdoctable"> 
-<tr><td class="rowheader">Superclasses </td><td> rdfs:Resource, x:User</td></tr> 
+<tr><td class="rowheader">Superclasses </td><td> rdfs:Resource, saro:User</td></tr> 
 <tr><td class="rowheader">Subclasses </td><td> --</td></tr> 
 <tr><td class="rowheader">In domain of: </td><td>  <a href="#allocatesResourcesTo">saro:allocatesResourcesTo</a>,  <a href="#defines">saro:defines</a></td></tr> 
 <tr><td class="rowheader">In range of: </td><td> --</td></tr> 
@@ -274,7 +276,7 @@ covered in the specifications below. For an example list please refer to
 <h3>JobPosting</h3>
 
 <table class="ontdoctable"> 
-<tr><td class="rowheader">Superclasses </td><td> x:JobPosting, rdfs:Resource</td></tr> 
+<tr><td class="rowheader">Superclasses </td><td> so:JobPosting, rdfs:Resource</td></tr> 
 <tr><td class="rowheader">Subclasses </td><td> --</td></tr> 
 <tr><td class="rowheader">In domain of: </td><td>  <a href="#advertisedIn">saro:advertisedIn</a>,  <a href="#describes">saro:describes</a></td></tr> 
 <tr><td class="rowheader">In range of: </td><td> --</td></tr> 
@@ -418,7 +420,7 @@ covered in the specifications below. For an example list please refer to
 <h3>Topic</h3>
 
 <table class="ontdoctable"> 
-<tr><td class="rowheader">Superclasses </td><td> x:JobSpecificSkill, rdfs:Resource</td></tr> 
+<tr><td class="rowheader">Superclasses </td><td> saro:JobSpecificSkill, rdfs:Resource</td></tr> 
 <tr><td class="rowheader">Subclasses </td><td> --</td></tr> 
 <tr><td class="rowheader">In domain of: </td><td> --</td></tr> 
 <tr><td class="rowheader">In range of: </td><td> --</td></tr> 
@@ -663,7 +665,7 @@ covered in the specifications below. For an example list please refer to
 <table class="ontdoctable"> 
 <tr><td class="rowheader">Type </td><td> rdf:Property, rdfs:Resource</td></tr> 
 <tr><td class="rowheader">Domain </td><td>  <a href="#InformationNeed">saro:InformationNeed</a></td></tr> 
-<tr><td class="rowheader">Range </td><td> x:Interest</td></tr> 
+<tr><td class="rowheader">Range </td><td> gumo:Interest</td></tr> 
 <tr><td class="rowheader">Superproperties </td><td> --</td></tr> 
 <tr><td class="rowheader">Subproperties </td><td> --</td></tr> 
 <tr><td>Description </td><td> This property is used to refer to interest which drives the information need.</td></tr> 
@@ -676,7 +678,7 @@ covered in the specifications below. For an example list please refer to
 <table class="ontdoctable"> 
 <tr><td class="rowheader">Type </td><td> rdf:Property, rdfs:Resource</td></tr> 
 <tr><td class="rowheader">Domain </td><td>  <a href="#InformationNeed">saro:InformationNeed</a></td></tr> 
-<tr><td class="rowheader">Range </td><td> x:Knowledge</td></tr> 
+<tr><td class="rowheader">Range </td><td> gumo:Knowledge</td></tr> 
 <tr><td class="rowheader">Superproperties </td><td> --</td></tr> 
 <tr><td class="rowheader">Subproperties </td><td> --</td></tr> 
 <tr><td>Description </td><td> This property is used to refer to knowledge which drives the information need.</td></tr> 
@@ -727,7 +729,7 @@ covered in the specifications below. For an example list please refer to
 
 <table class="ontdoctable"> 
 <tr><td class="rowheader">Type </td><td> rdf:Property, rdfs:Resource</td></tr> 
-<tr><td class="rowheader">Domain </td><td> x:Goal</td></tr> 
+<tr><td class="rowheader">Domain </td><td> gumo:Goal</td></tr> 
 <tr><td class="rowheader">Range </td><td>  <a href="#Skill">saro:Skill</a></td></tr> 
 <tr><td class="rowheader">Superproperties </td><td> --</td></tr> 
 <tr><td class="rowheader">Subproperties </td><td> --</td></tr> 
@@ -740,7 +742,7 @@ covered in the specifications below. For an example list please refer to
 
 <table class="ontdoctable"> 
 <tr><td class="rowheader">Type </td><td> rdf:Property, rdfs:Resource</td></tr> 
-<tr><td class="rowheader">Domain </td><td> x:Plan</td></tr> 
+<tr><td class="rowheader">Domain </td><td> gumo:Plan</td></tr> 
 <tr><td class="rowheader">Range </td><td>  <a href="#Curriculum">saro:Curriculum</a></td></tr> 
 <tr><td class="rowheader">Superproperties </td><td> --</td></tr> 
 <tr><td class="rowheader">Subproperties </td><td> --</td></tr> 
@@ -1027,7 +1029,7 @@ covered in the specifications below. For an example list please refer to
 <table class="ontdoctable"> 
 <tr><td class="rowheader">Type </td><td> rdf:Property, rdfs:Resource</td></tr> 
 <tr><td class="rowheader">Domain </td><td>  <a href="#JobRoleOrType">saro:JobRoleOrType</a></td></tr> 
-<tr><td class="rowheader">Range </td><td> x:Knowledge</td></tr> 
+<tr><td class="rowheader">Range </td><td> gumo:Knowledge</td></tr> 
 <tr><td class="rowheader">Superproperties </td><td> --</td></tr> 
 <tr><td class="rowheader">Subproperties </td><td> --</td></tr> 
 <tr><td>Description </td><td> One job role usually specify their required knowledge, and the property points to one or more knowledge. </td></tr> 
