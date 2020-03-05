@@ -7,10 +7,10 @@
 saro:xml a saro:Tool ;
         rdfs:label "xml" .
         
-###################### UPDATE ALL BELOW
+saro:expresso a saro:Tool ;
+        rdfs:label "expresso" .
 
-<http://www.edsa-project.eu/skill/expresso>
-        ns3:lexicalValue  "expresso" .
+###################### UPDATE ALL BELOW
 
 <http://www.edsa-project.eu/skill/jsf>
         ns3:lexicalValue  "jsf" .
