@@ -592,7 +592,7 @@ saro:vldb a saro:Product ;
 saro:apache a saro:Product ;
 	 rdfs:label "apache" .
 
-saro:c++ a saro:Tool ;
+saro:cPlusPlus a saro:Tool ;
 	 rdfs:label "c++" .
 
 saro:simulation a saro:Topic ;
