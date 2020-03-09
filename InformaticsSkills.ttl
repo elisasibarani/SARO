@@ -1334,7 +1334,7 @@ saro:ultrasound a saro:Product ;
 	 rdfs:label "ultrasound" .
 
 saro:mobileDevelopment a saro:Topic ;
-	 rdfs:label "mobileDevelopment" .
+	 rdfs:label "mobile development" .
 
 saro:tomcat a saro:Tool ;
 	 rdfs:label "tomcat" .
@@ -2112,3 +2112,18 @@ saro:linuxUnix a saro:Product ;
 
 saro:svn a saro:Tool ;
 	 rdfs:label "svn" .
+
+saro:webSocket a saro:Tool ;
+	 rdfs:label "web socket" .
+
+saro:socketIO a saro:Tool ;
+	 rdfs:label "socket.IO" .
+
+saro:gruntJs a saro:Tool ;
+	 rdfs:label "grunt.js" .
+
+saro:jaxRS a saro:Tool ;
+	 rdfs:label "jax rs" .
+
+saro:msSql a saro:Product ;
+	 rdfs:label "MS.SQL" .
