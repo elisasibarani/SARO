@@ -227,7 +227,7 @@ saro:gradle a saro:Tool ;
 	 rdfs:label "gradle"
 
 saro:activeDirectory a saro:Tool ;
-	 rdfs:label "activeDirectory"
+	 rdfs:label "active directory"
 
 saro:hql a saro:Tool ;
 	 rdfs:label "hql"
