@@ -4,2225 +4,2111 @@
 @prefix saro: <http://w3id.org/saro#> .
 @prefix esco: <http://data.europa.eu/esco/model#> .
 
-saro:xml a saro:Tool ;
-        rdfs:label "xml" .
-        
+saro:memcached a saro:Product ;
+	 rdfs:label "memcached"
+
+saro:userInteraction a saro:TransversalSkill ;
+	 rdfs:label "user interaction"
+
+saro:centos a saro:Product ;
+	 rdfs:label "centos"
+
+saro:win32 a saro:Tool ;
+	 rdfs:label "win32"
+
+saro:pig a saro:Tool ;
+	 rdfs:label "pig"
+
+saro:awsOpsworks a saro:Product ;
+	 rdfs:label "aws opsworks"
+
+saro:rdf a saro:Topic ;
+	 rdfs:label "rdf"
+
+saro:linearProgramming a saro:Topic ;
+	 rdfs:label "linear programming"
+
+saro:flask a saro:Tool ;
+	 rdfs:label "flask"
+
+saro:jbehave a saro:Product ;
+	 rdfs:label "jbehave"
+
+saro:less a saro:Topic ;
+	 rdfs:label "less"
+
+saro:h.265 a saro:Product ;
+	 rdfs:label "h.265"
+
+saro:resin a saro:Product ;
+	 rdfs:label "resin"
+
+saro:nines a saro:Product ;
+	 rdfs:label "nines"
+
+saro:agileProjectManagement a saro:Topic ;
+	 rdfs:label "agile project management"
+
+saro:ansible a saro:Tool ;
+	 rdfs:label "ansible"
+
+saro:dataConversion a saro:Topic ;
+	 rdfs:label "data conversion"
+
+saro:network a saro:Topic ;
+	 rdfs:label "network"
+
+saro:java a saro:Tool ;
+	 rdfs:label "java"
+
+saro:oracle a saro:Product ;
+	 rdfs:label "oracle"
+
+saro:wordpress a saro:Tool ;
+	 rdfs:label "wordpress"
+
+saro:staticAnalysis a saro:Topic ;
+	 rdfs:label "static analysis"
+
+saro:integrationTesting a saro:Topic ;
+	 rdfs:label "integration testing"
+
+saro:googlePlayServices a saro:Tool ;
+	 rdfs:label "google play services"
+
+saro:varnish a saro:Tool ;
+	 rdfs:label "varnish"
+
+saro:database a saro:Topic ;
+	 rdfs:label "database"
+
+saro:ravendb a saro:Product ;
+	 rdfs:label "ravendb"
+
+saro:softwareEngineering a saro:Topic ;
+	 rdfs:label "software engineering"
+
+saro:cad a saro:Topic ;
+	 rdfs:label "cad"
+
+saro:webServices a saro:Topic ;
+	 rdfs:label "web services"
+
+saro:designPatterns a saro:Topic ;
+	 rdfs:label "design patterns"
+
+saro:shellScripting a saro:Topic ;
+	 rdfs:label "shell scripting"
+
+saro:meteor a saro:Tool ;
+	 rdfs:label "meteor"
+
+saro:reactjs a saro:Tool ;
+	 rdfs:label "reactjs"
+
+saro:solr a saro:Tool ;
+	 rdfs:label "solr"
+
+saro:androidIde a saro:Tool ;
+	 rdfs:label "android ide"
+
+saro:ooad a saro:Topic ;
+	 rdfs:label "ooad"
+
+saro:ros a saro:Tool ;
+	 rdfs:label "ros"
+
+saro:trac a saro:Product ;
+	 rdfs:label "trac"
+
+saro:ssrs a saro:Tool ;
+	 rdfs:label "ssrs"
+
+saro:supervisedLearning a saro:Topic ;
+	 rdfs:label "supervised learning"
+
+saro:tts a saro:Topic ;
+	 rdfs:label "tts"
+
+saro:jasmine a saro:Tool ;
+	 rdfs:label "jasmine"
+
+saro:netsuite a saro:Product ;
+	 rdfs:label "netsuite"
+
+saro:sass a saro:Tool ;
+	 rdfs:label "sass"
+
+saro:abTesting a saro:Topic ;
+	 rdfs:label "ab testing"
+
+saro:softwareDesign a saro:Topic ;
+	 rdfs:label "software design"
+
+saro:magento a saro:Product ;
+	 rdfs:label "magento"
+
+saro:vb6 a saro:Tool ;
+	 rdfs:label "vb6"
+
+saro:delphi a saro:Tool ;
+	 rdfs:label "delphi"
+
+saro:virtualization a saro:Topic ;
+	 rdfs:label "virtualization"
+
+saro:netty a saro:Product ;
+	 rdfs:label "netty"
+
+saro:rdbms a saro:Topic ;
+	 rdfs:label "rdbms"
+
+saro:rubyOnRails a saro:Tool ;
+	 rdfs:label "ruby on rails"
+
+saro:webApplications a saro:Topic ;
+	 rdfs:label "web applications"
+
+saro:meshing a saro:Tool ;
+	 rdfs:label "meshing"
+
+saro:gaap a saro:Product ;
+	 rdfs:label "gaap"
+
+saro:matlab a saro:Tool ;
+	 rdfs:label "matlab"
+
+saro:flaskRestful a saro:Topic ;
+	 rdfs:label "flask restful"
+
+saro:design a saro:Topic ;
+	 rdfs:label "design"
+
+saro:chef a saro:Product ;
+	 rdfs:label "chef"
+
+saro:commandLine a saro:Tool ;
+	 rdfs:label "command line"
+
+saro:vb.net a saro:Tool ;
+	 rdfs:label "vb.net"
+
+saro:dba a saro:Topic ;
+	 rdfs:label "dba"
+
+saro:css a saro:Tool ;
+	 rdfs:label "css"
+
+saro:jboss a saro:Product ;
+	 rdfs:label "jboss"
+
+saro:vmware a saro:Product ;
+	 rdfs:label "vmware"
+
+saro:azure a saro:Tool ;
+	 rdfs:label "azure"
+
+saro:aem a saro:Tool ;
+	 rdfs:label "aem"
+
+saro:sqlalchemy a saro:Product ;
+	 rdfs:label "sqlalchemy"
+
+saro:websphere a saro:Product ;
+	 rdfs:label "websphere"
+
+saro:capybara a saro:Tool ;
+	 rdfs:label "capybara"
+
+saro:.netFramework a saro:Product ;
+	 rdfs:label ".net framework"
+
+saro:gradle a saro:Tool ;
+	 rdfs:label "gradle"
+
+saro:activeDirectory a saro:Tool ;
+	 rdfs:label "activeDirectory"
+
+saro:hql a saro:Tool ;
+	 rdfs:label "hql"
+
+saro:objectiveC a saro:Tool ;
+	 rdfs:label "objective c"
+
+saro:cloud a saro:Topic ;
+	 rdfs:label "cloud"
+
+saro:ssrs2008 a saro:Tool ;
+	 rdfs:label "ssrs 2008"
+
+saro:sqlServer2008 a saro:Product ;
+	 rdfs:label "sql server 2008"
+
+saro:hybernate a saro:Tool ;
+	 rdfs:label "hybernate"
+
+saro:opencl a saro:Product ;
+	 rdfs:label "opencl"
+
+saro:cisco a saro:Product ;
+	 rdfs:label "cisco"
+
+saro:distributedDatabase a saro:Topic ;
+	 rdfs:label "distributed database"
+
+saro:apacheKafka a saro:Product ;
+	 rdfs:label "apache kafka"
+
+saro:apacheSpark a saro:Product ;
+	 rdfs:label "apache spark"
+
+saro:php a saro:Tool ;
+	 rdfs:label "php"
+
+saro:visualforce a saro:Tool ;
+	 rdfs:label "visualforce"
+
+saro:excelVba a saro:Tool ;
+	 rdfs:label "excel vba"
+
+saro:architect a saro:Topic ;
+	 rdfs:label "architect"
+
+saro:continuousDeployment a saro:Topic ;
+	 rdfs:label "continuous deployment"
+
+saro:frontEnd a saro:Topic ;
+	 rdfs:label "front end"
+
+saro:ejb a saro:Product ;
+	 rdfs:label "ejb"
+
+saro:wpf a saro:Topic ;
+	 rdfs:label "wpf"
+
+saro:adobecq a saro:Product ;
+	 rdfs:label "adobecq"
+
+saro:awsSdk a saro:Tool ;
+	 rdfs:label "aws sdk"
+
+saro:c+ a saro:Tool ;
+	 rdfs:label "c+"
+
+saro:rubyOnRails3 a saro:Tool ;
+	 rdfs:label "ruby on rails 3"
+
+saro:automatedDeployment a saro:Topic ;
+	 rdfs:label "automated deployment"
+
+saro:dataDriven a saro:Topic ;
+	 rdfs:label "data driven"
+
+saro:typescript a saro:Tool ;
+	 rdfs:label "typescript"
+
+saro:fpga a saro:Topic ;
+	 rdfs:label "fpga"
+
+saro:cloudfoundry a saro:Tool ;
+	 rdfs:label "cloudfoundry"
+
+saro:cocoaTouch a saro:Product ;
+	 rdfs:label "cocoa touch"
+
+saro:semanticWeb a saro:Topic ;
+	 rdfs:label "semantic web"
+
+saro:pciE a saro:Product ;
+	 rdfs:label "pci e"
+
+saro:java8 a saro:Tool ;
+	 rdfs:label "java 8"
+
+saro:reportingServices a saro:Topic ;
+	 rdfs:label "reporting services"
+
+saro:boost a saro:Product ;
+	 rdfs:label "boost"
+
+saro:dataBinding a saro:Topic ;
+	 rdfs:label "data binding"
+
+saro:redis a saro:Product ;
+	 rdfs:label "redis"
+
+saro:webapplications a saro:Topic ;
+	 rdfs:label "webapplications"
+
+saro:mysql a saro:Tool ;
+	 rdfs:label "mysql"
+
+saro:npm a saro:Product ;
+	 rdfs:label "npm"
+
+saro:twitterBootstrap a saro:Tool ;
+	 rdfs:label "twitter bootstrap"
+
+saro:git a saro:Tool ;
+	 rdfs:label "git"
+
+saro:angularjs a saro:Product ;
+	 rdfs:label "angularjs"
+
+saro:openlayers a saro:Tool ;
+	 rdfs:label "openlayers"
+
+saro:rest a saro:Tool ;
+	 rdfs:label "rest"
+
+saro:css3 a saro:Tool ;
+	 rdfs:label "css3"
+
+saro:lisp a saro:Tool ;
+	 rdfs:label "lisp"
+
+saro:modeling a saro:Topic ;
+	 rdfs:label "modeling"
+
+saro:extremeProgramming a saro:Topic ;
+	 rdfs:label "extreme programming"
+
+saro:backbone a saro:Tool ;
+	 rdfs:label "backbone"
+
+saro:scom a saro:Tool ;
+	 rdfs:label "scom"
+
+saro:backbone.js a saro:Tool ;
+	 rdfs:label "backbone.js"
+
+saro:siem a saro:Product ;
+	 rdfs:label "siem"
+
+saro:datomic a saro:Product ;
+	 rdfs:label "datomic"
+
+saro:cascading a saro:Tool ;
+	 rdfs:label "cascading"
+
+saro:visio a saro:Tool ;
+	 rdfs:label "visio"
+
+saro:nosql a saro:Tool ;
+	 rdfs:label "nosql"
+
+saro:sqlite a saro:Product ;
+	 rdfs:label "sqlite"
+
+saro:exchangeServer a saro:Product ;
+	 rdfs:label "exchange server"
+
+saro:linkedData a saro:Topic ;
+	 rdfs:label "linked data"
+
+saro:drupal a saro:Tool ;
+	 rdfs:label "drupal"
+
+saro:analytics a saro:Topic ;
+	 rdfs:label "analytics"
+
+saro:googleAnalyticsApi a saro:Tool ;
+	 rdfs:label "google analytics api"
+
+saro:mapi a saro:Tool ;
+	 rdfs:label "mapi"
+
+saro:vsphere a saro:Product ;
+	 rdfs:label "vsphere"
+
+saro:aurelia a saro:Tool ;
+	 rdfs:label "aurelia"
+
+saro:uiux a saro:Topic ;
+	 rdfs:label "uiux"
+
+saro:gulp a saro:Tool ;
+	 rdfs:label "gulp"
+
+saro:gridComputing a saro:Topic ;
+	 rdfs:label "grid computing"
+
+saro:jsp a saro:Product ;
+	 rdfs:label "jsp"
+
+saro:oodesign a saro:Topic ;
+	 rdfs:label "oodesign"
+
+saro:development a saro:Topic ;
+	 rdfs:label "development"
+
+saro:gnu a saro:Product ;
+	 rdfs:label "gnu"
+
+saro:hardware a saro:Topic ;
+	 rdfs:label "hardware"
+
+saro:yii a saro:Product ;
+	 rdfs:label "yii"
+
+saro:kafka a saro:Tool ;
+	 rdfs:label "kafka"
+
+saro:xhtml a saro:Tool ;
+	 rdfs:label "xhtml"
+
+saro:nunit a saro:Tool ;
+	 rdfs:label "nunit"
+
+saro:springMvc a saro:Topic ;
+	 rdfs:label "spring mvc"
+
+saro:dataAnalysis a saro:Topic ;
+	 rdfs:label "data analysis"
+
+saro:fingerprinting a saro:Topic ;
+	 rdfs:label "fingerprinting"
+
+saro:mercurial a saro:Product ;
+	 rdfs:label "mercurial"
+
+saro:smpp a saro:Tool ;
+	 rdfs:label "smpp"
+
+saro:windows a saro:Product ;
+	 rdfs:label "windows"
+
+saro:continuousDelivery a saro:TransversalSkill ;
+	 rdfs:label "continuous delivery"
+
+saro:regressionTesting a saro:Topic ;
+	 rdfs:label "regression testing"
+
+saro:saltStack a saro:Tool ;
+	 rdfs:label "salt stack"
+
+saro:qnx a saro:Tool ;
+	 rdfs:label "qnx"
+
+saro:cassandra a saro:Product ;
+	 rdfs:label "cassandra"
+
+saro:dns a saro:Tool ;
+	 rdfs:label "dns"
+
+saro:javascript a saro:Tool ;
+	 rdfs:label "javascript"
+
+saro:amazonEmr a saro:Tool ;
+	 rdfs:label "amazon emr"
+
+saro:wolframMathematica a saro:Tool ;
+	 rdfs:label "wolfram mathematica"
+
+saro:parallelProcessing a saro:Topic ;
+	 rdfs:label "parallel processing"
+
+saro:coldfusion a saro:Tool ;
+	 rdfs:label "coldfusion"
+
+saro:asp.netMvc a saro:Tool ;
+	 rdfs:label "asp.net mvc"
+
+saro:serversideJavascript a saro:Tool ;
+	 rdfs:label "serverside javascript"
+
+saro:wave a saro:Product ;
+	 rdfs:label "wave"
+
+saro:visualization a saro:Topic ;
+	 rdfs:label "visualization"
+
+saro:responsiveWebDesign a saro:Topic ;
+	 rdfs:label "responsive web design"
+
+saro:jndi a saro:Tool ;
+	 rdfs:label "jndi"
+
+saro:watir a saro:Tool ;
+	 rdfs:label "watir"
+
+saro:tcl a saro:Tool ;
+	 rdfs:label "tcl"
+
+saro:networkProgramming a saro:Topic ;
+	 rdfs:label "network programming"
+
+saro:sipServer a saro:Product ;
+	 rdfs:label "sip server"
+
+saro:voip a saro:Topic ;
+	 rdfs:label "voip"
+
+saro:meanStack a saro:Topic ;
+	 rdfs:label "mean stack"
+
+saro:firewall a saro:Product ;
+	 rdfs:label "firewall"
+
+saro:netcdf a saro:Product ;
+	 rdfs:label "netcdf"
+
+saro:sql a saro:Tool ;
+	 rdfs:label "sql"
+
+saro:hbase a saro:Product ;
+	 rdfs:label "hbase"
+
+saro:pandas a saro:Tool ;
+	 rdfs:label "pandas"
+
+saro:balsamiq a saro:Tool ;
+	 rdfs:label "balsamiq"
+
+saro:lxc a saro:Tool ;
+	 rdfs:label "lxc"
+
+saro:sybase a saro:Product ;
+	 rdfs:label "sybase"
+
+saro:dataEngineer a saro:Topic ;
+	 rdfs:label "data engineer"
+
+saro:fullStack a saro:Topic ;
+	 rdfs:label "full stack"
+
+saro:riak a saro:Tool ;
+	 rdfs:label "riak"
+
+saro:servicestack a saro:Tool ;
+	 rdfs:label "servicestack"
+
+saro:yarn a saro:Product ;
+	 rdfs:label "yarn"
+
+saro:vldb a saro:Product ;
+	 rdfs:label "vldb"
+
+saro:apache a saro:Product ;
+	 rdfs:label "apache"
+
+saro:c++ a saro:Tool ;
+	 rdfs:label "c++"
+
+saro:simulation a saro:Topic ;
+	 rdfs:label "simulation"
+
+saro:twisted a saro:Tool ;
+	 rdfs:label "twisted"
+
+saro:ecmascript-6 a saro:Tool ;
+	 rdfs:label "ecmascript 6"
+
+saro:excel a saro:Product ;
+	 rdfs:label "excel"
+
+saro:html5 a saro:Tool ;
+	 rdfs:label "html5"
+
+saro:salesforce a saro:Product ;
+	 rdfs:label "salesforce"
+
+saro:aerospike a saro:Tool ;
+	 rdfs:label "aerospike"
+
+saro:nas a saro:Product ;
+	 rdfs:label "nas"
+
+saro:fabric a saro:Tool ;
+	 rdfs:label "fabric"
+
+saro:crm a saro:Topic ;
+	 rdfs:label "crm"
+
+saro:wiki a saro:Product ;
+	 rdfs:label "wiki"
+
+saro:ember.js a saro:Product ;
+	 rdfs:label "ember.js"
+
+saro:cloudera a saro:Product ;
+	 rdfs:label "cloudera"
+
+saro:tcpIp a saro:Tool ;
+	 rdfs:label "tcp ip"
+
+saro:perl a saro:Tool ;
+	 rdfs:label "perl"
+
+saro:androidIntent a saro:Topic ;
+	 rdfs:label "android intent"
+
+saro:programming a saro:Topic ;
+	 rdfs:label "programming"
+
+saro:deviceDriver a saro:Tool ;
+	 rdfs:label "device driver"
+
+saro:businessIntelligence a saro:Topic ;
+	 rdfs:label "business intelligence"
+
+saro:gsm a saro:Product ;
+	 rdfs:label "gsm"
+
+saro:zookeeper a saro:Product ;
+	 rdfs:label "zookeeper"
+
+saro:netapp a saro:Product ;
+	 rdfs:label "netapp"
+
+saro:linearAlgebra a saro:Topic ;
+	 rdfs:label "linear algebra"
+
+saro:chefRecipe a saro:Product ;
+	 rdfs:label "chef recipe"
+
+saro:plsql a saro:Tool ;
+	 rdfs:label "plsql"
+
+saro:jaxb a saro:Tool ;
+	 rdfs:label "jaxb"
+
+saro:tbb a saro:Tool ;
+	 rdfs:label "tbb"
+
+saro:softwareEngineer a saro:Topic ;
+	 rdfs:label "software engineer"
+
+saro:oneplus a saro:Product ;
+	 rdfs:label "oneplus"
+
+saro:tableau a saro:Product ;
+	 rdfs:label "tableau"
+
+saro:udp a saro:Tool ;
+	 rdfs:label "udp"
+
+saro:sdn a saro:Topic ;
+	 rdfs:label "sdn"
+
+saro:.net a saro:Product ;
+	 rdfs:label ".net"
+
+saro:mongodb a saro:Product ;
+	 rdfs:label "mongodb"
+
+saro:ipsec a saro:Tool ;
+	 rdfs:label "ipsec"
+
+saro:django a saro:Product ;
+	 rdfs:label "django"
+
+saro:tastypie a saro:Tool ;
+	 rdfs:label "tastypie"
+
+saro:swift a saro:Tool ;
+	 rdfs:label "swift"
+
+saro:qt a saro:Product ;
+	 rdfs:label "qt"
+
+saro:arcgis a saro:Product ;
+	 rdfs:label "arcgis"
+
+saro:coffeescript a saro:Tool ;
+	 rdfs:label "coffeescript"
+
+saro:responsiveDesign a saro:Topic ;
+	 rdfs:label "responsive design"
+
+saro:cvs a saro:Tool ;
+	 rdfs:label "cvs"
+
+saro:bower a saro:Product ;
+	 rdfs:label "bower"
+
+saro:computerScience a saro:Topic ;
+	 rdfs:label "computer science"
+
+saro:xaml a saro:Tool ;
+	 rdfs:label "xaml"
+
+saro:vba a saro:Tool ;
+	 rdfs:label "vba"
+
+saro:pci a saro:Tool ;
+	 rdfs:label "pci"
+
+saro:debugging a saro:Topic ;
+	 rdfs:label "debugging"
+
+saro:identityManagement a saro:Topic ;
+	 rdfs:label "identity management"
+
+saro:jee a saro:Tool ;
+	 rdfs:label "jee"
+
+saro:sharepoint2007 a saro:Product ;
+	 rdfs:label "sharepoint 2007"
+
+saro:oop a saro:Topic ;
+	 rdfs:label "oop"
+
+saro:reporting a saro:Topic ;
+	 rdfs:label "reporting"
+
+saro:bioinformatics a saro:Topic ;
+	 rdfs:label "bioinformatics"
+
+saro:html a saro:Tool ;
+	 rdfs:label "html"
+
+saro:nginx a saro:Tool ;
+	 rdfs:label "nginx"
+
+saro:scipy a saro:Tool ;
+	 rdfs:label "scipy"
+
+saro:maven a saro:Tool ;
+	 rdfs:label "maven"
+
+saro:linuxDeviceDriver a saro:Tool ;
+	 rdfs:label "linux device driver"
+
+saro:restfulAuthentication a saro:Topic ;
+	 rdfs:label "restful authentication"
+
+saro:imageProcessing a saro:Topic ;
+	 rdfs:label "image processing"
+
+saro:artificialIntelligence a saro:Topic ;
+	 rdfs:label "artificial intelligence"
+
+saro:androidDeveloper a saro:Topic ;
+	 rdfs:label "android developer"
+
+saro:bash a saro:Tool ;
+	 rdfs:label "bash"
+
+saro:multicast a saro:Product ;
+	 rdfs:label "multicast"
+
+saro:playframework-2.0 a saro:Product ;
+	 rdfs:label "playframework 2.0"
+
+saro:playframework a saro:Product ;
+	 rdfs:label "playframework"
+
+saro:jade a saro:Tool ;
+	 rdfs:label "jade"
+
+saro:office365 a saro:Product ;
+	 rdfs:label "office365"
+
+saro:cordova a saro:Product ;
+	 rdfs:label "cordova"
+
+saro:mysqli a saro:Tool ;
+	 rdfs:label "mysqli"
+
+saro:ss7 a saro:Tool ;
+	 rdfs:label "ss7"
+
+saro:adobe a saro:Product ;
+	 rdfs:label "adobe"
+
+saro:golang a saro:Tool ;
+	 rdfs:label "golang"
+
+saro:restfulArchitecture a saro:Topic ;
+	 rdfs:label "restful architecture"
+
+saro:asp.netWebApi a saro:Tool ;
+	 rdfs:label "asp.net web api"
+
+saro:tools a saro:Topic ;
+	 rdfs:label "tools"
+
+saro:objectOrientedAnalysis a saro:Topic ;
+	 rdfs:label "object oriented analysis"
+
+saro:s3 a saro:Tool ;
+	 rdfs:label "s3"
+
+saro:togaf a saro:Tool ;
+	 rdfs:label "togaf"
+
+saro:etl a saro:Tool ;
+	 rdfs:label "etl"
+
+saro:functionalProgramming a saro:Topic ;
+	 rdfs:label "functional programming"
+
+saro:soa a saro:Topic ;
+	 rdfs:label "soa"
+
+saro:ssis a saro:Product ;
+	 rdfs:label "ssis"
+
+saro:dataScience a saro:Topic ;
+	 rdfs:label "data science"
+
+saro:webSecurity a saro:Topic ;
+	 rdfs:label "web security"
+
+saro:dataManagement a saro:Topic ;
+	 rdfs:label "data management"
+
+saro:cloudHosting a saro:Topic ;
+	 rdfs:label "cloud hosting"
+
+saro:cobol a saro:Tool ;
+	 rdfs:label "cobol"
+
+saro:sqlServer2014 a saro:Product ;
+	 rdfs:label "sql server 2014"
+
+saro:iis-7 a saro:Product ;
+	 rdfs:label "iis 7"
+
+saro:iam a saro:Topic ;
+	 rdfs:label "iam"
+
+saro:rubyOnRails4 a saro:Tool ;
+	 rdfs:label "ruby on rails 4"
+
+saro:opengl a saro:Tool ;
+	 rdfs:label "opengl"
+
+saro:statistics a saro:Topic ;
+	 rdfs:label "statistics"
+
+saro:math a saro:Tool ;
+	 rdfs:label "math"
+
+saro:python a saro:Tool ;
+	 rdfs:label "python"
+
+saro:tfs a saro:Product ;
+	 rdfs:label "tfs"
+
+saro:tdd a saro:Topic ;
+	 rdfs:label "tdd"
+
+saro:paas a saro:Topic ;
+	 rdfs:label "paas"
+
+saro:soapui a saro:Tool ;
+	 rdfs:label "soapui"
+
+saro:objectOriented a saro:Topic ;
+	 rdfs:label "object oriented"
+
+saro:scrumMaster a saro:Topic ;
+	 rdfs:label "scrum master"
+
+saro:wireless a saro:Topic ;
+	 rdfs:label "wireless"
+
+saro:nodejs a saro:Tool ;
+	 rdfs:label "nodejs"
+
+saro:amazonRedshift a saro:Product ;
+	 rdfs:label "amazon redshift"
+
+saro:boostPython a saro:Tool ;
+	 rdfs:label "boost python"
+
+saro:falcor a saro:Tool ;
+	 rdfs:label "falcor"
+
+saro:indexing a saro:Topic ;
+	 rdfs:label "indexing"
+
+saro:postgresql a saro:Tool ;
+	 rdfs:label "postgresql"
+
+saro:microservices a saro:Topic ;
+	 rdfs:label "microservices"
+
+saro:apex a saro:Tool ;
+	 rdfs:label "apex"
+
+saro:opencv a saro:Tool ;
+	 rdfs:label "opencv"
+
+saro:psql a saro:Tool ;
+	 rdfs:label "psql"
+
+saro:github a saro:Tool ;
+	 rdfs:label "github"
+
+saro:cucumber a saro:Tool ;
+	 rdfs:label "cucumber"
+
+saro:softwareArchitecture a saro:Topic ;
+	 rdfs:label "software architecture"
+
+saro:penetrationTesting a saro:Topic ;
+	 rdfs:label "penetration testing"
+
+saro:machineLearning a saro:Topic ;
+	 rdfs:label "machine learning"
+
+saro:machineCode a saro:Product ;
+	 rdfs:label "machine code"
+
+saro:tsql a saro:Tool ;
+	 rdfs:label "tsql"
+
+saro:androidUi a saro:Product ;
+	 rdfs:label "android ui"
+
+saro:windowsMobile a saro:Topic ;
+	 rdfs:label "windows mobile"
+
+saro:mybatis a saro:Product ;
+	 rdfs:label "mybatis"
+
+saro:domainDrivenDesign a saro:Topic ;
+	 rdfs:label "domain driven design"
+
+saro:sdlc a saro:Topic ;
+	 rdfs:label "sdlc"
+
+saro:polymer a saro:Tool ;
+	 rdfs:label "polymer"
+
+saro:spring a saro:Tool ;
+	 rdfs:label "spring"
+
+saro:clusterComputing a saro:Topic ;
+	 rdfs:label "cluster computing"
+
+saro:ruby a saro:Tool ;
+	 rdfs:label "ruby"
+
+saro:ipython a saro:Tool ;
+	 rdfs:label "ipython"
+
+saro:dataMining a saro:Topic ;
+	 rdfs:label "data mining"
+
+saro:olap a saro:Tool ;
+	 rdfs:label "olap"
+
 saro:expresso a saro:Tool ;
-        rdfs:label "expresso" .
+	 rdfs:label "expresso"
 
-###################### UPDATE ALL BELOW
+saro:dataVisualization a saro:Topic ;
+	 rdfs:label "data visualization"
 
-<http://www.edsa-project.eu/skill/jsf>
-        ns3:lexicalValue  "jsf" .
+saro:dataStructures a saro:Topic ;
+	 rdfs:label "data structures"
 
-<http://www.edsa-project.eu/skill/lambda>
-        ns3:lexicalValue  "lambda" .
+saro:d3.js a saro:Tool ;
+	 rdfs:label "d3.js"
 
-<http://www.edsa-project.eu/skill/xmpp>
-        ns3:lexicalValue  "xmpp" .
+saro:j2ee a saro:Tool ;
+	 rdfs:label "j2ee"
 
+saro:leadership a saro:TransversalSkill ;
+	 rdfs:label "leadership"
 
-<http://www.edsa-project.eu/skill/opencl>
-        ns3:lexicalValue  "opencl" .
+saro:ec2 a saro:Tool ;
+	 rdfs:label "ec2"
 
-<http://www.edsa-project.eu/skill/saas>
-        ns3:lexicalValue  "saas" .
+saro:riskManagement a saro:Topic ;
+	 rdfs:label "risk management"
 
-<http://www.edsa-project.eu/skill/watir>
-        ns3:lexicalValue  "watir" .
+saro:scriptingLanguage a saro:Topic ;
+	 rdfs:label "scripting language"
 
-<http://www.edsa-project.eu/skill/html>
-        ns3:lexicalValue  "html" .
+saro:directx a saro:Tool ;
+	 rdfs:label "directx"
 
-<http://www.edsa-project.eu/skill/amazon-web-services>
-        ns3:lexicalValue  "amazon web services" .
+saro:compassSass a saro:Tool ;
+	 rdfs:label "compass sass"
 
-<http://www.edsa-project.eu/skill/vaadin>
-        ns3:lexicalValue  "vaadin" .
+saro:msAccess a saro:Product ;
+	 rdfs:label "ms access"
 
-<http://www.edsa-project.eu/skill/ejb>
-        ns3:lexicalValue  "ejb" .
+saro:clojure a saro:Tool ;
+	 rdfs:label "clojure"
 
-<http://www.edsa-project.eu/skill/matlab>
-        ns3:lexicalValue  "matlab" .
+saro:seleniumWebdriver a saro:Product ;
+	 rdfs:label "selenium webdriver"
 
-<http://www.edsa-project.eu/skill/robotics>
-        ns3:lexicalValue  "robotics" .
+saro:networks a saro:Topic ;
+	 rdfs:label "networks"
 
-<http://www.edsa-project.eu/skill/ssis>
-        ns3:lexicalValue  "ssis" .
+saro:dropwizard a saro:Tool ;
+	 rdfs:label "dropwizard"
 
-<http://www.edsa-project.eu/skill/mssql>
-        ns3:lexicalValue  "ms sql" .
+saro:gherkin a saro:Tool ;
+	 rdfs:label "gherkin"
 
-<http://www.edsa-project.eu/skill/backend>
-        ns3:lexicalValue  "backend" .
+saro:scala a saro:Tool ;
+	 rdfs:label "scala"
 
-<http://www.edsa-project.eu/skill/linux>
-        ns3:lexicalValue  "linux" .
+saro:sqlServer a saro:Product ;
+	 rdfs:label "sql server"
 
-<http://www.edsa-project.eu/skill/frontend>
-        ns3:lexicalValue  "front end" .
+saro:mahout a saro:Product ;
+	 rdfs:label "mahout"
 
-<http://www.edsa-project.eu/skill/stata>
-        ns3:lexicalValue  "stata" .
+saro:jaxp a saro:Tool ;
+	 rdfs:label "jaxp"
 
-<http://www.edsa-project.eu/skill/pci>
-        ns3:lexicalValue  "pci" .
+saro:devops a saro:Topic ;
+	 rdfs:label "devops"
 
-<http://www.edsa-project.eu/skill/autosar>
-        ns3:lexicalValue  "autosar" .
+saro:wireframing a saro:Topic ;
+	 rdfs:label "wireframing"
 
-<http://www.edsa-project.eu/skill/pci-dss>
-        ns3:lexicalValue  "pci dss" .
+saro:webCrawler a saro:Topic ;
+	 rdfs:label "web crawler"
 
-<http://www.edsa-project.eu/skill/activemq>
-        ns3:lexicalValue  "activemq" .
+saro:cuda a saro:Tool ;
+	 rdfs:label "cuda"
 
-<http://www.edsa-project.eu/skill/ruby>
-        ns3:lexicalValue  "ruby" .
+saro:amazonWebServices a saro:Product ;
+	 rdfs:label "amazon web services"
 
-<http://www.edsa-project.eu/skill/windows>
-        ns3:lexicalValue  "windows" .
+saro:agile a saro:Topic ;
+	 rdfs:label "agile"
 
-<http://www.edsa-project.eu/skill/gwt>
-        ns3:lexicalValue  "gwt" .
+saro:edi a saro:Topic ;
+	 rdfs:label "edi"
 
-<http://www.edsa-project.eu/skill/api>
-        ns3:lexicalValue  "api" .
+saro:fullstack a saro:Topic ;
+	 rdfs:label "fullstack"
 
-<http://www.edsa-project.eu/skill/multicast>
-        ns3:lexicalValue  "multicast" .
+saro:networking a saro:Topic ;
+	 rdfs:label "networking"
 
-<http://www.edsa-project.eu/skill/go>
-        ns3:lexicalValue  "go" .
+saro:mvvm a saro:Topic ;
+	 rdfs:label "mvvm"
 
-<http://www.edsa-project.eu/skill/flask>
-        ns3:lexicalValue  "flask" .
+saro:zendFramework a saro:Product ;
+	 rdfs:label "zend framework"
 
-<http://www.edsa-project.eu/skill/continuous-integration>
-        ns3:lexicalValue  "continuous integration" .
+saro:lucene a saro:Tool ;
+	 rdfs:label "lucene"
 
-<http://www.edsa-project.eu/skill/gulp>
-        ns3:lexicalValue  "gulp" .
+saro:visualStudio2012 a saro:Product ;
+	 rdfs:label "visual studio 2012"
 
-<http://www.edsa-project.eu/skill/siem>
-        ns3:lexicalValue  "siem" .
+saro:sed a saro:Tool ;
+	 rdfs:label "sed"
 
-<http://www.edsa-project.eu/skill/data-driven>
-        ns3:lexicalValue  "data driven" .
+saro:sas a saro:Product ;
+	 rdfs:label "sas"
 
-<http://www.edsa-project.eu/skill/cluster-computing>
-        ns3:lexicalValue  "cluster computing" .
+saro:linux a saro:Product ;
+	 rdfs:label "linux"
 
-<http://www.edsa-project.eu/skill/npm>
-        ns3:lexicalValue  "npm" .
+saro:sharepoint a saro:Product ;
+	 rdfs:label "sharepoint"
 
-<http://www.edsa-project.eu/skill/distributed-computing>
-        ns3:lexicalValue  "distributed computing" .
+saro:ieee a saro:Topic ;
+	 rdfs:label "ieee"
 
-<http://www.edsa-project.eu/skill/visual-studio-2010>
-        ns3:lexicalValue  "visual studio 2010" .
+saro:http a saro:Tool ;
+	 rdfs:label "http"
 
-<http://www.edsa-project.eu/skill/ros>
-        ns3:lexicalValue  "ros" .
+saro:go a saro:Product ;
+	 rdfs:label "go"
 
-<http://www.edsa-project.eu/skill/windows-mobile>
-        ns3:lexicalValue  "windows mobile" .
+saro:xilinx a saro:Tool ;
+	 rdfs:label "xilinx"
 
-<http://www.edsa-project.eu/skill/software-architecture>
-        ns3:lexicalValue  "software architecture" .
+saro:haproxy a saro:Product ;
+	 rdfs:label "haproxy"
 
-<http://www.edsa-project.eu/skill/atlassian>
-        ns3:lexicalValue  "atlassian" .
+saro:analysis a saro:Topic ;
+	 rdfs:label "analysis"
 
-<http://www.edsa-project.eu/skill/symfony2>
-        ns3:lexicalValue  "symfony2" .
+saro:unix a saro:Product ;
+	 rdfs:label "unix"
 
-<http://www.edsa-project.eu/skill/mahout>
-        ns3:lexicalValue  "mahout" .
+saro:stata a saro:Product ;
+	 rdfs:label "stata"
 
-<http://www.edsa-project.eu/skill/databases>
-        ns3:lexicalValue  "databases" .
+saro:openstack a saro:Product ;
+	 rdfs:label "openstack"
 
-<http://www.edsa-project.eu/skill/rds>
-        ns3:lexicalValue  "rds" .
+saro:node.js a saro:Tool ;
+	 rdfs:label "node.js"
 
-<http://www.edsa-project.eu/skill/olap>
-        ns3:lexicalValue  "olap" .
+saro:storm a saro:Tool ;
+	 rdfs:label "storm"
 
-<http://www.edsa-project.eu/skill/webgl>
-        ns3:lexicalValue  "webgl" .
+saro:linq a saro:Tool ;
+	 rdfs:label "linq"
 
-<http://www.edsa-project.eu/skill/identity-management>
-        ns3:lexicalValue  "identity management" .
+saro:joomla a saro:Tool ;
+	 rdfs:label "joomla"
 
-<http://www.edsa-project.eu/skill/high-availability>
-        ns3:lexicalValue  "high availability" .
+saro:googleApps a saro:Product ;
+	 rdfs:label "google apps"
 
-<http://www.edsa-project.eu/skill/vldb>
-        ns3:lexicalValue  "vldb" .
+saro:redhat a saro:Product ;
+	 rdfs:label "redhat"
 
-<http://www.edsa-project.eu/skill/lamp>
-        ns3:lexicalValue  "lamp" .
+saro:dhtml a saro:Tool ;
+	 rdfs:label "dhtml"
 
-<http://www.edsa-project.eu/skill/scripting>
-        ns3:lexicalValue  "scripting" .
+saro:jwplayer a saro:Product ;
+	 rdfs:label "jwplayer"
 
-<http://www.edsa-project.eu/skill/apache>
-        ns3:lexicalValue  "apache" .
+saro:softwareDevelopment a saro:Topic ;
+	 rdfs:label "software development"
 
-<http://www.edsa-project.eu/skill/scrapy>
-        ns3:lexicalValue  "scrapy" .
+saro:aix a saro:Product ;
+	 rdfs:label "aix"
 
-<http://www.edsa-project.eu/skill/scala>
-        ns3:lexicalValue  "scala" .
+saro:silverlight a saro:Tool ;
+	 rdfs:label "silverlight"
 
-<http://www.edsa-project.eu/skill/cascading>
-        ns3:lexicalValue  "cascading" .
+saro:sympy a saro:Tool ;
+	 rdfs:label "sympy"
 
-<http://www.edsa-project.eu/skill/xilinx>
-        ns3:lexicalValue  "xilinx" .
+saro:lampstack a saro:Product ;
+	 rdfs:label "lampstack"
 
-<http://www.edsa-project.eu/skill/xhtml>
-        ns3:lexicalValue  "xhtml" .
+saro:rom a saro:Topic ;
+	 rdfs:label "rom"
 
-<http://www.edsa-project.eu/skill/continuous-delivery>
-        ns3:lexicalValue  "continuous delivery" .
+saro:webgl a saro:Tool ;
+	 rdfs:label "webgl"
 
-<http://www.edsa-project.eu/skill/backbone>
-        ns3:lexicalValue  "backbone" .
+saro:nancy a saro:Product ;
+	 rdfs:label "nancy"
 
-<http://www.edsa-project.eu/skill/jaxp>
-        ns3:lexicalValue  "jaxp" .
+saro:impala a saro:Product ;
+	 rdfs:label "impala"
 
-<http://www.edsa-project.eu/skill/exp>
-        ns3:lexicalValue  "exp" .
+saro:bdd a saro:Topic ;
+	 rdfs:label "bdd"
 
-<http://www.edsa-project.eu/skill/aurelia>
-        ns3:lexicalValue  "aurelia" .
+saro:prestashop a saro:Product ;
+	 rdfs:label "prestashop"
 
-<http://www.edsa-project.eu/skill/finance>
-        ns3:lexicalValue  "finance" .
+saro:developer a saro:Topic ;
+	 rdfs:label "developer"
 
-<http://www.edsa-project.eu/skill/redis>
-        ns3:lexicalValue  "redis" .
+saro:angular.js a saro:Product ;
+	 rdfs:label "angular.js"
 
-<http://www.edsa-project.eu/skill/cordova>
-        ns3:lexicalValue  "cordova" .
+saro:vpn a saro:Topic ;
+	 rdfs:label "vpn"
 
-<http://www.edsa-project.eu/skill/full-stack>
-        ns3:lexicalValue  "full stack" .
+saro:r a saro:Tool ;
+	 rdfs:label "r"
 
-<http://www.edsa-project.eu/skill/jira>
-        ns3:lexicalValue  "jira" .
+saro:https a saro:Tool ;
+	 rdfs:label "https"
 
-<http://www.edsa-project.eu/skill/lampstack>
-        ns3:lexicalValue  "lampstack" .
+saro:extjs a saro:Product ;
+	 rdfs:label "extjs"
 
-<http://www.edsa-project.eu/skill/rspec>
-        ns3:lexicalValue  "rspec" .
+saro:ajax a saro:Tool ;
+	 rdfs:label "ajax"
 
-<http://www.edsa-project.eu/skill/responsive-web-design>
-        ns3:lexicalValue  "responsive web design" .
+saro:tSql a saro:Tool ;
+	 rdfs:label "t sql"
 
-<http://www.edsa-project.eu/skill/visio>
-        ns3:lexicalValue  "visio" .
+saro:thirdPartyApi a saro:Topic ;
+	 rdfs:label "third party api"
 
-<http://www.edsa-project.eu/skill/web-frameworks>
-        ns3:lexicalValue  "web frameworks" .
+saro:pmp a saro:Topic ;
+	 rdfs:label "pmp"
 
-<http://www.edsa-project.eu/skill/rdms>
-        ns3:lexicalValue  "rdms" .
+saro:analyst a saro:Topic ;
+	 rdfs:label "analyst"
 
-<http://www.edsa-project.eu/skill/frontend>
-        ns3:lexicalValue  "frontend" .
+saro:scientificComputing a saro:Topic ;
+	 rdfs:label "scientific computing"
 
-<http://www.edsa-project.eu/skill/websocket>
-        ns3:lexicalValue  "websocket" .
+saro:relationalDatabases a saro:Topic ;
+	 rdfs:label "relational databases"
 
-<http://www.edsa-project.eu/skill/tdd>
-        ns3:lexicalValue  "tdd" .
+saro:iot a saro:Topic ;
+	 rdfs:label "iot"
 
-<http://www.edsa-project.eu/skill/opengl>
-        ns3:lexicalValue  "opengl" .
+saro:androidStudio a saro:Product ;
+	 rdfs:label "android studio"
 
-<http://www.edsa-project.eu/skill/user-experience>
-        ns3:lexicalValue  "user experience" .
+saro:titanium a saro:Product ;
+	 rdfs:label "titanium"
 
-<http://www.edsa-project.eu/skill/typescript>
-        ns3:lexicalValue  "typescript" .
+saro:jquery a saro:Tool ;
+	 rdfs:label "jquery"
 
-<http://www.edsa-project.eu/skill/cryptography>
-        ns3:lexicalValue  "cryptography" .
+saro:ipc a saro:Topic ;
+	 rdfs:label "ipc"
 
-<http://www.edsa-project.eu/skill/adobe>
-        ns3:lexicalValue  "adobe" .
+saro:hl7 a saro:Product ;
+	 rdfs:label "hl7"
 
-<http://www.edsa-project.eu/skill/bigdata>
-        ns3:lexicalValue  "big data" .
+saro:scrum a saro:Topic ;
+	 rdfs:label "scrum"
 
-<http://www.edsa-project.eu/skill/clojure>
-        ns3:lexicalValue  "clojure" .
+saro:vowpalwabbit a saro:Tool ;
+	 rdfs:label "vowpalwabbit"
 
-<http://www.edsa-project.eu/skill/ldap>
-        ns3:lexicalValue  "ldap" .
+saro:solaris a saro:Product ;
+	 rdfs:label "solaris"
 
-<http://www.edsa-project.eu/skill/ipsec>
-        ns3:lexicalValue  "ipsec" .
+saro:quantitativeFinance a saro:Topic ;
+	 rdfs:label "quantitative finance"
 
-<http://www.edsa-project.eu/skill/i2c>
-        ns3:lexicalValue  "i2c" .
+saro:selenium a saro:Tool ;
+	 rdfs:label "selenium"
 
-<http://www.edsa-project.eu/skill/rails>
-        ns3:lexicalValue  "rails" .
+saro:underscore.js a saro:Tool ;
+	 rdfs:label "underscore.js"
 
-<http://www.edsa-project.eu/skill/umbraco>
-        ns3:lexicalValue  "umbraco" .
+saro:iphone a saro:Product ;
+	 rdfs:label "iphone"
 
-<http://www.edsa-project.eu/skill/unity3d>
-        ns3:lexicalValue  "unity3d" .
+saro:amazonS3 a saro:Product ;
+	 rdfs:label "amazon s3"
 
-<http://www.edsa-project.eu/skill/mobile>
-        ns3:lexicalValue  "mobile" .
+saro:elasticMapReduce a saro:Tool ;
+	 rdfs:label "elastic map reduce"
 
-<http://www.edsa-project.eu/skill/d3.js>
-        ns3:lexicalValue  "d3.js" .
+saro:winapi a saro:Tool ;
+	 rdfs:label "winapi"
 
-<http://www.edsa-project.eu/skill/log-analysis>
-        ns3:lexicalValue  "log-analysis" .
+saro:pega a saro:Product ;
+	 rdfs:label "pega"
 
-<http://www.edsa-project.eu/skill/cloud-hosting>
-        ns3:lexicalValue  "cloud hosting" .
+saro:computerForensics a saro:Topic ;
+	 rdfs:label "computer forensics"
 
-<http://www.edsa-project.eu/skill/vpn>
-        ns3:lexicalValue  "vpn" .
+saro:embeddedLinux a saro:Topic ;
+	 rdfs:label "embedded linux"
 
-<http://www.edsa-project.eu/skill/hql>
-        ns3:lexicalValue  "hql" .
+saro:ant a saro:Tool ;
+	 rdfs:label "ant"
 
-<http://www.edsa-project.eu/skill/database>
-        ns3:lexicalValue  "database" .
+saro:virtualMachine a saro:Topic ;
+	 rdfs:label "virtual machine"
 
-<http://www.edsa-project.eu/skill/nosql>
-        ns3:lexicalValue  "nosql" .
+saro:d3 a saro:Tool ;
+	 rdfs:label "d3"
 
-<http://www.edsa-project.eu/skill/mockito>
-        ns3:lexicalValue  "mockito" .
+saro:llvm a saro:Tool ;
+	 rdfs:label "llvm"
 
-<http://www.edsa-project.eu/skill/pandas>
-        ns3:lexicalValue  "pandas" .
+saro:.net-4.0 a saro:Product ;
+	 rdfs:label ".net 4.0"
 
-<http://www.edsa-project.eu/skill/symfony>
-        ns3:lexicalValue  "symfony" .
+saro:cryptography a saro:Topic ;
+	 rdfs:label "cryptography"
 
-<http://www.edsa-project.eu/skill/sip-server>
-        ns3:lexicalValue  "sip server" .
+saro:rhel5 a saro:Product ;
+	 rdfs:label "rhel5"
 
-<http://www.edsa-project.eu/skill/linux-unix>
-        ns3:lexicalValue  "linux unix" .
+saro:lmax a saro:Product ;
+	 rdfs:label "lmax"
 
-<http://www.edsa-project.eu/skill/android>
-        ns3:lexicalValue  "android" .
+saro:linuxKernel a saro:Product ;
+	 rdfs:label "linux kernel"
 
-<http://www.edsa-project.eu/skill/ruby-on-rails>
-        ns3:lexicalValue  "ruby on rails" .
+saro:marionette a saro:Tool ;
+	 rdfs:label "marionette"
 
-<http://www.edsa-project.eu/skill/ios>
-        ns3:lexicalValue  "ios" .
+saro:doctrine a saro:Product ;
+	 rdfs:label "doctrine"
 
-<http://www.edsa-project.eu/skill/mapreduce>
-        ns3:lexicalValue  "mapreduce" .
+saro:android a saro:Product ;
+	 rdfs:label "android"
 
-<http://www.edsa-project.eu/skill/balsamiq>
-        ns3:lexicalValue  "balsamiq" .
+saro:activemq a saro:Tool ;
+	 rdfs:label "activemq"
 
-<http://www.edsa-project.eu/skill/dagger>
-        ns3:lexicalValue  "dagger" .
+saro:ultrasound a saro:Product ;
+	 rdfs:label "ultrasound"
 
-<http://www.edsa-project.eu/skill/javascript>
-        ns3:lexicalValue  "javascript" .
+saro:mobileDevelopment a saro:Topic ;
+	 rdfs:label "mobileDevelopment"
 
-<http://www.edsa-project.eu/skill/metadata>
-        ns3:lexicalValue  "metadata" .
+saro:tomcat a saro:Tool ;
+	 rdfs:label "tomcat"
 
-<http://www.edsa-project.eu/skill/ux>
-        ns3:lexicalValue  "ux" .
+saro:glsl a saro:Tool ;
+	 rdfs:label "glsl"
 
-<http://www.edsa-project.eu/skill/jade>
-        ns3:lexicalValue  "jade" .
+saro:erlang a saro:Tool ;
+	 rdfs:label "erlang"
 
-<http://www.edsa-project.eu/skill/scom>
-        ns3:lexicalValue  "scom" .
+saro:visualStudio2010 a saro:Product ;
+	 rdfs:label "visual studio 2010"
 
-<http://www.edsa-project.eu/skill/c#>
-        ns3:lexicalValue  "c#" .
+saro:giraph a saro:Tool ;
+	 rdfs:label "giraph"
 
-<http://www.edsa-project.eu/skill/spring-mvc>
-        ns3:lexicalValue  "spring mvc" .
+saro:cocoapods a saro:Tool ;
+	 rdfs:label "cocoapods"
 
-<http://www.edsa-project.eu/skill/selenium>
-        ns3:lexicalValue  "selenium" .
+saro:supercomputers a saro:Topic ;
+	 rdfs:label "supercomputers"
 
-<http://www.edsa-project.eu/skill/h.265>
-        ns3:lexicalValue  "h.265" .
+saro:heroku a saro:Tool ;
+	 rdfs:label "heroku"
 
-<http://www.edsa-project.eu/skill/hudson>
-        ns3:lexicalValue  "hudson" .
+saro:waterfall a saro:Topic ;
+	 rdfs:label "waterfall"
 
-<http://www.edsa-project.eu/skill/salt-stack>
-        ns3:lexicalValue  "salt stack" .
+saro:cheminformatics a saro:Topic ;
+	 rdfs:label "cheminformatics"
 
-<http://www.edsa-project.eu/skill/aws-opsworks>
-        ns3:lexicalValue  "aws opsworks" .
+saro:versionControl a saro:Topic ;
+	 rdfs:label "version control"
 
-<http://www.edsa-project.eu/skill/jndi>
-        ns3:lexicalValue  "jndi" .
+saro:eclipse a saro:Product ;
+	 rdfs:label "eclipse"
 
-<http://www.edsa-project.eu/skill/confluence>
-        ns3:lexicalValue  "confluence" .
+saro:protractor a saro:Tool ;
+	 rdfs:label "protractor"
 
-<http://www.edsa-project.eu/skill/sql-server>
-        ns3:lexicalValue  "sql server" .
+saro:symfony2 a saro:Tool ;
+	 rdfs:label "symfony2"
 
-<http://www.edsa-project.eu/skill/web-crawler>
-        ns3:lexicalValue  "web crawler" .
+saro:bpm a saro:Topic ;
+	 rdfs:label "bpm"
 
-<http://www.edsa-project.eu/skill/automated-tests>
-        ns3:lexicalValue  "automated tests" .
+saro:scada a saro:Product ;
+	 rdfs:label "scada"
 
-<http://www.edsa-project.eu/skill/web-applications>
-        ns3:lexicalValue  "web applications" .
+saro:hibernate a saro:Product ;
+	 rdfs:label "hibernate"
 
-<http://www.edsa-project.eu/skill/angular>
-        ns3:lexicalValue  "angular" .
+saro:tcp a saro:Tool ;
+	 rdfs:label "tcp"
 
-<http://www.edsa-project.eu/skill/gnu>
-        ns3:lexicalValue  "gnu" .
+saro:dom a saro:Tool ;
+	 rdfs:label "dom"
 
-<http://www.edsa-project.eu/skill/webforms>
-        ns3:lexicalValue  "webforms" .
+saro:specflow a saro:Tool ;
+	 rdfs:label "specflow"
 
-<http://www.edsa-project.eu/skill/clojure>
-        ns3:lexicalValue  "clojure" .
+saro:titaniumMobile a saro:Product ;
+	 rdfs:label "titanium mobile"
 
-<http://www.edsa-project.eu/skill/netcdf>
-        ns3:lexicalValue  "netcdf" .
+saro:cics a saro:Tool ;
+	 rdfs:label "cics"
 
-<http://www.edsa-project.eu/skill/ab-testing>
-        ns3:lexicalValue  "ab testing" .
+saro:frontend a saro:Topic ;
+	 rdfs:label "frontend"
 
-<http://www.edsa-project.eu/skill/jasmine>
-        ns3:lexicalValue  "jasmine" .
+saro:symfony-2.3 a saro:Tool ;
+	 rdfs:label "symfony 2.3"
 
-<http://www.edsa-project.eu/skill/compass-sass>
-        ns3:lexicalValue  "compass sass" .
+saro:tester a saro:Topic ;
+	 rdfs:label "tester"
 
-<http://www.edsa-project.eu/skill/fingerprinting>
-        ns3:lexicalValue  "fingerprinting" .
+saro:elixir a saro:Tool ;
+	 rdfs:label "elixir"
 
-<http://www.edsa-project.eu/skill/lisp>
-        ns3:lexicalValue  "lisp" .
+saro:automation a saro:Topic ;
+	 rdfs:label "automation"
 
-<http://www.edsa-project.eu/skill/sharepoint-2007>
-        ns3:lexicalValue  "sharepoint 2007" .
+saro:sharepoint2010 a saro:Product ;
+	 rdfs:label "sharepoint 2010"
 
-<http://www.edsa-project.eu/skill/bioinformatics>
-        ns3:lexicalValue  "bioinformatics" .
+saro:agileProcesses a saro:Topic ;
+	 rdfs:label "agile processes"
 
-<http://www.edsa-project.eu/skill/jruby>
-        ns3:lexicalValue  "jruby" .
+saro:postgis a saro:Tool ;
+	 rdfs:label "postgis"
 
-<http://www.edsa-project.eu/skill/penetration-testing>
-        ns3:lexicalValue  "penetration testing" .
+saro:api a saro:Tool ;
+	 rdfs:label "api"
 
-<http://www.edsa-project.eu/skill/html5-canvas>
-        ns3:lexicalValue  "html5 canvas" .
+saro:newsgator a saro:Product ;
+	 rdfs:label "newsgator"
 
-<http://www.edsa-project.eu/skill/flask-restful>
-        ns3:lexicalValue  "flask restful" .
+saro:powershell a saro:Tool ;
+	 rdfs:label "powershell"
 
-<http://www.edsa-project.eu/skill/network>
-        ns3:lexicalValue  "network" .
+saro:sdk a saro:Topic ;
+	 rdfs:label "sdk"
 
-<http://www.edsa-project.eu/skill/mysqli>
-        ns3:lexicalValue  "mysqli" .
+saro:nagios a saro:Product ;
+	 rdfs:label "nagios"
 
-<http://www.edsa-project.eu/skill/coffeescript>
-        ns3:lexicalValue  "coffeescript" .
+saro:hadoop a saro:Product ;
+	 rdfs:label "hadoop"
 
-<http://www.edsa-project.eu/skill/netsuite>
-        ns3:lexicalValue  "netsuite" .
+saro:vsam a saro:Topic ;
+	 rdfs:label "vsam"
 
-<http://www.edsa-project.eu/skill/owasp>
-        ns3:lexicalValue  "owasp" .
+saro:haskell a saro:Tool ;
+	 rdfs:label "haskell"
 
-<http://www.edsa-project.eu/skill/chef>
-        ns3:lexicalValue  "chef" .
+saro:msOffice a saro:Product ;
+	 rdfs:label "ms office"
 
-<http://www.edsa-project.eu/skill/cheminformatics>
-        ns3:lexicalValue  "cheminformatics" .
+saro:osx a saro:Product ;
+	 rdfs:label "osx"
 
-<http://www.edsa-project.eu/skill/pki>
-        ns3:lexicalValue  "pki" .
+saro:hudson a saro:Tool ;
+	 rdfs:label "hudson"
 
-<http://www.edsa-project.eu/skill/angularjs>
-        ns3:lexicalValue  "angularjs" .
+saro:elasticsearch a saro:Product ;
+	 rdfs:label "elasticsearch"
 
-<http://www.edsa-project.eu/skill/reactjs>
-        ns3:lexicalValue  "reactjs" .
+saro:robotics a saro:Topic ;
+	 rdfs:label "robotics"
 
-<http://www.edsa-project.eu/skill/risk-management>
-        ns3:lexicalValue  "risk-management" .
+saro:fintech a saro:Product ;
+	 rdfs:label "fintech"
 
-<http://www.edsa-project.eu/skill/less>
-        ns3:lexicalValue  "less" .
+saro:rhel a saro:Product ;
+	 rdfs:label "rhel"
 
-<http://www.edsa-project.eu/skill/uart>
-        ns3:lexicalValue  "uart" .
+saro:swing a saro:Tool ;
+	 rdfs:label "swing"
 
-<http://www.edsa-project.eu/skill/memcached>
-        ns3:lexicalValue  "memcached" .
+saro:projectManagement a saro:Topic ;
+	 rdfs:label "project management"
 
-<http://www.edsa-project.eu/skill/abdroid>
-        ns3:lexicalValue  "abdroid" .
+saro:c a saro:Tool ;
+	 rdfs:label "c"
 
-<http://www.edsa-project.eu/skill/akka>
-        ns3:lexicalValue  "akka" .
+saro:jdbc a saro:Tool ;
+	 rdfs:label "jdbc"
 
-<http://www.edsa-project.eu/skill/powershell>
-        ns3:lexicalValue  "powershell" .
+saro:angular a saro:Product ;
+	 rdfs:label "angular"
 
-<http://www.edsa-project.eu/skill/ember>
-        ns3:lexicalValue  "ember" .
+saro:episerver a saro:Product ;
+	 rdfs:label "episerver"
 
-<http://www.edsa-project.eu/skill/nodejs>
-        ns3:lexicalValue  "nodejs" .
+saro:leadDeveloper a saro:TransversalSkill ;
+	 rdfs:label "lead developer"
 
-<http://www.edsa-project.eu/skill/grails>
-        ns3:lexicalValue  "grails" .
+saro:powerbuilder a saro:Tool ;
+	 rdfs:label "powerbuilder"
 
-<http://www.edsa-project.eu/skill/multithreading>
-        ns3:lexicalValue  "multithreading" .
+saro:administrator a saro:Topic ;
+	 rdfs:label "administrator"
 
-<http://www.edsa-project.eu/skill/fabric>
-        ns3:lexicalValue  "fabric" .
+saro:zeromq a saro:Tool ;
+	 rdfs:label "zeromq"
 
-<http://www.edsa-project.eu/skill/ss7>
-        ns3:lexicalValue  "ss7" .
+saro:reactNative a saro:Tool ;
+	 rdfs:label "react native"
 
-<http://www.edsa-project.eu/skill/developer>
-        ns3:lexicalValue  "developer" .
+saro:biztalk a saro:Product ;
+	 rdfs:label "biztalk"
 
-<http://www.edsa-project.eu/skill/user-interaction>
-        ns3:lexicalValue  "user interaction" .
+saro:otrs a saro:Product ;
+	 rdfs:label "otrs"
 
-<http://www.edsa-project.eu/skill/git>
-        ns3:lexicalValue  "git" .
+saro:googleAppEngine a saro:Product ;
+	 rdfs:label "google app engine"
 
-<http://www.edsa-project.eu/skill/numerical-methods>
-        ns3:lexicalValue  "numerical methods" .
+saro:rtos a saro:Product ;
+	 rdfs:label "rtos"
 
-<http://www.edsa-project.eu/skill/golang>
-        ns3:lexicalValue  "golang" .
+saro:confluence a saro:Tool ;
+	 rdfs:label "confluence"
 
-<http://www.edsa-project.eu/skill/disassembling>
-        ns3:lexicalValue  "disassembling" .
+saro:rtsp a saro:Tool ;
+	 rdfs:label "rtsp"
 
-<http://www.edsa-project.eu/skill/geolocation>
-        ns3:lexicalValue  "geolocation" .
+saro:photoshop a saro:Tool ;
+	 rdfs:label "photoshop"
 
-<http://www.edsa-project.eu/skill/celery>
-        ns3:lexicalValue  "celery" .
+saro:rspec a saro:Tool ;
+	 rdfs:label "rspec"
 
-<http://www.edsa-project.eu/skill/visual-studio-2012>
-        ns3:lexicalValue  "visual studio 2012" .
+saro:businessObjects a saro:Product ;
+	 rdfs:label "business objects"
 
-<http://www.edsa-project.eu/skill/leadership>
-        ns3:lexicalValue  "leadership" .
+saro:rails a saro:Tool ;
+	 rdfs:label "rails"
 
-<http://www.edsa-project.eu/skill/jpa>
-        ns3:lexicalValue  "jpa" .
+saro:laravel a saro:Product ;
+	 rdfs:label "laravel"
 
-<http://www.edsa-project.eu/skill/javascript>
-        ns3:lexicalValue  "javascript" .
+saro:dataWarehouse a saro:Topic ;
+	 rdfs:label "data warehouse"
 
-<http://www.edsa-project.eu/skill/ipython>
-        ns3:lexicalValue  "ipython" .
+saro:javaj2ee a saro:Tool ;
+	 rdfs:label "javaj2ee"
 
-<http://www.edsa-project.eu/skill/presales>
-        ns3:lexicalValue  "presales" .
+saro:xamarin a saro:Product ;
+	 rdfs:label "xamarin"
 
-<http://www.edsa-project.eu/skill/postgres>
-        ns3:lexicalValue  "postgres" .
+saro:disasterRecovery a saro:Topic ;
+	 rdfs:label "disaster recovery"
 
-<http://www.edsa-project.eu/skill/laravel>
-        ns3:lexicalValue  "laravel" .
+saro:jira a saro:Tool ;
+	 rdfs:label "jira"
 
-<http://www.edsa-project.eu/skill/front-end>
-        ns3:lexicalValue  "front end" .
+saro:ux a saro:Tool ;
+	 rdfs:label "ux"
 
-<http://www.edsa-project.eu/skill/react-native>
-        ns3:lexicalValue  "react native" .
+saro:metadata a saro:Topic ;
+	 rdfs:label "metadata"
 
-<http://www.edsa-project.eu/skill/c#-5.0>
-        ns3:lexicalValue  "c#-5.0" .
+saro:ui a saro:Topic ;
+	 rdfs:label "ui"
 
-<http://www.edsa-project.eu/skill/software-development>
-        ns3:lexicalValue  "software development" .
+saro:grails a saro:Product ;
+	 rdfs:label "grails"
 
-<http://www.edsa-project.eu/skill/winapi>
-        ns3:lexicalValue  "winapi" .
+saro:wcf a saro:Tool ;
+	 rdfs:label "wcf"
 
-<http://www.edsa-project.eu/skill/oracle11g>
-        ns3:lexicalValue  "oracle11g" .
+saro:ember a saro:Product ;
+	 rdfs:label "ember"
 
-<http://www.edsa-project.eu/skill/mapi>
-        ns3:lexicalValue  "mapi" .
+saro:videoStreaming a saro:Topic ;
+	 rdfs:label "video streaming"
 
-<http://www.edsa-project.eu/skill/directx>
-        ns3:lexicalValue  "directx" .
+saro:websocket a saro:Tool ;
+	 rdfs:label "websocket"
 
-<http://www.edsa-project.eu/skill/administrator>
-        ns3:lexicalValue  "administrator" .
+saro:haml a saro:Tool ;
+	 rdfs:label "haml"
 
-<http://www.edsa-project.eu/skill/data-management>
-        ns3:lexicalValue  "data management" .
+saro:pki a saro:Topic ;
+	 rdfs:label "pki"
 
-<http://www.edsa-project.eu/skill/docker>
-        ns3:lexicalValue  "docker" .
+saro:openglEs-2.0 a saro:Tool ;
+	 rdfs:label "opengl es 2.0"
 
-<http://www.edsa-project.eu/skill/programming>
-        ns3:lexicalValue  "programming" .
+saro:junit a saro:Tool ;
+	 rdfs:label "junit"
 
-<http://www.edsa-project.eu/skill/ecmascript-6>
-        ns3:lexicalValue  "ecmascript-6" .
+saro:autosar a saro:Tool ;
+	 rdfs:label "autosar"
 
-<http://www.edsa-project.eu/skill/mpi>
-        ns3:lexicalValue  "mpi" .
+saro:numericalMethods a saro:Topic ;
+	 rdfs:label "numerical methods"
 
-<http://www.edsa-project.eu/skill/bdd>
-        ns3:lexicalValue  "bdd" .
+saro:peoplesoft a saro:Product ;
+	 rdfs:label "peoplesoft"
 
-<http://www.edsa-project.eu/skill/servicestack>
-        ns3:lexicalValue  "servicestack" .
+saro:html5Canvas a saro:Tool ;
+	 rdfs:label "html5 canvas"
 
-<http://www.edsa-project.eu/skill/kafka>
-        ns3:lexicalValue  "kafka" .
+saro:databaseDesign a saro:Topic ;
+	 rdfs:label "database design"
 
-<http://www.edsa-project.eu/skill/sockets>
-        ns3:lexicalValue  "sockets" .
+saro:xcode a saro:Tool ;
+	 rdfs:label "xcode"
 
-<http://www.edsa-project.eu/skill/distributed-database>
-        ns3:lexicalValue  "distributed database" .
+saro:hybris a saro:Product ;
+	 rdfs:label "hybris"
 
-<http://www.edsa-project.eu/skill/haproxy>
-        ns3:lexicalValue  "haproxy" .
+saro:jenkins a saro:Tool ;
+	 rdfs:label "jenkins"
 
-<http://www.edsa-project.eu/skill/wicket>
-        ns3:lexicalValue  "wicket" .
+saro:bigData a saro:Topic ;
+	 rdfs:label "big data"
 
-<http://www.edsa-project.eu/skill/build-automation>
-        ns3:lexicalValue  "build-automation" .
+saro:unitTesting a saro:Topic ;
+	 rdfs:label "unit testing"
 
-<http://www.edsa-project.eu/skill/web-security>
-        ns3:lexicalValue  "web security" .
+saro:sqoop a saro:Tool ;
+	 rdfs:label "sqoop"
 
-<http://www.edsa-project.eu/skill/emr>
-        ns3:lexicalValue  "emr" .
+saro:postgres a saro:Tool ;
+	 rdfs:label "postgres"
 
-<http://www.edsa-project.eu/skill/cassandra>
-        ns3:lexicalValue  "cassandra" .
+saro:assurance a saro:Topic ;
+	 rdfs:label "assurance"
 
-<http://www.edsa-project.eu/skill/rhel5>
-        ns3:lexicalValue  "rhel5" .
+saro:umbraco a saro:Tool ;
+	 rdfs:label "umbraco"
 
-<http://www.edsa-project.eu/skill/automated-deployment>
-        ns3:lexicalValue  "automated deployment" .
+saro:akka a saro:Tool ;
+	 rdfs:label "akka"
 
-<http://www.edsa-project.eu/skill/vsphere>
-        ns3:lexicalValue  "vsphere" .
+saro:ipad a saro:Product ;
+	 rdfs:label "ipad"
 
-<http://www.edsa-project.eu/skill/vmware>
-        ns3:lexicalValue  "vmware" .
+saro:multithreading a saro:Topic ;
+	 rdfs:label "multithreading"
 
-<http://www.edsa-project.eu/skill/jax-rs>
-        ns3:lexicalValue  "jax rs" .
+saro:stateflow a saro:Tool ;
+	 rdfs:label "stateflow"
 
-<http://www.edsa-project.eu/skill/cem>
-        ns3:lexicalValue  "cem" .
+saro:highAvailability a saro:TransversalSkill ;
+	 rdfs:label "high availability"
 
-<http://www.edsa-project.eu/skill/hdfs>
-        ns3:lexicalValue  "hdfs" .
+saro:jvm a saro:Tool ;
+	 rdfs:label "jvm"
 
-<http://www.edsa-project.eu/skill/indexing>
-        ns3:lexicalValue  "indexing" .
+saro:thrift a saro:Tool ;
+	 rdfs:label "thrift"
 
-<http://www.edsa-project.eu/skill/networking>
-        ns3:lexicalValue  "networking" .
+saro:ocaml a saro:Tool ;
+	 rdfs:label "ocaml"
 
-<http://www.edsa-project.eu/skill/http>
-        ns3:lexicalValue  "http" .
+saro:rackspace a saro:Tool ;
+	 rdfs:label "rackspace"
 
-<http://www.edsa-project.eu/skill/zeromq>
-        ns3:lexicalValue  "zeromq" .
+saro:zend a saro:Tool ;
+	 rdfs:label "zend"
 
-<http://www.edsa-project.eu/skill/neo4j>
-        ns3:lexicalValue  "neo4j" .
+saro:mockito a saro:Tool ;
+	 rdfs:label "mockito"
 
-<http://www.edsa-project.eu/skill/exchange>
-        ns3:lexicalValue  "exchange" .
+saro:security a saro:Topic ;
+	 rdfs:label "security"
 
-<http://www.edsa-project.eu/skill/tcpip>
-        ns3:lexicalValue  "tcpip" .
+saro:xslt a saro:Tool ;
+	 rdfs:label "xslt"
 
-<http://www.edsa-project.eu/skill/https>
-        ns3:lexicalValue  "https" .
+saro:aws a saro:Tool ;
+	 rdfs:label "aws"
 
-<http://www.edsa-project.eu/skill/json>
-        ns3:lexicalValue  "json" .
+saro:automatedTests a saro:Topic ;
+	 rdfs:label "automated tests"
 
-<http://www.edsa-project.eu/skill/wiki>
-        ns3:lexicalValue  "wiki" .
+saro:dagger a saro:Tool ;
+	 rdfs:label "dagger"
 
-<http://www.edsa-project.eu/skill/riak>
-        ns3:lexicalValue  "riak" .
+saro:xml a saro:Tool ;
+	 rdfs:label "xml"
 
-<http://www.edsa-project.eu/skill/tcp-ip>
-        ns3:lexicalValue  "tcp-ip" .
+saro:visualStudio a saro:Product ;
+	 rdfs:label "visual studio"
 
-<http://www.edsa-project.eu/skill/tts>
-        ns3:lexicalValue  "tts" .
+saro:reverseEngineering a saro:Topic ;
+	 rdfs:label "reverse engineering"
 
-<http://www.edsa-project.eu/skill/titanium>
-        ns3:lexicalValue  "titanium" .
+saro:sencha a saro:Tool ;
+	 rdfs:label "sencha"
 
-<http://www.edsa-project.eu/skill/coreos>
-        ns3:lexicalValue  "coreos" .
+saro:mapreduce a saro:Product ;
+	 rdfs:label "mapreduce"
 
-<http://www.edsa-project.eu/skill/sharepoint>
-        ns3:lexicalValue  "sharepoint" .
+saro:i2c a saro:Product ;
+	 rdfs:label "i2c"
 
-<http://www.edsa-project.eu/skill/polymer>
-        ns3:lexicalValue  "polymer" .
+saro:unity3d a saro:Product ;
+	 rdfs:label "unity3d"
 
-<http://www.edsa-project.eu/skill/retrolambda>
-        ns3:lexicalValue  "retrolambda" .
+saro:debian a saro:Product ;
+	 rdfs:label "debian"
 
-<http://www.edsa-project.eu/skill/mongodb>
-        ns3:lexicalValue  "mongodb" .
+saro:webComponent a saro:Topic ;
+	 rdfs:label "web component"
 
-<http://www.edsa-project.eu/skill/azure>
-        ns3:lexicalValue  "azure" .
+saro:eclipsePlugin a saro:Tool ;
+	 rdfs:label "eclipse plugin"
 
-<http://www.edsa-project.eu/skill/qnx>
-        ns3:lexicalValue  "qnx" .
+saro:wicket a saro:Product ;
+	 rdfs:label "wicket"
 
-<http://www.edsa-project.eu/skill/ooad>
-        ns3:lexicalValue  "ooad" .
+saro:flux a saro:Tool ;
+	 rdfs:label "flux"
 
-<http://www.edsa-project.eu/skill/ospf>
-        ns3:lexicalValue  "ospf" .
+saro:mpi a saro:Product ;
+	 rdfs:label "mpi"
 
-<http://www.edsa-project.eu/skill/deaf>
-        ns3:lexicalValue  "deaf" .
+saro:rds a saro:Product ;
+	 rdfs:label "rds"
 
-<http://www.edsa-project.eu/skill/ruby-on-rails-4>
-        ns3:lexicalValue  "ruby on rails 4" .
+saro:hdfs a saro:Topic ;
+	 rdfs:label "hdfs"
 
-<http://www.edsa-project.eu/skill/ionic-framework>
-        ns3:lexicalValue  "ionic-framework" .
+saro:rhel6 a saro:Product ;
+	 rdfs:label "rhel6"
 
-<http://www.edsa-project.eu/skill/elastic-map-reduce>
-        ns3:lexicalValue  "elastic map reduce" .
+saro:apacheSparkMl a saro:Product ;
+	 rdfs:label "apache spark ml"
 
-<http://www.edsa-project.eu/skill/oracle>
-        ns3:lexicalValue  "oracle" .
+saro:vaadin a saro:Tool ;
+	 rdfs:label "vaadin"
 
-<http://www.edsa-project.eu/skill/pega>
-        ns3:lexicalValue  "pega" .
+saro:jpa a saro:Tool ;
+	 rdfs:label "jpa"
 
-<http://www.edsa-project.eu/skill/apache-spark-sql>
-        ns3:lexicalValue  "apache spark sql" .
+saro:cem a saro:Product ;
+	 rdfs:label "cem"
 
-<http://www.edsa-project.eu/skill/dynamic>
-        ns3:lexicalValue  "dynamic" .
+saro:objectOrientedDatabase a saro:Topic ;
+	 rdfs:label "object oriented database"
 
-<http://www.edsa-project.eu/skill/wcf>
-        ns3:lexicalValue  "wcf" .
+saro:socket.io a saro:Tool ;
+	 rdfs:label "socket.io"
 
-<http://www.edsa-project.eu/skill/vb6>
-        ns3:lexicalValue  "vb6" .
+saro:vim a saro:Tool ;
+	 rdfs:label "vim"
 
-<http://www.edsa-project.eu/skill/salesforce>
-        ns3:lexicalValue  "salesforce" .
+saro:xmpp a saro:Product ;
+	 rdfs:label "xmpp"
 
-<http://www.edsa-project.eu/skill/zend>
-        ns3:lexicalValue  "zend" .
+saro:djangoRestFramework a saro:Product ;
+	 rdfs:label "django rest framework"
 
-<http://www.edsa-project.eu/skill/apex>
-        ns3:lexicalValue  "apex" .
+saro:qml a saro:Tool ;
+	 rdfs:label "qml"
 
-<http://www.edsa-project.eu/skill/ui>
-        ns3:lexicalValue  "ui" .
+saro:pii a saro:Product ;
+	 rdfs:label "pii"
 
-<http://www.edsa-project.eu/skill/hbase>
-        ns3:lexicalValue  "hbase" .
+saro:winforms a saro:Tool ;
+	 rdfs:label "winforms"
 
-<http://www.edsa-project.eu/skill/analysis>
-        ns3:lexicalValue  "analysis" .
+saro:spark a saro:Product ;
+	 rdfs:label "spark"
 
-<http://www.edsa-project.eu/skill/comp>
-        ns3:lexicalValue  "comp" .
+saro:gpu a saro:Topic ;
+	 rdfs:label "gpu"
 
-<http://www.edsa-project.eu/skill/reporting>
-        ns3:lexicalValue  "reporting" .
+saro:ios7 a saro:Product ;
+	 rdfs:label "ios7"
 
-<http://www.edsa-project.eu/skill/iphone>
-        ns3:lexicalValue  "iphone" .
+saro:refactoring a saro:Topic ;
+	 rdfs:label "refactoring"
 
-<http://www.edsa-project.eu/skill/angular.js>
-        ns3:lexicalValue  "angular.js" .
+saro:wireshark a saro:Product ;
+	 rdfs:label "wireshark"
 
-<http://www.edsa-project.eu/skill/software-engineering>
-        ns3:lexicalValue  "software engineering" .
+saro:jsf a saro:Tool ;
+	 rdfs:label "jsf"
 
-<http://www.edsa-project.eu/skill/ssrs-2008>
-        ns3:lexicalValue  "ssrs 2008" .
+saro:couchbase a saro:Product ;
+	 rdfs:label "couchbase"
 
-<http://www.edsa-project.eu/skill/delphi>
-        ns3:lexicalValue  "delphi" .
+saro:saas a saro:Topic ;
+	 rdfs:label "saas"
 
-<http://www.edsa-project.eu/skill/dts>
-        ns3:lexicalValue  "dts" .
+saro:dataModeling a saro:Topic ;
+	 rdfs:label "data modeling"
 
-<http://www.edsa-project.eu/skill/asic>
-        ns3:lexicalValue  "asic" .
+saro:gwt a saro:Product ;
+	 rdfs:label "gwt"
 
-<http://www.edsa-project.eu/skill/machine-learning>
-        ns3:lexicalValue  "machine learning" .
+saro:celery a saro:Product ;
+	 rdfs:label "celery"
 
-<http://www.edsa-project.eu/skill/nio>
-        ns3:lexicalValue  "nio" .
+saro:frontEnd a saro:Topic ;
+	 rdfs:label "front end"
 
-<http://www.edsa-project.eu/skill/statistics>
-        ns3:lexicalValue  "statistics" .
+saro:ldap a saro:Tool ;
+	 rdfs:label "ldap"
 
-<http://www.edsa-project.eu/skill/oneplus>
-        ns3:lexicalValue  "oneplus" .
+saro:webFrameworks a saro:Topic ;
+	 rdfs:label "web frameworks"
 
-<http://www.edsa-project.eu/skill/sharepoint-2010>
-        ns3:lexicalValue  "sharepoint 2010" .
+saro:scrapy a saro:Tool ;
+	 rdfs:label "scrapy"
 
-<http://www.edsa-project.eu/skill/sysadmin>
-        ns3:lexicalValue  "sysadmin" .
+saro:ionicFramework a saro:Product ;
+	 rdfs:label "ionic framework"
 
-<http://www.edsa-project.eu/skill/soap>
-        ns3:lexicalValue  "soap" .
+saro:rxJava a saro:Tool ;
+	 rdfs:label "rx java"
 
-<http://www.edsa-project.eu/skill/computer-science>
-        ns3:lexicalValue  "computer science" .
+saro:mvc a saro:Topic ;
+	 rdfs:label "mvc"
 
-<http://www.edsa-project.eu/skill/win32>
-        ns3:lexicalValue  "win32" .
+saro:concurrentProgramming a saro:Topic ;
+	 rdfs:label "concurrent programming"
 
-<http://www.edsa-project.eu/skill/zend-framework>
-        ns3:lexicalValue  "zend framework" .
+saro:symfony a saro:Tool ;
+	 rdfs:label "symfony"
 
-<http://www.edsa-project.eu/skill/haskell>
-        ns3:lexicalValue  "haskell" .
+saro:osgi a saro:Product ;
+	 rdfs:label "osgi"
 
-<http://www.edsa-project.eu/skill/prototype>
-        ns3:lexicalValue  "prototype" .
+saro:lua a saro:Tool ;
+	 rdfs:label "lua"
 
-<http://www.edsa-project.eu/skill/datomic>
-        ns3:lexicalValue  "datomic" .
+saro:goGolang a saro:Tool ;
+	 rdfs:label "go golang"
 
-<http://www.edsa-project.eu/skill/modeling>
-        ns3:lexicalValue  "modeling" .
+saro:struts a saro:Tool ;
+	 rdfs:label "struts"
 
-<http://www.edsa-project.eu/skill/debugging>
-        ns3:lexicalValue  "debugging" .
+saro:labview a saro:Tool ;
+	 rdfs:label "labview"
 
-<http://www.edsa-project.eu/skill/visualization>
-        ns3:lexicalValue  "visualization" .
+saro:amazonEc2 a saro:Tool ;
+	 rdfs:label "amazon ec2"
 
-<http://www.edsa-project.eu/skill/business-intelligence>
-        ns3:lexicalValue  "business intelligence" .
+saro:nio a saro:Tool ;
+	 rdfs:label "nio"
 
-<http://www.edsa-project.eu/skill/ultrasound>
-        ns3:lexicalValue  "ultrasound" .
+saro:logAnalysis a saro:Tool ;
+	 rdfs:label "log analysis"
 
-<http://www.edsa-project.eu/skill/mvc>
-        ns3:lexicalValue  "mvc" .
+saro:arm a saro:Tool ;
+	 rdfs:label "arm"
 
-<http://www.edsa-project.eu/skill/hybernate>
-        ns3:lexicalValue  "hybernate" .
+saro:complexEventProcessing a saro:Topic ;
+	 rdfs:label "complex event processing"
 
-<http://www.edsa-project.eu/skill/google-app-engine>
-        ns3:lexicalValue  "google app engine" .
+saro:pentaho a saro:Product ;
+	 rdfs:label "pentaho"
 
-<http://www.edsa-project.eu/skill/regression-testing>
-        ns3:lexicalValue  "regression testing" .
+saro:hive a saro:Tool ;
+	 rdfs:label "hive"
 
-<http://www.edsa-project.eu/skill/web-frontend>
-        ns3:lexicalValue  "web frontend" .
+saro:stl a saro:Topic ;
+	 rdfs:label "stl"
 
-<http://www.edsa-project.eu/skill/pentaho>
-        ns3:lexicalValue  "pentaho" .
+saro:userExperience a saro:TransversalSkill ;
+	 rdfs:label "user experience"
 
-<http://www.edsa-project.eu/skill/amazon-emr>
-        ns3:lexicalValue  "amazon emr" .
+saro:compiler a saro:Topic ;
+	 rdfs:label "compiler"
 
-<http://www.edsa-project.eu/skill/java-8>
-        ns3:lexicalValue  "java 8" .
+saro:rabbitmq a saro:Tool ;
+	 rdfs:label "rabbitmq"
 
-<http://www.edsa-project.eu/skill/web-analytics>
-        ns3:lexicalValue  "web analytics" .
+saro:scripting a saro:Tool ;
+	 rdfs:label "scripting"
 
-<http://www.edsa-project.eu/skill/tbb>
-        ns3:lexicalValue  "tbb" .
+saro:finance a saro:Topic ;
+	 rdfs:label "finance"
 
-<http://www.edsa-project.eu/skill/amazon-s3>
-        ns3:lexicalValue  "amazon s3" .
+saro:customerSupport a saro:Topic ;
+	 rdfs:label "customer support"
 
-<http://www.edsa-project.eu/skill/swift>
-        ns3:lexicalValue  "swift" .
+saro:ios a saro:Product ;
+	 rdfs:label "ios"
 
-<http://www.edsa-project.eu/skill/google-play-services>
-        ns3:lexicalValue  "google play services" .
+saro:asic a saro:Product ;
+	 rdfs:label "asic"
 
-<http://www.edsa-project.eu/skill/c#-3.0>
-        ns3:lexicalValue  "c#-3.0" .
+saro:json a saro:Product ;
+	 rdfs:label "json"
 
-<http://www.edsa-project.eu/skill/newsgator>
-        ns3:lexicalValue  "newsgator" .
+saro:coreos a saro:Product ;
+	 rdfs:label "coreos"
 
-<http://www.edsa-project.eu/skill/laser>
-        ns3:lexicalValue  "laser" .
+saro:react a saro:Tool ;
+	 rdfs:label "react"
 
-<http://www.edsa-project.eu/skill/flux>
-        ns3:lexicalValue  "flux" .
+saro:databaseAdministration a saro:Topic ;
+	 rdfs:label "database administration"
 
-<http://www.edsa-project.eu/skill/plsql>
-        ns3:lexicalValue  "plsql" .
+saro:dsl a saro:Topic ;
+	 rdfs:label "dsl"
 
-<http://www.edsa-project.eu/skill/mvvm>
-        ns3:lexicalValue  "mvvm" .
+saro:sqlAzure a saro:Product ;
+	 rdfs:label "sql azure"
 
-<http://www.edsa-project.eu/skill/groovy>
-        ns3:lexicalValue  "groovy" .
+saro:monitoring a saro:Topic ;
+	 rdfs:label "monitoring"
 
-<http://www.edsa-project.eu/skill/sencha>
-        ns3:lexicalValue  "sencha" .
+saro:sitecore a saro:Product ;
+	 rdfs:label "sitecore"
 
-<http://www.edsa-project.eu/skill/jboss>
-        ns3:lexicalValue  "jboss" .
+saro:oracle11g a saro:Product ;
+	 rdfs:label "oracle11g"
 
-<http://www.edsa-project.eu/skill/selenium-webdriver>
-        ns3:lexicalValue  "selenium webdriver" .
+saro:atlassian a saro:Tool ;
+	 rdfs:label "atlassian"
 
-<http://www.edsa-project.eu/skill/mysql>
-        ns3:lexicalValue  "mysql" .
+saro:hpc a saro:Product ;
+	 rdfs:label "hpc"
 
-<http://www.edsa-project.eu/skill/design>
-        ns3:lexicalValue  "design" .
+saro:m2m a saro:Topic ;
+	 rdfs:label "m2m"
 
-<http://www.edsa-project.eu/skill/coldfusion>
-        ns3:lexicalValue  "coldfusion" .
+saro:performanceTesting a saro:Topic ;
+	 rdfs:label "performance testing"
 
-<http://www.edsa-project.eu/skill/centos>
-        ns3:lexicalValue  "centos" .
+saro:neo4j a saro:Product ;
+	 rdfs:label "neo4j"
 
-<http://www.edsa-project.eu/skill/object-oriented-analysis>
-        ns3:lexicalValue  "object oriented analysis" .
+saro:c++11 a saro:Tool ;
+	 rdfs:label "c++11"
 
-<http://www.edsa-project.eu/skill/linux-kernel>
-        ns3:lexicalValue  "linux kernel" .
+saro:dojo a saro:Tool ;
+	 rdfs:label "dojo"
 
-<http://www.edsa-project.eu/skill/device-driver>
-        ns3:lexicalValue  "device driver" .
+saro:orchestration a saro:Topic ;
+	 rdfs:label "orchestration"
 
-<http://www.edsa-project.eu/skill/aem>
-        ns3:lexicalValue  "aem" .
+saro:troubleshooting a saro:Topic ;
+	 rdfs:label "troubleshooting"
 
-<http://www.edsa-project.eu/skill/rdf>
-        ns3:lexicalValue  "rdf" .
+saro:backend a saro:Topic ;
+	 rdfs:label "backend"
 
-<http://www.edsa-project.eu/skill/marionette>
-        ns3:lexicalValue  "marionette" .
+saro:modelViewController a saro:Topic ;
+	 rdfs:label "model view controller"
 
-<http://www.edsa-project.eu/skill/product-management>
-        ns3:lexicalValue  "product management" .
+saro:lambda a saro:Product ;
+	 rdfs:label "lambda"
 
-<http://www.edsa-project.eu/skill/dojo>
-        ns3:lexicalValue  "dojo" .
+saro:fortran a saro:Tool ;
+	 rdfs:label "fortran"
 
-<http://www.edsa-project.eu/skill/3d>
-        ns3:lexicalValue  "3d" .
+saro:erp a saro:Product ;
+	 rdfs:label "erp"
 
-<http://www.edsa-project.eu/skill/extreme-programming>
-        ns3:lexicalValue  "extreme programming" .
+saro:jmeter a saro:Tool ;
+	 rdfs:label "jmeter"
 
-<http://www.edsa-project.eu/skill/backbone.js>
-        ns3:lexicalValue  "backbone.js" .
+saro:retrolambda a saro:Tool ;
+	 rdfs:label "retrolambda"
 
-<http://www.edsa-project.eu/skill/linq>
-        ns3:lexicalValue  "linq" .
+saro:buildAutomation a saro:Topic ;
+	 rdfs:label "build automation"
 
-<http://www.edsa-project.eu/skill/django>
-        ns3:lexicalValue  "django" .
+saro:shell a saro:Tool ;
+	 rdfs:label "shell"
 
-<http://www.edsa-project.eu/skill/scientific-computing>
-        ns3:lexicalValue  "scientific computing" .
+saro:productManagement a saro:Topic ;
+	 rdfs:label "product management"
 
-<http://www.edsa-project.eu/skill/rx-java>
-        ns3:lexicalValue  "rx-java" .
+saro:unity a saro:Product ;
+	 rdfs:label "unity"
 
-<http://www.edsa-project.eu/skill/dom>
-        ns3:lexicalValue  "dom" .
+saro:apacheCamel a saro:Tool ;
+	 rdfs:label "apache camel"
 
-<http://www.edsa-project.eu/skill/unity>
-        ns3:lexicalValue  "unity" .
+saro:owasp a saro:Tool ;
+	 rdfs:label "owasp"
 
-<http://www.edsa-project.eu/skill/orchestration>
-        ns3:lexicalValue  "orchestration" .
+saro:javaEE a saro:Tool ;
+	 rdfs:label "java-ee"
 
-<http://www.edsa-project.eu/skill/restful-architecture>
-        ns3:lexicalValue  "restful architecture" .
+saro:groovy a saro:Tool ;
+	 rdfs:label "groovy"
 
-<http://www.edsa-project.eu/skill/continuous-deployment>
-        ns3:lexicalValue  "continuous deployment" .
+saro:pubnub a saro:Product ;
+	 rdfs:label "pubnub"
 
-<http://www.edsa-project.eu/skill/cvs>
-        ns3:lexicalValue  "cvs" .
+saro:storage a saro:Topic ;
+	 rdfs:label "storage"
 
-<http://www.edsa-project.eu/skill/business-objects>
-        ns3:lexicalValue  "business objects" .
+saro:soap a saro:Tool ;
+	 rdfs:label "soap"
 
-<http://www.edsa-project.eu/skill/visualforce>
-        ns3:lexicalValue  "visualforce" .
+saro:disassembling a saro:Topic ;
+	 rdfs:label "disassembling"
 
-<http://www.edsa-project.eu/skill/wave>
-        ns3:lexicalValue  "wave" .
+saro:relationalDatabase a saro:Topic ;
+	 rdfs:label "relational database"
 
-<http://www.edsa-project.eu/skill/nunit>
-        ns3:lexicalValue  "nunit" .
+saro:pciDss a saro:Tool ;
+	 rdfs:label "pci dss"
 
-<http://www.edsa-project.eu/skill/ansible>
-        ns3:lexicalValue  "ansible" .
+saro:devexpress a saro:Product ;
+	 rdfs:label "devexpress"
 
-<http://www.edsa-project.eu/skill/aws-sdk>
-        ns3:lexicalValue  "aws-sdk" .
+saro:durandal a saro:Product ;
+	 rdfs:label "durandal"
 
-<http://www.edsa-project.eu/skill/rhel7>
-        ns3:lexicalValue  "rhel7" .
+saro:tcpip a saro:Tool ;
+	 rdfs:label "tcpip"
 
-<http://www.edsa-project.eu/skill/nines>
-        ns3:lexicalValue  "nines" .
+saro:algorithmicTrading a saro:Topic ;
+	 rdfs:label "algorithmic trading"
 
-<http://www.edsa-project.eu/skill/system-administration>
-        ns3:lexicalValue  "system administration" .
+saro:webAnalytics a saro:Topic ;
+	 rdfs:label "web analytics"
 
-<http://www.edsa-project.eu/skill/django-rest-framework>
-        ns3:lexicalValue  "django rest framework" .
+saro:webFrontend a saro:Topic ;
+	 rdfs:label "web frontend"
 
-<http://www.edsa-project.eu/skill/erp>
-        ns3:lexicalValue  "erp" .
+saro:prototype a saro:Topic ;
+	 rdfs:label "prototype"
 
-<http://www.edsa-project.eu/skill/sql-azure>
-        ns3:lexicalValue  "sql azure" .
+saro:continuousIntegration a saro:Topic ;
+	 rdfs:label "continuous integration"
 
-<http://www.edsa-project.eu/skill/svn>
-        ns3:lexicalValue  "svn" .
+saro:rhel7 a saro:Product ;
+	 rdfs:label "rhel7"
 
-<http://www.edsa-project.eu/skill/disaster-recovery>
-        ns3:lexicalValue  "disaster recovery" .
+saro:sysadmin a saro:Tool ;
+	 rdfs:label "sysadmin"
 
-<http://www.edsa-project.eu/skill/video-streaming>
-        ns3:lexicalValue  "video streaming" .
+saro:asp.net a saro:Tool ;
+	 rdfs:label "asp.net"
 
-<http://www.edsa-project.eu/skill/struts>
-        ns3:lexicalValue  "struts" .
+saro:numpy a saro:Tool ;
+	 rdfs:label "numpy"
 
-<http://www.edsa-project.eu/skill/silverlight>
-        ns3:lexicalValue  "silverlight" .
+saro:mesos a saro:Tool ;
+	 rdfs:label "mesos"
 
-<http://www.edsa-project.eu/skill/.net-framework>
-        ns3:lexicalValue  ".net-framework" .
+saro:docker a saro:Product ;
+	 rdfs:label "docker"
 
-<http://www.edsa-project.eu/skill/boost>
-        ns3:lexicalValue  "boost" .
+saro:knockout.js a saro:Tool ;
+	 rdfs:label "knockout.js"
 
-<http://www.edsa-project.eu/skill/lxc>
-        ns3:lexicalValue  "lxc" .
+saro:iis a saro:Product ;
+	 rdfs:label "iis"
 
-<http://www.edsa-project.eu/skill/agile-processes>
-        ns3:lexicalValue  "agile processes" .
+saro:systemAdministration a saro:Topic ;
+	 rdfs:label "system administration"
 
-<http://www.edsa-project.eu/skill/sybase>
-        ns3:lexicalValue  "sybase" .
+saro:lamp a saro:Product ;
+	 rdfs:label "lamp"
 
-<http://www.edsa-project.eu/skill/hibernate>
-        ns3:lexicalValue  "hibernate" .
+saro:geolocation a saro:Tool ;
+	 rdfs:label "geolocation"
 
-<http://www.edsa-project.eu/skill/arcgis>
-        ns3:lexicalValue  "arcgis" .
+saro:pyramid a saro:Product ;
+	 rdfs:label "pyramid"
 
-<http://www.edsa-project.eu/skill/netapp>
-        ns3:lexicalValue  "netapp" .
+saro:uml a saro:Tool ;
+	 rdfs:label "uml"
 
-<http://www.edsa-project.eu/skill/cc++>
-        ns3:lexicalValue  "cc++" .
+saro:puppet a saro:Tool ;
+	 rdfs:label "puppet"
 
-<http://www.edsa-project.eu/skill/version-control>
-        ns3:lexicalValue  "version control" .
+saro:ospf a saro:Topic ;
+	 rdfs:label "ospf"
 
-<http://www.edsa-project.eu/skill/amazon-redshift>
-        ns3:lexicalValue  "amazon redshift" .
+saro:oracleSql a saro:Product ;
+	 rdfs:label "oracle sql"
 
-<http://www.edsa-project.eu/skill/lua>
-        ns3:lexicalValue  "lua" .
+saro:storedProcedures a saro:Topic ;
+	 rdfs:label "stored procedures"
 
-<http://www.edsa-project.eu/skill/trac>
-        ns3:lexicalValue  "trac" .
+saro:gis a saro:Topic ;
+	 rdfs:label "gis"
 
-<http://www.edsa-project.eu/skill/ssrs>
-        ns3:lexicalValue  "ssrs" .
+saro:osmdroid a saro:Tool ;
+	 rdfs:label "osmdroid"
 
-<http://www.edsa-project.eu/skill/python>
-        ns3:lexicalValue  "python" .
+saro:nlp a saro:Topic ;
+	 rdfs:label "nlp"
 
-<http://www.edsa-project.eu/skill/playframework>
-        ns3:lexicalValue  "playframework" .
+saro:distributedComputing a saro:Topic ;
+	 rdfs:label "distributed computing"
 
-<http://www.edsa-project.eu/skill/architect>
-        ns3:lexicalValue  "architect" .
+saro:jruby a saro:Tool ;
+	 rdfs:label "jruby"
 
-<http://www.edsa-project.eu/skill/tfs>
-        ns3:lexicalValue  "tfs" .
+saro:sales a saro:TransversalSkill ;
+	 rdfs:label "sales"
 
-<http://www.edsa-project.eu/skill/pig>
-        ns3:lexicalValue  "pig" .
+saro:webforms a saro:Topic ;
+	 rdfs:label "webforms"
 
-<http://www.edsa-project.eu/skill/redhat>
-        ns3:lexicalValue  "redhat" .
+saro:userInterface a saro:Topic ;
+	 rdfs:label "user interface"
 
-<http://www.edsa-project.eu/skill/cocoa-touch>
-        ns3:lexicalValue  "cocoa touch" .
+saro:apacheSparkSql a saro:Product ;
+	 rdfs:label "apache spark sql"
 
-<http://www.edsa-project.eu/skill/data-engineer>
-        ns3:lexicalValue  "data engineer" .
+saro:cocoa a saro:Tool ;
+	 rdfs:label "cocoa"
 
-<http://www.edsa-project.eu/skill/stored-procedures>
-        ns3:lexicalValue  "stored procedures" .
+saro:linuxUnix a saro:Product ;
+	 rdfs:label "linux unix"
 
-<http://www.edsa-project.eu/skill/software-engineer>
-        ns3:lexicalValue  "software engineer" .
-
-<http://www.edsa-project.eu/skill/falcor>
-        ns3:lexicalValue  "falcor" .
-
-<http://www.edsa-project.eu/skill/mean-stack>
-        ns3:lexicalValue  "mean stack" .
-
-<http://www.edsa-project.eu/skill/winforms>
-        ns3:lexicalValue  "winforms" .
-
-<http://www.edsa-project.eu/skill/iis-7>
-        ns3:lexicalValue  "iis-7" .
-
-<http://www.edsa-project.eu/skill/nas>
-        ns3:lexicalValue  "nas" .
-
-<http://www.edsa-project.eu/skill/nancy>
-        ns3:lexicalValue  "nancy" .
-
-<http://www.edsa-project.eu/skill/solr>
-        ns3:lexicalValue  "solr" .
-
-<http://www.edsa-project.eu/skill/iis>
-        ns3:lexicalValue  "iis" .
-
-<http://www.edsa-project.eu/skill/virtualization>
-        ns3:lexicalValue  "virtualization" .
-
-<http://www.edsa-project.eu/skill/command-line>
-        ns3:lexicalValue  "command line" .
-
-<http://www.edsa-project.eu/skill/pubnub>
-        ns3:lexicalValue  "pubnub" .
-
-<http://www.edsa-project.eu/skill/edi>
-        ns3:lexicalValue  "edi" .
-
-<http://www.edsa-project.eu/skill/php>
-        ns3:lexicalValue  "php" .
-
-<http://www.edsa-project.eu/skill/boost-python>
-        ns3:lexicalValue  "boost python" .
-
-<http://www.edsa-project.eu/skill/java-ee>
-        ns3:lexicalValue  "java-ee" .
-
-<http://www.edsa-project.eu/skill/database-design>
-        ns3:lexicalValue  "database design" .
-
-<http://www.edsa-project.eu/skill/rom>
-        ns3:lexicalValue  "rom" .
-
-<http://www.edsa-project.eu/skill/nodejs>
-        ns3:lexicalValue  "nodejs" .
-
-<http://www.edsa-project.eu/skill/hl7>
-        ns3:lexicalValue  "hl7" .
-
-<http://www.edsa-project.eu/skill/peoplesoft>
-        ns3:lexicalValue  "peoplesoft" .
-
-<http://www.edsa-project.eu/skill/apache-spark>
-        ns3:lexicalValue  "apache spark" .
-
-<http://www.edsa-project.eu/skill/rhel>
-        ns3:lexicalValue  "rhel" .
-
-<http://www.edsa-project.eu/skill/mgmt>
-        ns3:lexicalValue  "mgmt" .
-
-<http://www.edsa-project.eu/skill/scripting-language>
-        ns3:lexicalValue  "scripting language" .
-
-<http://www.edsa-project.eu/skill/openstack>
-        ns3:lexicalValue  "openstack" .
-
-<http://www.edsa-project.eu/skill/tcl>
-        ns3:lexicalValue  "tcl" .
-
-<http://www.edsa-project.eu/skill/llvm>
-        ns3:lexicalValue  "llvm" .
-
-<http://www.edsa-project.eu/skill/paas>
-        ns3:lexicalValue  "paas" .
-
-<http://www.edsa-project.eu/skill/symfony>
-        ns3:lexicalValue  "symfony" .
-
-<http://www.edsa-project.eu/skill/erlang>
-        ns3:lexicalValue  "erlang" .
-
-<http://www.edsa-project.eu/skill/jbehave>
-        ns3:lexicalValue  "jbehave" .
-
-<http://www.edsa-project.eu/skill/webapplications>
-        ns3:lexicalValue  "webapplications" .
-
-<http://www.edsa-project.eu/skill/hpc>
-        ns3:lexicalValue  "hpc" .
-
-<http://www.edsa-project.eu/skill/smpp>
-        ns3:lexicalValue  "smpp" .
-
-<http://www.edsa-project.eu/skill/google-analytics-api>
-        ns3:lexicalValue  "google analytics api" .
-
-<http://www.edsa-project.eu/skill/relational-databases>
-        ns3:lexicalValue  "relational databases" .
-
-<http://www.edsa-project.eu/skill/hive>
-        ns3:lexicalValue  "hive" .
-
-<http://www.edsa-project.eu/skill/sdn>
-        ns3:lexicalValue  "sdn" .
-
-<http://www.edsa-project.eu/skill/office365>
-        ns3:lexicalValue  "office365" .
-
-<http://www.edsa-project.eu/skill/data-science>
-        ns3:lexicalValue  "data science" .
-
-<http://www.edsa-project.eu/skill/c++0x>
-        ns3:lexicalValue  "c++0x" .
-
-<http://www.edsa-project.eu/skill/network-programming>
-        ns3:lexicalValue  "network programming" .
-
-<http://www.edsa-project.eu/skill/fullstack>
-        ns3:lexicalValue  "fullstack" .
-
-<http://www.edsa-project.eu/skill/web-component>
-        ns3:lexicalValue  "web component" .
-
-<http://www.edsa-project.eu/skill/data-conversion>
-        ns3:lexicalValue  "data conversion" .
-
-<http://www.edsa-project.eu/skill/objective-c>
-        ns3:lexicalValue  "objective-c" .
-
-<http://www.edsa-project.eu/skill/node.js>
-        ns3:lexicalValue  "node.js" .
-
-<http://www.edsa-project.eu/skill/tsql>
-        ns3:lexicalValue  "tsql" .
-
-<http://www.edsa-project.eu/skill/asp.net>
-        ns3:lexicalValue  "asp.net" .
-
-<http://www.edsa-project.eu/skill/postgis>
-        ns3:lexicalValue  "postgis" .
-
-<http://www.edsa-project.eu/skill/vb.net>
-        ns3:lexicalValue  "vb.net" .
-
-<http://www.edsa-project.eu/skill/junit>
-        ns3:lexicalValue  "junit" .
-
-<http://www.edsa-project.eu/skill/github>
-        ns3:lexicalValue  "github" .
-
-<http://www.edsa-project.eu/skill/yii>
-        ns3:lexicalValue  "yii" .
-
-<http://www.edsa-project.eu/skill/dhtml>
-        ns3:lexicalValue  "dhtml" .
-
-<http://www.edsa-project.eu/skill/wolfram-mathematica>
-        ns3:lexicalValue  "wolfram mathematica" .
-
-<http://www.edsa-project.eu/skill/lead-developer>
-        ns3:lexicalValue  "lead developer" .
-
-<http://www.edsa-project.eu/skill/sales>
-        ns3:lexicalValue  "sales" .
-
-<http://www.edsa-project.eu/skill/c++>
-        ns3:lexicalValue  "c++" .
-
-<http://www.edsa-project.eu/skill/microservices>
-        ns3:lexicalValue  "microservices" .
-
-<http://www.edsa-project.eu/skill/relational-database>
-        ns3:lexicalValue  "relational database" .
-
-<http://www.edsa-project.eu/skill/titanium-mobile>
-        ns3:lexicalValue  "titanium mobile" .
-
-<http://www.edsa-project.eu/skill/algorithmic-trading>
-        ns3:lexicalValue  "algorithmic trading" .
-
-<http://www.edsa-project.eu/skill/rtos>
-        ns3:lexicalValue  "rtos" .
-
-<http://www.edsa-project.eu/skill/psql>
-        ns3:lexicalValue  "psql" .
-
-<http://www.edsa-project.eu/skill/udp>
-        ns3:lexicalValue  "udp" .
-
-<http://www.edsa-project.eu/skill/jee>
-        ns3:lexicalValue  "jee" .
-
-<http://www.edsa-project.eu/skill/html5>
-        ns3:lexicalValue  "html5" .
-
-<http://www.edsa-project.eu/skill/supercomputers>
-        ns3:lexicalValue  "supercomputers" .
-
-<http://www.edsa-project.eu/skill/cocoa>
-        ns3:lexicalValue  "cocoa" .
-
-<http://www.edsa-project.eu/skill/xaml>
-        ns3:lexicalValue  "xaml" .
-
-<http://www.edsa-project.eu/skill/ms-office>
-        ns3:lexicalValue  "ms office" .
-
-<http://www.edsa-project.eu/skill/elixir>
-        ns3:lexicalValue  "elixir" .
-
-<http://www.edsa-project.eu/skill/cisco>
-        ns3:lexicalValue  "cisco" .
-
-<http://www.edsa-project.eu/skill/concurrent-programming>
-        ns3:lexicalValue  "concurrent programming" .
-
-<http://www.edsa-project.eu/skill/togaf>
-        ns3:lexicalValue  "togaf" .
-
-<http://www.edsa-project.eu/skill/ajax>
-        ns3:lexicalValue  "ajax" .
-
-<http://www.edsa-project.eu/skill/data-structures>
-        ns3:lexicalValue  "data structures" .
-
-<http://www.edsa-project.eu/skill/active-directory>
-        ns3:lexicalValue  "active-directory" .
-
-<http://www.edsa-project.eu/skill/t-sql>
-        ns3:lexicalValue  "t-sql" .
-
-<http://www.edsa-project.eu/skill/scrummaster>
-        ns3:lexicalValue  "scrum master" .
-
-<http://www.edsa-project.eu/skill/css>
-        ns3:lexicalValue  "css" .
-
-<http://www.edsa-project.eu/skill/osgi>
-        ns3:lexicalValue  "osgi" .
-
-<http://www.edsa-project.eu/skill/exchange-server>
-        ns3:lexicalValue  "exchange server" .
-
-<http://www.edsa-project.eu/skill/supervised-learning>
-        ns3:lexicalValue  "supervised learning" .
-
-<http://www.edsa-project.eu/skill/tableau>
-        ns3:lexicalValue  "tableau" .
-
-<http://www.edsa-project.eu/skill/adobecq>
-        ns3:lexicalValue  "adobecq" .
-
-<http://www.edsa-project.eu/skill/object-oriented-database>
-        ns3:lexicalValue  "object oriented database" .
-
-<http://www.edsa-project.eu/skill/vim>
-        ns3:lexicalValue  "vim" .
-
-<http://www.edsa-project.eu/skill/javaj2ee>
-        ns3:lexicalValue  "javaj2ee" .
-
-<http://www.edsa-project.eu/skill/etl>
-        ns3:lexicalValue  "etl" .
-
-<http://www.edsa-project.eu/skill/database-administration>
-        ns3:lexicalValue  "database administration" .
-
-<http://www.edsa-project.eu/skill/gis>
-        ns3:lexicalValue  "gis" .
-
-<http://www.edsa-project.eu/skill/yarn>
-        ns3:lexicalValue  "yarn" .
-
-<http://www.edsa-project.eu/skill/cuda>
-        ns3:lexicalValue  "cuda" .
-
-<http://www.edsa-project.eu/skill/storm>
-        ns3:lexicalValue  "storm" .
-
-<http://www.edsa-project.eu/skill/zookeeper>
-        ns3:lexicalValue  "zookeeper" .
-
-<http://www.edsa-project.eu/skill/vba>
-        ns3:lexicalValue  "vba" .
-
-<http://www.edsa-project.eu/skill/parallel-processing>
-        ns3:lexicalValue  "parallel processing" .
-
-<http://www.edsa-project.eu/skill/bash>
-        ns3:lexicalValue  "bash" .
-
-<http://www.edsa-project.eu/skill/gruntjs>
-        ns3:lexicalValue  "gruntjs" .
-
-<http://www.edsa-project.eu/skill/cobol>
-        ns3:lexicalValue  "cobol" .
-
-<http://www.edsa-project.eu/skill/semantic-web>
-        ns3:lexicalValue  "semantic web" .
-
-<http://www.edsa-project.eu/skill/excel-vba>
-        ns3:lexicalValue  "excel vba" .
-
-<http://www.edsa-project.eu/skill/spring>
-        ns3:lexicalValue  "spring" .
-
-<http://www.edsa-project.eu/skill/capybara>
-        ns3:lexicalValue  "capybara" .
-
-<http://www.edsa-project.eu/skill/pii>
-        ns3:lexicalValue  "pii" .
-
-<http://www.edsa-project.eu/skill/meteor>
-        ns3:lexicalValue  "meteor" .
-
-<http://www.edsa-project.eu/skill/wordpress>
-        ns3:lexicalValue  "wordpress" .
-
-<http://www.edsa-project.eu/skill/static-analysis>
-        ns3:lexicalValue  "static analysis" .
-
-<http://www.edsa-project.eu/skill/resin>
-        ns3:lexicalValue  "resin" .
-
-<http://www.edsa-project.eu/skill/fortran>
-        ns3:lexicalValue  "fortran" .
-
-<http://www.edsa-project.eu/skill/glsl>
-        ns3:lexicalValue  "glsl" .
-
-<http://www.edsa-project.eu/skill/hadoop>
-        ns3:lexicalValue  "hadoop" .
-
-<http://www.edsa-project.eu/skill/ieee>
-        ns3:lexicalValue  "ieee" .
-
-<http://www.edsa-project.eu/skill/opengl-es-2.0>
-        ns3:lexicalValue  "opengl-es-2.0" .
-
-<http://www.edsa-project.eu/skill/eclipse-plugin>
-        ns3:lexicalValue  "eclipse plugin" .
-
-<http://www.edsa-project.eu/skill/chef-recipe>
-        ns3:lexicalValue  "chef recipe" .
-
-<http://www.edsa-project.eu/skill/tomcat>
-        ns3:lexicalValue  "tomcat" .
-
-<http://www.edsa-project.eu/skill/r>
-        ns3:lexicalValue  "r" .
-
-<http://www.edsa-project.eu/skill/postgresql>
-        ns3:lexicalValue  "postgresql" .
-
-<http://www.edsa-project.eu/skill/nginx>
-        ns3:lexicalValue  "nginx" .
-
-<http://www.edsa-project.eu/skill/sas>
-        ns3:lexicalValue  "sas" .
-
-<http://www.edsa-project.eu/skill/agile>
-        ns3:lexicalValue  "agile" .
-
-<http://www.edsa-project.eu/skill/episerver>
-        ns3:lexicalValue  "episerver" .
-
-<http://www.edsa-project.eu/skill/fintech>
-        ns3:lexicalValue  "fintech" .
-
-<http://www.edsa-project.eu/skill/twisted>
-        ns3:lexicalValue  "twisted" .
-
-<http://www.edsa-project.eu/skill/domain-driven-design>
-        ns3:lexicalValue  "domain driven design" .
-
-<http://www.edsa-project.eu/skill/data-binding>
-        ns3:lexicalValue  "data binding" .
-
-<http://www.edsa-project.eu/skill/dns>
-        ns3:lexicalValue  "dns" .
-
-<http://www.edsa-project.eu/skill/uml>
-        ns3:lexicalValue  "uml" .
-
-<http://www.edsa-project.eu/skill/java>
-        ns3:lexicalValue  "java" .
-
-<http://www.edsa-project.eu/skill/photoshop>
-        ns3:lexicalValue  "photoshop" .
-
-<http://www.edsa-project.eu/skill/eclipse>
-        ns3:lexicalValue  "eclipse" .
-
-<http://www.edsa-project.eu/skill/unix>
-        ns3:lexicalValue  "unix" .
-
-<http://www.edsa-project.eu/skill/heroku>
-        ns3:lexicalValue  "heroku" .
-
-<http://www.edsa-project.eu/skill/sqoop>
-        ns3:lexicalValue  "sqoop" .
-
-<http://www.edsa-project.eu/skill/websphere>
-        ns3:lexicalValue  "websphere" .
-
-<http://www.edsa-project.eu/skill/qt>
-        ns3:lexicalValue  "qt" .
-
-<http://www.edsa-project.eu/skill/powerbuilder>
-        ns3:lexicalValue  "powerbuilder" .
-
-<http://www.edsa-project.eu/skill/netty>
-        ns3:lexicalValue  "netty" .
-
-<http://www.edsa-project.eu/skill/ruby-on-rails-3>
-        ns3:lexicalValue  "ruby on rails 3" .
-
-<http://www.edsa-project.eu/skill/simulation>
-        ns3:lexicalValue  "simulation" .
-
-<http://www.edsa-project.eu/skill/cloudfoundry>
-        ns3:lexicalValue  "cloudfoundry" .
-
-<http://www.edsa-project.eu/skill/grid-computing>
-        ns3:lexicalValue  "grid computing" .
-
-<http://www.edsa-project.eu/skill/web-services>
-        ns3:lexicalValue  "web services" .
-
-<http://www.edsa-project.eu/skill/sql-server-2014>
-        ns3:lexicalValue  "sql server 2014" .
-
-<http://www.edsa-project.eu/skill/twitter-bootstrap>
-        ns3:lexicalValue  "twitter bootstrap" .
-
-<http://www.edsa-project.eu/skill/gpu>
-        ns3:lexicalValue  "gpu" .
-
-<http://www.edsa-project.eu/skill/giraph>
-        ns3:lexicalValue  "giraph" .
-
-<http://www.edsa-project.eu/skill/.net-4.0>
-        ns3:lexicalValue  ".net-4.0" .
-
-<http://www.edsa-project.eu/skill/ios7>
-        ns3:lexicalValue  "ios7" .
-
-<http://www.edsa-project.eu/skill/mesos>
-        ns3:lexicalValue  "mesos" .
-
-<http://www.edsa-project.eu/skill/stl>
-        ns3:lexicalValue  "stl" .
-
-<http://www.edsa-project.eu/skill/mercurial>
-        ns3:lexicalValue  "mercurial" .
-
-<http://www.edsa-project.eu/skill/dropwizard>
-        ns3:lexicalValue  "dropwizard" .
-
-<http://www.edsa-project.eu/skill/reporting-services>
-        ns3:lexicalValue  "reporting services" .
-
-<http://www.edsa-project.eu/skill/iot>
-        ns3:lexicalValue  "iot" .
-
-<http://www.edsa-project.eu/skill/nlp>
-        ns3:lexicalValue  "nlp" .
-
-<http://www.edsa-project.eu/skill/restful-authentication>
-        ns3:lexicalValue  "restful authentication" .
-
-<http://www.edsa-project.eu/skill/oodesign>
-        ns3:lexicalValue  "oodesign" .
-
-<http://www.edsa-project.eu/skill/mybatis>
-        ns3:lexicalValue  "mybatis" .
-
-<http://www.edsa-project.eu/skill/data-warehouse>
-        ns3:lexicalValue  "data warehouse" .
-
-<http://www.edsa-project.eu/skill/jdbc>
-        ns3:lexicalValue  "jdbc" .
-
-<http://www.edsa-project.eu/skill/react>
-        ns3:lexicalValue  "react" .
-
-<http://www.edsa-project.eu/skill/css3>
-        ns3:lexicalValue  "css3" .
-
-<http://www.edsa-project.eu/skill/couchbase>
-        ns3:lexicalValue  "couchbase" .
-
-<http://www.edsa-project.eu/skill/cloudera>
-        ns3:lexicalValue  "cloudera" .
-
-<http://www.edsa-project.eu/skill/lmax>
-        ns3:lexicalValue  "lmax" .
-
-<http://www.edsa-project.eu/skill/socket.io>
-        ns3:lexicalValue  "socket.io" .
-
-<http://www.edsa-project.eu/skill/haml>
-        ns3:lexicalValue  "haml" .
-
-<http://www.edsa-project.eu/skill/m2m>
-        ns3:lexicalValue  "m2m" .
-
-<http://www.edsa-project.eu/skill/tools>
-        ns3:lexicalValue  "tools" .
-
-<http://www.edsa-project.eu/skill/x86>
-        ns3:lexicalValue  "x86" .
-
-<http://www.edsa-project.eu/skill/rest>
-        ns3:lexicalValue  "rest" .
-
-<http://www.edsa-project.eu/skill/math>
-        ns3:lexicalValue  "math" .
-
-<http://www.edsa-project.eu/skill/doctrine>
-        ns3:lexicalValue  "doctrine" .
-
-<http://www.edsa-project.eu/skill/user-interface>
-        ns3:lexicalValue  "user interface" .
-
-<http://www.edsa-project.eu/skill/varnish>
-        ns3:lexicalValue  "varnish" .
-
-<http://www.edsa-project.eu/skill/labview>
-        ns3:lexicalValue  "labview" .
-
-<http://www.edsa-project.eu/skill/fpga>
-        ns3:lexicalValue  "fpga" .
-
-<http://www.edsa-project.eu/skill/cloud>
-        ns3:lexicalValue  "cloud" .
-
-<http://www.edsa-project.eu/skill/cics>
-        ns3:lexicalValue  "cics" .
-
-<http://www.edsa-project.eu/skill/stateflow>
-        ns3:lexicalValue  "stateflow" .
-
-<http://www.edsa-project.eu/skill/shell>
-        ns3:lexicalValue  "shell" .
-
-<http://www.edsa-project.eu/skill/apache-spark-ml>
-        ns3:lexicalValue  "apache spark ml" .
-
-<http://www.edsa-project.eu/skill/sitecore>
-        ns3:lexicalValue  "sitecore" .
-
-<http://www.edsa-project.eu/skill/jquery>
-        ns3:lexicalValue  "jquery" .
-
-<http://www.edsa-project.eu/skill/ember.js>
-        ns3:lexicalValue  "ember.js" .
-
-<http://www.edsa-project.eu/skill/sympy>
-        ns3:lexicalValue  "sympy" .
-
-<http://www.edsa-project.eu/skill/.net>
-        ns3:lexicalValue  ".net" .
-
-<http://www.edsa-project.eu/skill/compiler>
-        ns3:lexicalValue  "compiler" .
-
-<http://www.edsa-project.eu/skill/data-mining>
-        ns3:lexicalValue  "data mining" .
-
-<http://www.edsa-project.eu/skill/agile-project-management>
-        ns3:lexicalValue  "agile project management" .
-
-<http://www.edsa-project.eu/skill/gpgpu>
-        ns3:lexicalValue  "gpgpu" .
-
-<http://www.edsa-project.eu/skill/image-processing>
-        ns3:lexicalValue  "image processing" .
-
-<http://www.edsa-project.eu/skill/nagios>
-        ns3:lexicalValue  "nagios" .
-
-<http://www.edsa-project.eu/skill/vowpalwabbit>
-        ns3:lexicalValue  "vowpalwabbit" .
-
-<http://www.edsa-project.eu/skill/android-studio>
-        ns3:lexicalValue  "android studio" .
-
-<http://www.edsa-project.eu/skill/perl>
-        ns3:lexicalValue  "perl" .
-
-<http://www.edsa-project.eu/skill/reverse-engineering>
-        ns3:lexicalValue  "reverse engineering" .
-
-<http://www.edsa-project.eu/skill/third-party-api>
-        ns3:lexicalValue  "third party api" .
-
-<http://www.edsa-project.eu/skill/vsam>
-        ns3:lexicalValue  "vsam" .
-
-<http://www.edsa-project.eu/skill/sdk>
-        ns3:lexicalValue  "sdk" .
-
-<http://www.edsa-project.eu/skill/storage>
-        ns3:lexicalValue  "storage" .
-
-<http://www.edsa-project.eu/skill/ipad>
-        ns3:lexicalValue  "ipad" .
-
-<http://www.edsa-project.eu/skill/tastypie>
-        ns3:lexicalValue  "tastypie" .
-
-<http://www.edsa-project.eu/skill/gradle>
-        ns3:lexicalValue  "gradle" .
-
-<http://www.edsa-project.eu/skill/osx>
-        ns3:lexicalValue  "osx" .
-
-<http://www.edsa-project.eu/skill/design-patterns>
-        ns3:lexicalValue  "design patterns" .
-
-<http://www.edsa-project.eu/skill/ms-access>
-        ns3:lexicalValue  "ms access" .
-
-<http://www.edsa-project.eu/skill/joomla>
-        ns3:lexicalValue  "joomla" .
-
-<http://www.edsa-project.eu/skill/automation>
-        ns3:lexicalValue  "automation" .
-
-<http://www.edsa-project.eu/skill/scipy>
-        ns3:lexicalValue  "scipy" .
-
-<http://www.edsa-project.eu/skill/iam>
-        ns3:lexicalValue  "iam" .
-
-<http://www.edsa-project.eu/skill/virtual-machine>
-        ns3:lexicalValue  "virtual machine" .
-
-<http://www.edsa-project.eu/skill/apache-kafka>
-        ns3:lexicalValue  "apache kafka" .
-
-<http://www.edsa-project.eu/skill/linear-programming>
-        ns3:lexicalValue  "linear programming" .
-
-<http://www.edsa-project.eu/skill/artificial-intelligence>
-        ns3:lexicalValue  "artificial intelligence" .
-
-<http://www.edsa-project.eu/skill/sql-server-2008>
-        ns3:lexicalValue  "sql server 2008" .
-
-<http://www.edsa-project.eu/skill/data-analysis>
-        ns3:lexicalValue  "data analysis" .
-
-<http://www.edsa-project.eu/skill/monitoring>
-        ns3:lexicalValue  "monitoring" .
-
-<http://www.edsa-project.eu/skill/assurance>
-        ns3:lexicalValue  "assurance" .
-
-<http://www.edsa-project.eu/skill/rackspace>
-        ns3:lexicalValue  "rackspace" .
-
-<http://www.edsa-project.eu/skill/c#-4.0>
-        ns3:lexicalValue  "c#-4.0" .
-
-<http://www.edsa-project.eu/skill/crm>
-        ns3:lexicalValue  "crm" .
-
-<http://www.edsa-project.eu/skill/osmdroid>
-        ns3:lexicalValue  "osmdroid" .
-
-<http://www.edsa-project.eu/skill/rdbms>
-        ns3:lexicalValue  "rdbms" .
-
-<http://www.edsa-project.eu/skill/magento>
-        ns3:lexicalValue  "magento" .
-
-<http://www.edsa-project.eu/skill/asp.net-mvc>
-        ns3:lexicalValue  "asp.net-mvc" .
-
-<http://www.edsa-project.eu/skill/sqlite>
-        ns3:lexicalValue  "sqlite" .
-
-<http://www.edsa-project.eu/skill/dba>
-        ns3:lexicalValue  "dba" .
-
-<http://www.edsa-project.eu/skill/oracle-sql>
-        ns3:lexicalValue  "oracle sql" .
-
-<http://www.edsa-project.eu/skill/quantitative-finance>
-        ns3:lexicalValue  "quantitative finance" .
-
-<http://www.edsa-project.eu/skill/extjs>
-        ns3:lexicalValue  "extjs" .
-
-<http://www.edsa-project.eu/skill/gsm>
-        ns3:lexicalValue  "gsm" .
-
-<http://www.edsa-project.eu/skill/ec2>
-        ns3:lexicalValue  "ec2" .
-
-<http://www.edsa-project.eu/skill/unit-testing>
-        ns3:lexicalValue  "unit testing" .
-
-<http://www.edsa-project.eu/skill/serverside-javascript>
-        ns3:lexicalValue  "serverside javascript" .
-
-<http://www.edsa-project.eu/skill/software-design>
-        ns3:lexicalValue  "software design" .
-
-<http://www.edsa-project.eu/skill/jaxb>
-        ns3:lexicalValue  "jaxb" .
-
-<http://www.edsa-project.eu/skill/shell-scripting>
-        ns3:lexicalValue  "shell scripting" .
-
-<http://www.edsa-project.eu/skill/data-modeling>
-        ns3:lexicalValue  "data modeling" .
-
-<http://www.edsa-project.eu/skill/bpm>
-        ns3:lexicalValue  "bpm" .
-
-<http://www.edsa-project.eu/skill/asp.net-web-api>
-        ns3:lexicalValue  "asp.net web api" .
-
-<http://www.edsa-project.eu/skill/customer-support>
-        ns3:lexicalValue  "customer support" .
-
-<http://www.edsa-project.eu/skill/aws>
-        ns3:lexicalValue  "aws" .
-
-<http://www.edsa-project.eu/skill/functional-programming>
-        ns3:lexicalValue  "functional programming" .
-
-<http://www.edsa-project.eu/skill/networks>
-        ns3:lexicalValue  "networks" .
-
-<http://www.edsa-project.eu/skill/elasticsearch>
-        ns3:lexicalValue  "elasticsearch" .
-
-<http://www.edsa-project.eu/skill/machine-code>
-        ns3:lexicalValue  "machine code" .
-
-<http://www.edsa-project.eu/skill/c>
-        ns3:lexicalValue  "c" .
-
-<http://www.edsa-project.eu/skill/wpf>
-        ns3:lexicalValue  "wpf" .
-
-<http://www.edsa-project.eu/skill/playframework-2.0>
-        ns3:lexicalValue  "playframework-2.0" .
-
-<http://www.edsa-project.eu/skill/knockout.js>
-        ns3:lexicalValue  "knockout.js" .
-
-<http://www.edsa-project.eu/skill/aerospike>
-        ns3:lexicalValue  "aerospike" .
-
-<http://www.edsa-project.eu/skill/devexpress>
-        ns3:lexicalValue  "devexpress" .
-
-<http://www.edsa-project.eu/skill/rhel6>
-        ns3:lexicalValue  "rhel6" .
-
-<http://www.edsa-project.eu/skill/xamarin>
-        ns3:lexicalValue  "xamarin" .
-
-<http://www.edsa-project.eu/skill/numpy>
-        ns3:lexicalValue  "numpy" .
-
-<http://www.edsa-project.eu/skill/d3>
-        ns3:lexicalValue  "d3" .
-
-<http://www.edsa-project.eu/skill/mobile-development>
-        ns3:lexicalValue  "mobile-development" .
-
-<http://www.edsa-project.eu/skill/cocoapods>
-        ns3:lexicalValue  "cocoapods" .
-
-<http://www.edsa-project.eu/skill/thrift>
-        ns3:lexicalValue  "thrift" .
-
-<http://www.edsa-project.eu/skill/uiux>
-        ns3:lexicalValue  "uiux" .
-
-<http://www.edsa-project.eu/skill/drupal>
-        ns3:lexicalValue  "drupal" .
-
-<http://www.edsa-project.eu/skill/waterfall>
-        ns3:lexicalValue  "waterfall" .
-
-<http://www.edsa-project.eu/skill/xcode>
-        ns3:lexicalValue  "xcode" .
-
-<http://www.edsa-project.eu/skill/c+>
-        ns3:lexicalValue  "c+" .
-
-<http://www.edsa-project.eu/skill/ipython>
-        ns3:lexicalValue  "ipython" .
-
-<http://www.edsa-project.eu/skill/devops>
-        ns3:lexicalValue  "devops" .
-
-<http://www.edsa-project.eu/skill/pmp>
-        ns3:lexicalValue  "pmp" .
-
-<http://www.edsa-project.eu/skill/wireframing>
-        ns3:lexicalValue  "wireframing" .
-
-<http://www.edsa-project.eu/skill/android-ide>
-        ns3:lexicalValue  "android-ide" .
-
-<http://www.edsa-project.eu/skill/cad>
-        ns3:lexicalValue  "cad" .
-
-<http://www.edsa-project.eu/skill/sdlc>
-        ns3:lexicalValue  "sdlc" .
-
-<http://www.edsa-project.eu/skill/impala>
-        ns3:lexicalValue  "impala" .
-
-<http://www.edsa-project.eu/skill/integration-testing>
-        ns3:lexicalValue  "integration testing" .
-
-<http://www.edsa-project.eu/skill/soa>
-        ns3:lexicalValue  "soa" .
-
-<http://www.edsa-project.eu/skill/xslt>
-        ns3:lexicalValue  "xslt" .
-
-<http://www.edsa-project.eu/skill/swing>
-        ns3:lexicalValue  "swing" .
-
-<http://www.edsa-project.eu/skill/linked-data>
-        ns3:lexicalValue  "linked data" .
-
-<http://www.edsa-project.eu/skill/durandal>
-        ns3:lexicalValue  "durandal" .
-
-<http://www.edsa-project.eu/skill/computer-forensics>
-        ns3:lexicalValue  "computer forensics" .
-
-<http://www.edsa-project.eu/skill/android-developer>
-        ns3:lexicalValue  "android developer" .
-
-<http://www.edsa-project.eu/skill/google-apps>
-        ns3:lexicalValue  "google apps" .
-
-<http://www.edsa-project.eu/skill/automated-tests>
-        ns3:lexicalValue  "automated tests" .
-
-<http://www.edsa-project.eu/skill/jmeter>
-        ns3:lexicalValue  "jmeter" .
-
-<http://www.edsa-project.eu/skill/tcp>
-        ns3:lexicalValue  "tcp" .
-
-<http://www.edsa-project.eu/skill/tester>
-        ns3:lexicalValue  "tester" .
-
-<http://www.edsa-project.eu/skill/jsp>
-        ns3:lexicalValue  "jsp" .
-
-<http://www.edsa-project.eu/skill/analyst>
-        ns3:lexicalValue  "analyst" .
-
-<http://www.edsa-project.eu/skill/underscore.js>
-        ns3:lexicalValue  "underscore.js" .
-
-<http://www.edsa-project.eu/skill/scada>
-        ns3:lexicalValue  "scada" .
-
-<http://www.edsa-project.eu/skill/opencv>
-        ns3:lexicalValue  "opencv" .
-
-<http://www.edsa-project.eu/skill/wireless>
-        ns3:lexicalValue  "wireless" .
-
-<http://www.edsa-project.eu/skill/jenkins>
-        ns3:lexicalValue  "jenkins" .
-
-<http://www.edsa-project.eu/skill/sass>
-        ns3:lexicalValue  "sass" .
-
-<http://www.edsa-project.eu/skill/sql>
-        ns3:lexicalValue  "sql" .
-
-<http://www.edsa-project.eu/skill/rtsp>
-        ns3:lexicalValue  "rtsp" .
-
-<http://www.edsa-project.eu/skill/project-management>
-        ns3:lexicalValue  "project management" .
-
-<http://www.edsa-project.eu/skill/sqlalchemy>
-        ns3:lexicalValue  "sqlalchemy" .
-
-<http://www.edsa-project.eu/skill/yrs>
-        ns3:lexicalValue  "yrs" .
-
-<http://www.edsa-project.eu/skill/analytics>
-        ns3:lexicalValue  "analytics" .
-
-<http://www.edsa-project.eu/skill/openlayers>
-        ns3:lexicalValue  "openlayers" .
-
-<http://www.edsa-project.eu/skill/meshing>
-        ns3:lexicalValue  "meshing" .
-
-<http://www.edsa-project.eu/skill/protractor>
-        ns3:lexicalValue  "protractor" .
-
-<http://www.edsa-project.eu/skill/wireshark>
-        ns3:lexicalValue  "wireshark" .
-
-<http://www.edsa-project.eu/skill/hybris>
-        ns3:lexicalValue  "hybris" .
-
-<http://www.edsa-project.eu/skill/amazon-ec2>
-        ns3:lexicalValue  "amazon-ec2" .
-
-<http://www.edsa-project.eu/skill/gaap>
-        ns3:lexicalValue  "gaap" .
-
-<http://www.edsa-project.eu/skill/dsl>
-        ns3:lexicalValue  "dsl" .
-
-<http://www.edsa-project.eu/skill/go-golang>
-        ns3:lexicalValue  "go-golang" .
-
-<http://www.edsa-project.eu/skill/sed>
-        ns3:lexicalValue  "sed" .
-
-<http://www.edsa-project.eu/skill/object-oriented>
-        ns3:lexicalValue  "object oriented" .
-
-<http://www.edsa-project.eu/skill/troubleshooting>
-        ns3:lexicalValue  "troubleshooting" .
-
-<http://www.edsa-project.eu/skill/excel>
-        ns3:lexicalValue  "excel" .
-
-<http://www.edsa-project.eu/skill/jwplayer>
-        ns3:lexicalValue  "jwplayer" .
-
-<http://www.edsa-project.eu/skill/puppet>
-        ns3:lexicalValue  "puppet" .
-
-<http://www.edsa-project.eu/skill/android-ui>
-        ns3:lexicalValue  "android-ui" .
-
-<http://www.edsa-project.eu/skill/arm>
-        ns3:lexicalValue  "arm" .
-
-<http://www.edsa-project.eu/skill/s3>
-        ns3:lexicalValue  "s3" .
-
-<http://www.edsa-project.eu/skill/hardware>
-        ns3:lexicalValue  "hardware" .
-
-<http://www.edsa-project.eu/skill/linear-algebra>
-        ns3:lexicalValue  "linear algebra" .
-
-<http://www.edsa-project.eu/skill/otrs>
-        ns3:lexicalValue  "otrs" .
-
-<http://www.edsa-project.eu/skill/responsive-design>
-        ns3:lexicalValue  "responsive design" .
-
-<http://www.edsa-project.eu/skill/jvm>
-        ns3:lexicalValue  "jvm" .
-
-<http://www.edsa-project.eu/skill/data-visualization>
-        ns3:lexicalValue  "data visualization" .
-
-<http://www.edsa-project.eu/skill/ravendb>
-        ns3:lexicalValue  "ravendb" .
-
-<http://www.edsa-project.eu/skill/visual-studio>
-        ns3:lexicalValue  "visual studio" .
-
-<http://www.edsa-project.eu/skill/performance-testing>
-        ns3:lexicalValue  "performance testing" .
-
-<http://www.edsa-project.eu/skill/soapui>
-        ns3:lexicalValue  "soapui" .
-
-<http://www.edsa-project.eu/skill/pyramid>
-        ns3:lexicalValue  "pyramid" .
-
-<http://www.edsa-project.eu/skill/qml>
-        ns3:lexicalValue  "qml" .
-
-<http://www.edsa-project.eu/skill/complex-event-processing>
-        ns3:lexicalValue  "complex event processing" .
-
-<http://www.edsa-project.eu/skill/biztalk>
-        ns3:lexicalValue  "biztalk" .
-
-<http://www.edsa-project.eu/skill/bower>
-        ns3:lexicalValue  "bower" .
-
-<http://www.edsa-project.eu/skill/apache-camel>
-        ns3:lexicalValue  "apache camel" .
-
-<http://www.edsa-project.eu/skill/linux-device-driver>
-        ns3:lexicalValue  "linux device driver" .
-
-<http://www.edsa-project.eu/skill/ocaml>
-        ns3:lexicalValue  "ocaml" .
-
-<http://www.edsa-project.eu/skill/rabbitmq>
-        ns3:lexicalValue  "rabbitmq" .
-
-<http://www.edsa-project.eu/skill/refactoring>
-        ns3:lexicalValue  "refactoring" .
-
-<http://www.edsa-project.eu/skill/embedded-linux>
-        ns3:lexicalValue  "embedded linux" .
-
-<http://www.edsa-project.eu/skill/f#>
-        ns3:lexicalValue  "f#" .
-
-<http://www.edsa-project.eu/skill/j2ee>
-        ns3:lexicalValue  "j2ee" .
-
-<http://www.edsa-project.eu/skill/cucumber>
-        ns3:lexicalValue  "cucumber" .
-
-<http://www.edsa-project.eu/skill/aix>
-        ns3:lexicalValue  "aix" .
-
-<http://www.edsa-project.eu/skill/lucene>
-        ns3:lexicalValue  "lucene" .
-
-<http://www.edsa-project.eu/skill/pci-e>
-        ns3:lexicalValue  "pci-e" .
-
-<http://www.edsa-project.eu/skill/ant>
-        ns3:lexicalValue  "ant" .
-
-<http://www.edsa-project.eu/skill/maven>
-        ns3:lexicalValue  "maven" .
-
-<http://www.edsa-project.eu/skill/symfony-2.3>
-        ns3:lexicalValue  "symfony-2.3" .
-
-<http://www.edsa-project.eu/skill/prestashop>
-        ns3:lexicalValue  "prestashop" .
-
-<http://www.edsa-project.eu/skill/c++11>
-        ns3:lexicalValue  "c++11" .
-
-<http://www.edsa-project.eu/skill/solaris>
-        ns3:lexicalValue  "solaris" .
-
-<http://www.edsa-project.eu/skill/ipc>
-        ns3:lexicalValue  "ipc" .
-
-<http://www.edsa-project.eu/skill/oop>
-        ns3:lexicalValue  "oop" .
-
-<http://www.edsa-project.eu/skill/debian>
-        ns3:lexicalValue  "debian" .
-
-<http://www.edsa-project.eu/skill/voip>
-        ns3:lexicalValue  "voip" .
-
-<http://www.edsa-project.eu/skill/model-view-controller>
-        ns3:lexicalValue  "model-view-controller" .
-
-<http://www.edsa-project.eu/skill/firewall>
-        ns3:lexicalValue  "firewall" .
-
-<http://www.edsa-project.eu/skill/specflow>
-        ns3:lexicalValue  "specflow" .
-
-<http://www.edsa-project.eu/skill/spark>
-        ns3:lexicalValue  "spark" .
-
-<http://www.edsa-project.eu/skill/gherkin>
-        ns3:lexicalValue  "gherkin" .
-
-<http://www.edsa-project.eu/skill/security>
-        ns3:lexicalValue  "security" .
-
-<http://www.edsa-project.eu/skill/android-intent>
-        ns3:lexicalValue  "android-intent" .
-
-<http://www.edsa-project.eu/skill/development>
-        ns3:lexicalValue  "development" .
-
-<http://www.edsa-project.eu/skill/scrum>
-        ns3:lexicalValue  "scrum" .
-
-<http://www.edsa-project.eu/skill/matlab>
-        ns3:lexicalValue  "matlab" .
+saro:svn a saro:Tool ;
+	 rdfs:label "svn"
