@@ -220,7 +220,7 @@ saro:websphere a saro:Product ;
 saro:capybara a saro:Tool ;
 	 rdfs:label "capybara" .
 
-saro:.netFramework a saro:Product ;
+saro:dotNetFramework a saro:Product ;
 	 rdfs:label ".net framework" .
 
 saro:gradle a saro:Tool ;
@@ -691,7 +691,7 @@ saro:udp a saro:Tool ;
 saro:sdn a saro:Topic ;
 	 rdfs:label "sdn" .
 
-saro:.net a saro:Product ;
+saro:dotNet a saro:Product ;
 	 rdfs:label ".net" .
 
 saro:mongodb a saro:Product ;
@@ -1303,7 +1303,7 @@ saro:d3 a saro:Tool ;
 saro:llvm a saro:Tool ;
 	 rdfs:label "llvm" .
 
-saro:.net-4.0 a saro:Product ;
+saro:dotNet-4.0 a saro:Product ;
 	 rdfs:label ".net 4.0" .
 
 saro:cryptography a saro:Topic ;
