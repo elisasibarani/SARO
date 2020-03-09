@@ -292,7 +292,7 @@ saro:adobecq a saro:Product ;
 saro:awsSdk a saro:Tool ;
 	 rdfs:label "aws sdk" .
 
-saro:c+ a saro:Tool ;
+saro:cPlus a saro:Tool ;
 	 rdfs:label "c+" .
 
 saro:rubyOnRails3 a saro:Tool ;
