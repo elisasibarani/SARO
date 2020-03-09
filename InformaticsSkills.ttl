@@ -1927,7 +1927,7 @@ saro:performanceTesting a saro:Topic ;
 saro:neo4j a saro:Product ;
 	 rdfs:label "neo4j" .
 
-saro:c++11 a saro:Tool ;
+saro:cPlusPlus11 a saro:Tool ;
 	 rdfs:label "c++11" .
 
 saro:dojo a saro:Tool ;
