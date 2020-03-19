@@ -6,7 +6,7 @@
 
 saro:ICT a saro:Sector ;
 	 rdfs:label "Information Technology and Communication" ;
-	 rdfs:seeAlso http://data.europa.eu/esco/isco/C25 .
+	 rdfs:seeAlso <http://data.europa.eu/esco/isco/C25> .
 
 saro:memcached a saro:Product ;
 	 saro:isCoreTo saro:ICT ;
