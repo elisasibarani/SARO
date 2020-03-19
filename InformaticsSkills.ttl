@@ -9,2129 +9,2833 @@ saro:ICT a saro:Sector ;
 	 rdfs:seeAlso <http://data.europa.eu/esco/isco/C25> .
 
 saro:memcached a saro:Product ;
-	 saro:isCoreTo saro:ICT ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "memcached" .
 
 saro:userInteraction a saro:TransversalSkill ;
-	 saro:isCoreTo saro:ICT ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "user interaction" .
 
 saro:centos a saro:Product ;
-	 saro:isCoreTo saro:ICT ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "centos" .
 
 saro:win32 a saro:Tool ;
-	 saro:isCoreTo saro:ICT ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "win32" .
 
 saro:pig a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "pig" .
 
 saro:awsOpsworks a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "aws opsworks" .
 
 saro:rdf a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "rdf" .
 
 saro:linearProgramming a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "linear programming" .
 
 saro:flask a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "flask" .
 
 saro:jbehave a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "jbehave" .
 
 saro:less a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "less" .
 
 saro:h.265 a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "h.265" .
 
 saro:resin a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "resin" .
 
 saro:nines a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "nines" .
 
 saro:agileProjectManagement a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "agile project management" .
 
 saro:ansible a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ansible" .
 
 saro:dataConversion a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "data conversion" .
 
 saro:network a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "network" .
 
 saro:java a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "java" .
 
 saro:oracle a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "oracle" .
 
 saro:wordpress a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "wordpress" .
 
 saro:staticAnalysis a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "static analysis" .
 
 saro:integrationTesting a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "integration testing" .
 
 saro:googlePlayServices a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "google play services" .
 
 saro:varnish a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "varnish" .
 
 saro:database a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "database" .
 
 saro:ravendb a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ravendb" .
 
 saro:softwareEngineering a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "software engineering" .
 
 saro:cad a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cad" .
 
 saro:webServices a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "web services" .
 
 saro:designPatterns a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "design patterns" .
 
 saro:shellScripting a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "shell scripting" .
 
 saro:meteor a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "meteor" .
 
 saro:reactjs a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "reactjs" .
 
 saro:solr a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "solr" .
 
 saro:androidIde a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "android ide" .
 
 saro:ooad a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ooad" .
 
 saro:ros a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ros" .
 
 saro:trac a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "trac" .
 
 saro:ssrs a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ssrs" .
 
 saro:supervisedLearning a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "supervised learning" .
 
 saro:tts a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "tts" .
 
 saro:jasmine a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "jasmine" .
 
 saro:netsuite a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "netsuite" .
 
 saro:sass a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sass" .
 
 saro:abTesting a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ab testing" .
 
 saro:softwareDesign a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "software design" .
 
 saro:magento a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "magento" .
 
 saro:vb6 a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "vb6" .
 
 saro:delphi a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "delphi" .
 
 saro:virtualization a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "virtualization" .
 
 saro:netty a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "netty" .
 
 saro:rdbms a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "rdbms" .
 
 saro:rubyOnRails a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ruby on rails" .
 
 saro:webApplications a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "web applications" .
 
 saro:meshing a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "meshing" .
 
 saro:gaap a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "gaap" .
 
 saro:matlab a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "matlab" .
 
 saro:flaskRestful a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "flask restful" .
 
 saro:design a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "design" .
 
 saro:chef a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "chef" .
 
 saro:commandLine a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "command line" .
 
 saro:vb.net a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "vb.net" .
 
 saro:dba a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "dba" .
 
 saro:css a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "css" .
 
 saro:jboss a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "jboss" .
 
 saro:vmware a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "vmware" .
 
 saro:azure a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "azure" .
 
 saro:aem a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "aem" .
 
 saro:sqlalchemy a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sqlalchemy" .
 
 saro:websphere a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "websphere" .
 
 saro:capybara a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "capybara" .
 
 saro:dotNetFramework a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label ".net framework" .
 
 saro:gradle a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "gradle" .
 
 saro:activeDirectory a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "active directory" .
 
 saro:hql a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "hql" .
 
 saro:objectiveC a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "objective c" .
 
 saro:cloud a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cloud" .
 
 saro:ssrs2008 a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ssrs 2008" .
 
 saro:sqlServer2008 a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sql server 2008" .
 
 saro:hybernate a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "hybernate" .
 
 saro:opencl a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "opencl" .
 
 saro:cisco a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cisco" .
 
 saro:distributedDatabase a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "distributed database" .
 
 saro:apacheKafka a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "apache kafka" .
 
 saro:apacheSpark a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "apache spark" .
 
 saro:php a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "php" .
 
 saro:visualforce a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "visualforce" .
 
 saro:excelVba a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "excel vba" .
 
 saro:architect a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "architect" .
 
 saro:continuousDeployment a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "continuous deployment" .
 
 saro:frontEnd a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "front end" .
 
 saro:ejb a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ejb" .
 
 saro:wpf a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "wpf" .
 
 saro:adobecq a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "adobecq" .
 
 saro:awsSdk a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "aws sdk" .
 
 saro:cPlus a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "c+" .
 
 saro:rubyOnRails3 a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ruby on rails 3" .
 
 saro:automatedDeployment a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "automated deployment" .
 
 saro:dataDriven a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "data driven" .
 
 saro:typescript a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "typescript" .
 
 saro:fpga a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "fpga" .
 
 saro:cloudfoundry a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cloudfoundry" .
 
 saro:cocoaTouch a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cocoa touch" .
 
 saro:semanticWeb a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "semantic web" .
 
 saro:pciE a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "pci e" .
 
 saro:java8 a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "java 8" .
 
 saro:reportingServices a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "reporting services" .
 
 saro:boost a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "boost" .
 
 saro:dataBinding a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "data binding" .
 
 saro:redis a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "redis" .
 
 saro:webapplications a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "webapplications" .
 
 saro:mysql a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "mysql" .
 
 saro:npm a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "npm" .
 
 saro:twitterBootstrap a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "twitter bootstrap" .
 
 saro:git a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "git" .
 
 saro:angularjs a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "angularjs" .
 
 saro:openlayers a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "openlayers" .
 
 saro:rest a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "rest" .
 
 saro:css3 a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "css3" .
 
 saro:lisp a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "lisp" .
 
 saro:modeling a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "modeling" .
 
 saro:extremeProgramming a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "extreme programming" .
 
 saro:backbone a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "backbone" .
 
 saro:scom a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "scom" .
 
 saro:backbone.js a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "backbone.js" .
 
 saro:siem a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "siem" .
 
 saro:datomic a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "datomic" .
 
 saro:cascading a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cascading" .
 
 saro:visio a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "visio" .
 
 saro:nosql a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "nosql" .
 
 saro:sqlite a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sqlite" .
 
 saro:exchangeServer a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "exchange server" .
 
 saro:linkedData a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "linked data" .
 
 saro:drupal a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "drupal" .
 
 saro:analytics a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "analytics" .
 
 saro:googleAnalyticsApi a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "google analytics api" .
 
 saro:mapi a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "mapi" .
 
 saro:vsphere a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "vsphere" .
 
 saro:aurelia a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "aurelia" .
 
 saro:uiux a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "uiux" .
 
 saro:gulp a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "gulp" .
 
 saro:gridComputing a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "grid computing" .
 
 saro:jsp a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "jsp" .
 
 saro:oodesign a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "oodesign" .
 
 saro:development a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "development" .
 
 saro:gnu a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "gnu" .
 
 saro:hardware a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "hardware" .
 
 saro:yii a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "yii" .
 
 saro:kafka a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "kafka" .
 
 saro:xhtml a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "xhtml" .
 
 saro:nunit a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "nunit" .
 
 saro:springMvc a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "spring mvc" .
 
 saro:dataAnalysis a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "data analysis" .
 
 saro:fingerprinting a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "fingerprinting" .
 
 saro:mercurial a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "mercurial" .
 
 saro:smpp a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "smpp" .
 
 saro:windows a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "windows" .
 
 saro:continuousDelivery a saro:TransversalSkill ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "continuous delivery" .
 
 saro:regressionTesting a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "regression testing" .
 
 saro:saltStack a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "salt stack" .
 
 saro:qnx a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "qnx" .
 
 saro:cassandra a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cassandra" .
 
 saro:dns a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "dns" .
 
 saro:javascript a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "javascript" .
 
 saro:amazonEmr a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "amazon emr" .
 
 saro:wolframMathematica a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "wolfram mathematica" .
 
 saro:parallelProcessing a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "parallel processing" .
 
 saro:coldfusion a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "coldfusion" .
 
 saro:asp.netMvc a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "asp.net mvc" .
 
 saro:serversideJavascript a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "serverside javascript" .
 
 saro:wave a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "wave" .
 
 saro:visualization a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "visualization" .
 
 saro:responsiveWebDesign a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "responsive web design" .
 
 saro:jndi a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "jndi" .
 
 saro:watir a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "watir" .
 
 saro:tcl a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "tcl" .
 
 saro:networkProgramming a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "network programming" .
 
 saro:sipServer a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sip server" .
 
 saro:voip a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "voip" .
 
 saro:meanStack a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "mean stack" .
 
 saro:firewall a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "firewall" .
 
 saro:netcdf a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "netcdf" .
 
 saro:sql a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sql" .
 
 saro:hbase a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "hbase" .
 
 saro:pandas a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "pandas" .
 
 saro:balsamiq a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "balsamiq" .
 
 saro:lxc a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "lxc" .
 
 saro:sybase a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sybase" .
 
 saro:dataEngineer a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "data engineer" .
 
 saro:fullStack a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "full stack" .
 
 saro:riak a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "riak" .
 
 saro:servicestack a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "servicestack" .
 
 saro:yarn a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "yarn" .
 
 saro:vldb a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "vldb" .
 
 saro:apache a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "apache" .
 
 saro:cPlusPlus a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "c++" .
 
 saro:simulation a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "simulation" .
 
 saro:twisted a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "twisted" .
 
 saro:ecmascript-6 a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ecmascript 6" .
 
 saro:excel a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "excel" .
 
 saro:html5 a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "html5" .
 
 saro:salesforce a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "salesforce" .
 
 saro:aerospike a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "aerospike" .
 
 saro:nas a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "nas" .
 
 saro:fabric a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "fabric" .
 
 saro:crm a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "crm" .
 
 saro:wiki a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "wiki" .
 
 saro:ember.js a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ember.js" .
 
 saro:cloudera a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cloudera" .
 
 saro:tcpIp a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "tcp ip" .
 
 saro:perl a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "perl" .
 
 saro:androidIntent a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "android intent" .
 
 saro:programming a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "programming" .
 
 saro:deviceDriver a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "device driver" .
 
 saro:businessIntelligence a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "business intelligence" .
 
 saro:gsm a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "gsm" .
 
 saro:zookeeper a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "zookeeper" .
 
 saro:netapp a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "netapp" .
 
 saro:linearAlgebra a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "linear algebra" .
 
 saro:chefRecipe a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "chef recipe" .
 
 saro:plsql a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "plsql" .
 
 saro:jaxb a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "jaxb" .
 
 saro:tbb a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "tbb" .
 
 saro:softwareEngineer a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "software engineer" .
 
 saro:oneplus a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "oneplus" .
 
 saro:tableau a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "tableau" .
 
 saro:udp a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "udp" .
 
 saro:sdn a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sdn" .
 
 saro:dotNet a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label ".net" .
 
 saro:mongodb a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "mongodb" .
 
 saro:ipsec a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ipsec" .
 
 saro:django a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "django" .
 
 saro:tastypie a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "tastypie" .
 
 saro:swift a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "swift" .
 
 saro:qt a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "qt" .
 
 saro:arcgis a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "arcgis" .
 
 saro:coffeescript a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "coffeescript" .
 
 saro:responsiveDesign a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "responsive design" .
 
 saro:cvs a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cvs" .
 
 saro:bower a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "bower" .
 
 saro:computerScience a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "computer science" .
 
 saro:xaml a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "xaml" .
 
 saro:vba a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "vba" .
 
 saro:pci a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "pci" .
 
 saro:debugging a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "debugging" .
 
 saro:identityManagement a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "identity management" .
 
 saro:jee a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "jee" .
 
 saro:sharepoint2007 a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sharepoint 2007" .
 
 saro:oop a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "oop" .
 
 saro:reporting a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "reporting" .
 
 saro:bioinformatics a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "bioinformatics" .
 
 saro:html a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "html" .
 
 saro:nginx a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "nginx" .
 
 saro:scipy a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "scipy" .
 
 saro:maven a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "maven" .
 
 saro:linuxDeviceDriver a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "linux device driver" .
 
 saro:restfulAuthentication a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "restful authentication" .
 
 saro:imageProcessing a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "image processing" .
 
 saro:artificialIntelligence a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "artificial intelligence" .
 
 saro:androidDeveloper a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "android developer" .
 
 saro:bash a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "bash" .
 
 saro:multicast a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "multicast" .
 
 saro:playframework-2.0 a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "playframework 2.0" .
 
 saro:playframework a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "playframework" .
 
 saro:jade a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "jade" .
 
 saro:office365 a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "office365" .
 
 saro:cordova a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cordova" .
 
 saro:mysqli a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "mysqli" .
 
 saro:ss7 a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ss7" .
 
 saro:adobe a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "adobe" .
 
 saro:golang a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "golang" .
 
 saro:restfulArchitecture a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "restful architecture" .
 
 saro:asp.netWebApi a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "asp.net web api" .
 
 saro:tools a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "tools" .
 
 saro:objectOrientedAnalysis a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "object oriented analysis" .
 
 saro:s3 a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "s3" .
 
 saro:togaf a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "togaf" .
 
 saro:etl a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "etl" .
 
 saro:functionalProgramming a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "functional programming" .
 
 saro:soa a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "soa" .
 
 saro:ssis a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ssis" .
 
 saro:dataScience a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "data science" .
 
 saro:webSecurity a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "web security" .
 
 saro:dataManagement a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "data management" .
 
 saro:cloudHosting a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cloud hosting" .
 
 saro:cobol a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cobol" .
 
 saro:sqlServer2014 a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sql server 2014" .
 
 saro:iis-7 a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "iis 7" .
 
 saro:iam a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "iam" .
 
 saro:rubyOnRails4 a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ruby on rails 4" .
 
 saro:opengl a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "opengl" .
 
 saro:statistics a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "statistics" .
 
 saro:math a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "math" .
 
 saro:python a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "python" .
 
 saro:tfs a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "tfs" .
 
 saro:tdd a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "tdd" .
 
 saro:paas a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "paas" .
 
 saro:soapui a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "soapui" .
 
 saro:objectOriented a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "object oriented" .
 
 saro:scrumMaster a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "scrum master" .
 
 saro:wireless a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "wireless" .
 
 saro:nodejs a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "nodejs" .
 
 saro:amazonRedshift a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "amazon redshift" .
 
 saro:boostPython a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "boost python" .
 
 saro:falcor a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "falcor" .
 
 saro:indexing a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "indexing" .
 
 saro:postgresql a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "postgresql" .
 
 saro:microservices a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "microservices" .
 
 saro:apex a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "apex" .
 
 saro:opencv a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "opencv" .
 
 saro:psql a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "psql" .
 
 saro:github a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "github" .
 
 saro:cucumber a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cucumber" .
 
 saro:softwareArchitecture a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "software architecture" .
 
 saro:penetrationTesting a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "penetration testing" .
 
 saro:machineLearning a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "machine learning" .
 
 saro:machineCode a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "machine code" .
 
 saro:tsql a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "tsql" .
 
 saro:androidUi a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "android ui" .
 
 saro:windowsMobile a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "windows mobile" .
 
 saro:mybatis a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "mybatis" .
 
 saro:domainDrivenDesign a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "domain driven design" .
 
 saro:sdlc a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sdlc" .
 
 saro:polymer a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "polymer" .
 
 saro:spring a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "spring" .
 
 saro:clusterComputing a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cluster computing" .
 
 saro:ruby a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ruby" .
 
 saro:ipython a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ipython" .
 
 saro:dataMining a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "data mining" .
 
 saro:olap a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "olap" .
 
 saro:expresso a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "expresso" .
 
 saro:dataVisualization a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "data visualization" .
 
 saro:dataStructures a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "data structures" .
 
 saro:d3.js a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "d3.js" .
 
 saro:j2ee a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "j2ee" .
 
 saro:leadership a saro:TransversalSkill ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "leadership" .
 
 saro:ec2 a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ec2" .
 
 saro:riskManagement a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "risk management" .
 
 saro:scriptingLanguage a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "scripting language" .
 
 saro:directx a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "directx" .
 
 saro:compassSass a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "compass sass" .
 
 saro:msAccess a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ms access" .
 
 saro:clojure a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "clojure" .
 
 saro:seleniumWebdriver a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "selenium webdriver" .
 
 saro:networks a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "networks" .
 
 saro:dropwizard a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "dropwizard" .
 
 saro:gherkin a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "gherkin" .
 
 saro:scala a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "scala" .
 
 saro:sqlServer a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sql server" .
 
 saro:mahout a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "mahout" .
 
 saro:jaxp a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "jaxp" .
 
 saro:devops a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "devops" .
 
 saro:wireframing a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "wireframing" .
 
 saro:webCrawler a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "web crawler" .
 
 saro:cuda a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cuda" .
 
 saro:amazonWebServices a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "amazon web services" .
 
 saro:agile a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "agile" .
 
 saro:edi a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "edi" .
 
 saro:fullstack a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "fullstack" .
 
 saro:networking a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "networking" .
 
 saro:mvvm a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "mvvm" .
 
 saro:zendFramework a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "zend framework" .
 
 saro:lucene a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "lucene" .
 
 saro:visualStudio2012 a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "visual studio 2012" .
 
 saro:sed a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sed" .
 
 saro:sas a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sas" .
 
 saro:linux a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "linux" .
 
 saro:sharepoint a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sharepoint" .
 
 saro:ieee a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ieee" .
 
 saro:http a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "http" .
 
 saro:go a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "go" .
 
 saro:xilinx a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "xilinx" .
 
 saro:haproxy a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "haproxy" .
 
 saro:analysis a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "analysis" .
 
 saro:unix a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "unix" .
 
 saro:stata a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "stata" .
 
 saro:openstack a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "openstack" .
 
 saro:node.js a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "node.js" .
 
 saro:storm a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "storm" .
 
 saro:linq a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "linq" .
 
 saro:joomla a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "joomla" .
 
 saro:googleApps a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "google apps" .
 
 saro:redhat a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "redhat" .
 
 saro:dhtml a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "dhtml" .
 
 saro:jwplayer a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "jwplayer" .
 
 saro:softwareDevelopment a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "software development" .
 
 saro:aix a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "aix" .
 
 saro:silverlight a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "silverlight" .
 
 saro:sympy a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sympy" .
 
 saro:lampstack a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "lampstack" .
 
 saro:rom a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "rom" .
 
 saro:webgl a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "webgl" .
 
 saro:nancy a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "nancy" .
 
 saro:impala a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "impala" .
 
 saro:bdd a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "bdd" .
 
 saro:prestashop a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "prestashop" .
 
 saro:developer a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "developer" .
 
 saro:angular.js a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "angular.js" .
 
 saro:vpn a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "vpn" .
 
 saro:r a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "r" .
 
 saro:https a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "https" .
 
 saro:extjs a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "extjs" .
 
 saro:ajax a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ajax" .
 
 saro:tSql a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "t sql" .
 
 saro:thirdPartyApi a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "third party api" .
 
 saro:pmp a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "pmp" .
 
 saro:analyst a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "analyst" .
 
 saro:scientificComputing a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "scientific computing" .
 
 saro:relationalDatabases a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "relational databases" .
 
 saro:iot a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "iot" .
 
 saro:androidStudio a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "android studio" .
 
 saro:titanium a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "titanium" .
 
 saro:jquery a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "jquery" .
 
 saro:ipc a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ipc" .
 
 saro:hl7 a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "hl7" .
 
 saro:scrum a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "scrum" .
 
 saro:vowpalwabbit a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "vowpalwabbit" .
 
 saro:solaris a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "solaris" .
 
 saro:quantitativeFinance a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "quantitative finance" .
 
 saro:selenium a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "selenium" .
 
 saro:underscore.js a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "underscore.js" .
 
 saro:iphone a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "iphone" .
 
 saro:amazonS3 a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "amazon s3" .
 
 saro:elasticMapReduce a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "elastic map reduce" .
 
 saro:winapi a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "winapi" .
 
 saro:pega a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "pega" .
 
 saro:computerForensics a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "computer forensics" .
 
 saro:embeddedLinux a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "embedded linux" .
 
 saro:ant a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ant" .
 
 saro:virtualMachine a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "virtual machine" .
 
 saro:d3 a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "d3" .
 
 saro:llvm a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "llvm" .
 
 saro:dotNet-4.0 a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label ".net 4.0" .
 
 saro:cryptography a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cryptography" .
 
 saro:rhel5 a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "rhel5" .
 
 saro:lmax a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "lmax" .
 
 saro:linuxKernel a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "linux kernel" .
 
 saro:marionette a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "marionette" .
 
 saro:doctrine a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "doctrine" .
 
 saro:android a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "android" .
 
 saro:activemq a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "activemq" .
 
 saro:ultrasound a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ultrasound" .
 
 saro:mobileDevelopment a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "mobile development" .
 
 saro:tomcat a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "tomcat" .
 
 saro:glsl a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "glsl" .
 
 saro:erlang a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "erlang" .
 
 saro:visualStudio2010 a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "visual studio 2010" .
 
 saro:giraph a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "giraph" .
 
 saro:cocoapods a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cocoapods" .
 
 saro:supercomputers a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "supercomputers" .
 
 saro:heroku a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "heroku" .
 
 saro:waterfall a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "waterfall" .
 
 saro:cheminformatics a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cheminformatics" .
 
 saro:versionControl a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "version control" .
 
 saro:eclipse a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "eclipse" .
 
 saro:protractor a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "protractor" .
 
 saro:symfony2 a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "symfony2" .
 
 saro:bpm a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "bpm" .
 
 saro:scada a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "scada" .
 
 saro:hibernate a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "hibernate" .
 
 saro:tcp a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "tcp" .
 
 saro:dom a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "dom" .
 
 saro:specflow a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "specflow" .
 
 saro:titaniumMobile a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "titanium mobile" .
 
 saro:cics a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cics" .
 
 saro:frontend a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "frontend" .
 
 saro:symfony-2.3 a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "symfony 2.3" .
 
 saro:tester a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "tester" .
 
 saro:elixir a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "elixir" .
 
 saro:automation a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "automation" .
 
 saro:sharepoint2010 a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sharepoint 2010" .
 
 saro:agileProcesses a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "agile processes" .
 
 saro:postgis a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "postgis" .
 
 saro:api a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "api" .
 
 saro:newsgator a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "newsgator" .
 
 saro:powershell a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "powershell" .
 
 saro:sdk a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sdk" .
 
 saro:nagios a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "nagios" .
 
 saro:hadoop a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "hadoop" .
 
 saro:vsam a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "vsam" .
 
 saro:haskell a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "haskell" .
 
 saro:msOffice a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ms office" .
 
 saro:osx a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "osx" .
 
 saro:hudson a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "hudson" .
 
 saro:elasticsearch a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "elasticsearch" .
 
 saro:robotics a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "robotics" .
 
 saro:fintech a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "fintech" .
 
 saro:rhel a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "rhel" .
 
 saro:swing a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "swing" .
 
 saro:projectManagement a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "project management" .
 
 saro:c a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "c" .
 
 saro:jdbc a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "jdbc" .
 
 saro:angular a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "angular" .
 
 saro:episerver a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "episerver" .
 
 saro:leadDeveloper a saro:TransversalSkill ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "lead developer" .
 
 saro:powerbuilder a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "powerbuilder" .
 
 saro:administrator a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "administrator" .
 
 saro:zeromq a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "zeromq" .
 
 saro:reactNative a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "react native" .
 
 saro:biztalk a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "biztalk" .
 
 saro:otrs a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "otrs" .
 
 saro:googleAppEngine a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "google app engine" .
 
 saro:rtos a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "rtos" .
 
 saro:confluence a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "confluence" .
 
 saro:rtsp a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "rtsp" .
 
 saro:photoshop a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "photoshop" .
 
 saro:rspec a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "rspec" .
 
 saro:businessObjects a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "business objects" .
 
 saro:rails a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "rails" .
 
 saro:laravel a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "laravel" .
 
 saro:dataWarehouse a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "data warehouse" .
 
 saro:javaj2ee a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "javaj2ee" .
 
 saro:xamarin a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "xamarin" .
 
 saro:disasterRecovery a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "disaster recovery" .
 
 saro:jira a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "jira" .
 
 saro:ux a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ux" .
 
 saro:metadata a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "metadata" .
 
 saro:ui a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ui" .
 
 saro:grails a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "grails" .
 
 saro:wcf a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "wcf" .
 
 saro:ember a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ember" .
 
 saro:videoStreaming a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "video streaming" .
 
 saro:websocket a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "websocket" .
 
 saro:haml a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "haml" .
 
 saro:pki a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "pki" .
 
 saro:openglEs-2.0 a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "opengl es 2.0" .
 
 saro:junit a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "junit" .
 
 saro:autosar a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "autosar" .
 
 saro:numericalMethods a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "numerical methods" .
 
 saro:peoplesoft a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "peoplesoft" .
 
 saro:html5Canvas a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "html5 canvas" .
 
 saro:databaseDesign a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "database design" .
 
 saro:xcode a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "xcode" .
 
 saro:hybris a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "hybris" .
 
 saro:jenkins a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "jenkins" .
 
 saro:bigData a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "big data" .
 
 saro:unitTesting a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "unit testing" .
 
 saro:sqoop a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sqoop" .
 
 saro:postgres a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "postgres" .
 
 saro:assurance a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "assurance" .
 
 saro:umbraco a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "umbraco" .
 
 saro:akka a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "akka" .
 
 saro:ipad a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ipad" .
 
 saro:multithreading a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "multithreading" .
 
 saro:stateflow a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "stateflow" .
 
 saro:highAvailability a saro:TransversalSkill ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "high availability" .
 
 saro:jvm a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "jvm" .
 
 saro:thrift a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "thrift" .
 
 saro:ocaml a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ocaml" .
 
 saro:rackspace a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "rackspace" .
 
 saro:zend a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "zend" .
 
 saro:mockito a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "mockito" .
 
 saro:security a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "security" .
 
 saro:xslt a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "xslt" .
 
 saro:aws a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "aws" .
 
 saro:automatedTests a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "automated tests" .
 
 saro:dagger a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "dagger" .
 
 saro:xml a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "xml" .
 
 saro:visualStudio a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "visual studio" .
 
 saro:reverseEngineering a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "reverse engineering" .
 
 saro:sencha a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sencha" .
 
 saro:mapreduce a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "mapreduce" .
 
 saro:i2c a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "i2c" .
 
 saro:unity3d a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "unity3d" .
 
 saro:debian a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "debian" .
 
 saro:webComponent a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "web component" .
 
 saro:eclipsePlugin a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "eclipse plugin" .
 
 saro:wicket a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "wicket" .
 
 saro:flux a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "flux" .
 
 saro:mpi a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "mpi" .
 
 saro:rds a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "rds" .
 
 saro:hdfs a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "hdfs" .
 
 saro:rhel6 a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "rhel6" .
 
 saro:apacheSparkMl a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "apache spark ml" .
 
 saro:vaadin a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "vaadin" .
 
 saro:jpa a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "jpa" .
 
 saro:cem a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cem" .
 
 saro:objectOrientedDatabase a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "object oriented database" .
 
 saro:socket.io a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "socket.io" .
 
 saro:vim a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "vim" .
 
 saro:xmpp a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "xmpp" .
 
 saro:djangoRestFramework a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "django rest framework" .
 
 saro:qml a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "qml" .
 
 saro:pii a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "pii" .
 
 saro:winforms a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "winforms" .
 
 saro:spark a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "spark" .
 
 saro:gpu a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "gpu" .
 
 saro:ios7 a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ios7" .
 
 saro:refactoring a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "refactoring" .
 
 saro:wireshark a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "wireshark" .
 
 saro:jsf a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "jsf" .
 
 saro:couchbase a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "couchbase" .
 
 saro:saas a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "saas" .
 
 saro:dataModeling a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "data modeling" .
 
 saro:gwt a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "gwt" .
 
 saro:celery a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "celery" .
 
 saro:frontEnd a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "front end" .
 
 saro:ldap a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ldap" .
 
 saro:webFrameworks a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "web frameworks" .
 
 saro:scrapy a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "scrapy" .
 
 saro:ionicFramework a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ionic framework" .
 
 saro:rxJava a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "rx java" .
 
 saro:mvc a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "mvc" .
 
 saro:concurrentProgramming a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "concurrent programming" .
 
 saro:symfony a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "symfony" .
 
 saro:osgi a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "osgi" .
 
 saro:lua a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "lua" .
 
 saro:goGolang a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "go golang" .
 
 saro:struts a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "struts" .
 
 saro:labview a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "labview" .
 
 saro:amazonEc2 a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "amazon ec2" .
 
 saro:nio a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "nio" .
 
 saro:logAnalysis a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "log analysis" .
 
 saro:arm a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "arm" .
 
 saro:complexEventProcessing a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "complex event processing" .
 
 saro:pentaho a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "pentaho" .
 
 saro:hive a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "hive" .
 
 saro:stl a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "stl" .
 
 saro:userExperience a saro:TransversalSkill ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "user experience" .
 
 saro:compiler a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "compiler" .
 
 saro:rabbitmq a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "rabbitmq" .
 
 saro:scripting a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "scripting" .
 
 saro:finance a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "finance" .
 
 saro:customerSupport a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "customer support" .
 
 saro:ios a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ios" .
 
 saro:asic a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "asic" .
 
 saro:json a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "json" .
 
 saro:coreos a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "coreos" .
 
 saro:react a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "react" .
 
 saro:databaseAdministration a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "database administration" .
 
 saro:dsl a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "dsl" .
 
 saro:sqlAzure a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sql azure" .
 
 saro:monitoring a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "monitoring" .
 
 saro:sitecore a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sitecore" .
 
 saro:oracle11g a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "oracle11g" .
 
 saro:atlassian a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "atlassian" .
 
 saro:hpc a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "hpc" .
 
 saro:m2m a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "m2m" .
 
 saro:performanceTesting a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "performance testing" .
 
 saro:neo4j a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "neo4j" .
 
 saro:cPlusPlus11 a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "c++11" .
 
 saro:dojo a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "dojo" .
 
 saro:orchestration a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "orchestration" .
 
 saro:troubleshooting a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "troubleshooting" .
 
 saro:backend a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "backend" .
 
 saro:modelViewController a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "model view controller" .
 
 saro:lambda a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "lambda" .
 
 saro:fortran a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "fortran" .
 
 saro:erp a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "erp" .
 
 saro:jmeter a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "jmeter" .
 
 saro:retrolambda a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "retrolambda" .
 
 saro:buildAutomation a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "build automation" .
 
 saro:shell a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "shell" .
 
 saro:productManagement a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "product management" .
 
 saro:unity a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "unity" .
 
 saro:apacheCamel a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "apache camel" .
 
 saro:owasp a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "owasp" .
 
 saro:javaEE a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "java-ee" .
 
 saro:groovy a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "groovy" .
 
 saro:pubnub a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "pubnub" .
 
 saro:storage a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "storage" .
 
 saro:soap a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "soap" .
 
 saro:disassembling a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "disassembling" .
 
 saro:relationalDatabase a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "relational database" .
 
 saro:pciDss a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "pci dss" .
 
 saro:devexpress a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "devexpress" .
 
 saro:durandal a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "durandal" .
 
 saro:tcpip a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "tcpip" .
 
 saro:algorithmicTrading a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "algorithmic trading" .
 
 saro:webAnalytics a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "web analytics" .
 
 saro:webFrontend a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "web frontend" .
 
 saro:prototype a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "prototype" .
 
 saro:continuousIntegration a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "continuous integration" .
 
 saro:rhel7 a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "rhel7" .
 
 saro:sysadmin a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sysadmin" .
 
 saro:asp.net a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "asp.net" .
 
 saro:numpy a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "numpy" .
 
 saro:mesos a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "mesos" .
 
 saro:docker a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "docker" .
 
 saro:knockout.js a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "knockout.js" .
 
 saro:iis a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "iis" .
 
 saro:systemAdministration a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "system administration" .
 
 saro:lamp a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "lamp" .
 
 saro:geolocation a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "geolocation" .
 
 saro:pyramid a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "pyramid" .
 
 saro:uml a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "uml" .
 
 saro:puppet a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "puppet" .
 
 saro:ospf a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "ospf" .
 
 saro:oracleSql a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "oracle sql" .
 
 saro:storedProcedures a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "stored procedures" .
 
 saro:gis a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "gis" .
 
 saro:osmdroid a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "osmdroid" .
 
 saro:nlp a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "nlp" .
 
 saro:distributedComputing a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "distributed computing" .
 
 saro:jruby a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "jruby" .
 
 saro:sales a saro:TransversalSkill ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "sales" .
 
 saro:webforms a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "webforms" .
 
 saro:userInterface a saro:Topic ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "user interface" .
 
 saro:apacheSparkSql a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "apache spark sql" .
 
 saro:cocoa a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "cocoa" .
 
 saro:linuxUnix a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "linux unix" .
 
 saro:svn a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "svn" .
 
 saro:webSocket a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "web socket" .
 
 saro:socketIO a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "socket.IO" .
 
 saro:gruntJs a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "grunt.js" .
 
 saro:jaxRS a saro:Tool ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "jax rs" .
 
 saro:msSql a saro:Product ;
+	 saro:icCoreTo saro:ICT ;
 	 rdfs:label "MS.SQL" .
