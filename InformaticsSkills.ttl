@@ -4,16 +4,24 @@
 @prefix saro: <http://w3id.org/saro#> .
 @prefix esco: <http://data.europa.eu/esco/model#> .
 
+saro:ICT a saro:Sector ;
+	 rdfs:label "Information Technology and Communication" ;
+	 rdfs:seeAlso http://data.europa.eu/esco/isco/C25 .
+
 saro:memcached a saro:Product ;
+	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "memcached" .
 
 saro:userInteraction a saro:TransversalSkill ;
+	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "user interaction" .
 
 saro:centos a saro:Product ;
+	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "centos" .
 
 saro:win32 a saro:Tool ;
+	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "win32" .
 
 saro:pig a saro:Tool ;
