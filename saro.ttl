@@ -142,7 +142,7 @@ saro:Language a owl:Class ;
 
 saro:ComplexSkill a owl:Class ;
 	rdfs:label "Complex Skill" ;
-	rdfs:comment "A specialised skill that is composed of multiple other knwon skills, e.g. IT Project Management, but is not as yet defined as a standalone skill " ;
+	rdfs:comment "A specialised skill that is composed of multiple other known skills, e.g. IT Project Management, but is not as yet defined as a standalone skill " ;
 	rdfs:subClassOf saro:Skill .
 
 saro:User a owl:Class ;
@@ -153,6 +153,12 @@ saro:User a owl:Class ;
 saro:UserTask a owl:Class ;
     rdfs:label "User Task" ;
     rdfs:comment "The User Task class covers list of tasks for every type of user in the context " .
+
+saro:subSkill a rdf:Property ;
+	rdfs:label "subSkill" ;
+	rdfs:comment "A subskill that a complex skill is composed of. " ;
+	rdfs:domain saro:ComplexSkill ;
+	rdfs:range saro:Skill .
 
 saro:acquiredVia a rdf:Property ;
     rdfs:label "acquiredVia" ;
