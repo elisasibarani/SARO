@@ -135,6 +135,16 @@ saro:TransversalSkill a owl:Class ;
     rdfs:comment "This class represents list of skills which are relevant to a broad range of occupations and sectors. They are often referred to as core skills, basic skills or soft skills " ;
     rdfs:subClassOf saro:Skill .
 
+saro:Language a owl:Class ;
+	rdfs:label "Language" ;
+	rdfs:comment "Ability in spoken or written natural languages, as a skill " ;
+	rdfs:subClassOf saro:TransversalSkill .
+
+saro:ComplexSkill a owl:Class ;
+	rdfs:label "Complex Skill" ;
+	rdfs:comment "A specialised skill that is composed of multiple other knwon skills, e.g. IT Project Management, but is not as yet defined as a standalone skill " ;
+	rdfs:subClassOf saro:Skill .
+
 saro:User a owl:Class ;
     rdfs:label "User" ;
     rdfs:comment "The User class represents people who able to do one or more tasks " ;
