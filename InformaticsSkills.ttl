@@ -12,10 +12,6 @@ saro:memcached a saro:Product ;
 	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "memcached" .
 
-saro:userInteraction a saro:TransversalSkill ;
-	 saro:isCoreTo saro:ICT ;
-	 rdfs:label "user interaction" .
-
 saro:centos a saro:Product ;
 	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "centos" .
@@ -639,10 +635,6 @@ saro:smpp a saro:Tool ;
 saro:windows a saro:Product ;
 	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "windows" .
-
-saro:continuousDelivery a saro:TransversalSkill ;
-	 saro:isCoreTo saro:ICT ;
-	 rdfs:label "continuous delivery" .
 
 saro:regressionTesting a saro:Topic ;
 	 saro:isCoreTo saro:ICT ;
@@ -1352,10 +1344,6 @@ saro:j2ee a saro:Tool ;
 	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "j2ee" .
 
-saro:leadership a saro:TransversalSkill ;
-	 saro:isCoreTo saro:ICT ;
-	 rdfs:label "leadership" .
-
 saro:ec2 a saro:Tool ;
 	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "ec2" .
@@ -1988,10 +1976,6 @@ saro:episerver a saro:Product ;
 	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "episerver" .
 
-saro:leadDeveloper a saro:TransversalSkill ;
-	 saro:isCoreTo saro:ICT ;
-	 rdfs:label "lead developer" .
-
 saro:powerbuilder a saro:Tool ;
 	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "powerbuilder" .
@@ -2191,10 +2175,6 @@ saro:multithreading a saro:Topic ;
 saro:stateflow a saro:Tool ;
 	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "stateflow" .
-
-saro:highAvailability a saro:TransversalSkill ;
-	 saro:isCoreTo saro:ICT ;
-	 rdfs:label "high availability" .
 
 saro:jvm a saro:Tool ;
 	 saro:isCoreTo saro:ICT ;
@@ -2483,10 +2463,6 @@ saro:hive a saro:Tool ;
 saro:stl a saro:Topic ;
 	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "stl" .
-
-saro:userExperience a saro:TransversalSkill ;
-	 saro:isCoreTo saro:ICT ;
-	 rdfs:label "user experience" .
 
 saro:compiler a saro:Topic ;
 	 saro:isCoreTo saro:ICT ;
@@ -2791,10 +2767,6 @@ saro:distributedComputing a saro:Topic ;
 saro:jruby a saro:Tool ;
 	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "jruby" .
-
-saro:sales a saro:TransversalSkill ;
-	 saro:isCoreTo saro:ICT ;
-	 rdfs:label "sales" .
 
 saro:webforms a saro:Topic ;
 	 saro:isCoreTo saro:ICT ;
