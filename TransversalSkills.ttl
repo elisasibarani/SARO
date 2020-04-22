@@ -116,10 +116,6 @@ saro:slovak a saro:Language ;
 	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "slovak" .
 
-saro:slovenia a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
-	 rdfs:label "slovenia" .
-
 saro:slovene a saro:Language ;
 	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "slovene" .
@@ -131,6 +127,3 @@ saro:spanish a saro:Language ;
 saro:swedish a saro:Language ;
 	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "swedish" .
-	 
-	 
-	 
