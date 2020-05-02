@@ -4,130 +4,95 @@
 @prefix saro: <http://w3id.org/saro#> .
 @prefix esco: <http://data.europa.eu/esco/model#> .
 
-saro:ICT a saro:Sector ;
-	 rdfs:label "Information Technology and Communication" ;
-	 rdfs:seeAlso <http://data.europa.eu/esco/isco/C25> .
-
 saro:userInteraction a saro:TransversalSkill ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "user interaction" .
 
 saro:continuousDelivery a saro:TransversalSkill ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "continuous delivery" .
 	 
 saro:leadership a saro:TransversalSkill ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "leadership" .
 
 saro:leadDeveloper a saro:TransversalSkill ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "lead developer" .
 
 saro:highAvailability a saro:TransversalSkill ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "high availability" .
 	 
 saro:userExperience a saro:TransversalSkill ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "user experience" .
 	 
 saro:sales a saro:TransversalSkill ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "sales" .
 	 
 saro:english a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "english" .
 	 
 saro:bulgarian a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "bulgarian" .
 
 saro:czech a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "czech" .
 
 saro:danish a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "danish" .
 
 saro:dutch a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "dutch" .
 
 saro:estonian a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "estonian" .
 
 saro:finnish a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "finnish" .
 
 saro:french a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "french" .
 
 saro:german a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "german" .
 
 saro:greek a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "greek" .
 
 saro:hungarian a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "hungarian" .
 
 saro:irish a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "irish" .
 
 saro:italian a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "italian" .
 
 saro:latvian a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "latvian" .
 
 saro:lithuanian a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "lithuanian" .
 
 saro:maltese a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "maltese" .
 
 saro:polish a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "polish" .
 
 saro:portuguese a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "portuguese" .
 
 saro:romanian a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "romanian" .
 
 saro:slovak a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "slovak" .
 
 saro:slovenian a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "slovenian" .
 
 saro:spanish a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "spanish" .
 
 saro:swedish a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "swedish" .
 
 saro:croatian a saro:Language ;
-	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "croatian" .
