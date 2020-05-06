@@ -79,6 +79,34 @@ saro:network a saro:Topic ;
 saro:java a saro:Tool ;
 	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "java" .
+	 
+saro:javaFrameworks a saro:Tool ;
+	 saro:isCoreTo saro:ICT ;
+	 rdfs:label "java frameworks" .	 
+	 
+saro:weblogicAdministrator a saro:Topic ;
+	 saro:isCoreTo saro:ICT ;
+	 rdfs:label "weblogic administrator" .	 
+	 
+saro:restfulAPIDevelopment a saro:Topic ;
+	 saro:isCoreTo saro:ICT ;
+	 rdfs:label "restful api development" .	 	
+
+saro:networkSecurity a saro:Topic ;
+	 saro:isCoreTo saro:ICT ;
+	 rdfs:label "network security" .	
+
+saro:dataEncryption a saro:Topic ;
+	 saro:isCoreTo saro:ICT ;
+	 rdfs:label "data encryption" .
+
+saro:spreadsheets a saro:Topic ;
+	 saro:isCoreTo saro:ICT ;
+	 rdfs:label "spreadsheets" .
+
+saro:wordProcessing a saro:Topic ;
+	 saro:isCoreTo saro:ICT ;
+	 rdfs:label "word processing" .	 	 
 
 saro:oracle a saro:Product ;
 	 saro:isCoreTo saro:ICT ;
