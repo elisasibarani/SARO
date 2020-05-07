@@ -88,10 +88,12 @@ saro:weblogicAdministrator a saro:Topic ;
 	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "weblogic administrator" .	 
 	 
-saro:restfulAPIDevelopment a saro:Topic ;
+saro:restfulAPIDevelopment a saro:ComplexSkill ;
+	 saro:subSkill saro:api ;
+	 saro:subSkill saro:restfularchitecture ;
 	 saro:isCoreTo saro:ICT ;
-	 rdfs:label "restful api development" .	 	
-
+	 rdfs:label "restful api development" .
+	 
 saro:networkSecurity a saro:Topic ;
 	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "network security" .	
