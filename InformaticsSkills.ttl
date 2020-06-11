@@ -2841,3 +2841,4210 @@ saro:jaxRS a saro:Tool ;
 saro:msSql a saro:Product ;
 	 saro:isCoreTo saro:ICT ;
 	 rdfs:label "MS.SQL" .
+
+saro:identifyICTsystemweaknesses a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "identify ICT system weaknesses" .
+
+saro:reportanalysisresults a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "report analysis results" .
+
+saro:WhiteHatSentinel a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "WhiteHat Sentinel" .
+
+saro:Smalltalk(computerprogramming) a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Smalltalk (computer programming)" .
+
+saro:integrateddevelopmentenvironmentsoftware a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "integrated development environment software" .
+
+saro:applytechnicalcommunicationskills a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "apply technical communication skills" .
+
+saro:cloudtechnologies a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "cloud technologies" .
+
+saro:Jenkins(toolsforsoftwareconfigurationmanagement) a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Jenkins (tools for software configuration management)" .
+
+saro:ensureequipmentavailability a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "ensure equipment availability" .
+
+saro:enhancewebsitevisibility a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "enhance website visibility" .
+
+saro:Sass a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Sass" .
+
+saro:Eclipse(integrateddevelopmentenvironmentsoftware) a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Eclipse (integrated development environment software)" .
+
+saro:audittechniques a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "audit techniques" .
+
+saro:establishanICTsecuritypreventionplan a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "establish an ICT security prevention plan" .
+
+saro:addressproblemscritically a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "address problems critically" .
+
+saro:useconcurrentprogramming a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "use concurrent programming" .
+
+saro:processdata a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "process data" .
+
+saro:embeddedsystems a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "embedded systems" .
+
+saro:businessprocesses a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "business processes" .
+
+saro:applychangemanagement a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "apply change management" .
+
+saro:webapplicationsecuritythreats a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "web application security threats" .
+
+saro:service-orientedmodelling a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "service-oriented modelling" .
+
+saro:cyberattackcounter-measures a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "cyber attack counter-measures" .
+
+saro:managecontracts a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "manage contracts" .
+
+saro:troubleshoot a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "troubleshoot" .
+
+saro:designapplicationinterfaces a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "design application interfaces" .
+
+saro:ObjectStore a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ObjectStore" .
+
+saro:Haskell a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Haskell" .
+
+saro:delivervisualpresentationofdata a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "deliver visual presentation of data" .
+
+saro:innovateinICT a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "innovate in ICT" .
+
+saro:mobilemarketing a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "mobile marketing" .
+
+saro:JavaScript a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "JavaScript" .
+
+saro:copyrightlegislation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "copyright legislation" .
+
+saro:managescheduleoftasks a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "manage schedule of tasks" .
+
+saro:usedifferentcommunicationchannels a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "use different communication channels" .
+
+saro:Groovy a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Groovy" .
+
+saro:businessstrategyconcepts a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "business strategy concepts" .
+
+saro:productlife-cycle a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "product life-cycle" .
+
+saro:provideuserdocumentation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "provide user documentation" .
+
+saro:performsoftwarerecoverytesting a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "perform software recovery testing" .
+
+saro:manageICTdataarchitecture a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage ICT data architecture" .
+
+saro:Leanprojectmanagement a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Lean project management" .
+
+saro:monitorsystemperformance a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "monitor system performance" .
+
+saro:object-orientedmodelling a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "object-oriented modelling" .
+
+saro:reviewdevelopmentprocessofanorganisation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "review development process of an organisation" .
+
+saro:managedata a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage data" .
+
+saro:providetrainingontechnologicalbusinessdevelopments a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "provide training on technological business developments" .
+
+saro:usetechnicaldrawingsoftware a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "use technical drawing software" .
+
+saro:consultationmethods a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "consultation methods" .
+
+saro:ICTsystemuserrequirements a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT system user requirements" .
+
+saro:solveICTsystemproblems a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "solve ICT system problems" .
+
+saro:testforemotionalpatterns a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "test for emotional patterns" .
+
+saro:performICTtroubleshooting a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "perform ICT troubleshooting" .
+
+saro:developprofessionalnetwork a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "develop professional network" .
+
+saro:PHP a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "PHP" .
+
+saro:3Dtexturing a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "3D texturing" .
+
+saro:usesoftwaredesignpatterns a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "use software design patterns" .
+
+saro:taskalgorithmisation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "task algorithmisation" .
+
+saro:designICThardwareplacement a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "design ICT hardware placement" .
+
+saro:hardwareplatforms a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "hardware platforms" .
+
+saro:measuresoftwareusability a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "measure software usability" .
+
+saro:informonsafetystandards a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "inform on safety standards" .
+
+saro:socialmediamarketingtechniques a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "social media marketing techniques" .
+
+saro:ICTpowerconsumption a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT power consumption" .
+
+saro:ApacheMaven a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Apache Maven" .
+
+saro:drawdesignsketches a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "draw design sketches" .
+
+saro:useICTticketingsystem a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "use ICT ticketing system" .
+
+saro:emergenttechnologies a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "emergent technologies" .
+
+saro:informationconfidentiality a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "information confidentiality" .
+
+saro:designinformationsystem a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "design information system" .
+
+saro:Rapidapplicationdevelopment a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Rapid application development" .
+
+saro:setqualityassuranceobjectives a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "set quality assurance objectives" .
+
+saro:performscientificresearch a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "perform scientific research" .
+
+saro:hardwarearchitectures a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "hardware architectures" .
+
+saro:definetechnologystrategy a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "define technology strategy" .
+
+saro:databasemanagementsystems a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "database management systems" .
+
+saro:Scala a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Scala" .
+
+saro:usecustomerrelationshipmanagementsoftware a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "use customer relationship management software" .
+
+saro:statistics a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "statistics" .
+
+saro:performresourceplanning a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "perform resource planning" .
+
+saro:developautomatedsoftwaretests a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "develop automated software tests" .
+
+saro:TeradataDatabase a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Teradata Database" .
+
+saro:applyconflictmanagement a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "apply conflict management" .
+
+saro:engineeringprocesses a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "engineering processes" .
+
+saro:computerprogramming a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "computer programming" .
+
+saro:3Dmodelling a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "3D modelling" .
+
+saro:applysystemorganisationalpolicies a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "apply system organisational policies" .
+
+saro:managebudgets a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "manage budgets" .
+
+saro:CADsoftware a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "CAD software" .
+
+saro:performdatamining a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "perform data mining" .
+
+saro:performmarketresearch a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "perform market research" .
+
+saro:managestandardsfordataexchange a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage standards for data exchange" .
+
+saro:ICTqualitypolicy a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT quality policy" .
+
+saro:ICTdebuggingtools a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT debugging tools" .
+
+saro:useCAMsoftware a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "use CAM software" .
+
+saro:OracleRelationalDatabase a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Oracle Relational Database" .
+
+saro:datawarehouse a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "data warehouse" .
+
+saro:performdataanalysis a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "perform data analysis" .
+
+saro:integratesystemcomponents a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "integrate system components" .
+
+saro:gatherdataforforensicpurposes a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "gather data for forensic purposes" .
+
+saro:managedisasterrecoveryplans a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "manage disaster recovery plans" .
+
+saro:Salt(toolsforsoftwareconfigurationmanagement) a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Salt (tools for software configuration management)" .
+
+saro:Java(computerprogramming) a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Java (computer programming)" .
+
+saro:projectmanagement a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "project management" .
+
+saro:communicateanalyticalinsights a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "communicate analytical insights" .
+
+saro:balancedatabaseresources a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "balance database resources" .
+
+saro:replicatecustomersoftwareissues a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "replicate customer software issues" .
+
+saro:useacomputer a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "use a computer" .
+
+saro:defineintegrationstrategy a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "define integration strategy" .
+
+saro:keeptaskrecords a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "keep task records" .
+
+saro:createdatasets a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "create data sets" .
+
+saro:businessICTsystems a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "business ICT systems" .
+
+saro:ensurecontinuouspreparednessforaudits a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "ensure continuous preparedness for audits" .
+
+saro:compilecontent a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "compile content" .
+
+saro:reporttestfindings a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "report test findings" .
+
+saro:TypeScript a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "TypeScript" .
+
+saro:dataextraction,transformationandloadingtools a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "data extraction, transformation and loading tools" .
+
+saro:developvirtualgameengine a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "develop virtual game engine" .
+
+saro:STAF a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "STAF" .
+
+saro:defineICTnetworkdesignpolicies a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "define ICT network design policies" .
+
+saro:usefunctionalprogramming a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "use functional programming" .
+
+saro:usesoftwarelibraries a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "use software libraries" .
+
+saro:interpretelectronicdesignspecifications a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "interpret electronic design specifications" .
+
+saro:PentahoDataIntegration a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Pentaho Data Integration" .
+
+saro:performcopywriting a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "perform copywriting" .
+
+saro:ICTproblemmanagementtechniques a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT problem management techniques" .
+
+saro:proofreadtext a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "proofread text" .
+
+saro:systemstheory a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "systems theory" .
+
+saro:MicrosoftVisio a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Microsoft Visio" .
+
+saro:interprettechnicalrequirements a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "interpret technical requirements" .
+
+saro:Cisco a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Cisco" .
+
+saro:businessprocessmodelling a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "business process modelling" .
+
+saro:QlikViewExpressor a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "QlikView Expressor" .
+
+saro:developreportingsoftware a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "develop reporting software" .
+
+saro:legalrequirementsofICTproducts a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "legal requirements of ICT products" .
+
+saro:resourcedescriptionframeworkquerylanguage a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "resource description framework query language" .
+
+saro:analysebusinessrequirements a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "analyse business requirements" .
+
+saro:adjustICTsystemcapacity a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "adjust ICT system capacity" .
+
+saro:forecastfutureICTnetworkneeds a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "forecast future ICT network needs" .
+
+saro:OpenEdgeAdvancedBusinessLanguage a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "OpenEdge Advanced Business Language" .
+
+saro:performcontractcomplianceaudits a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "perform contract compliance audits" .
+
+saro:mathematics a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "mathematics" .
+
+saro:labourlegislation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "labour legislation" .
+
+saro:LESS a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "LESS" .
+
+saro:useobject-orientedprogramming a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "use object-oriented programming" .
+
+saro:Objective-C a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Objective-C" .
+
+saro:ICTsecuritystandards a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT security standards" .
+
+saro:manageonlinecontent a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage online content" .
+
+saro:designenterprisearchitecture a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "design enterprise architecture" .
+
+saro:datamining a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "data mining" .
+
+saro:keywordsindigitalcontent a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "keywords in digital content" .
+
+saro:Xcode a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Xcode" .
+
+saro:webprogramming a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "web programming" .
+
+saro:AdobeIllustrator a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Adobe Illustrator" .
+
+saro:systemsdevelopmentlife-cycle a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "systems development life-cycle" .
+
+saro:qualityassurancemethodologies a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "quality assurance methodologies" .
+
+saro:procurementofICTnetworkequipment a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "procurement of ICT network equipment" .
+
+saro:businessrequirementstechniques a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "business requirements techniques" .
+
+saro:provideICTsupport a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "provide ICT support" .
+
+saro:performsecurityvulnerabilityassessments a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "perform security vulnerability assessments" .
+
+saro:composedescriptionforwebelements a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "compose description for web elements" .
+
+saro:outsourcingstrategy a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "outsourcing strategy" .
+
+saro:technicaldrawings a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "technical drawings" .
+
+saro:CADatacom/DB a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "CA Datacom/DB" .
+
+saro:alignsoftwarewithsystemarchitectures a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "align software with system architectures" .
+
+saro:analysesoftwarespecifications a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "analyse software specifications" .
+
+saro:designdatabasescheme a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "design database scheme" .
+
+saro:implementcorporategovernance a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "implement corporate governance" .
+
+saro:softwarearchitecturemodels a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "software architecture models" .
+
+saro:operaterelationaldatabasemanagementsystem a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "operate relational database management system" .
+
+saro:developfinancialstatisticsreports a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "develop financial statistics reports" .
+
+saro:useexperiencemap a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "use experience map" .
+
+saro:administerICTsystem a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "administer ICT system" .
+
+saro:Incrementaldevelopment a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Incremental development" .
+
+saro:CoffeeScript a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "CoffeeScript" .
+
+saro:render3Dimages a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "render 3D images" .
+
+saro:applystatisticalanalysistechniques a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "apply statistical analysis techniques" .
+
+saro:maintainplanforcontinuityofoperations a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "maintain plan for continuity of operations" .
+
+saro:scientificresearchmethodology a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "scientific research methodology" .
+
+saro:installelectroniccommunicationequipment a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "install electronic communication equipment" .
+
+saro:ICTencryption a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT encryption" .
+
+saro:managedataforlegalmatters a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage data for legal matters" .
+
+saro:securesensitivecustomer'sinformation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "secure sensitive customer's information" .
+
+saro:analyseICTsystem a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "analyse ICT system" .
+
+saro:identifysuppliers a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "identify suppliers" .
+
+saro:maintainICTidentitymanagement a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "maintain ICT identity management" .
+
+saro:networkmanagementsystemtools a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "network management system tools" .
+
+saro:useaccesscontrolsoftware a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "use access control software" .
+
+saro:Process-basedmanagement a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Process-based management" .
+
+saro:managecontentdevelopmentprojects a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage content development projects" .
+
+saro:cognitivepsychology a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "cognitive psychology" .
+
+saro:ICTarchitecturalframeworks a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT architectural frameworks" .
+
+saro:writework-relatedreports a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "write work-related reports" .
+
+saro:plansoftwaretesting a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "plan software testing" .
+
+saro:forecastworkload a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "forecast workload" .
+
+saro:providetechnicaldocumentation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "provide technical documentation" .
+
+saro:analysenetworkbandwidthrequirements a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "analyse network bandwidth requirements" .
+
+saro:createsolutionstoproblems a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "create solutions to problems" .
+
+saro:Agiledevelopment a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Agile development" .
+
+saro:executesoftwaretests a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "execute software tests" .
+
+saro:plandigitalmarketing a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "plan digital marketing" .
+
+saro:SketchBookPro a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "SketchBook Pro" .
+
+saro:designcomponentinterfaces a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "design component interfaces" .
+
+saro:createflowchartdiagram a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "create flowchart diagram" .
+
+saro:N1QL a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "N1QL" .
+
+saro:toolsforsoftwareconfigurationmanagement a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "tools for software configuration management" .
+
+saro:SPARQL a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "SPARQL" .
+
+saro:adapttochangesintechnologicaldevelopmentplans a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "adapt to changes in technological development plans" .
+
+saro:Ruby(computerprogramming) a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Ruby (computer programming)" .
+
+saro:proposeICTsolutionstobusinessproblems a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "propose ICT solutions to business problems" .
+
+saro:visualpresentationtechniques a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "visual presentation techniques" .
+
+saro:ensureinformationprivacy a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ensure information privacy" .
+
+saro:developcodeexploits a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "develop code exploits" .
+
+saro:usecomputer-aidedengineeringsystems a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "use computer-aided engineering systems" .
+
+saro:manageICTchangerequestprocess a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage ICT change request process" .
+
+saro:IBMInfoSphereDataStage a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "IBM InfoSphere DataStage" .
+
+saro:monitorcommunicationchannels'performance a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "monitor communication channels' performance" .
+
+saro:conductresearchinterview a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "conduct research interview" .
+
+saro:overseequalitycontrol a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "oversee quality control" .
+
+saro:naturallanguageprocessing a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "natural language processing" .
+
+saro:internalriskmanagementpolicy a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "internal risk management policy" .
+
+saro:penetrationtestingtool a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "penetration testing tool" .
+
+saro:providetechnicaltraining a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "provide technical training" .
+
+saro:APL a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "APL" .
+
+saro:performbusinessanalysis a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "perform business analysis" .
+
+saro:providesoftwaretestingdocumentation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "provide software testing documentation" .
+
+saro:supportICTsystemusers a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "support ICT system users" .
+
+saro:levelsofsoftwaretesting a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "levels of software testing" .
+
+saro:createsoftwaredesign a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "create software design" .
+
+saro:investmentanalysis a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "investment analysis" .
+
+saro:VisualStudio.NET a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Visual Studio .NET" .
+
+saro:manageenvironmentalimpactofoperations a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "manage environmental impact of operations" .
+
+saro:designdigitalcalltoaction a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "design digital call to action" .
+
+saro:identifylegalrequirements a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "identify legal requirements" .
+
+saro:verifyformalICTspecifications a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "verify formal ICT specifications" .
+
+saro:salesstrategies a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "sales strategies" .
+
+saro:maintaindatabasesecurity a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "maintain database security" .
+
+saro:applicationusability a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "application usability" .
+
+saro:Agileprojectmanagement a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Agile project management" .
+
+saro:buildrecommendersystems a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "build recommender systems" .
+
+saro:LINQ a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "LINQ" .
+
+saro:Lisp a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Lisp" .
+
+saro:MATLAB a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "MATLAB" .
+
+saro:performdatacleansing a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "perform data cleansing" .
+
+saro:qualitystandards a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "quality standards" .
+
+saro:managelocalisation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "manage localisation" .
+
+saro:developdocumentationinaccordancewithlegalrequirements a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "develop documentation in accordance with legal requirements" .
+
+saro:applycontrolprocessstatisticalmethods a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "apply control process statistical methods" .
+
+saro:executeemailmarketing a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "execute email marketing" .
+
+saro:utilisecontenttypes a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "utilise content types" .
+
+saro:qualityandcycletimeoptimisation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "quality and cycle time optimisation" .
+
+saro:integrateICTdata a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "integrate ICT data" .
+
+saro:estimatedurationofwork a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "estimate duration of work" .
+
+saro:applyreverseengineering a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "apply reverse engineering" .
+
+saro:usesoftwarefordatapreservation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "use software for data preservation" .
+
+saro:managebusinessknowledge a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "manage business knowledge" .
+
+saro:identifyICTuserneeds a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "identify ICT user needs" .
+
+saro:databasequalitystandards a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "database quality standards" .
+
+saro:conductsearchengineoptimisation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "conduct search engine optimisation" .
+
+saro:ML(computerprogramming) a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ML (computer programming)" .
+
+saro:lathemachineparts a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "lathe machine parts" .
+
+saro:maintainrelationshipwithcustomers a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "maintain relationship with customers" .
+
+saro:identifycustomerrequirements a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "identify customer requirements" .
+
+saro:providemultimediacontent a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "provide multimedia content" .
+
+saro:InternetofThings a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Internet of Things" .
+
+saro:publishingstrategy a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "publishing strategy" .
+
+saro:DB2 a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "DB2" .
+
+saro:authoringsoftware a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "authoring software" .
+
+saro:field-programmablegatearrays a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "field-programmable gate arrays" .
+
+saro:softwareanomalies a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "software anomalies" .
+
+saro:ICTnetworkrouting a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT network routing" .
+
+saro:Waterfalldevelopment a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Waterfall development" .
+
+saro:ensureproperdocumentmanagement a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "ensure proper document management" .
+
+saro:leaddisasterrecoveryexercises a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "lead disaster recovery exercises" .
+
+saro:performonlinedataanalysis a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "perform online data analysis" .
+
+saro:implementICTriskmanagement a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "implement ICT risk management" .
+
+saro:systembackupbestpractice a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "system backup best practice" .
+
+saro:Swift(computerprogramming) a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Swift (computer programming)" .
+
+saro:cybersecurity a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "cyber security" .
+
+saro:ICTnetworksimulation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT network simulation" .
+
+saro:Ansible a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Ansible" .
+
+saro:MDX a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "MDX" .
+
+saro:ICTsystemintegration a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT system integration" .
+
+saro:translaterequirementconceptsintovisualdesign a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "translate requirement concepts into visual design" .
+
+saro:digitalmarketingtechniques a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "digital marketing techniques" .
+
+saro:Erlang a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Erlang" .
+
+saro:studywebsitebehaviourpatterns a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "study website behaviour patterns" .
+
+saro:ensureadherencetoorganisationalICTstandards a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ensure adherence to organisational ICT standards" .
+
+saro:mobileoperatingsystems a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "mobile operating systems" .
+
+saro:conductcontentqualityassurance a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "conduct content quality assurance" .
+
+saro:testICTqueries a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "test ICT queries" .
+
+saro:usescriptingprogramming a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "use scripting programming" .
+
+saro:attendtoICTsystemsquality a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "attend to ICT systems quality" .
+
+saro:informationarchitecture a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "information architecture" .
+
+saro:implementstrategicplanning a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "implement strategic planning" .
+
+saro:onlineanalyticalprocessing a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "online analytical processing" .
+
+saro:softwareinteractiondesign a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "software interaction design" .
+
+saro:developauditplan a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "develop audit plan" .
+
+saro:designgraphics a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "design graphics" .
+
+saro:givelivepresentation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "give live presentation" .
+
+saro:buildbusinessrelationships a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "build business relationships" .
+
+saro:normalisedata a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "normalise data" .
+
+saro:implementdatawarehousingtechniques a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "implement data warehousing techniques" .
+
+saro:apply3Dimagingtechniques a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "apply 3D imaging techniques" .
+
+saro:performbackups a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "perform backups" .
+
+saro:Android(mobileoperatingsystems) a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Android (mobile operating systems)" .
+
+saro:measurecustomerfeedback a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "measure customer feedback" .
+
+saro:LDAP a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "LDAP" .
+
+saro:MicrosoftVisualC++ a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Microsoft Visual C++" .
+
+saro:interactwithuserstogatherrequirements a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "interact with users to gather requirements" .
+
+saro:collectcustomerfeedbackonapplications a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "collect customer feedback on applications" .
+
+saro:ICTnetworksecurityrisks a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT network security risks" .
+
+saro:SQLServer a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "SQL Server" .
+
+saro:respondtocustomers'inquiries a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "respond to customers' inquiries" .
+
+saro:computerforensics a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "computer forensics" .
+
+saro:createbusinessprocessmodels a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "create business process models" .
+
+saro:trackkeyperformanceindicators a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "track key performance indicators" .
+
+saro:stylesheetlanguages a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "style sheet languages" .
+
+saro:interfacingtechniques a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "interfacing techniques" .
+
+saro:developinformationstandards a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "develop information standards" .
+
+saro:useautomaticprogramming a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "use automatic programming" .
+
+saro:behaviouralscience a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "behavioural science" .
+
+saro:complywithlegalregulations a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "comply with legal regulations" .
+
+saro:datastorage a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "data storage" .
+
+saro:createcontenttitle a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "create content title" .
+
+saro:usabilityengineering a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "usability engineering" .
+
+saro:informationstructure a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "information structure" .
+
+saro:ICTnetworkinghardware a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "ICT networking hardware" .
+
+saro:blueprints a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "blueprints" .
+
+saro:mechanics a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "mechanics" .
+
+saro:Vagrant a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Vagrant" .
+
+saro:definedatabasephysicalstructure a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "define database physical structure" .
+
+saro:trainemployees a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "train employees" .
+
+saro:Iterativedevelopment a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Iterative development" .
+
+saro:adviseonsafetyimprovements a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "advise on safety improvements" .
+
+saro:performsoftwareunittesting a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "perform software unit testing" .
+
+saro:programaCNCcontroller a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "program a CNC controller" .
+
+saro:createdatamodels a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "create data models" .
+
+saro:provideICTconsultingadvice a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "provide ICT consulting advice" .
+
+saro:utiliseregularexpressions a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "utilise regular expressions" .
+
+saro:manageICTsemanticintegration a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage ICT semantic integration" .
+
+saro:ICTcapacityplanningstrategies a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT capacity planning strategies" .
+
+saro:developautomatedmigrationmethods a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "develop automated migration methods" .
+
+saro:manageICTdataclassification a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage ICT data classification" .
+
+saro:AdobePhotoshop a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Adobe Photoshop" .
+
+saro:iOS a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "iOS" .
+
+saro:implementfront-endwebsitedesign a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "implement front-end website design" .
+
+saro:Python(computerprogramming) a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Python (computer programming)" .
+
+saro:Synfig a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Synfig" .
+
+saro:uselogicprogramming a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "use logic programming" .
+
+saro:applytoolsforcontentdevelopment a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "apply tools for content development" .
+
+saro:developICTdevicedriver a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "develop ICT device driver" .
+
+saro:ICTperformanceanalysismethods a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT performance analysis methods" .
+
+saro:ensurecompliancewithenvironmentallegislation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "ensure compliance with environmental legislation" .
+
+saro:useCADsoftware a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "use CAD software" .
+
+saro:VBScript a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "VBScript" .
+
+saro:JSSS a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "JSSS" .
+
+saro:Assembly(computerprogramming) a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Assembly (computer programming)" .
+
+saro:usetechnicaldocumentation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "use technical documentation" .
+
+saro:overseedevelopmentofsoftware a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "oversee development of software" .
+
+saro:installsignalrepeaters a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "install signal repeaters" .
+
+saro:Nessus a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Nessus" .
+
+saro:manageICTvirtualisationmachines a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage ICT virtualisation machines" .
+
+saro:manageICTsystemdeployment a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage ICT system deployment" .
+
+saro:distributedcomputing a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "distributed computing" .
+
+saro:interpretcurrentdata a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "interpret current data" .
+
+saro:managedatacollectionsystems a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage data collection systems" .
+
+saro:makestrategicbusinessdecisions a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "make strategic business decisions" .
+
+saro:Outsourcingmodel a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Outsourcing model" .
+
+saro:managesystemsecurity a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage system security" .
+
+saro:Pascal(computerprogramming) a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Pascal (computer programming)" .
+
+saro:hardwarecomponentssuppliers a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "hardware components suppliers" .
+
+saro:toolsforICTtestautomation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "tools for ICT test automation" .
+
+saro:usemeasurementinstruments a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "use measurement instruments" .
+
+saro:educateondataconfidentiality a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "educate on data confidentiality" .
+
+saro:conductICTcodereview a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "conduct ICT code review" .
+
+saro:maintainICTsystem a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "maintain ICT system" .
+
+saro:provideICTsystemtraining a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "provide ICT system training" .
+
+saro:conductqualitativeresearch a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "conduct qualitative research" .
+
+saro:testsystemaccessibilityforuserswithspecialneeds a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "test system accessibility for users with special needs" .
+
+saro:developICTtestsuite a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "develop ICT test suite" .
+
+saro:providewrittencontent a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "provide written content" .
+
+saro:maintainICTserver a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "maintain ICT server" .
+
+saro:executeintegrationtesting a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "execute integration testing" .
+
+saro:insourcingstrategy a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "insourcing strategy" .
+
+saro:onlinemoderationtechniques a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "online moderation techniques" .
+
+saro:ICTcommunicationsprotocols a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT communications protocols" .
+
+saro:assessICTknowledge a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "assess ICT knowledge" .
+
+saro:ICTinfrastructure a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT infrastructure" .
+
+saro:readstandardblueprints a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "read standard blueprints" .
+
+saro:SASlanguage a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "SAS language" .
+
+saro:usemarkuplanguages a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "use markup languages" .
+
+saro:assessusers'interactionwithICTapplications a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "assess users' interaction with ICT applications" .
+
+saro:WindowsPhone a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Windows Phone" .
+
+saro:applybusinessacumen a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "apply business acumen" .
+
+saro:IBMInfoSphereInformationServer a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "IBM InfoSphere Information Server" .
+
+saro:Scratch(computerprogramming) a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Scratch (computer programming)" .
+
+saro:optimisechoiceofICTsolution a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "optimise choice of ICT solution" .
+
+saro:developcontingencyplansforemergencies a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "develop contingency plans for emergencies" .
+
+saro:COBOL a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "COBOL" .
+
+saro:executeanalyticalmathematicalcalculations a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "execute analytical mathematical calculations" .
+
+saro:ICTsecuritylegislation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT security legislation" .
+
+saro:C++ a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "C++" .
+
+saro:identifyICTsecurityrisks a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "identify ICT security risks" .
+
+saro:Perl a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Perl" .
+
+saro:real-timecomputing a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "real-time computing" .
+
+saro:createdatabasediagrams a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "create database diagrams" .
+
+saro:human-computerinteraction a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "human-computer interaction" .
+
+saro:controlobjectivesforinformationandrelatedtechnology a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "control objectives for information and related technology" .
+
+saro:documentationtypes a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "documentation types" .
+
+saro:manageengineeringproject a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "manage engineering project" .
+
+saro:keepupwiththelatestinformationsystemssolutions a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "keep up with the latest information systems solutions" .
+
+saro:contentdevelopmentprocesses a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "content development processes" .
+
+saro:createprototypeofuserexperiencesolutions a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "create prototype of user experience solutions" .
+
+saro:applyICTsystemstheory a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "apply ICT systems theory" .
+
+saro:performforensicpreservationsofdigitaldevices a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "perform forensic preservations of digital devices" .
+
+saro:internetgovernance a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "internet governance" .
+
+saro:analysebigdata a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "analyse big data" .
+
+saro:planICTcapacity a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "plan ICT capacity" .
+
+saro:softwarecomponentssuppliers a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "software components suppliers" .
+
+saro:designprocess a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "design process" .
+
+saro:definesoftwarearchitecture a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "define software architecture" .
+
+saro:AJAX a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "AJAX" .
+
+saro:SaaS(service-orientedmodelling) a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "SaaS (service-oriented modelling)" .
+
+saro:crowdsourcingstrategy a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "crowdsourcing strategy" .
+
+saro:datamodels a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "data models" .
+
+saro:adviseonstrengtheningsecurity a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "advise on strengthening security" .
+
+saro:utilisemachinelearning a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "utilise machine learning" .
+
+saro:preparefinancialauditingreports a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "prepare financial auditing reports" .
+
+saro:managestaff a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "manage staff" .
+
+saro:provideguidelinesforcontentdevelopment a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "provide guidelines for content development" .
+
+saro:proxyservers a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "proxy servers" .
+
+saro:definetechnicalrequirements a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "define technical requirements" .
+
+saro:utilisedecisionsupportsystem a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "utilise decision support system" .
+
+saro:KDevelop a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "KDevelop" .
+
+saro:maintaindatabaseperformance a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "maintain database performance" .
+
+saro:managesystemtesting a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage system testing" .
+
+saro:webanalytics a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "web analytics" .
+
+saro:IBMInformix a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "IBM Informix" .
+
+saro:engineeringcontroltheory a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "engineering control theory" .
+
+saro:coordinatetechnologicalactivities a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "coordinate technological activities" .
+
+saro:manufacturingprocesses a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "manufacturing processes" .
+
+saro:conductquantitativeresearch a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "conduct quantitative research" .
+
+saro:SQLServerIntegrationServices a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "SQL Server Integration Services" .
+
+saro:businessintelligence a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "business intelligence" .
+
+saro:defineorganisationalstandards a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "define organisational standards" .
+
+saro:ICTrecoverytechniques a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT recovery techniques" .
+
+saro:utilisecomputer-aidedsoftwareengineeringtools a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "utilise computer-aided software engineering tools" .
+
+saro:configureICTsystem a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "configure ICT system" .
+
+saro:principlesofartificialintelligence a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "principles of artificial intelligence" .
+
+saro:adapttochangingsituations a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "adapt to changing situations" .
+
+saro:hardwarecomponents a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "hardware components" .
+
+saro:definefirewallrules a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "define firewall rules" .
+
+saro:monitorICTresearch a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "monitor ICT research" .
+
+saro:OracleWarehouseBuilder a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Oracle Warehouse Builder" .
+
+saro:communicatewithcustomers a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "communicate with customers" .
+
+saro:designdatabasebackupspecifications a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "design database backup specifications" .
+
+saro:CSS a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "CSS" .
+
+saro:definedataqualitycriteria a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "define data quality criteria" .
+
+saro:managestandardenterpriseresourceplanningsystem a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage standard enterprise resource planning system" .
+
+saro:engineeringprinciples a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "engineering principles" .
+
+saro:createprojectspecifications a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "create project specifications" .
+
+saro:debugsoftware a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "debug software" .
+
+saro:improvebusinessprocesses a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "improve business processes" .
+
+saro:R a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "R" .
+
+saro:Nexpose a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Nexpose" .
+
+saro:createsemantictrees a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "create semantic trees" .
+
+saro:DevOps a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "DevOps" .
+
+saro:setupthecontrollerofamachine a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "set up the controller of a machine" .
+
+saro:contentmarketingstrategy a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "content marketing strategy" .
+
+saro:integratecontentintooutputmedia a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "integrate content into output media" .
+
+saro:maintaininformationnetworkhardware a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "maintain information network hardware" .
+
+saro:signalprocessing a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "signal processing" .
+
+saro:carryoutstatisticalforecasts a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "carry out statistical forecasts" .
+
+saro:applysocialmediamarketing a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "apply social media marketing" .
+
+saro:developICTworkflow a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "develop ICT workflow" .
+
+saro:Hybridmodel a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Hybrid model" .
+
+saro:databasedevelopmenttools a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "database development tools" .
+
+saro:promoteenvironmentalawareness a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "promote environmental awareness" .
+
+saro:statisticalprocesscontrol a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "statistical process control" .
+
+saro:establishdataprocesses a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "establish data processes" .
+
+saro:ICTprojectmanagementmethodologies a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT project management methodologies" .
+
+saro:testforbehaviouralpatterns a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "test for behavioural patterns" .
+
+saro:softwareUIdesignpatterns a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "software UI design patterns" .
+
+saro:implementICTnetworkdiagnostictools a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "implement ICT network diagnostic tools" .
+
+saro:writeresearchproposals a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "write research proposals" .
+
+saro:ASP.NET a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ASP.NET" .
+
+saro:decisionsupportsystems a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "decision support systems" .
+
+saro:implementdataqualityprocesses a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "implement data quality processes" .
+
+saro:softwaredesignmethodologies a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "software design methodologies" .
+
+saro:ensurecompliancewithlegalrequirements a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "ensure compliance with legal requirements" .
+
+saro:usecontentmanagementsystemsoftware a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "use content management system software" .
+
+saro:Prototypingdevelopment a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Prototyping development" .
+
+saro:createwebsitewireframe a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "create website wireframe" .
+
+saro:OpenEdgeDatabase a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "OpenEdge Database" .
+
+saro:unifiedmodellinglanguage a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "unified modelling language" .
+
+saro:executeICTaudits a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "execute ICT audits" .
+
+saro:analysethecontextofanorganisation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "analyse the context of an organisation" .
+
+saro:mobiledevicemanagement a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "mobile device management" .
+
+saro:ensurecompliancewithcompanyregulations a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "ensure compliance with company regulations" .
+
+saro:ICTprojectmanagement a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT project management" .
+
+saro:planresearchprocess a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "plan research process" .
+
+saro:MySQL a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "MySQL" .
+
+saro:graphicseditorsoftware a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "graphics editor software" .
+
+saro:innovationprocesses a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "innovation processes" .
+
+saro:managecontentmetadata a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "manage content metadata" .
+
+saro:querylanguages a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "query languages" .
+
+saro:OracleDataIntegrator a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Oracle Data Integrator" .
+
+saro:conductliteratureresearch a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "conduct literature research" .
+
+saro:monitortechnologytrends a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "monitor technology trends" .
+
+saro:ICTprocessqualitymodels a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT process quality models" .
+
+saro:manageemailhostingservice a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage email hosting service" .
+
+saro:ICTsystemprogramming a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT system programming" .
+
+saro:trigonometry a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "trigonometry" .
+
+saro:solutiondeployment a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "solution deployment" .
+
+saro:organisationalresilience a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "organisational resilience" .
+
+saro:tendlathe a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "tend lathe" .
+
+saro:softwaremetrics a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "software metrics" .
+
+saro:Filemaker(databasemanagementsystems) a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Filemaker (database management systems)" .
+
+saro:electricalengineering a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "electrical engineering" .
+
+saro:applyICTsystemusagepolicies a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "apply ICT system usage policies" .
+
+saro:WorldWideWebConsortiumstandards a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "World Wide Web Consortium standards" .
+
+saro:acquiresystemcomponent a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "acquire system component" .
+
+saro:statisticalanalysissystemsoftware a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "statistical analysis system software" .
+
+saro:manageICTlegacyimplication a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage ICT legacy implication" .
+
+saro:Access(databasemanagementsystems) a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Access (database management systems)" .
+
+saro:developsoftwareprototype a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "develop software prototype" .
+
+saro:ICTaccessibilitystandards a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT accessibility standards" .
+
+saro:informationsecuritystrategy a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "information security strategy" .
+
+saro:Puppet(toolsforsoftwareconfigurationmanagement) a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Puppet (tools for software configuration management)" .
+
+saro:digitalgamegenres a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "digital game genres" .
+
+saro:definesecuritypolicies a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "define security policies" .
+
+saro:consultwithbusinessclients a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "consult with business clients" .
+
+saro:coachemployees a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "coach employees" .
+
+saro:productusagerisksanalysis a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "product usage risks analysis" .
+
+saro:database a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "database" .
+
+saro:maintaininternetprotocolconfiguration a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "maintain internet protocol configuration" .
+
+saro:collectICTdata a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "collect ICT data" .
+
+saro:ICTmarket a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT market" .
+
+saro:applyinformationsecuritypolicies a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "apply information security policies" .
+
+saro:applycompanypolicies a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "apply company policies" .
+
+saro:performriskanalysis a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "perform risk analysis" .
+
+saro:GIMP(graphicseditorsoftware) a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "GIMP (graphics editor software)" .
+
+saro:handledatasamples a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "handle data samples" .
+
+saro:translaterequirementconceptsintocontent a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "translate requirement concepts into content" .
+
+saro:managechangesinICTsystem a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage changes in ICT system" .
+
+saro:executefeasibilitystudy a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "execute feasibility study" .
+
+saro:InformaticaPowerCenter a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Informatica PowerCenter" .
+
+saro:BlackBerry a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "BlackBerry" .
+
+saro:implementICTrecoverysystem a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "implement ICT recovery system" .
+
+saro:informationextraction a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "information extraction" .
+
+saro:managedatabase a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "manage database" .
+
+saro:C# a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "C#" .
+
+saro:organisationalpolicies a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "organisational policies" .
+
+saro:applyprocurement a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "apply procurement" .
+
+saro:adviseclientontechnicalpossibilities a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "advise client on technical possibilities" .
+
+saro:developdataprocessingapplications a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "develop data processing applications" .
+
+saro:industrialsoftware a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "industrial software" .
+
+saro:utilisemethodologiesforusercentereddesign a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "utilise methodologies for user centered design" .
+
+saro:synthesiseresearchpublications a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "synthesise research publications" .
+
+saro:PostgreSQL a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "PostgreSQL" .
+
+saro:productdatamanagement a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "product data management" .
+
+saro:Opensourcemodel a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Open source model" .
+
+saro:principlesofanimation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "principles of animation" .
+
+saro:analysebusinessprocesses a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "analyse business processes" .
+
+saro:ICTsalesmethodologies a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT sales methodologies" .
+
+saro:Spiraldevelopment a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Spiral development" .
+
+saro:writedatabasedocumentation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "write database documentation" .
+
+saro:ICTenvironmentalpolicies a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "ICT environmental policies" .
+
+saro:developtechnologicalimprovementstrategies a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "develop technological improvement strategies" .
+
+saro:conductimpactevaluationofICTprocessesonbusiness a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "conduct impact evaluation of ICT processes on business" .
+
+saro:SAPR3 a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "SAP R3" .
+
+saro:mobiledevicesoftwareframeworks a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "mobile device software frameworks" .
+
+saro:3Dlighting a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "3D lighting" .
+
+saro:manageICTproject a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage ICT project" .
+
+saro:migrateexistingdata a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "migrate existing data" .
+
+saro:ABAP a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ABAP" .
+
+saro:useinterfacedescriptionlanguage a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "use interface description language" .
+
+saro:dataqualityassessment a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "data quality assessment" .
+
+saro:conductscholarlyresearch a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "conduct scholarly research" .
+
+saro:CommonLisp a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Common Lisp" .
+
+saro:softwarecomponentslibraries a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "software components libraries" .
+
+saro:unstructureddata a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "unstructured data" .
+
+saro:preparelicenceagreements a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "prepare licence agreements" .
+
+saro:providecostbenefitanalysisreports a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "provide cost benefit analysis reports" .
+
+saro:reportonenvironmentalissues a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "report on environmental issues" .
+
+saro:adviseonenvironmentalremediation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "advise on environmental remediation" .
+
+saro:designuserinterface a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "design user interface" .
+
+saro:informationcategorisation a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "information categorisation" .
+
+saro:SAPDataServices a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "SAP Data Services" .
+
+saro:manageITsecuritycompliances a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage IT security compliances" .
+
+saro:performqualityaudits a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "perform quality audits" .
+
+saro:carryoutinternetresearch a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "carry out internet research" .
+
+saro:developinformationsecuritystrategy a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "develop information security strategy" .
+
+saro:designcomputernetwork a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "design computer network" .
+
+saro:interprettechnicaltexts a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "interpret technical texts" .
+
+saro:Prolog(computerprogramming) a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Prolog (computer programming)" .
+
+saro:developcreativeideas a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "develop creative ideas" .
+
+saro:XQuery a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "XQuery" .
+
+saro:performprojectmanagement a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "perform project management" .
+
+saro:executeICTuserresearchactivities a saro:Skill ;
+	saro:isCoreTo saro:ICT ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "execute ICT user research activities" .
