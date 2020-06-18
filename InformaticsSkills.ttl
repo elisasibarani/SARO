@@ -4998,7 +4998,7 @@ saro:LDAP a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "LDAP" .
 
-saro:MicrosoftVisualC++ a saro:Skill ;
+saro:MicrosoftVisualCPlusPlus a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
@@ -5656,7 +5656,7 @@ saro:ICTsecuritylegislation a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "ICT security legislation" .
 
-saro:C++ a saro:Skill ;
+saro:CPlusPlus a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
