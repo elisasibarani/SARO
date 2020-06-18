@@ -4354,7 +4354,7 @@ saro:IBMInfoSphereDataStage a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "IBM InfoSphere DataStage" .
 
-saro:monitorcommunicationchannels'performance a saro:Skill ;
+saro:monitorcommunicationchannelsperformance a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
@@ -5033,7 +5033,7 @@ saro:SQLServer a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "SQL Server" .
 
-saro:respondtocustomers'inquiries a saro:Skill ;
+saro:respondtocustomersinquiries a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
@@ -5586,7 +5586,7 @@ saro:usemarkuplanguages a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "use markup languages" .
 
-saro:assessusers'interactionwithICTapplications a saro:Skill ;
+saro:assessusersinteractionwithICTapplications a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
