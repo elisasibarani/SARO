@@ -3654,7 +3654,7 @@ saro:TypeScript a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "TypeScript" .
 
-saro:dataextraction,transformationandloadingtools a saro:Skill ;
+saro:dataextractiontransformationandloadingtools a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
