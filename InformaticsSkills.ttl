@@ -3983,7 +3983,7 @@ saro:technicaldrawings a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "technical drawings" .
 
-saro:CADatacom/DB a saro:Skill ;
+saro:CADatacomDB a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
