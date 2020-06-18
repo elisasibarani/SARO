@@ -2891,7 +2891,7 @@ saro:cloudtechnologies a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "cloud technologies" .
 
-saro:Jenkins(toolsforsoftwareconfigurationmanagement) a saro:Skill ;
+saro:Jenkins a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
