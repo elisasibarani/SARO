@@ -2863,7 +2863,7 @@ saro:WhiteHatSentinel a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "WhiteHat Sentinel" .
 
-saro:Smalltalk(computerprogramming) a saro:Skill ;
+saro:Smalltalk a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
