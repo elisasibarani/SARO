@@ -2919,7 +2919,7 @@ saro:Sass a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "Sass" .
 
-saro:Eclipse(integrateddevelopmentenvironmentsoftware) a saro:Skill ;
+saro:Eclipse a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
@@ -3549,14 +3549,14 @@ saro:managedisasterrecoveryplans a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "manage disaster recovery plans" .
 
-saro:Salt(toolsforsoftwareconfigurationmanagement) a saro:Skill ;
+saro:Salt a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "Salt (tools for software configuration management)" .
 
-saro:Java(computerprogramming) a saro:Skill ;
+saro:Java a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
@@ -4298,7 +4298,7 @@ saro:adapttochangesintechnologicaldevelopmentplans a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "adapt to changes in technological development plans" .
 
-saro:Ruby(computerprogramming) a saro:Skill ;
+saro:Ruby a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
@@ -4655,7 +4655,7 @@ saro:conductsearchengineoptimisation a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "conduct search engine optimisation" .
 
-saro:ML(computerprogramming) a saro:Skill ;
+saro:ML a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
@@ -4781,7 +4781,7 @@ saro:systembackupbestpractice a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "system backup best practice" .
 
-saro:Swift(computerprogramming) a saro:Skill ;
+saro:Swift a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
@@ -4977,7 +4977,7 @@ saro:performbackups a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "perform backups" .
 
-saro:Android(mobileoperatingsystems) a saro:Skill ;
+saro:Android a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
@@ -5271,7 +5271,7 @@ saro:implementfront-endwebsitedesign a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "implement front-end website design" .
 
-saro:Python(computerprogramming) a saro:Skill ;
+saro:Python a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
@@ -5341,7 +5341,7 @@ saro:JSSS a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "JSSS" .
 
-saro:Assembly(computerprogramming) a saro:Skill ;
+saro:Assembly a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
@@ -5432,7 +5432,7 @@ saro:managesystemsecurity a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "manage system security" .
 
-saro:Pascal(computerprogramming) a saro:Skill ;
+saro:Pascal a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
@@ -5614,7 +5614,7 @@ saro:IBMInfoSphereInformationServer a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "IBM InfoSphere Information Server" .
 
-saro:Scratch(computerprogramming) a saro:Skill ;
+saro:Scratch a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
@@ -5803,7 +5803,7 @@ saro:AJAX a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "AJAX" .
 
-saro:SaaS(service-orientedmodelling) a saro:Skill ;
+saro:SaaS a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
@@ -6468,7 +6468,7 @@ saro:softwaremetrics a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "software metrics" .
 
-saro:Filemaker(databasemanagementsystems) a saro:Skill ;
+saro:Filemaker a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
@@ -6517,7 +6517,7 @@ saro:manageICTlegacyimplication a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "manage ICT legacy implication" .
 
-saro:Access(databasemanagementsystems) a saro:Skill ;
+saro:Access a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
@@ -6545,7 +6545,7 @@ saro:informationsecuritystrategy a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "information security strategy" .
 
-saro:Puppet(toolsforsoftwareconfigurationmanagement) a saro:Skill ;
+saro:Puppet a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
@@ -6636,7 +6636,7 @@ saro:performriskanalysis a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "perform risk analysis" .
 
-saro:GIMP(graphicseditorsoftware) a saro:Skill ;
+saro:GIMP a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
@@ -7014,7 +7014,7 @@ saro:interprettechnicaltexts a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "interpret technical texts" .
 
-saro:Prolog(computerprogramming) a saro:Skill ;
+saro:Prolog a saro:Skill ;
 	saro:isCoreTo saro:ICT ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
