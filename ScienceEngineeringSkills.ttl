@@ -281,7 +281,7 @@ saro:usespecialiseddesignsoftware a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "use specialised design software" .
 
-saro:designthedigitalinterfaceofgambling,bettingandlotterygames a saro:Skill ;
+saro:designthedigitalinterfaceofgamblingbettingandlotterygames a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
@@ -2255,7 +2255,7 @@ saro:rackwines a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "rack wines" .
 
-saro:makedecisionsregardingtheanimal'swelfare a saro:Skill ;
+saro:makedecisionsregardingtheanimalswelfare a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
@@ -2794,7 +2794,7 @@ saro:applytechnicalcommunicationskills a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "apply technical communication skills" .
 
-saro:createaproduct'svirtualmodel a saro:Skill ;
+saro:createaproductsvirtualmodel a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
@@ -4075,7 +4075,7 @@ saro:managebriefsforclothingmanufacturing a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "manage briefs for clothing manufacturing" .
 
-saro:adapttoartists'creativedemands a saro:Skill ;
+saro:adapttoartistscreativedemands a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
@@ -4145,7 +4145,7 @@ saro:usescriptingprogramming a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "use scripting programming" .
 
-saro:assessanimal'scondition a saro:Skill ;
+saro:assessanimalscondition a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
@@ -20834,7 +20834,7 @@ saro:evaluateartquality a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "evaluate art quality" .
 
-saro:Pascal(computerprogramming) a saro:Skill ;
+saro:Pascalcomputerprogramming a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
