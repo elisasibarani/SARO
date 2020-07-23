@@ -96,3 +96,645 @@ saro:swedish a saro:Language ;
 
 saro:croatian a saro:Language ;
 	 rdfs:label "croatian" .
+
+saro:acceptconstructivecriticism a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "accept constructive criticism" .
+
+saro:adapttochange a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "adapt to change" .
+
+saro:addressanaudience a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "address an audience" .
+
+saro:applyqualitystandards a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "apply quality standards" .
+
+saro:attendtodetail a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "attend to detail" .
+
+saro:attendtohygiene a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "attend to hygiene" .
+
+saro:browse,searchandfilterdata,informationanddigitalcontent a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "browse, search and filter data, information and digital content" .
+
+saro:carryoutpracticaltaskswithsmartdevices a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "carry out practical tasks with smart devices" .
+
+saro:carryoutwork-relatedcalculations a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "carry out work-related calculations" .
+
+saro:carryoutwork-relatedmeasurements a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "carry out work-related measurements" .
+
+saro:collaboratethroughdigitaltechnologies a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "collaborate through digital technologies" .
+
+saro:communicatemathematicalinformation a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "communicate mathematical information" .
+
+saro:computerprogramming a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "computer programming" .
+
+saro:copewithpressure a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "cope with pressure" .
+
+saro:copyrightandlicensesrelatedtodigitalcontent a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "copyright and licenses related to digital content" .
+
+saro:creativelyusedigitaltechnologies a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "creatively use digital technologies" .
+
+saro:dealwithuncertainty a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "deal with uncertainty" .
+
+saro:demonstrateconsideration a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "demonstrate consideration" .
+
+saro:demonstratecuriosity a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "demonstrate curiosity" .
+
+saro:demonstrateenthusiasm a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "demonstrate enthusiasm" .
+
+saro:demonstrategoodmanners a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "demonstrate good manners" .
+
+saro:demonstrateinterculturalcompetence a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "demonstrate intercultural competence" .
+
+saro:demonstratewillingnesstolearn a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "demonstrate willingness to learn" .
+
+saro:developdigitalcontent a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "develop digital content" .
+
+saro:developstrategytosolveproblems a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "develop strategy to solve problems" .
+
+saro:engageincitizenshipthroughdigitaltechnologies a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "engage in citizenship through digital technologies" .
+
+saro:evaluatedata,informationanddigitalcontent a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "evaluate data, information and digital content" .
+
+saro:evaluateinformation a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "evaluate information" .
+
+saro:followenvironmentally-sustainableworkpractices a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "follow environmentally-sustainable work practices" .
+
+saro:followethicalcodeofconduct a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "follow ethical code of conduct" .
+
+saro:followhygienicworkpractices a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "follow hygienic work practices" .
+
+saro:followsafetyprecautionsinworkpractices a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "follow safety precautions in work practices" .
+
+saro:giveadvicetoothers a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "give advice to others" .
+
+saro:identifydigitalcompetencegaps a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "identify digital competence gaps" .
+
+saro:identifyneedsandtechnologicalresponses a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "identify needs and technological responses" .
+
+saro:identifyopportunities a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "identify opportunities" .
+
+saro:implementafirewall a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "implement a firewall" .
+
+saro:implementavirtualprivatenetwork a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "implement a virtual private network" .
+
+saro:implementanti-virussoftware a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "implement anti-virus software" .
+
+saro:implementICTsafetypolicies a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "implement ICT safety policies" .
+
+saro:implementspamprotection a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "implement spam protection" .
+
+saro:instructothers a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "instruct others" .
+
+saro:integrateandre-elaboratedigitalcontent a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "integrate and re-elaborate digital content" .
+
+saro:interactthroughdigitaltechnologies a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "interact through digital technologies" .
+
+saro:interactwithothers a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "interact with others" .
+
+saro:leadothers a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "lead others" .
+
+saro:makeaneffort a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "make an effort" .
+
+saro:makedecisions a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "make decisions" .
+
+saro:makeuseofpersonalrobotsforpracticalsupport a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "make use of personal robots for practical support" .
+
+saro:managedata,informationanddigitalcontent a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "manage data, information and digital content" .
+
+saro:managedigitaldocuments a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "manage digital documents" .
+
+saro:managedigitalidentity a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "manage digital identity" .
+
+saro:managefrustration a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "manage frustration" .
+
+saro:managequality a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "manage quality" .
+
+saro:managequantitativedata a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "manage quantitative data" .
+
+saro:managetime a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "manage time" .
+
+saro:meetcommitments a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "meet commitments" .
+
+saro:memoriseinformation a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "memorise information" .
+
+saro:motivateothers a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "motivate others" .
+
+saro:negotiatecompromise a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "negotiate compromise" .
+
+saro:operatehandhelddevices a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "operate handheld devices" .
+
+saro:persist a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "persist" .
+
+saro:persuadeothers a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "persuade others" .
+
+saro:processqualitativeinformation a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "process qualitative information" .
+
+saro:protecthealthandwell-beingwhileusingdigitaltechnologies a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "protect health and well-being while using digital technologies" .
+
+saro:protectICTdevices a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "protect ICT devices" .
+
+saro:protectpersonaldataandprivacy a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "protect personal data and privacy" .
+
+saro:protecttheenvironmentfromtheimpactofthedigitaltechnologies a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "protect the environment from the impact of the digital technologies" .
+
+saro:removecomputervirusormalwarefromacomputer a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "remove computer virus or malware from a computer" .
+
+saro:reportfacts a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "report facts" .
+
+saro:safeguardonlineprivacyandidentity a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "safeguard online privacy and identity" .
+
+saro:searchforinformationonline a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "search for information online" .
+
+saro:sharethroughdigitaltechnologies a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "share through digital technologies" .
+
+saro:solvelocationandnavigationproblemsbyusingGPStools a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "solve location and navigation problems by using GPS tools" .
+
+saro:solvetechnicalproblems a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "solve technical problems" .
+
+saro:storedigitaldataandsystems a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "store digital data and systems" .
+
+saro:supportcolleagues a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "support colleagues" .
+
+saro:supportcompanyplan a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "support company plan" .
+
+saro:supportculturaldiversity a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "support cultural diversity" .
+
+saro:supportgenderequality a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "support gender equality" .
+
+saro:thinkcreatively a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "think creatively" .
+
+saro:useanapplication-specificinterface a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use an application-specific interface" .
+
+saro:useback-upandrecoverytools a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use back-up and recovery tools" .
+
+saro:useBing a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use Bing" .
+
+saro:usebodylanguage a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use body language" .
+
+saro:usedatabases a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use databases" .
+
+saro:usedigitaldeviceoperatingsystems a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use digital device operating systems" .
+
+saro:usee-services a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use e-services" .
+
+saro:useGoogleSearch a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use Google Search" .
+
+saro:useICTperipherals a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use ICT peripherals" .
+
+saro:uselearningstrategies a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use learning strategies" .
+
+saro:usemathematicaltoolsandequipment a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use mathematical tools and equipment" .
+
+saro:useonlinecommunicationtools a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use online communication tools" .
+
+saro:useonlineconventionsofnetiquette a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use online conventions of netiquette" .
+
+saro:useonlinetoolstocollaborate a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use online tools to collaborate" .
+
+saro:usepersonalorganizationsoftware a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use personal organization software" .
+
+saro:usepresentationsoftware a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use presentation software" .
+
+saro:usequerylanguages a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use query languages" .
+
+saro:usequestioningtechniques a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use questioning techniques" .
+
+saro:usespreadsheetssoftware a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use spreadsheets software" .
+
+saro:useSwoogle a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use Swoogle" .
+
+saro:usewordprocessingsoftware a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use word processing software" .
+
+saro:useYahoo!Search a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "use Yahoo! Search" .
+
+saro:workefficiently a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "work efficiently" .
+
+saro:workinteams a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "work in teams" .
+
+saro:workindependently a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "work independently" .
+
+saro:workwithshapeandspace a saro:TransversalSkill ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "work with shape and space" .
