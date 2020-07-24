@@ -127,19 +127,19 @@ saro:typesofmetalmanufacturingprocesses a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "types of metal manufacturing processes" .
 
-saro:developtranslationmemorysoftware a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "develop translation memory software" .
-
 saro:remotesensingtechniques a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "remote sensing techniques" .
+
+saro:developtranslationmemorysoftware a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "develop translation memory software" .
 
 saro:photography a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -162,19 +162,19 @@ saro:toxicology a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "toxicology" .
 
-saro:taxlegislation a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "tax legislation" .
-
 saro:architecturaltheory a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "architectural theory" .
+
+saro:taxlegislation a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "tax legislation" .
 
 saro:applystandardfeedingandnutritionprotocols a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -281,7 +281,7 @@ saro:usespecialiseddesignsoftware a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "use specialised design software" .
 
-saro:designthedigitalinterfaceofgamblingbettingandlotterygames a saro:Skill ;
+saro:designthedigitalinterfaceofgambling,bettingandlotterygames a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
@@ -400,19 +400,19 @@ saro:usecommunicationtechniques a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "use communication techniques" .
 
-saro:managefoodmanufacturinglaboratory a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "manage food manufacturing laboratory" .
-
 saro:performresourceplanning a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "perform resource planning" .
+
+saro:managefoodmanufacturinglaboratory a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage food manufacturing laboratory" .
 
 saro:installtransportequipmentengines a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -470,19 +470,19 @@ saro:biodiesel a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "biodiesel" .
 
-saro:adviseonnatureconservation a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "advise on nature conservation" .
-
 saro:analysestressresistanceofmaterials a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "analyse stress resistance of materials" .
+
+saro:adviseonnatureconservation a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "advise on nature conservation" .
 
 saro:CAEsoftware a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -596,12 +596,12 @@ saro:implementfinfishfeedingregimes a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "implement fin fish feeding regimes" .
 
-saro:practiseveterinaryprofessionalcodesofconduct a saro:Skill ;
+saro:analysedrillengineering a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "practise veterinary professional codes of conduct" .
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "analyse drill engineering" .
 
 saro:monitordevelopmentsusedforfoodindustry a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -610,12 +610,12 @@ saro:monitordevelopmentsusedforfoodindustry a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "monitor developments used for food industry" .
 
-saro:analysedrillengineering a saro:Skill ;
+saro:practiseveterinaryprofessionalcodesofconduct a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "analyse drill engineering" .
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "practise veterinary professional codes of conduct" .
 
 saro:measuretrees a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -729,19 +729,19 @@ saro:carryoutnavigationalcalculations a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "carry out navigational calculations" .
 
-saro:plantheworkofteamsandindividuals a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "plan the work of teams and individuals" .
-
 saro:forecastfutureICTnetworkneeds a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "forecast future ICT network needs" .
+
+saro:plantheworkofteamsandindividuals a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "plan the work of teams and individuals" .
 
 saro:communicatewithexternallaboratories a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -785,19 +785,19 @@ saro:selectanimalsfortraining a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "select animals for training" .
 
-saro:selectlivestock a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "select livestock" .
-
 saro:performfoodriskanalysis a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "perform food risk analysis" .
+
+saro:selectlivestock a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "select livestock" .
 
 saro:biosecurity a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -848,19 +848,19 @@ saro:designwellpaths a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "design well paths" .
 
-saro:reporttheresultsoftreatment a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "report the results of treatment" .
-
 saro:electronics a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "electronics" .
+
+saro:reporttheresultsoftreatment a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "report the results of treatment" .
 
 saro:workinamulticulturalenvironmentinhealthcare a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -988,19 +988,19 @@ saro:developefficiencyplansforlogisticsoperations a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "develop efficiency plans for logistics operations" .
 
-saro:pharmaceuticalindustry a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "pharmaceutical industry" .
-
 saro:calibratelaboratoryequipment a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "calibrate laboratory equipment" .
+
+saro:pharmaceuticalindustry a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "pharmaceutical industry" .
 
 saro:opticalengineering a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -1121,13 +1121,6 @@ saro:supportICTsystemusers a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "support ICT system users" .
 
-saro:gatherdata a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "gather data" .
-
 saro:translateformulaeintoprocesses a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -1135,12 +1128,12 @@ saro:translateformulaeintoprocesses a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "translate formulae into processes" .
 
-saro:createadvertisements a saro:Skill ;
+saro:gatherdata a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "create advertisements" .
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "gather data" .
 
 saro:drawupcostumepatterns a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -1149,12 +1142,12 @@ saro:drawupcostumepatterns a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "draw up costume patterns" .
 
-saro:manageenvironmentalimpactofoperations a saro:Skill ;
+saro:createadvertisements a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "manage environmental impact of operations" .
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "create advertisements" .
 
 saro:VisualStudio.NET a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -1163,12 +1156,12 @@ saro:VisualStudio.NET a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "Visual Studio .NET" .
 
-saro:developpersonalskills a saro:Skill ;
+saro:manageenvironmentalimpactofoperations a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "develop personal skills" .
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "manage environmental impact of operations" .
 
 saro:operateradionavigationinstruments a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -1176,6 +1169,13 @@ saro:operateradionavigationinstruments a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "operate radio navigation instruments" .
+
+saro:developpersonalskills a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "develop personal skills" .
 
 saro:applicationusability a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -1261,13 +1261,6 @@ saro:reviewmeteorologicalforecastdata a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "review meteorological forecast data" .
 
-saro:researchimmunesystemmalfunctions a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "research immune system malfunctions" .
-
 saro:determineflowrateenhancement a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -1275,12 +1268,12 @@ saro:determineflowrateenhancement a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "determine flow rate enhancement" .
 
-saro:prepareplantingarea a saro:Skill ;
+saro:researchimmunesystemmalfunctions a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "prepare planting area" .
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "research immune system malfunctions" .
 
 saro:managetheoperationofpropulsionplantmachinery a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -1289,6 +1282,13 @@ saro:managetheoperationofpropulsionplantmachinery a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "manage the operation of propulsion plant machinery" .
 
+saro:prepareplantingarea a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "prepare planting area" .
+
 saro:developgasdistributionschedule a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -1296,19 +1296,19 @@ saro:developgasdistributionschedule a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "develop gas distribution schedule" .
 
-saro:providegeneticcounselling a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "provide genetic counselling" .
-
 saro:conductsearchengineoptimisation a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "conduct search engine optimisation" .
+
+saro:providegeneticcounselling a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "provide genetic counselling" .
 
 saro:dyeingtechnology a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -1478,19 +1478,19 @@ saro:adheretostandardsofnationalandinternationalsafetyprogrammes a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "adhere to standards of national and international safety programmes" .
 
-saro:makedecisionsregardingforestrymanagement a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "make decisions regarding forestry management" .
-
 saro:performsystemanalysis a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "perform system analysis" .
+
+saro:makedecisionsregardingforestrymanagement a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "make decisions regarding forestry management" .
 
 saro:biophysics a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -1562,19 +1562,19 @@ saro:analysetheneedfortechnicalresources a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "analyse the need for technical resources" .
 
-saro:createsoilandplantimprovementprogrammes a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "create soil and plant improvement programmes" .
-
 saro:creategametestingsoftware a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "create game testing software" .
+
+saro:createsoilandplantimprovementprogrammes a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "create soil and plant improvement programmes" .
 
 saro:maintaincontractadministration a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -1597,19 +1597,19 @@ saro:implementenvironmentalprotectionmeasures a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "implement environmental protection measures" .
 
-saro:conductsurveyingactivitiesforconstructionpurposes a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "conduct surveying activities for construction purposes" .
-
 saro:assembleinstrumentationequipment a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "assemble instrumentation equipment" .
+
+saro:conductsurveyingactivitiesforconstructionpurposes a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "conduct surveying activities for construction purposes" .
 
 saro:testproceduresinelectricitytransmission a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -1653,19 +1653,19 @@ saro:performcostumesettings a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "perform costume settings" .
 
-saro:climatechangeimpact a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "climate change impact" .
-
 saro:ICTnetworkinghardware a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "ICT networking hardware" .
+
+saro:climatechangeimpact a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "climate change impact" .
 
 saro:makedecisionsregardinglivestockmanagement a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -1730,19 +1730,19 @@ saro:communicateontheenvironmentalimpactofmining a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "communicate on the environmental impact of mining" .
 
-saro:pathogenicmicroorganisms a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "pathogenic microorganisms" .
-
 saro:explosives a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "explosives" .
+
+saro:pathogenicmicroorganisms a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "pathogenic microorganisms" .
 
 saro:manufacturemedicines a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -1758,19 +1758,19 @@ saro:characteristicsofproducts a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "characteristics of products" .
 
-saro:estimatedamage a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "estimate damage" .
-
 saro:communicatespecialisedveterinaryinformation a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "communicate specialised veterinary information" .
+
+saro:estimatedamage a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "estimate damage" .
 
 saro:airportenvironmentalregulations a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -1856,19 +1856,19 @@ saro:liaisewithgeneticlaboratories a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "liaise with genetic laboratories" .
 
-saro:developaquaculturebreedingstrategies a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "develop aquaculture breeding strategies" .
-
 saro:monitorequipment a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "monitor equipment" .
+
+saro:developaquaculturebreedingstrategies a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "develop aquaculture breeding strategies" .
 
 saro:inspectaircraftmanufacturing a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -1898,19 +1898,19 @@ saro:adaptcostumes a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "adapt costumes" .
 
-saro:tendCNClasercuttingmachine a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "tend CNC laser cutting machine" .
-
 saro:createmoodboards a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "create mood boards" .
+
+saro:tendCNClasercuttingmachine a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "tend CNC laser cutting machine" .
 
 saro:searchdatabases a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -1919,19 +1919,19 @@ saro:searchdatabases a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "search databases" .
 
-saro:undertakeresearchinmedicalgenetics a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "undertake research in medical genetics" .
-
 saro:performfoodsafetychecks a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "perform food safety checks" .
+
+saro:undertakeresearchinmedicalgenetics a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "undertake research in medical genetics" .
 
 saro:usemarkuplanguages a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -2255,7 +2255,7 @@ saro:rackwines a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "rack wines" .
 
-saro:makedecisionsregardingtheanimalswelfare a saro:Skill ;
+saro:makedecisionsregardingtheanimal'swelfare a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
@@ -2318,19 +2318,19 @@ saro:telecommunicationtrunking a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "telecommunication trunking" .
 
-saro:managecontractdisputes a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "manage contract disputes" .
-
 saro:administermulti-modallogistics a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "administer multi-modal logistics" .
+
+saro:managecontractdisputes a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "manage contract disputes" .
 
 saro:managerailwayconstructionprojects a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -2444,19 +2444,19 @@ saro:preparetimelinesforpipelinedevelopmentprojects a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "prepare timelines for pipeline development projects" .
 
-saro:adaptartisticplantolocation a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "adapt artistic plan to location" .
-
 saro:designopenspaces a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "design open spaces" .
+
+saro:adaptartisticplantolocation a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "adapt artistic plan to location" .
 
 saro:consultwithbusinessclients a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -2521,19 +2521,19 @@ saro:studytherelationshipsbetweenquantities a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "study the relationships between quantities" .
 
-saro:managedatabase a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "manage database" .
-
 saro:C# a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "C#" .
+
+saro:managedatabase a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "manage database" .
 
 saro:checkqualityofproductsontheproductionline a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -2584,19 +2584,19 @@ saro:performwatertestingprocedures a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "perform water testing procedures" .
 
-saro:designtrainingprogrammesforindividualsandanimals a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "design training programmes for individuals and animals" .
-
 saro:healthcareoccupation-specificethics a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "health care occupation-specific ethics" .
+
+saro:designtrainingprogrammesforindividualsandanimals a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "design training programmes for individuals and animals" .
 
 saro:identifyfossils a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -2647,13 +2647,6 @@ saro:polymerchemistry a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "polymer chemistry" .
 
-saro:veterinaryterminology a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "veterinary terminology" .
-
 saro:determinecharacteristicsofmineraldeposits a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -2667,6 +2660,13 @@ saro:designweftknittedfabrics a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "design weft knitted fabrics" .
+
+saro:veterinaryterminology a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "veterinary terminology" .
 
 saro:adviseonenvironmentalremediation a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -2710,19 +2710,19 @@ saro:fastencomponents a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "fasten components" .
 
-saro:designcomputernetwork a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "design computer network" .
-
 saro:monitornuclearpowerplantsystems a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "monitor nuclear power plant systems" .
+
+saro:designcomputernetwork a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "design computer network" .
 
 saro:managedeliveryofrawmaterials a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -2745,19 +2745,19 @@ saro:conducttextiletestingoperations a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "conduct textile testing operations" .
 
-saro:worksafelywithmachines a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "work safely with machines" .
-
 saro:impactofmeteorologicalphenomenaonminingoperations a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "impact of meteorological phenomena on mining operations" .
+
+saro:worksafelywithmachines a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "work safely with machines" .
 
 saro:assesspotentialgasyield a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -2794,7 +2794,7 @@ saro:applytechnicalcommunicationskills a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "apply technical communication skills" .
 
-saro:createaproductsvirtualmodel a saro:Skill ;
+saro:createaproduct'svirtualmodel a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
@@ -2808,19 +2808,19 @@ saro:guidance,navigationandcontrol a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "guidance, navigation and control" .
 
-saro:manufacturestapleyarns a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "manufacture staple yarns" .
-
 saro:greenlogistics a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "green logistics" .
+
+saro:manufacturestapleyarns a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manufacture staple yarns" .
 
 saro:Sass a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -2850,19 +2850,19 @@ saro:overseeconstructionproject a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "oversee construction project" .
 
-saro:interactwithclientsinforestry a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "interact with clients in forestry" .
-
 saro:findtrendsingeographicdata a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "find trends in geographic data" .
+
+saro:interactwithclientsinforestry a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "interact with clients in forestry" .
 
 saro:testpaperproductionsamples a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -2913,19 +2913,19 @@ saro:semiconductors a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "semiconductors" .
 
-saro:workasateam a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "work as a team" .
-
 saro:phytotherapy a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "phytotherapy" .
+
+saro:workasateam a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "work as a team" .
 
 saro:maketechnicaldrawingsoffashionpieces a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -3396,19 +3396,19 @@ saro:maintainlaboratoryequipment a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "maintain laboratory equipment" .
 
-saro:usedatabases a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "transversal skills and competences" ;
-	rdfs:label "use databases" .
-
 saro:STAF a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "STAF" .
+
+saro:usedatabases a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "use databases" .
 
 saro:hydraulicfluid a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -3417,19 +3417,19 @@ saro:hydraulicfluid a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "hydraulic fluid" .
 
-saro:dismantlebrokenappliances a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "dismantle broken appliances" .
-
 saro:supervisewelloperations a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "supervise well operations" .
+
+saro:dismantlebrokenappliances a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "dismantle broken appliances" .
 
 saro:identifynecessaryhumanresources a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -3459,19 +3459,19 @@ saro:interprettechnicalrequirements a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "interpret technical requirements" .
 
-saro:safelyinteractwithanimals a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "safely interact with animals" .
-
 saro:businessprocessmodelling a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "business process modelling" .
+
+saro:safelyinteractwithanimals a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "safely interact with animals" .
 
 saro:assessprojectresourceneeds a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -3606,19 +3606,19 @@ saro:alignsoftwarewithsystemarchitectures a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "align software with system architectures" .
 
-saro:communicateproductionplan a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "communicate production plan" .
-
 saro:petrology a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "petrology" .
+
+saro:communicateproductionplan a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "communicate production plan" .
 
 saro:controlsystems a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -3662,19 +3662,19 @@ saro:monitortheproductionline a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "monitor the production line" .
 
-saro:adviseontreeissues a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "advise on tree issues" .
-
 saro:managewaterqualitytesting a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "manage water quality testing" .
+
+saro:adviseontreeissues a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "advise on tree issues" .
 
 saro:developimprovementstotheelectricalsystems a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -3830,19 +3830,19 @@ saro:workinmultidisciplinaryhealthteams a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "work in multidisciplinary health teams" .
 
-saro:leadclinicalpharmacologystudies a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "lead clinical pharmacology studies" .
-
 saro:applygrammarandspellingrules a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "apply grammar and spelling rules" .
+
+saro:leadclinicalpharmacologystudies a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "lead clinical pharmacology studies" .
 
 saro:performtestrun a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -3914,19 +3914,19 @@ saro:assessrisksimpliedinriggingoperations a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "assess risks implied in rigging operations" .
 
-saro:assistinperformingphysicalexercises a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "assist in performing physical exercises" .
-
 saro:qualitystandards a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "quality standards" .
+
+saro:assistinperformingphysicalexercises a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "assist in performing physical exercises" .
 
 saro:comprehendfinancialbusinessterminology a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -3984,19 +3984,19 @@ saro:mountstonesinjewels a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "mount stones in jewels" .
 
-saro:employhabitatsurveytechniques a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "employ habitat survey techniques" .
-
 saro:pharmaceuticalproducts a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "pharmaceutical products" .
+
+saro:employhabitatsurveytechniques a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "employ habitat survey techniques" .
 
 saro:assisttreeidentification a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -4040,13 +4040,6 @@ saro:makedecisionsregardingplantpropagation a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "make decisions regarding plant propagation" .
 
-saro:managerecirculationsystemsequipment a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "manage recirculation systems equipment" .
-
 saro:mechanicalengineering a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -4060,6 +4053,13 @@ saro:logistics a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "logistics" .
+
+saro:managerecirculationsystemsequipment a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "manage recirculation systems equipment" .
 
 saro:implementenvironmentalactionplans a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -4075,7 +4075,7 @@ saro:managebriefsforclothingmanufacturing a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "manage briefs for clothing manufacturing" .
 
-saro:adapttoartistscreativedemands a saro:Skill ;
+saro:adapttoartists'creativedemands a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
@@ -4096,19 +4096,19 @@ saro:provideinformationonwindturbines a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "provide information on wind turbines" .
 
-saro:musicalgenres a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "musical genres" .
-
 saro:translaterequirementconceptsintovisualdesign a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "translate requirement concepts into visual design" .
+
+saro:musicalgenres a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "musical genres" .
 
 saro:digitisedocuments a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -4145,19 +4145,19 @@ saro:usescriptingprogramming a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "use scripting programming" .
 
-saro:assessanimalscondition a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "assess animal's condition" .
-
 saro:biometrics a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "biometrics" .
+
+saro:assessanimal'scondition a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "assess animal's condition" .
 
 saro:givelivepresentation a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -4222,19 +4222,19 @@ saro:developforestrystrategies a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "develop forestry strategies" .
 
-saro:identifycustomer'sneeds a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "identify customer's needs" .
-
 saro:naturalgas a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "natural gas" .
+
+saro:identifycustomer'sneeds a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "identify customer's needs" .
 
 saro:managepersonalprofessionaldevelopment a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -4278,19 +4278,19 @@ saro:respondtoenquiries a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "respond to enquiries" .
 
-saro:operatehorticultureequipment a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "operate horticulture equipment" .
-
 saro:applyadvancedmanufacturing a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "apply advanced manufacturing" .
+
+saro:operatehorticultureequipment a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "operate horticulture equipment" .
 
 saro:preservefishsamplesfordiagnosis a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -4509,19 +4509,19 @@ saro:finishplasticproducts a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "finish plastic products" .
 
-saro:risksassociatedtophysical,chemical,biologicalhazardsinfoodandbeverages a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "risks associated to physical, chemical, biological hazards in food and beverages" .
-
 saro:planproductmanagement a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "plan product management" .
+
+saro:risksassociatedtophysical,chemical,biologicalhazardsinfoodandbeverages a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "risks associated to physical, chemical, biological hazards in food and beverages" .
 
 saro:manageprocesses a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -4593,19 +4593,19 @@ saro:createAutoCADdrawings a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "create AutoCAD drawings" .
 
-saro:maintainworkareacleanliness a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "maintain work area cleanliness" .
-
 saro:managepharmaceuticalproductionfacilitiesconstruction a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "manage pharmaceutical production facilities construction" .
+
+saro:maintainworkareacleanliness a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "maintain work area cleanliness" .
 
 saro:ICTsecuritylegislation a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -4761,19 +4761,19 @@ saro:coreapples a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "core apples" .
 
-saro:usenon-destructivetestingequipment a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "use non-destructive testing equipment" .
-
 saro:woodcuts a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "wood cuts" .
+
+saro:usenon-destructivetestingequipment a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "use non-destructive testing equipment" .
 
 saro:conductfieldwork a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -4824,6 +4824,13 @@ saro:manageairquality a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "manage air quality" .
 
+saro:maintainirrigationcontrollers a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "maintain irrigation controllers" .
+
 saro:useweavingmachinetechnologies a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -4837,13 +4844,6 @@ saro:designciderrecipes a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "design cider recipes" .
-
-saro:maintainirrigationcontrollers a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "maintain irrigation controllers" .
 
 saro:preventhealthandsafetyproblems a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -4964,19 +4964,19 @@ saro:optomechanicalcomponents a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "optomechanical components" .
 
-saro:analyseecologicaldata a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "analyse ecological data" .
-
 saro:thermodynamics a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "thermodynamics" .
+
+saro:analyseecologicaldata a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "analyse ecological data" .
 
 saro:powerengineering a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -5195,19 +5195,19 @@ saro:typesofglazing a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "types of glazing" .
 
-saro:treatanimalsethically a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "treat animals ethically" .
-
 saro:performsampletesting a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "perform sample testing" .
+
+saro:treatanimalsethically a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "treat animals ethically" .
 
 saro:producestatisticalfinancialrecords a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -5559,12 +5559,12 @@ saro:workwithvideoandmotionpictureproductionteam a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "work with video and motion picture production team" .
 
-saro:conducthealthrelatedresearch a saro:Skill ;
+saro:mechanicsofvessels a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "conduct health related research" .
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "mechanics of vessels" .
 
 saro:managecontracts a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -5573,12 +5573,12 @@ saro:managecontracts a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "manage contracts" .
 
-saro:mechanicsofvessels a saro:Skill ;
+saro:conducthealthrelatedresearch a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "mechanics of vessels" .
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "conduct health related research" .
 
 saro:draftdesignspecifications a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -5629,19 +5629,19 @@ saro:handlewinesales a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "handle wine sales" .
 
-saro:monitorenvironmentalparameters a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "monitor environmental parameters" .
-
 saro:designprinciples a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "design principles" .
+
+saro:monitorenvironmentalparameters a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "monitor environmental parameters" .
 
 saro:identifyrisksinaquaculturefacilities a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -5692,19 +5692,19 @@ saro:analyselogisticchanges a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "analyse logistic changes" .
 
-saro:monitortheuseofresourcesinproduction a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "monitor the use of resources in production" .
-
 saro:heating,ventilation,airconditioningandrefrigerationparts a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "heating, ventilation, air conditioning and refrigeration parts" .
+
+saro:monitortheuseofresourcesinproduction a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "monitor the use of resources in production" .
 
 saro:object-orientedmodelling a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -5811,7 +5811,7 @@ saro:researchlocationsforwindfarms a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "research locations for wind farms" .
 
-saro:providequalityassuranceformeteorologicalservices+H40 a saro:Skill ;
+saro:providequalityassuranceformeteorologicalservicesplusH40 a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
@@ -6028,19 +6028,19 @@ saro:follow-uplabresults a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "follow-up lab results" .
 
-saro:educateonrecyclingregulations a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "educate on recycling regulations" .
-
 saro:operateopticalassemblyequipment a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "operate optical assembly equipment" .
+
+saro:educateonrecyclingregulations a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "educate on recycling regulations" .
 
 saro:followabrief a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -6126,19 +6126,19 @@ saro:maptheEarth'sinterior a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "map the Earth's interior" .
 
-saro:managelivestock a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "manage livestock" .
-
 saro:ensurecontinuouspreparednessforaudits a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "ensure continuous preparedness for audits" .
+
+saro:managelivestock a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage livestock" .
 
 saro:adviseontimberharvest a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -6420,19 +6420,19 @@ saro:usereservoirsurveillance a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "use reservoir surveillance" .
 
-saro:managescale-upexperimentsformanufacturingofproducts a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "manage scale-up experiments for manufacturing of products" .
-
 saro:paperproductionprocesses a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "paper production processes" .
+
+saro:managescale-upexperimentsformanufacturingofproducts a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "manage scale-up experiments for manufacturing of products" .
 
 saro:selectcostumes a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -6532,19 +6532,19 @@ saro:verifyfeasibility a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "verify feasibility" .
 
-saro:overseeaircraftsensorandrecordingsystems a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "oversee aircraft sensor and recording systems" .
-
 saro:syntheticnaturalenvironment a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "synthetic natural environment" .
+
+saro:overseeaircraftsensorandrecordingsystems a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "oversee aircraft sensor and recording systems" .
 
 saro:assessgroundwaterenvironmentalimpact a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -6581,13 +6581,6 @@ saro:surveyingmethods a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "surveying methods" .
 
-saro:naturalareasmaintenance a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "natural areas maintenance" .
-
 saro:launchingofsatellitesintoorbit a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -6595,12 +6588,12 @@ saro:launchingofsatellitesintoorbit a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "launching of satellites into orbit" .
 
-saro:developbusinesscase a saro:Skill ;
+saro:naturalareasmaintenance a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "develop business case" .
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "natural areas maintenance" .
 
 saro:studyaerialphotos a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -6608,6 +6601,13 @@ saro:studyaerialphotos a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "study aerial photos" .
+
+saro:developbusinesscase a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "develop business case" .
 
 saro:safelydetonateexplosives a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -6735,19 +6735,19 @@ saro:combinationoftextures a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "combination of textures" .
 
-saro:makeimprovementstoworkactivities a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "make improvements to work activities" .
-
 saro:Lisp a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "Lisp" .
+
+saro:makeimprovementstoworkactivities a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "make improvements to work activities" .
 
 saro:materialsforinteriordesign a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -6763,19 +6763,19 @@ saro:maintainagriculturalmachinery a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "maintain agricultural machinery" .
 
-saro:contributetopublichealthcampaigns a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "contribute to public health campaigns" .
-
 saro:disassembleengines a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "disassemble engines" .
+
+saro:contributetopublichealthcampaigns a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "contribute to public health campaigns" .
 
 saro:promotesustainableinteriordesign a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -6889,19 +6889,19 @@ saro:setproductionfacilitiesstandards a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "set production facilities standards" .
 
-saro:planteambuilding a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "plan team building" .
-
 saro:identifyinnovativeconceptsinpackaging a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "identify innovative concepts in packaging" .
+
+saro:planteambuilding a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "plan team building" .
 
 saro:interactwithairportstakeholders a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -6924,19 +6924,19 @@ saro:biotechnologyinaquaculture a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "biotechnology in aquaculture" .
 
-saro:herpetology a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "herpetology" .
-
 saro:createfragrancesformulae a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "create fragrances formulae" .
+
+saro:herpetology a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "herpetology" .
 
 saro:operateelectronicmeasuringinstruments a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -7092,7 +7092,7 @@ saro:describetheflavourofdifferentbeers a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "describe the flavour of different beers" .
 
-saro:MicrosoftVisualC++ a saro:Skill ;
+saro:MicrosoftVisualCplusplus a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
@@ -7120,19 +7120,19 @@ saro:environmentallegislationinagricultureandforestry a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "environmental legislation in agriculture and forestry" .
 
-saro:maketime-criticaldecisions a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "make time-critical decisions" .
-
 saro:usetranslationmemorysoftware a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "use translation memory software" .
+
+saro:maketime-criticaldecisions a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "make time-critical decisions" .
 
 saro:maintainnuclearreactors a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -7141,19 +7141,19 @@ saro:maintainnuclearreactors a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "maintain nuclear reactors" .
 
-saro:animalbehaviour a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "animal behaviour" .
-
 saro:controlproduction a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "control production" .
+
+saro:animalbehaviour a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "animal behaviour" .
 
 saro:clinicalbiochemistry a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -7463,7 +7463,7 @@ saro:planshiftsofemployees a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "plan shifts of employees" .
 
-saro:C++ a saro:Skill ;
+saro:Cplusplus a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
@@ -7477,19 +7477,19 @@ saro:useweftpreparationtechnologies a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "use weft preparation technologies" .
 
-saro:examineproductionsamples a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "examine production samples" .
-
 saro:textiletechnologies a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "textile technologies" .
+
+saro:examineproductionsamples a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "examine production samples" .
 
 saro:organicchemistry a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -7610,19 +7610,19 @@ saro:modelmicroelectronics a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "model microelectronics" .
 
-saro:liaisewithcolleagues a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "liaise with colleagues" .
-
 saro:planspacesatellitemissions a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "plan space satellite missions" .
+
+saro:liaisewithcolleagues a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "liaise with colleagues" .
 
 saro:managegovernmentpolicyimplementation a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -7834,13 +7834,6 @@ saro:transmissiontowers a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "transmission towers" .
 
-saro:performcleaningactivitiesinanoutdoorenvironment a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "perform cleaning activities in an outdoor environment" .
-
 saro:workinanaviationteam a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -7854,6 +7847,13 @@ saro:ICTprojectmanagementmethodologies a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "ICT project management methodologies" .
+
+saro:performcleaningactivitiesinanoutdoorenvironment a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "perform cleaning activities in an outdoor environment" .
 
 saro:applypreservationtreatments a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -7869,13 +7869,6 @@ saro:maintainindustrialequipment a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "maintain industrial equipment" .
 
-saro:measuretheimpactofspecificaquacultureactivity a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "measure the impact of specific aquaculture activity" .
-
 saro:developtextilecolouringrecipes a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -7889,6 +7882,13 @@ saro:attendgamingtests a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "attend gaming tests" .
+
+saro:measuretheimpactofspecificaquacultureactivity a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "measure the impact of specific aquaculture activity" .
 
 saro:manufacturebraidedproducts a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -7946,19 +7946,19 @@ saro:sewtextile-basedarticles a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "sew textile-based articles" .
 
-saro:analysework-relatedwrittenreports a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "analyse work-related written reports" .
-
 saro:managewinecellarinventory a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "manage wine cellar inventory" .
+
+saro:analysework-relatedwrittenreports a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "analyse work-related written reports" .
 
 saro:followairportsafetyprocedures a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -8205,19 +8205,19 @@ saro:respondtonuclearemergencies a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "respond to nuclear emergencies" .
 
-saro:adviseonanimalwelfare a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "advise on animal welfare" .
-
 saro:usemaritimeEnglish a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "use maritime English" .
+
+saro:adviseonanimalwelfare a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "advise on animal welfare" .
 
 saro:prepareconstructiondocuments a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -8303,13 +8303,6 @@ saro:printingtechniques a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "printing techniques" .
 
-saro:managevolunteers a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "manage volunteers" .
-
 saro:assesspotentialoilyield a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -8323,6 +8316,13 @@ saro:studytrafficflow a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "study traffic flow" .
+
+saro:managevolunteers a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage volunteers" .
 
 saro:buildingconstructionprinciples a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -8366,19 +8366,19 @@ saro:embeddedsystems a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "embedded systems" .
 
-saro:livestockfarmingsystems a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "livestock farming systems" .
-
 saro:writescientificpapers a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "write scientific papers" .
+
+saro:livestockfarmingsystems a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "livestock farming systems" .
 
 saro:managetimberstocks a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -8436,19 +8436,19 @@ saro:adviseonsiteselection a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "advise on site selection" .
 
-saro:strivefornutritionalimprovementoffoodmanufacturing a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "strive for nutritional improvement of food manufacturing" .
-
 saro:designpipelineswithdifferentcoatingsolutions a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "design pipelines with different coating solutions" .
+
+saro:strivefornutritionalimprovementoffoodmanufacturing a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "strive for nutritional improvement of food manufacturing" .
 
 saro:lauteringprocess a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -8492,19 +8492,19 @@ saro:useCADDsoftware a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "use CADD software" .
 
-saro:computerisedfeedingsystems a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "computerised feeding systems" .
-
 saro:performminorrepairstoequipment a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "perform minor repairs to equipment" .
+
+saro:computerisedfeedingsystems a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "computerised feeding systems" .
 
 saro:electriccurrent a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -8534,19 +8534,19 @@ saro:manageservicecontractsinthedrillingindustry a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "manage service contracts in the drilling industry" .
 
-saro:carryoutfishdiseasepreventionmeasures a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "carry out fish disease prevention measures" .
-
 saro:converttextilefibresintosliver a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "convert textile fibres into sliver" .
+
+saro:carryoutfishdiseasepreventionmeasures a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "carry out fish disease prevention measures" .
 
 saro:createsetmodels a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -8730,19 +8730,19 @@ saro:performfieldresearch a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "perform field research" .
 
-saro:pedagogy a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "pedagogy" .
-
 saro:textilematerials a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "textile materials" .
+
+saro:pedagogy a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "pedagogy" .
 
 saro:CADsoftware a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -8982,19 +8982,19 @@ saro:disposeofnon-hazardouswaste a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "dispose of non-hazardous waste" .
 
-saro:managethereceptionofrawmaterialsforanimalfeeds a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "manage the reception of raw materials for animal feeds" .
-
 saro:urbanplanning a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "urban planning" .
+
+saro:managethereceptionofrawmaterialsforanimalfeeds a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage the reception of raw materials for animal feeds" .
 
 saro:performmetalinertgaswelding a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -9080,19 +9080,19 @@ saro:workwithmotionpictureeditingteam a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "work with motion picture editing team" .
 
-saro:parasitology a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "parasitology" .
-
 saro:inspectqualityofproducts a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "inspect quality of products" .
+
+saro:parasitology a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "parasitology" .
 
 saro:predictearthquakes a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -9164,19 +9164,19 @@ saro:humanphysiology a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "human physiology" .
 
-saro:monitorgrowthratesofcultivatedfishspecies a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "monitor growth rates of cultivated fish species" .
-
 saro:usespecialisedcomputermodelsforweatherforecasting a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "use specialised computer models for weather forecasting" .
+
+saro:monitorgrowthratesofcultivatedfishspecies a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "monitor growth rates of cultivated fish species" .
 
 saro:CoffeeScript a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -9381,19 +9381,19 @@ saro:manufactureman-madefibres a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "manufacture man-made fibres" .
 
-saro:performenvironmentalinvestigations a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "perform environmental investigations" .
-
 saro:operateremotesensingequipment a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "operate remote sensing equipment" .
+
+saro:performenvironmentalinvestigations a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "perform environmental investigations" .
 
 saro:safeguardartisticqualityofperformance a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -9591,19 +9591,19 @@ saro:provideadviceontrademarks a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "provide advice on trademarks" .
 
-saro:probabilitytheory a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "probability theory" .
-
 saro:installcircuitbreakers a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "install circuit breakers" .
+
+saro:probabilitytheory a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "probability theory" .
 
 saro:identifycustomerrequirements a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -9626,19 +9626,19 @@ saro:designminiaturesets a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "design miniature sets" .
 
-saro:developfishhealthandwelfaremanagementplans a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "develop fish health and welfare management plans" .
-
 saro:havecomputerliteracy a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "have computer literacy" .
+
+saro:developfishhealthandwelfaremanagementplans a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "develop fish health and welfare management plans" .
 
 saro:researchimprovementofcropyields a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -9689,19 +9689,19 @@ saro:toleratestress a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "tolerate stress" .
 
-saro:assesscontamination a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "assess contamination" .
-
 saro:costmanagement a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "cost management" .
+
+saro:assesscontamination a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "assess contamination" .
 
 saro:opticalmanufacturingprocess a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -9717,13 +9717,6 @@ saro:motorvehiclepartsdrawings a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "motor vehicle parts drawings" .
 
-saro:maintainplants'growth a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "maintain plants' growth" .
-
 saro:safetyengineering a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -9737,6 +9730,13 @@ saro:copewithchallengingcircumstancesintheminingsector a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "cope with challenging circumstances in the mining sector" .
+
+saro:maintainplants'growth a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "maintain plants' growth" .
 
 saro:conductcontentqualityassurance a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -9794,19 +9794,19 @@ saro:worksafelywithchemicals a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "work safely with chemicals" .
 
-saro:issuelicences a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "issue licences" .
-
 saro:providegeophysicalsupport a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "provide geophysical support" .
+
+saro:issuelicences a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "issue licences" .
 
 saro:contextualiseartisticwork a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -9920,19 +9920,19 @@ saro:researchweldingtechniques a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "research welding techniques" .
 
-saro:varietyofbotanicals a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "variety of botanicals" .
-
 saro:comparesurveycomputations a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "compare survey computations" .
+
+saro:varietyofbotanicals a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "variety of botanicals" .
 
 saro:applyairportstandardsandregulations a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -10151,19 +10151,19 @@ saro:conductdetailedevaluationofqualitystandards a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "conduct detailed evaluation of quality standards" .
 
-saro:assessshelflifeoffoodproducts a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "assess shelf life of food products" .
-
 saro:developnon-hazardouswastemanagementstrategies a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "develop non-hazardous waste management strategies" .
+
+saro:assessshelflifeoffoodproducts a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "assess shelf life of food products" .
 
 saro:changepowerdistributionsystems a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -10200,19 +10200,19 @@ saro:ensurecostefficiencyinfoodmanufacturing a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "ensure cost efficiency in food manufacturing" .
 
-saro:osteology a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "osteology" .
-
 saro:separatemetalsfromores a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "separate metals from ores" .
+
+saro:osteology a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "osteology" .
 
 saro:assemblemeasuringequipment a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -10291,19 +10291,19 @@ saro:operateGPSsystems a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "operate GPS systems" .
 
-saro:performmicrobiologicalanalysisinthefoodchain a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "perform microbiological analysis in the food chain" .
-
 saro:modelelectromechanicalsystems a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "model electromechanical systems" .
+
+saro:performmicrobiologicalanalysisinthefoodchain a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "perform microbiological analysis in the food chain" .
 
 saro:businessanalysis a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -10333,13 +10333,6 @@ saro:lepidoptery a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "lepidoptery" .
 
-saro:conductroutinemachinerychecks a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "conduct routine machinery checks" .
-
 saro:developmaterialtestingprocedures a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -10353,6 +10346,13 @@ saro:raildesignengineering a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "rail design engineering" .
+
+saro:conductroutinemachinerychecks a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "conduct routine machinery checks" .
 
 saro:manipulatemedicaldevicesmaterials a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -10473,19 +10473,19 @@ saro:immunohaematology a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "immunohaematology" .
 
-saro:operatecockpitcontrolpanels a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "operate cockpit control panels" .
-
 saro:sedimentology a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "sedimentology" .
+
+saro:operatecockpitcontrolpanels a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "operate cockpit control panels" .
 
 saro:analysestressresistanceofproducts a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -10564,19 +10564,19 @@ saro:applyliquidchromatography a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "apply liquid chromatography" .
 
-saro:managefarmsupplies a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "manage farm supplies" .
-
 saro:disassemblemachines a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "disassemble machines" .
+
+saro:managefarmsupplies a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage farm supplies" .
 
 saro:workinafoodprocessingteam a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -10620,13 +10620,6 @@ saro:understandsupplychainimprovementsinrelationtoprofitgains a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "understand supply chain improvements in relation to profit gains" .
 
-saro:examinecellspecimensmicroscopically a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "examine cell specimens microscopically" .
-
 saro:implementICTnetworkdiagnostictools a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -10640,6 +10633,13 @@ saro:pollutionatseaprevention a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "pollution at sea prevention" .
+
+saro:examinecellspecimensmicroscopically a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "examine cell specimens microscopically" .
 
 saro:adviseonheatingsystemsenergyefficiency a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -10697,13 +10697,6 @@ saro:maintainwastecollectionrecords a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "maintain waste collection records" .
 
-saro:createwebsitewireframe a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "create website wireframe" .
-
 saro:ceramicware a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -10717,6 +10710,13 @@ saro:showsamplegarments a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "show sample garments" .
+
+saro:createwebsitewireframe a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "create website wireframe" .
 
 saro:manageshipemergencyplans a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -11236,13 +11236,6 @@ saro:developscientifictheories a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "develop scientific theories" .
 
-saro:detectmicroorganisms a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "detect microorganisms" .
-
 saro:solarenergy a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -11250,12 +11243,12 @@ saro:solarenergy a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "solar energy" .
 
-saro:organiseauditions a saro:Skill ;
+saro:detectmicroorganisms a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "organise auditions" .
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "detect microorganisms" .
 
 saro:createpuppets a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -11263,6 +11256,13 @@ saro:createpuppets a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "create puppets" .
+
+saro:organiseauditions a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "organise auditions" .
 
 saro:physiologyofanimals a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -11278,19 +11278,19 @@ saro:contaminationexposureregulations a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "contamination exposure regulations" .
 
-saro:biofiltersystems a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "biofilter systems" .
-
 saro:hazardouswastetypes a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "hazardous waste types" .
+
+saro:biofiltersystems a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "biofilter systems" .
 
 saro:analysetextstobeillustrated a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -11572,19 +11572,19 @@ saro:seismology a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "seismology" .
 
-saro:developfoodproductionprocesses a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "develop food production processes" .
-
 saro:woodworkingprocesses a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "woodworking processes" .
+
+saro:developfoodproductionprocesses a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "develop food production processes" .
 
 saro:abidebyregulationsonbannedmaterials a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -11831,19 +11831,19 @@ saro:estimatecostsofinstallingtelecommunicationdevices a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "estimate costs of installing telecommunication devices" .
 
-saro:foodandbeverageindustry a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "food and beverage industry" .
-
 saro:educateemployeesonoccupationalhazards a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "educate employees on occupational hazards" .
+
+saro:foodandbeverageindustry a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "food and beverage industry" .
 
 saro:electricalmachines a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -12083,19 +12083,19 @@ saro:analyseproductionprocessesforimprovement a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "analyse production processes for improvement" .
 
-saro:conductengineeringsiteaudits a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "conduct engineering site audits" .
-
 saro:groundsegment a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "ground segment" .
+
+saro:conductengineeringsiteaudits a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "conduct engineering site audits" .
 
 saro:inspecttrees a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -12125,19 +12125,19 @@ saro:Agiledevelopment a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "Agile development" .
 
-saro:adviseonenvironmentalriskmanagementsystems a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "advise on environmental risk management systems" .
-
 saro:usecomputer-aidedtranslation a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "use computer-aided translation" .
+
+saro:adviseonenvironmentalriskmanagementsystems a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "advise on environmental risk management systems" .
 
 saro:liaisewithculturalpartners a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -12174,19 +12174,19 @@ saro:installlowvoltagewiring a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "install low voltage wiring" .
 
-saro:inspectfisheggs a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "inspect fish eggs" .
-
 saro:researchrecyclinggrantopportunities a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "research recycling grant opportunities" .
+
+saro:inspectfisheggs a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "inspect fish eggs" .
 
 saro:followcodeofethicsforbiomedicalpractices a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -12258,19 +12258,19 @@ saro:naturallanguageprocessing a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "natural language processing" .
 
-saro:operatefarmequipment a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "operate farm equipment" .
-
 saro:traceabilityinfoodindustry a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "traceability in food industry" .
+
+saro:operatefarmequipment a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "operate farm equipment" .
 
 saro:quantitativesensorytesting a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -12440,19 +12440,19 @@ saro:testelectronicunits a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "test electronic units" .
 
-saro:ICTnetworkrouting a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "ICT network routing" .
-
 saro:calibrateprecisioninstrument a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "calibrate precision instrument" .
+
+saro:ICTnetworkrouting a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT network routing" .
 
 saro:conferonartwork a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -12482,19 +12482,19 @@ saro:developjewellerydesigns a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "develop jewellery designs" .
 
-saro:monitortreatedfish a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "monitor treated fish" .
-
 saro:medicaldevices a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "medical devices" .
+
+saro:monitortreatedfish a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "monitor treated fish" .
 
 saro:interpretextractiondata a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -12545,19 +12545,19 @@ saro:creategamblinggamesconcepts a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "create gambling games concepts" .
 
-saro:administertreatmentstofish a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "administer treatments to fish" .
-
 saro:monitorpulpquality a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "monitor pulp quality" .
+
+saro:administertreatmentstofish a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "administer treatments to fish" .
 
 saro:operatehydraulicmachinerycontrols a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -12608,19 +12608,19 @@ saro:followanenvironmentalfriendlypolicywhileprocessingfood a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "follow an environmental friendly policy while processing food" .
 
-saro:managenutrients a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "manage nutrients" .
-
 saro:foodscience a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "food science" .
+
+saro:managenutrients a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage nutrients" .
 
 saro:enhanceproductionworkflow a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -12804,19 +12804,19 @@ saro:implementefficiencyplansforlogisticsoperations a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "implement efficiency plans for logistics operations" .
 
-saro:medicaldevicetestprocedures a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "medical device test procedures" .
-
 saro:paleontology a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "paleontology" .
+
+saro:medicaldevicetestprocedures a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "medical device test procedures" .
 
 saro:ingredientsforbeerproduction a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -12902,19 +12902,19 @@ saro:monitorlivestock a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "monitor livestock" .
 
-saro:typesofstoragefacilities a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "types of storage facilities" .
-
 saro:controlanimalmovement a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "control animal movement" .
+
+saro:typesofstoragefacilities a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "types of storage facilities" .
 
 saro:modernportfoliotheory a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -12923,19 +12923,19 @@ saro:modernportfoliotheory a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "modern portfolio theory" .
 
-saro:followlaboratorymanuals a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "follow laboratory manuals" .
-
 saro:applytransportationmanagementconcepts a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "apply transportation management concepts" .
+
+saro:followlaboratorymanuals a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "follow laboratory manuals" .
 
 saro:optics a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -12944,12 +12944,12 @@ saro:optics a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "optics" .
 
-saro:chemicalpreservation a saro:Skill ;
+saro:instrumentationengineering a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "chemical preservation" .
+	rdfs:label "instrumentation engineering" .
 
 saro:developwaterpurificationmethods a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -12958,12 +12958,12 @@ saro:developwaterpurificationmethods a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "develop water purification methods" .
 
-saro:instrumentationengineering a saro:Skill ;
+saro:chemicalpreservation a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "instrumentation engineering" .
+	rdfs:label "chemical preservation" .
 
 saro:actreliably a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -12986,12 +12986,12 @@ saro:adviseonpollutionprevention a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "advise on pollution prevention" .
 
-saro:managecollectedwaste a saro:Skill ;
+saro:conductgeochemicalresearch a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "manage collected waste" .
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "conduct geochemical research" .
 
 saro:adviseonriskmanagement a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -13000,12 +13000,12 @@ saro:adviseonriskmanagement a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "advise on risk management" .
 
-saro:conductgeochemicalresearch a saro:Skill ;
+saro:managecollectedwaste a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "conduct geochemical research" .
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage collected waste" .
 
 saro:isometricperspective a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -13154,19 +13154,19 @@ saro:biomedicalengineering a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "biomedical engineering" .
 
-saro:fishgrading a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "fish grading" .
-
 saro:managerecyclingprogrambudget a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "manage recycling program budget" .
+
+saro:fishgrading a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "fish grading" .
 
 saro:developoutreachtrainingplans a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -13182,19 +13182,19 @@ saro:applyHACCP a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "apply HACCP" .
 
-saro:developnaturalareasworksprogrammes a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "develop natural areas works programmes" .
-
 saro:assessenvironmentalplansagainstfinancialcosts a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "assess environmental plans against financial costs" .
+
+saro:developnaturalareasworksprogrammes a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "develop natural areas works programmes" .
 
 saro:determinelathergoodswarehouselayout a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -13245,19 +13245,19 @@ saro:surveysitesforpipelineinstallation a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "survey sites for pipeline installation" .
 
-saro:manageaquatichabitat a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "manage aquatic habitat" .
-
 saro:designprototypes a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "design prototypes" .
+
+saro:manageaquatichabitat a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "manage aquatic habitat" .
 
 saro:nuclearmedicine a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -13483,19 +13483,19 @@ saro:collectoilsamples a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "collect oil samples" .
 
-saro:trainanimalsandindividualstoworktogether a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "train animals and individuals to work together" .
-
 saro:follownuclearplantsafetyprecautions a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "follow nuclear plant safety precautions" .
+
+saro:trainanimalsandindividualstoworktogether a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "train animals and individuals to work together" .
 
 saro:bathymetry a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -13567,19 +13567,19 @@ saro:coordinateartisticproduction a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "coordinate artistic production" .
 
-saro:grammar a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "grammar" .
-
 saro:hardwaretestingmethods a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "hardware testing methods" .
+
+saro:grammar a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "grammar" .
 
 saro:gathertechnicalinformation a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -13847,19 +13847,19 @@ saro:foodproductscomposition a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "food products composition" .
 
-saro:operateanemergencycommunicationsystem a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "operate an emergency communication system" .
-
 saro:developcreativeideas a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "develop creative ideas" .
+
+saro:operateanemergencycommunicationsystem a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "operate an emergency communication system" .
 
 saro:draftbillofmaterials a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -13917,19 +13917,19 @@ saro:preciousmetals a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "precious metals" .
 
-saro:signsofanimalillness a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "signs of animal illness" .
-
 saro:labelsamples a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "label samples" .
+
+saro:signsofanimalillness a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "signs of animal illness" .
 
 saro:applyforpatents a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -13966,19 +13966,19 @@ saro:filterliquids a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "filter liquids" .
 
-saro:createbeveragerecipeswithbotanicals a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "create beverage recipes with botanicals" .
-
 saro:actasacompanyambassador a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "act as a company ambassador" .
+
+saro:createbeveragerecipeswithbotanicals a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "create beverage recipes with botanicals" .
 
 saro:JavaScript a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -14106,19 +14106,19 @@ saro:dealwithchallengingpeople a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "deal with challenging people" .
 
-saro:promoterecreationactivities a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "promote recreation activities" .
-
 saro:upgradefirmware a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "upgrade firmware" .
+
+saro:promoterecreationactivities a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "promote recreation activities" .
 
 saro:analysepackagingrequirements a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -14211,19 +14211,19 @@ saro:managecarparkoperations a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "manage car park operations" .
 
-saro:maintainturfandgrass a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "maintain turf and grass" .
-
 saro:aviationmeteorology a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "aviation meteorology" .
+
+saro:maintainturfandgrass a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "maintain turf and grass" .
 
 saro:usemanualdraughtingtechniques a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -14323,19 +14323,19 @@ saro:useacomputer a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "use a computer" .
 
-saro:agronomy a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "agronomy" .
-
 saro:thermohydraulics a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "thermohydraulics" .
+
+saro:agronomy a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "agronomy" .
 
 saro:applyriskmanagementprocesses a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -14365,19 +14365,19 @@ saro:communicateusingtheglobalmaritimedistressandsafetysystem a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "communicate using the global maritime distress and safety system" .
 
-saro:irrigationsystems a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "irrigation systems" .
-
 saro:TypeScript a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "TypeScript" .
+
+saro:irrigationsystems a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "irrigation systems" .
 
 saro:analyseinsurancerisk a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -14421,19 +14421,19 @@ saro:leadateaminforestryservices a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "lead a team in forestry services" .
 
-saro:growculturesusedinmonitoringexperiments a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "grow cultures used in monitoring experiments" .
-
 saro:fueldistributionsystems a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "fuel distribution systems" .
+
+saro:growculturesusedinmonitoringexperiments a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "grow cultures used in monitoring experiments" .
 
 saro:seismicmeasurementtechniques a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -14526,19 +14526,19 @@ saro:olfaction a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "olfaction" .
 
-saro:animaltraining a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "animal training" .
-
 saro:systemsdevelopmentlife-cycle a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "systems development life-cycle" .
+
+saro:animaltraining a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "animal training" .
 
 saro:spotmetalimperfections a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -14876,6 +14876,13 @@ saro:forecastorganisationalrisks a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "forecast organisational risks" .
 
+saro:paperchemistry a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "paper chemistry" .
+
 saro:applyGMP a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -14889,13 +14896,6 @@ saro:writestressanalysisreports a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "write stress analysis reports" .
-
-saro:paperchemistry a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "paper chemistry" .
 
 saro:qualitycriteriaforlivestockfeedproduction a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -14988,19 +14988,19 @@ saro:computerequipment a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "computer equipment" .
 
-saro:MATLAB a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "MATLAB" .
-
 saro:foodflavourings a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "food flavourings" .
+
+saro:MATLAB a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "MATLAB" .
 
 saro:semantics a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -15114,19 +15114,19 @@ saro:opticalglasscharacteristics a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "optical glass characteristics" .
 
-saro:developaquaculturestrategies a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "develop aquaculture strategies" .
-
 saro:audiovisualequipment a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "audiovisual equipment" .
+
+saro:developaquaculturestrategies a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "develop aquaculture strategies" .
 
 saro:alcoholfuels a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -15135,19 +15135,19 @@ saro:alcoholfuels a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "alcohol fuels" .
 
-saro:adviseonhealthcareusers'informedconsent a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "advise on healthcare users' informed consent" .
-
 saro:terminology a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "terminology" .
+
+saro:adviseonhealthcareusers'informedconsent a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "advise on healthcare users' informed consent" .
 
 saro:manageanimalwelfare a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -15191,19 +15191,19 @@ saro:Erlang a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "Erlang" .
 
-saro:usespecialisedequipment a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "use specialised equipment" .
-
 saro:electricityprinciples a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "electricity principles" .
+
+saro:usespecialisedequipment a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "use specialised equipment" .
 
 saro:usephotographicequipment a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -15240,13 +15240,6 @@ saro:designtransportationsystems a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "design transportation systems" .
 
-saro:developmanagementplanstoreducerisksinaquaculture a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "develop management plans to reduce risks in aquaculture" .
-
 saro:analysemarketfinancialtrends a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -15254,12 +15247,12 @@ saro:analysemarketfinancialtrends a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "analyse market financial trends" .
 
-saro:designengineeringcomponents a saro:Skill ;
+saro:developmanagementplanstoreducerisksinaquaculture a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "design engineering components" .
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "develop management plans to reduce risks in aquaculture" .
 
 saro:designthermalequipment a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -15268,6 +15261,13 @@ saro:designthermalequipment a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "design thermal equipment" .
 
+saro:designengineeringcomponents a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "design engineering components" .
+
 saro:performsmallvesselsafetyprocedures a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -15275,19 +15275,19 @@ saro:performsmallvesselsafetyprocedures a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "perform small vessel safety procedures" .
 
-saro:ornithology a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "ornithology" .
-
 saro:finishprocessingofman-madefibres a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "finish processing of man-made fibres" .
+
+saro:ornithology a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "ornithology" .
 
 saro:maintainroboticequipment a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -15394,12 +15394,12 @@ saro:testphysicalpropertiesoftextiles a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "test physical properties of textiles" .
 
-saro:algorithms a saro:Skill ;
+saro:assesssuitabilityofmetaltypesforspecificapplication a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
+	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "algorithms" .
+	rdfs:label "assess suitability of metal types for specific application" .
 
 saro:electricalminemachinerymanuals a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -15408,12 +15408,12 @@ saro:electricalminemachinerymanuals a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "electrical mine machinery manuals" .
 
-saro:assesssuitabilityofmetaltypesforspecificapplication a saro:Skill ;
+saro:algorithms a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
+	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "assess suitability of metal types for specific application" .
+	rdfs:label "algorithms" .
 
 saro:Vagrant a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -15520,19 +15520,19 @@ saro:reportoutcomeofblast a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "report outcome of blast" .
 
-saro:ecology a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "ecology" .
-
 saro:geneticengineering a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "genetic engineering" .
+
+saro:ecology a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "ecology" .
 
 saro:inspectmaterial a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -15590,19 +15590,19 @@ saro:measuredensityofliquids a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "measure density of liquids" .
 
-saro:performforestdiseasescontrol a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "perform forest diseases control" .
-
 saro:mechanicsoftrains a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "mechanics of trains" .
+
+saro:performforestdiseasescontrol a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "perform forest diseases control" .
 
 saro:installelectricalminingmachinery a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -15793,19 +15793,19 @@ saro:solderingtechniques a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "soldering techniques" .
 
-saro:liaisewithlocalauthorities a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "liaise with local authorities" .
-
 saro:compileairportcertificationmanuals a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "compile airport certification manuals" .
+
+saro:liaisewithlocalauthorities a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "liaise with local authorities" .
 
 saro:engineeringcontroltheory a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -15814,19 +15814,19 @@ saro:engineeringcontroltheory a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "engineering control theory" .
 
-saro:complywithagriculturalcodeofpractice a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "comply with agricultural code of practice" .
-
 saro:conductquantitativeresearch a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "conduct quantitative research" .
+
+saro:complywithagriculturalcodeofpractice a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "comply with agricultural code of practice" .
 
 saro:monitorroasting a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -15927,19 +15927,19 @@ saro:swim a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "swim" .
 
-saro:plantdiseasecontrol a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "plant disease control" .
-
 saro:electricaltestingmethods a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "electrical testing methods" .
+
+saro:plantdiseasecontrol a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "plant disease control" .
 
 saro:solderelectronics a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -15962,19 +15962,19 @@ saro:communicateverbalinstructions a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "communicate verbal instructions" .
 
-saro:characteristicsofplants a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "characteristics of plants" .
-
 saro:applymethodsforfootwearandleathergoodsmanufacturing a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "apply methods for footwear and leather goods manufacturing" .
+
+saro:characteristicsofplants a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "characteristics of plants" .
 
 saro:agealcoholicbeveragesinvats a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -15997,19 +15997,19 @@ saro:analysefinancialrisk a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "analyse financial risk" .
 
-saro:listenactively a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "listen actively" .
-
 saro:designcircuitsusingCAD a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "design circuits using CAD" .
+
+saro:listenactively a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "listen actively" .
 
 saro:writeresearchproposals a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -16403,13 +16403,6 @@ saro:operateshippropulsionsystem a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "operate ship propulsion system" .
 
-saro:virology a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "virology" .
-
 saro:developmicroelectromechanicalsystemtestprocedures a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -16424,12 +16417,12 @@ saro:manageICTproject a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "manage ICT project" .
 
-saro:animalbiology a saro:Skill ;
+saro:virology a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "animal biology" .
+	rdfs:label "virology" .
 
 saro:energymarket a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -16437,6 +16430,13 @@ saro:energymarket a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "energy market" .
+
+saro:animalbiology a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "animal biology" .
 
 saro:ABAP a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -16543,19 +16543,19 @@ saro:installheatingboiler a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "install heating boiler" .
 
-saro:diagnoseaquaticanimalsdiseasesymptoms a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "diagnose aquatic animals disease symptoms" .
-
 saro:microprocessors a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "microprocessors" .
+
+saro:diagnoseaquaticanimalsdiseasesymptoms a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "diagnose aquatic animals disease symptoms" .
 
 saro:create3Dcharacters a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -16865,19 +16865,19 @@ saro:preparewelldatasheets a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "prepare well data sheets" .
 
-saro:repairmedicaldevices a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "repair medical devices" .
-
 saro:instrumentationequipment a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "instrumentation equipment" .
+
+saro:repairmedicaldevices a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "repair medical devices" .
 
 saro:storewineproperly a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -16935,19 +16935,19 @@ saro:GlobalMaritimeDistressandSafetySystem a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "Global Maritime Distress and Safety System" .
 
-saro:developacollaborativetherapeuticrelationship a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "develop a collaborative therapeutic relationship" .
-
 saro:healthinformatics a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "health informatics" .
+
+saro:developacollaborativetherapeuticrelationship a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "develop a collaborative therapeutic relationship" .
 
 saro:designbuildings a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -17551,19 +17551,19 @@ saro:manageproductionfluidinoilproduction a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "manage production fluid in oil production" .
 
-saro:provideadvicetohatcheries a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "provide advice to hatcheries" .
-
 saro:defensesystem a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "defense system" .
+
+saro:provideadvicetohatcheries a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "provide advice to hatcheries" .
 
 saro:createoriginaldrawings a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -17789,19 +17789,19 @@ saro:liaisewithwelltestengineers a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "liaise with well test engineers" .
 
-saro:authoringsoftware a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "authoring software" .
-
 saro:adviseclientsoninteriordesignoptions a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "advise clients on interior design options" .
+
+saro:authoringsoftware a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "authoring software" .
 
 saro:usetextiletechniqueforhand-madeproducts a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -17866,6 +17866,13 @@ saro:examinecreditratings a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "examine credit ratings" .
 
+saro:maintainelectromechanicalequipment a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "maintain electromechanical equipment" .
+
 saro:waterchemistryanalysis a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -17879,13 +17886,6 @@ saro:occupationalphysiology a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "occupational physiology" .
-
-saro:maintainelectromechanicalequipment a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "maintain electromechanical equipment" .
 
 saro:providementorship a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -18118,19 +18118,19 @@ saro:biology a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "biology" .
 
-saro:pathology a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "pathology" .
-
 saro:knittingmachinetechnology a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "knitting machine technology" .
+
+saro:pathology a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "pathology" .
 
 saro:schedulerecreationfacilities a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -18545,19 +18545,19 @@ saro:manageinstrumentationsystems a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "manage instrumentation systems" .
 
-saro:conductecologicalsurveys a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "conduct ecological surveys" .
-
 saro:analyseenergymarkettrends a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "analyse energy market trends" .
+
+saro:conductecologicalsurveys a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "conduct ecological surveys" .
 
 saro:studypricesofwoodproducts a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -18608,19 +18608,19 @@ saro:runpreventivesimulations a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "run preventive simulations" .
 
-saro:immunology a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "immunology" .
-
 saro:performchemicalexperiments a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "perform chemical experiments" .
+
+saro:immunology a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "immunology" .
 
 saro:presentreports a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -18923,19 +18923,19 @@ saro:developvaccines a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "develop vaccines" .
 
-saro:protectwildernessareas a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "protect wilderness areas" .
-
 saro:useCAEsoftware a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "use CAE software" .
+
+saro:protectwildernessareas a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "protect wilderness areas" .
 
 saro:multimediasystems a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -19168,19 +19168,19 @@ saro:safeworkpracticesinaveterinarysetting a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "safe work practices in a veterinary setting" .
 
-saro:conductecologicalresearch a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "conduct ecological research" .
-
 saro:Eclipse(integrateddevelopmentenvironmentsoftware) a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "Eclipse (integrated development environment software)" .
+
+saro:conductecologicalresearch a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "conduct ecological research" .
 
 saro:usechemicalanalysisequipment a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -19203,19 +19203,19 @@ saro:inspectindustrialequipment a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "inspect industrial equipment" .
 
-saro:pipelinetransportregulations; a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "pipeline transport regulations;" .
-
 saro:processdata a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "process data" .
+
+saro:pipelinetransportregulations; a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "pipeline transport regulations;" .
 
 saro:leathertechnology a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -19427,13 +19427,6 @@ saro:refrigerants a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "refrigerants" .
 
-saro:fishharvestingmethods a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "fish harvesting methods" .
-
 saro:foodsafetystandards a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -19447,6 +19440,13 @@ saro:handlechemicalsforcleaninplace a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "handle chemicals for clean in place" .
+
+saro:fishharvestingmethods a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "fish harvesting methods" .
 
 saro:performmetalactivegaswelding a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -19511,19 +19511,19 @@ saro:receiveactors'resumes a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "receive actors' resumes" .
 
-saro:coordinateoperationalactivities a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "coordinate operational activities" .
-
 saro:evaluatetranslationtechnologies a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "evaluate translation technologies" .
+
+saro:coordinateoperationalactivities a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "coordinate operational activities" .
 
 saro:measureinteriorspace a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -19532,19 +19532,19 @@ saro:measureinteriorspace a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "measure interior space" .
 
-saro:animalproductionscience a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "animal production science" .
-
 saro:ICTdebuggingtools a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "ICT debugging tools" .
+
+saro:animalproductionscience a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "animal production science" .
 
 saro:cosmeticsingredients a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -19728,19 +19728,19 @@ saro:keepuptodatewithdiagnosticinnovations a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "keep up to date with diagnostic innovations" .
 
-saro:aquaculturelegaldocuments a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "aquaculture legal documents" .
-
 saro:simulatemechatronicdesignconcepts a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "simulate mechatronic design concepts" .
+
+saro:aquaculturelegaldocuments a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "aquaculture legal documents" .
 
 saro:testhardware a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -19812,19 +19812,19 @@ saro:measurematerials a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "measure materials" .
 
-saro:implementexerciseactivitiesforanimals a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "implement exercise activities for animals" .
-
 saro:qualityassurancemethodologies a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "quality assurance methodologies" .
+
+saro:implementexerciseactivitiesforanimals a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "implement exercise activities for animals" .
 
 saro:UnrealEngine a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -19910,19 +19910,19 @@ saro:chemistryofwood a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "chemistry of wood" .
 
-saro:managefisheriesprojects a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "manage fisheries projects" .
-
 saro:followcompanystandards a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "follow company standards" .
+
+saro:managefisheriesprojects a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage fisheries projects" .
 
 saro:ensurevisualqualityoftheset a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -20001,19 +20001,19 @@ saro:formulatecosmeticproducts a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "formulate cosmetic products" .
 
-saro:inspectdata a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "inspect data" .
-
 saro:identifysuppliers a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "identify suppliers" .
+
+saro:inspectdata a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "inspect data" .
 
 saro:disassembleequipment a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -20064,19 +20064,19 @@ saro:usecreativesuitesoftware a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "use creative suite software" .
 
-saro:adviseonthecausesofcropdisorders a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "advise on the causes of crop disorders" .
-
 saro:careforfoodaesthetic a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "care for food aesthetic" .
+
+saro:adviseonthecausesofcropdisorders a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "advise on the causes of crop disorders" .
 
 saro:usesafetyequipmentinconstruction a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -20218,13 +20218,6 @@ saro:surfaceengineering a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "surface engineering" .
 
-saro:managewaste a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "manage waste" .
-
 saro:monitortemperatureinmanufacturingprocessoffoodandbeverages a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -20232,12 +20225,19 @@ saro:monitortemperatureinmanufacturingprocessoffoodandbeverages a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "monitor temperature in manufacturing process of food and beverages" .
 
-saro:aquacultureindustry a saro:Skill ;
+saro:managewaste a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
+	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "aquaculture industry" .
+	rdfs:label "manage waste" .
+
+saro:workinaconstructionteam a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "work in a construction team" .
 
 saro:developprojectschedule a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -20246,12 +20246,12 @@ saro:developprojectschedule a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "develop project schedule" .
 
-saro:workinaconstructionteam a saro:Skill ;
+saro:aquacultureindustry a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
+	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "work in a construction team" .
+	rdfs:label "aquaculture industry" .
 
 saro:determineboundaries a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -20393,19 +20393,19 @@ saro:managelogisticspricingsystems a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "manage logistics pricing systems" .
 
-saro:developcommunicablediseasecontrolpolicies a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "develop communicable disease control policies" .
-
 saro:exertagoal-orientedleadershiproletowardscolleagues a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "exert a goal-oriented leadership role towards colleagues" .
+
+saro:developcommunicablediseasecontrolpolicies a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "develop communicable disease control policies" .
 
 saro:monitorwastetreatmentequipment a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -20505,19 +20505,19 @@ saro:cutfabrics a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "cut fabrics" .
 
-saro:radiationeffectsonhumanbody a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "radiation effects on human body" .
-
 saro:adviseongeologyformineralextraction a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "advise on geology for mineral extraction" .
+
+saro:radiationeffectsonhumanbody a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "radiation effects on human body" .
 
 saro:softwareinteractiondesign a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -20575,19 +20575,19 @@ saro:performstudiesandfieldinvestigation a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "perform studies and field investigation" .
 
-saro:recordsurveymeasurements a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "record survey measurements" .
-
 saro:locatefossils a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "locate fossils" .
+
+saro:recordsurveymeasurements a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "record survey measurements" .
 
 saro:designcustomisedmaps a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -20666,19 +20666,19 @@ saro:supervisestaff a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "supervise staff" .
 
-saro:adviseonlivestockproductivity a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "advise on livestock productivity" .
-
 saro:designventilationnetwork a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "design ventilation network" .
+
+saro:adviseonlivestockproductivity a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "advise on livestock productivity" .
 
 saro:mixchemicals a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -20701,19 +20701,19 @@ saro:adviseonsafetyimprovements a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "advise on safety improvements" .
 
-saro:createnewconcepts a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "create new concepts" .
-
 saro:developwatersupplyschedule a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "develop water supply schedule" .
+
+saro:createnewconcepts a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "create new concepts" .
 
 saro:gasmarket a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -20834,7 +20834,7 @@ saro:evaluateartquality a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "evaluate art quality" .
 
-saro:Pascalcomputerprogramming a saro:Skill ;
+saro:Pascal(computerprogramming) a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
@@ -20855,19 +20855,19 @@ saro:provideICTsystemtraining a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "provide ICT system training" .
 
-saro:livestockselectionprinciples a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "livestock selection principles" .
-
 saro:developICTtestsuite a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "develop ICT test suite" .
+
+saro:livestockselectionprinciples a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "livestock selection principles" .
 
 saro:manufacturenon-wovenfilamentproducts a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -21037,19 +21037,19 @@ saro:musicandvideoindustry a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "music and video industry" .
 
-saro:assessthenecessityofnewfarmingtechnologies a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "assess the necessity of new farming technologies" .
-
 saro:createnewrecipes a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "create new recipes" .
+
+saro:assessthenecessityofnewfarmingtechnologies a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "assess the necessity of new farming technologies" .
 
 saro:workinoutdoorconditions a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -21254,13 +21254,6 @@ saro:managefluidproductioningas a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "manage fluid production in gas" .
 
-saro:provideon-sitetraininginaquaculturefacilities a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "provide on-site training in aquaculture facilities" .
-
 saro:fisherieslegislation a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
@@ -21274,6 +21267,13 @@ saro:geomatics a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "geomatics" .
+
+saro:provideon-sitetraininginaquaculturefacilities a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "provide on-site training in aquaculture facilities" .
 
 saro:plantpropagation a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -21345,19 +21345,19 @@ saro:createnaturalsciencetaxonomies a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "create natural science taxonomies" .
 
-saro:educatethepublicaboutwildlife a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "educate the public about wildlife" .
-
 saro:creditcontrolprocesses a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "credit control processes" .
+
+saro:educatethepublicaboutwildlife a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "educate the public about wildlife" .
 
 saro:workwiththelightingcrew a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -21394,19 +21394,19 @@ saro:contactscientists a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "contact scientists" .
 
-saro:undertakegeneticriskassessment a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "undertake genetic risk assessment" .
-
 saro:measurethestrengthofdistillation a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "measure the strength of distillation" .
+
+saro:undertakegeneticriskassessment a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "undertake genetic risk assessment" .
 
 saro:managetechnicalresourcesstock a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
@@ -21793,19 +21793,19 @@ saro:agriculturalproductionprinciples a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "agricultural production principles" .
 
-saro:professionaldocumentationinhealthcare a saro:Skill ;
-	saro:isCoreTo saro:SCIENCEENGINEERING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "professional documentation in health care" .
-
 saro:insurancemarket a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "insurance market" .
+
+saro:professionaldocumentationinhealthcare a saro:Skill ;
+	saro:isCoreTo saro:SCIENCEENGINEERING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "professional documentation in health care" .
 
 saro:adviseonconstructionmaterials a saro:Skill ;
 	saro:isCoreTo saro:SCIENCEENGINEERING ;
