@@ -709,7 +709,7 @@ saro:usewordprocessingsoftware a saro:TransversalSkill ;
 	saro:hasReuseLevel "transversal skills and competences" ;
 	rdfs:label "use word processing software" .
 
-saro:useYahoo!Search a saro:TransversalSkill ;
+saro:useYahooSearch a saro:TransversalSkill ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
