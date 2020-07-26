@@ -15,13 +15,6 @@ saro:airtrafficmanagement a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "air traffic management" .
 
-saro:performcosmeticprocedures a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "perform cosmetic procedures" .
-
 saro:createscriptforartisticproduction a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -36,12 +29,12 @@ saro:researchthepastinrecordedsources a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "research the past in recorded sources" .
 
-saro:conductexaminationprocessesforapprentices a saro:Skill ;
+saro:performcosmeticprocedures a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "conduct examination processes for apprentices" .
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "perform cosmetic procedures" .
 
 saro:mentorindividuals a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -50,12 +43,12 @@ saro:mentorindividuals a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "mentor individuals" .
 
-saro:post-processingofphotographs a saro:Skill ;
+saro:conductexaminationprocessesforapprentices a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "post-processing of photographs" .
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "conduct examination processes for apprentices" .
 
 saro:journalisticprinciples a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -63,6 +56,13 @@ saro:journalisticprinciples a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "journalistic principles" .
+
+saro:post-processingofphotographs a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "post-processing of photographs" .
 
 saro:vocaltechniques a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -176,12 +176,12 @@ saro:mechanicsofvessels a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "mechanics of vessels" .
 
-saro:solarenergy a saro:Skill ;
+saro:organisestaffassessment a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
+	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "solar energy" .
+	rdfs:label "organise staff assessment" .
 
 saro:photography a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -190,12 +190,12 @@ saro:photography a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "photography" .
 
-saro:organisestaffassessment a saro:Skill ;
+saro:solarenergy a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
+	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "organise staff assessment" .
+	rdfs:label "solar energy" .
 
 saro:analogelectronicstheory a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -211,19 +211,19 @@ saro:toxicology a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "toxicology" .
 
-saro:radiotherapy a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "radiotherapy" .
-
 saro:architecturaltheory a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "architectural theory" .
+
+saro:radiotherapy a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "radiotherapy" .
 
 saro:physiologyofanimals a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -239,19 +239,19 @@ saro:troubleshoot a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "troubleshoot" .
 
-saro:hazardouswastetypes a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "hazardous waste types" .
-
 saro:devisechoreography a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "devise choreography" .
+
+saro:hazardouswastetypes a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "hazardous waste types" .
 
 saro:bodilyfluidanalysis a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -309,19 +309,19 @@ saro:hydraulics a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "hydraulics" .
 
-saro:inspecttablesettings a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "inspect table settings" .
-
 saro:teachkindergartenclasscontent a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "teach kindergarten class content" .
+
+saro:inspecttablesettings a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "inspect table settings" .
 
 saro:specialneedslearningequipment a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -358,19 +358,19 @@ saro:studyhumansocieties a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "study human societies" .
 
-saro:agriculturalequipment a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "agricultural equipment" .
-
 saro:teachtranslationtechniques a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "teach translation techniques" .
+
+saro:agriculturalequipment a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "agricultural equipment" .
 
 saro:hairproducts a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -379,12 +379,12 @@ saro:hairproducts a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "hair products" .
 
-saro:humanresourcemanagement a saro:Skill ;
+saro:coordinatewithcreativedepartments a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "human resource management" .
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "coordinate with creative departments" .
 
 saro:constructindividuallearningplans a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -393,12 +393,12 @@ saro:constructindividuallearningplans a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "construct individual learning plans" .
 
-saro:coordinatewithcreativedepartments a saro:Skill ;
+saro:humanresourcemanagement a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "coordinate with creative departments" .
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "human resource management" .
 
 saro:Groovy a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -414,13 +414,6 @@ saro:monitorsystemperformance a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "monitor system performance" .
 
-saro:brandmarketingtechniques a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "brand marketing techniques" .
-
 saro:reinforcepositivebehaviour a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -435,19 +428,12 @@ saro:assistchildrenwithhomework a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "assist children with homework" .
 
-saro:coordinaterescuemissions a saro:Skill ;
+saro:brandmarketingtechniques a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
+	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "coordinate rescue missions" .
-
-saro:analyseownperformance a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "analyse own performance" .
+	rdfs:label "brand marketing techniques" .
 
 saro:teachreligiousstudiesclass a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -456,12 +442,26 @@ saro:teachreligiousstudiesclass a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "teach religious studies class" .
 
+saro:analyseownperformance a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "analyse own performance" .
+
 saro:participantobservation a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "participant observation" .
+
+saro:coordinaterescuemissions a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "coordinate rescue missions" .
 
 saro:secondaryschoolprocedures a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -470,19 +470,19 @@ saro:secondaryschoolprocedures a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "secondary school procedures" .
 
-saro:compilecookingrecipes a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "compile cooking recipes" .
-
 saro:analyselegalevidence a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "analyse legal evidence" .
+
+saro:compilecookingrecipes a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "compile cooking recipes" .
 
 saro:firstaidforanimals a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -519,13 +519,6 @@ saro:applyscientificmethods a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "apply scientific methods" .
 
-saro:performlaboratoryinvestigations a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "perform laboratory investigations" .
-
 saro:developacoachingstyle a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -540,12 +533,12 @@ saro:workwithincommunities a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "work within communities" .
 
-saro:energy a saro:Skill ;
+saro:performlaboratoryinvestigations a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
+	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "energy" .
+	rdfs:label "perform laboratory investigations" .
 
 saro:taskalgorithmisation a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -553,6 +546,13 @@ saro:taskalgorithmisation a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "task algorithmisation" .
+
+saro:energy a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "energy" .
 
 saro:micromechanics a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -617,12 +617,12 @@ saro:designinformationsystem a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "design information system" .
 
-saro:renewableenergytechnologies a saro:Skill ;
+saro:checktheproductionschedule a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "renewable energy technologies" .
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "check the production schedule" .
 
 saro:relaxationtechniques a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -631,19 +631,12 @@ saro:relaxationtechniques a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "relaxation techniques" .
 
-saro:checktheproductionschedule a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "check the production schedule" .
-
-saro:mechanicsofmotorvehicles a saro:Skill ;
+saro:renewableenergytechnologies a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "mechanics of motor vehicles" .
+	rdfs:label "renewable energy technologies" .
 
 saro:maintainphotographicequipment a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -652,6 +645,13 @@ saro:maintainphotographicequipment a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "maintain photographic equipment" .
 
+saro:mechanicsofmotorvehicles a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "mechanics of motor vehicles" .
+
 saro:GlobalMaritimeDistressandSafetySystem a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -659,19 +659,19 @@ saro:GlobalMaritimeDistressandSafetySystem a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "Global Maritime Distress and Safety System" .
 
-saro:dyehair a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "dye hair" .
-
 saro:checkcircusriggingbeforeperformance a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "check circus rigging before performance" .
+
+saro:dyehair a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "dye hair" .
 
 saro:supportathleteswiththemaintenanceoftheircondition a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -708,13 +708,6 @@ saro:interprettramwaytrafficsigns a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "interpret tramway traffic signs" .
 
-saro:recruitbusdrivers a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "recruit bus drivers" .
-
 saro:statistics a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -722,19 +715,19 @@ saro:statistics a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "statistics" .
 
+saro:recruitbusdrivers a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "recruit bus drivers" .
+
 saro:useofairtrafficservicesdocument a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "use of air traffic services document" .
-
-saro:woodworkingprocesses a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "woodworking processes" .
 
 saro:establishcollaborativerelations a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -749,6 +742,13 @@ saro:teachprinciplesoflaw a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "teach principles of law" .
+
+saro:woodworkingprocesses a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "woodworking processes" .
 
 saro:customerservice a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -778,19 +778,19 @@ saro:managebudgets a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "manage budgets" .
 
-saro:e-learningsoftwareinfrastructure a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "e-learning software infrastructure" .
-
 saro:implementcareprogrammesforchildren a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "implement care programmes for children" .
+
+saro:e-learningsoftwareinfrastructure a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "e-learning software infrastructure" .
 
 saro:orchestratemusic a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -806,19 +806,19 @@ saro:religiousstudies a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "religious studies" .
 
-saro:usedifferenttypesoffireextinguishers a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "use different types of fire extinguishers" .
-
 saro:diagnosticradiology a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "diagnostic radiology" .
+
+saro:usedifferenttypesoffireextinguishers a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "use different types of fire extinguishers" .
 
 saro:medicines a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -876,19 +876,19 @@ saro:workasateaminahazardousenvironment a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "work as a team in a hazardous environment" .
 
-saro:arrangeequipmentrepairs a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "arrange equipment repairs" .
-
 saro:integratesystemcomponents a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "integrate system components" .
+
+saro:arrangeequipmentrepairs a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "arrange equipment repairs" .
 
 saro:adviselegislators a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -918,19 +918,19 @@ saro:developscientificresearchprotocols a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "develop scientific research protocols" .
 
-saro:planmenus a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "plan menus" .
-
 saro:showconsiderationforstudentssituation a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "show consideration for student's situation" .
+
+saro:planmenus a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "plan menus" .
 
 saro:plansportsinstructionprogramme a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -974,19 +974,19 @@ saro:precisionmechanics a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "precision mechanics" .
 
-saro:greenspacestrategies a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "green space strategies" .
-
 saro:designscientificequipment a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "design scientific equipment" .
+
+saro:greenspacestrategies a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "green space strategies" .
 
 saro:teachcomputerscience a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1016,13 +1016,6 @@ saro:typesofwood a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "types of wood" .
 
-saro:printedcircuitboardstestingmethods a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "printed circuit boards testing methods" .
-
 saro:createsculptures a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -1030,12 +1023,12 @@ saro:createsculptures a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "create sculptures" .
 
-saro:militaryweaponry a saro:Skill ;
+saro:printedcircuitboardstestingmethods a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "military weaponry" .
+	rdfs:label "printed circuit boards testing methods" .
 
 saro:consultinformationsources a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1044,12 +1037,12 @@ saro:consultinformationsources a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "consult information sources" .
 
-saro:devisetailor-madetourismitineraries a saro:Skill ;
+saro:militaryweaponry a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
+	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "devise tailor-made tourism itineraries" .
+	rdfs:label "military weaponry" .
 
 saro:compilecontent a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1058,6 +1051,13 @@ saro:compilecontent a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "compile content" .
 
+saro:devisetailor-madetourismitineraries a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "devise tailor-made tourism itineraries" .
+
 saro:reporttestfindings a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -1065,19 +1065,19 @@ saro:reporttestfindings a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "report test findings" .
 
-saro:typesofmetal a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "types of metal" .
-
 saro:speakdifferentlanguages a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "speak different languages" .
+
+saro:typesofmetal a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "types of metal" .
 
 saro:instructonsafetymeasures a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1100,13 +1100,6 @@ saro:operateforestryequipment a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "operate forestry equipment" .
 
-saro:recruitstudentambassador a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "recruit student ambassador" .
-
 saro:practicedancemoves a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -1114,12 +1107,12 @@ saro:practicedancemoves a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "practice dance moves" .
 
-saro:deburringprocesses a saro:Skill ;
+saro:recruitstudentambassador a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "deburring processes" .
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "recruit student ambassador" .
 
 saro:pharmacylaw a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1127,6 +1120,13 @@ saro:pharmacylaw a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "pharmacy law" .
+
+saro:deburringprocesses a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "deburring processes" .
 
 saro:communicationdisorders a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1177,19 +1177,19 @@ saro:forestecology a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "forest ecology" .
 
-saro:MicrosoftVisio a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "Microsoft Visio" .
-
 saro:geology a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "geology" .
+
+saro:MicrosoftVisio a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Microsoft Visio" .
 
 saro:selectauxiliaryequipmentforphotographicwork a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1205,19 +1205,19 @@ saro:developcourseoutline a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "develop course outline" .
 
-saro:strivetoprovidehighqualitycustomerservice a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "strive to provide high quality customer service" .
-
 saro:manageemergencycaresituations a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "manage emergency care situations" .
+
+saro:strivetoprovidehighqualitycustomerservice a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "strive to provide high quality customer service" .
 
 saro:businesslaw a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1338,19 +1338,19 @@ saro:pharmacognosy a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "pharmacognosy" .
 
-saro:fossilfuels a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "fossil fuels" .
-
 saro:followresearchonspecialneedseducation a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "follow research on special needs education" .
+
+saro:fossilfuels a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "fossil fuels" .
 
 saro:metaphysics a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1401,19 +1401,19 @@ saro:humanpsychologicaldevelopment a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "human psychological development" .
 
-saro:foodpreservation a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "food preservation" .
-
 saro:provideeducationmanagementsupport a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "provide education management support" .
+
+saro:foodpreservation a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "food preservation" .
 
 saro:gatherreferencematerialsforartwork a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1443,13 +1443,6 @@ saro:recordtestdata a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "record test data" .
 
-saro:instructinmilitaryduties a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "instruct in military duties" .
-
 saro:philosophy a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -1457,12 +1450,12 @@ saro:philosophy a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "philosophy" .
 
-saro:typesoftrams a saro:Skill ;
+saro:instructinmilitaryduties a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
+	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "types of trams" .
+	rdfs:label "instruct in military duties" .
 
 saro:balancetheprojectrequirementswithhealthandsafetyconcerns a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1470,6 +1463,13 @@ saro:balancetheprojectrequirementswithhealthandsafetyconcerns a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "balance the project requirements with health and safety concerns" .
+
+saro:typesoftrams a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "types of trams" .
 
 saro:typesofwindturbines a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1492,13 +1492,6 @@ saro:workinamulticulturalenvironmentinhealthcare a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "work in a multicultural environment in health care" .
 
-saro:performunderwaterinvestigations a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "perform underwater investigations" .
-
 saro:universityprocedures a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -1506,12 +1499,12 @@ saro:universityprocedures a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "university procedures" .
 
-saro:dentalanatomy a saro:Skill ;
+saro:performunderwaterinvestigations a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
+	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "dental anatomy" .
+	rdfs:label "perform underwater investigations" .
 
 saro:contributetoprotectingindividualsfromharm a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1519,6 +1512,13 @@ saro:contributetoprotectingindividualsfromharm a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "contribute to protecting individuals from harm" .
+
+saro:dentalanatomy a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "dental anatomy" .
 
 saro:applyICTterminology a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1555,19 +1555,19 @@ saro:advertisingtechniques a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "advertising techniques" .
 
-saro:complywithairtrafficcontroloperations a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "comply with air traffic control operations" .
-
 saro:socialjustice a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "social justice" .
+
+saro:complywithairtrafficcontroloperations a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "comply with air traffic control operations" .
 
 saro:marketingmanagement a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1590,6 +1590,13 @@ saro:guideinternationalstudents a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "guide international students" .
 
+saro:Incrementaldevelopment a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Incremental development" .
+
 saro:innovationinnursing a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -1603,13 +1610,6 @@ saro:gastroenterology a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "gastroenterology" .
-
-saro:Incrementaldevelopment a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "Incremental development" .
 
 saro:applycasemanagement a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1625,19 +1625,19 @@ saro:interpretmedicalresults a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "interpret medical results" .
 
-saro:recogniseabnormalitiesonboard a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "recognise abnormalities on board" .
-
 saro:paediatrics a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "paediatrics" .
+
+saro:recogniseabnormalitiesonboard a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "recognise abnormalities on board" .
 
 saro:providetechnicalexpertise a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1716,19 +1716,19 @@ saro:scientificresearchmethodology a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "scientific research methodology" .
 
-saro:givebattlecommands a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "give battle commands" .
-
 saro:teachprimaryeducationclasscontent a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "teach primary education class content" .
+
+saro:givebattlecommands a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "give battle commands" .
 
 saro:encouragestudentstoacknowledgetheirachievements a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1737,19 +1737,19 @@ saro:encouragestudentstoacknowledgetheirachievements a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "encourage students to acknowledge their achievements" .
 
-saro:provideimmigrationadvice a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "provide immigration advice" .
-
 saro:teachbraille a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "teach braille" .
+
+saro:provideimmigrationadvice a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "provide immigration advice" .
 
 saro:electricityconsumption a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1779,12 +1779,12 @@ saro:planhealthandsafetyprocedures a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "plan health and safety procedures" .
 
-saro:calibratelaboratoryequipment a saro:Skill ;
+saro:pharmaceuticalindustry a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
+	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "calibrate laboratory equipment" .
+	rdfs:label "pharmaceutical industry" .
 
 saro:teachprinciplesofsocialwork a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1793,12 +1793,12 @@ saro:teachprinciplesofsocialwork a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "teach principles of social work" .
 
-saro:pharmaceuticalindustry a saro:Skill ;
+saro:calibratelaboratoryequipment a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
+	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "pharmaceutical industry" .
+	rdfs:label "calibrate laboratory equipment" .
 
 saro:operateradarequipment a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1961,19 +1961,19 @@ saro:internationalregulationsforpreventingcollisionsatsea a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "international regulations for preventing collisions at sea" .
 
-saro:giveinstructionstostaff a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "give instructions to staff" .
-
 saro:clinicaldisciplinesindentistry a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "clinical disciplines in dentistry" .
+
+saro:giveinstructionstostaff a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "give instructions to staff" .
 
 saro:determineimagecomposition a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1982,12 +1982,12 @@ saro:determineimagecomposition a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "determine image composition" .
 
-saro:electromechanics a saro:Skill ;
+saro:botany a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "electromechanics" .
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "botany" .
 
 saro:counselstudents a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -1996,19 +1996,12 @@ saro:counselstudents a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "counsel students" .
 
-saro:botany a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "botany" .
-
-saro:furniturewoodtypes a saro:Skill ;
+saro:electromechanics a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "furniture wood types" .
+	rdfs:label "electromechanics" .
 
 saro:pharmacokinetics a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2023,6 +2016,13 @@ saro:organismtaxonomy a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "organism taxonomy" .
+
+saro:furniturewoodtypes a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "furniture wood types" .
 
 saro:operatetramcontrols a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2080,13 +2080,6 @@ saro:tackleissuesthatblockacademicprogress a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "tackle issues that block academic progress" .
 
-saro:providefirstaid a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "provide first aid" .
-
 saro:primaryschoolprocedures a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -2094,12 +2087,12 @@ saro:primaryschoolprocedures a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "primary school procedures" .
 
-saro:salesstrategies a saro:Skill ;
+saro:providefirstaid a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "sales strategies" .
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "provide first aid" .
 
 saro:bringoutperformersartisticpotential a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2114,6 +2107,13 @@ saro:providelearningsupport a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "provide learning support" .
+
+saro:salesstrategies a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "sales strategies" .
 
 saro:socialsciences a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2136,13 +2136,6 @@ saro:practicecircusdisciplines a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "practice circus disciplines" .
 
-saro:environmentalimpactoftourism a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "environmental impact of tourism" .
-
 saro:Lisp a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -2150,12 +2143,12 @@ saro:Lisp a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "Lisp" .
 
-saro:mobilitydisability a saro:Skill ;
+saro:environmentalimpactoftourism a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "mobility disability" .
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "environmental impact of tourism" .
 
 saro:identifyeducationneeds a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2163,6 +2156,13 @@ saro:identifyeducationneeds a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "identify education needs" .
+
+saro:mobilitydisability a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "mobility disability" .
 
 saro:plasticsurgery a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2177,13 +2177,6 @@ saro:analyseexperimentallaboratorydata a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "analyse experimental laboratory data" .
-
-saro:materialsforinteriordesign a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "materials for interior design" .
 
 saro:developorganisationalpolicies a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2213,12 +2206,12 @@ saro:followhealthandsafetyprecautionsinsocialcarepractices a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "follow health and safety precautions in social care practices" .
 
-saro:maintainagriculturalmachinery a saro:Skill ;
+saro:materialsforinteriordesign a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "maintain agricultural machinery" .
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "materials for interior design" .
 
 saro:createartwork a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2226,6 +2219,13 @@ saro:createartwork a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "create artwork" .
+
+saro:maintainagriculturalmachinery a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "maintain agricultural machinery" .
 
 saro:proposeleisureactivities a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2311,20 +2311,6 @@ saro:olderadultsneeds a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "older adults' needs" .
 
-saro:interprettrafficlightsignalsusedintramwayinfrastructure a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "interpret traffic light signals used in tramway infrastructure" .
-
-saro:agronomicalproductionprinciples a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "agronomical production principles" .
-
 saro:identifyICTuserneeds a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -2338,6 +2324,20 @@ saro:applydecisionmakingwithinsocialwork a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "apply decision making within social work" .
+
+saro:agronomicalproductionprinciples a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "agronomical production principles" .
+
+saro:interprettrafficlightsignalsusedintramwayinfrastructure a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "interpret traffic light signals used in tramway infrastructure" .
 
 saro:performexercisesforartisticperformance a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2402,6 +2402,13 @@ saro:musicliterature a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "music literature" .
 
+saro:Waterfalldevelopment a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "Waterfall development" .
+
 saro:accounting a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -2415,13 +2422,6 @@ saro:driveinurbanareas a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "drive in urban areas" .
-
-saro:Waterfalldevelopment a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "Waterfall development" .
 
 saro:identifytrainingneeds a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2521,13 +2521,6 @@ saro:controltheperformanceofthevehicle a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "control the performance of the vehicle" .
 
-saro:nuclearenergy a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "nuclear energy" .
-
 saro:teachfoodscience a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -2535,12 +2528,12 @@ saro:teachfoodscience a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "teach food science" .
 
-saro:educateonthepreventionofillness a saro:Skill ;
+saro:nuclearenergy a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
+	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "educate on the prevention of illness" .
+	rdfs:label "nuclear energy" .
 
 saro:learningmanagementsystems a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2548,6 +2541,13 @@ saro:learningmanagementsystems a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "learning management systems" .
+
+saro:educateonthepreventionofillness a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "educate on the prevention of illness" .
 
 saro:instructionaldesignmodels a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2605,19 +2605,19 @@ saro:organiserehearsals a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "organise rehearsals" .
 
-saro:theatretechniques a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "theatre techniques" .
-
 saro:nutrition a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "nutrition" .
+
+saro:theatretechniques a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "theatre techniques" .
 
 saro:collaboratewithanimalrelatedprofessionals a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2640,20 +2640,6 @@ saro:businessmanagementprinciples a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "business management principles" .
 
-saro:teachdesignandappliedartsprinciples a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "teach design and applied arts principles" .
-
-saro:digitalcompositing a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "digital compositing" .
-
 saro:actingtechniques a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -2667,6 +2653,20 @@ saro:clinicalbiology a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "clinical biology" .
+
+saro:teachdesignandappliedartsprinciples a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "teach design and applied arts principles" .
+
+saro:digitalcompositing a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "digital compositing" .
 
 saro:supervisefoodquality a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2696,19 +2696,19 @@ saro:createdecorativefooddisplays a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "create decorative food displays" .
 
-saro:providenon-surgicaltreatmentincosmeticprocedures a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "provide non-surgical treatment in cosmetic procedures" .
-
 saro:venereology a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "venereology" .
+
+saro:providenon-surgicaltreatmentincosmeticprocedures a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "provide non-surgical treatment in cosmetic procedures" .
 
 saro:culturalhistory a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2717,19 +2717,19 @@ saro:culturalhistory a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "cultural history" .
 
-saro:defineperformanceconcepts a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "define performance concepts" .
-
 saro:providehealtheducation a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "provide health education" .
+
+saro:defineperformanceconcepts a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "define performance concepts" .
 
 saro:maintainmedicallaboratoryequipment a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2738,13 +2738,6 @@ saro:maintainmedicallaboratoryequipment a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "maintain medical laboratory equipment" .
 
-saro:compiledatafornavigationpublications a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "compile data for navigation publications" .
-
 saro:buildbusinessrelationships a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -2752,12 +2745,12 @@ saro:buildbusinessrelationships a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "build business relationships" .
 
-saro:computerhistory a saro:Skill ;
+saro:compiledatafornavigationpublications a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
+	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "computer history" .
+	rdfs:label "compile data for navigation publications" .
 
 saro:applySteinerteachingstrategies a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2773,6 +2766,13 @@ saro:identifycross-curricularlinkswithothersubjectareas a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "identify cross-curricular links with other subject areas" .
 
+saro:computerhistory a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "computer history" .
+
 saro:serveonacademiccommittee a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -2780,19 +2780,19 @@ saro:serveonacademiccommittee a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "serve on academic committee" .
 
-saro:teachfurthereducation a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "teach further education" .
-
 saro:assessconservationneeds a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "assess conservation needs" .
+
+saro:teachfurthereducation a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "teach further education" .
 
 saro:teachgeography a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2871,19 +2871,19 @@ saro:assessartisticproposal a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "assess artistic proposal" .
 
-saro:marketingmix a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "marketing mix" .
-
 saro:operateaceramicskiln a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "operate a ceramics kiln" .
+
+saro:marketingmix a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "marketing mix" .
 
 saro:Litmos a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2892,19 +2892,19 @@ saro:Litmos a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "Litmos" .
 
-saro:usegeographicinformationsystems a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "use geographic information systems" .
-
 saro:managechildrensproblems a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "manage children's problems" .
+
+saro:usegeographicinformationsystems a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "use geographic information systems" .
 
 saro:provideteachersupport a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2934,12 +2934,12 @@ saro:provideadviceonbreachesofregulation a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "provide advice on breaches of regulation" .
 
-saro:pre-flightproceduresforIFRflights a saro:Skill ;
+saro:urology a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "pre-flight procedures for IFR flights" .
+	rdfs:label "urology" .
 
 saro:airtrafficcontroloperations a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2948,12 +2948,12 @@ saro:airtrafficcontroloperations a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "air traffic control operations" .
 
-saro:urology a saro:Skill ;
+saro:pre-flightproceduresforIFRflights a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "urology" .
+	rdfs:label "pre-flight procedures for IFR flights" .
 
 saro:mechanics a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2969,19 +2969,19 @@ saro:analysecurriculum a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "analyse curriculum" .
 
-saro:meteorology a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "meteorology" .
-
 saro:musicalinstruments a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "musical instruments" .
+
+saro:meteorology a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "meteorology" .
 
 saro:facilitateappropriatecompositionalstructuresindance a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -2997,19 +2997,19 @@ saro:communicateontheyouthswell-being a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "communicate on the youth's well-being" .
 
-saro:trackgeometry a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "track geometry" .
-
 saro:applyMontessoriteachingstrategies a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "apply Montessori teaching strategies" .
+
+saro:trackgeometry a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "track geometry" .
 
 saro:keeprecordsofattendance a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3032,19 +3032,19 @@ saro:promotesocialawareness a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "promote social awareness" .
 
-saro:establisheducationalnetwork a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "establish educational network" .
-
 saro:keepuptodateonprofessionaldancepractice a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "keep up to date on professional dance practice" .
+
+saro:establisheducationalnetwork a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "establish educational network" .
 
 saro:marketingdepartmentprocesses a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3053,13 +3053,6 @@ saro:marketingdepartmentprocesses a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "marketing department processes" .
 
-saro:electricaldischarge a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "electrical discharge" .
-
 saro:vascularsurgery a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -3067,12 +3060,12 @@ saro:vascularsurgery a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "vascular surgery" .
 
-saro:barberingtechniques a saro:Skill ;
+saro:electricaldischarge a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "barbering techniques" .
+	rdfs:label "electrical discharge" .
 
 saro:biology a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3081,19 +3074,19 @@ saro:biology a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "biology" .
 
+saro:barberingtechniques a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "barbering techniques" .
+
 saro:pathology a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "pathology" .
-
-saro:freighttransportmethods a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "freight transport methods" .
 
 saro:circusvocabulary a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3102,6 +3095,13 @@ saro:circusvocabulary a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "circus vocabulary" .
 
+saro:freighttransportmethods a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "freight transport methods" .
+
 saro:climatology a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -3109,19 +3109,19 @@ saro:climatology a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "climatology" .
 
-saro:electricgenerators a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "electric generators" .
-
 saro:reportonsocialdevelopment a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "report on social development" .
+
+saro:electricgenerators a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "electric generators" .
 
 saro:geologicaltimescale a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3221,19 +3221,19 @@ saro:Assemblycomputerprogramming a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "Assembly (computer programming)" .
 
-saro:performplanning a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "perform planning" .
-
 saro:evolutionindeliverypracticesinpracticeddancetradition a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "evolution in delivery practices in practiced dance tradition" .
+
+saro:performplanning a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "perform planning" .
 
 saro:e-learning a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3256,13 +3256,6 @@ saro:monitoreducationaldevelopments a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "monitor educational developments" .
 
-saro:geographicalareasrelevanttotourism a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "geographical areas relevant to tourism" .
-
 saro:expressyourselfphysically a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -3276,6 +3269,13 @@ saro:journalism a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "journalism" .
+
+saro:geographicalareasrelevanttotourism a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "geographical areas relevant to tourism" .
 
 saro:examinecrimescenes a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3291,13 +3291,6 @@ saro:kindergartenschoolprocedures a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "kindergarten school procedures" .
 
-saro:teacharchaeology a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "teach archaeology" .
-
 saro:plansocialserviceprocess a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -3305,12 +3298,12 @@ saro:plansocialserviceprocess a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "plan social service process" .
 
-saro:militarylogistics a saro:Skill ;
+saro:teacharchaeology a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "military logistics" .
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "teach archaeology" .
 
 saro:managedifferentceramicfiringtechniques a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3325,6 +3318,13 @@ saro:interpretcurrentdata a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "interpret current data" .
+
+saro:militarylogistics a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "military logistics" .
 
 saro:drivingexaminations a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3445,19 +3445,12 @@ saro:followlaboratorymanuals a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "follow laboratory manuals" .
 
-saro:teachcustomerservicetechniques a saro:Skill ;
+saro:SASlanguage a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
+	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "teach customer service techniques" .
-
-saro:searchdatabases a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "search databases" .
+	rdfs:label "SAS language" .
 
 saro:teachcommunicationsciences a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3466,26 +3459,19 @@ saro:teachcommunicationsciences a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "teach communication sciences" .
 
-saro:SASlanguage a saro:Skill ;
+saro:searchdatabases a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "SAS language" .
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "search databases" .
 
-saro:functionalpropertiesoffoods a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "functional properties of foods" .
-
-saro:usemarkuplanguages a saro:Skill ;
+saro:teachcustomerservicetechniques a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "use markup languages" .
+	rdfs:label "teach customer service techniques" .
 
 saro:teachbusinessprinciples a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3494,12 +3480,19 @@ saro:teachbusinessprinciples a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "teach business principles" .
 
-saro:conductdrugabusetests a saro:Skill ;
+saro:usemarkuplanguages a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "conduct drug abuse tests" .
+	rdfs:label "use markup languages" .
+
+saro:functionalpropertiesoffoods a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "functional properties of foods" .
 
 saro:defineriggingneedsforcircusacts a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3507,6 +3500,13 @@ saro:defineriggingneedsforcircusacts a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "define rigging needs for circus acts" .
+
+saro:conductdrugabusetests a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "conduct drug abuse tests" .
 
 saro:teachbiology a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3557,19 +3557,19 @@ saro:Cplusplus a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "C++" .
 
-saro:organicchemistry a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "organic chemistry" .
-
 saro:Perl a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "Perl" .
+
+saro:organicchemistry a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "organic chemistry" .
 
 saro:mechanicalcompositionoftrams a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3585,13 +3585,6 @@ saro:trainmilitarytroops a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "train military troops" .
 
-saro:ensuretablewareisreadyforuse a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "ensure tableware is ready for use" .
-
 saro:interpretperformanceconceptsinthecreativeprocess a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -3606,12 +3599,12 @@ saro:excavationtechniques a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "excavation techniques" .
 
-saro:spelling a saro:Skill ;
+saro:ensuretablewareisreadyforuse a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "spelling" .
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ensure tableware is ready for use" .
 
 saro:human-computerinteraction a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3627,6 +3620,13 @@ saro:adaptascript a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "adapt a script" .
 
+saro:spelling a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "spelling" .
+
 saro:providefeedbacktoteachers a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -3634,19 +3634,19 @@ saro:providefeedbacktoteachers a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "provide feedback to teachers" .
 
-saro:managetestdrives a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "manage test drives" .
-
 saro:teachveterinaryscience a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "teach veterinary science" .
+
+saro:managetestdrives a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "manage test drives" .
 
 saro:contentdevelopmentprocesses a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3676,19 +3676,19 @@ saro:assignhomework a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "assign homework" .
 
-saro:physiotherapy a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "physiotherapy" .
-
 saro:zoonoticdiseases a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "zoonotic diseases" .
+
+saro:physiotherapy a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "physiotherapy" .
 
 saro:legalterminology a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3760,19 +3760,19 @@ saro:geostationarysatellites a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "geostationary satellites" .
 
-saro:anthropology a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "anthropology" .
-
 saro:cooperateatinter-professionallevel a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "cooperate at inter-professional level" .
+
+saro:anthropology a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "anthropology" .
 
 saro:managestaff a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3795,13 +3795,6 @@ saro:teachmedicallaboratorytechnologyprinciples a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "teach medical laboratory technology principles" .
 
-saro:agriculturalrawmaterialsseedsandanimalfeedproducts a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "agricultural raw materials, seeds and animal feed products" .
-
 saro:trainingsubjectexpertise a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -3816,6 +3809,13 @@ saro:testphotographicequipment a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "test photographic equipment" .
 
+saro:agriculturalrawmaterialsseedsandanimalfeedproducts a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "agricultural raw materials, seeds and animal feed products" .
+
 saro:escortstudentsonafieldtrip a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -3823,19 +3823,19 @@ saro:escortstudentsonafieldtrip a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "escort students on a field trip" .
 
-saro:testsafetystrategies a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "test safety strategies" .
-
 saro:historyofphilosophy a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "history of philosophy" .
+
+saro:testsafetystrategies a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "test safety strategies" .
 
 saro:followtrendsinsportingequipment a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3928,13 +3928,6 @@ saro:applyteachingstrategies a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "apply teaching strategies" .
 
-saro:supervisepracticalcourses a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "supervise practical courses" .
-
 saro:managestressinorganisation a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -3942,12 +3935,12 @@ saro:managestressinorganisation a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "manage stress in organisation" .
 
-saro:mechatronics a saro:Skill ;
+saro:supervisepracticalcourses a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
+	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "mechatronics" .
+	rdfs:label "supervise practical courses" .
 
 saro:promoteeducationprogrammes a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3955,6 +3948,13 @@ saro:promoteeducationprogrammes a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "promote education programmes" .
+
+saro:mechatronics a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "mechatronics" .
 
 saro:defineartisticapproach a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -3998,13 +3998,6 @@ saro:commerciallaw a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "commercial law" .
 
-saro:ensureinformationsecurity a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "ensure information security" .
-
 saro:R a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -4012,12 +4005,26 @@ saro:R a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "R" .
 
+saro:ensureinformationsecurity a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "ensure information security" .
+
 saro:DevOps a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "DevOps" .
+
+saro:promoteyourself a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "promote yourself" .
 
 saro:primarycare a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4032,13 +4039,6 @@ saro:contentmarketingstrategy a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "content marketing strategy" .
-
-saro:promoteyourself a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "promote yourself" .
 
 saro:performbackgroundresearchonwritingsubject a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4082,13 +4082,6 @@ saro:teachESOLlanguageclass a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "teach ESOL language class" .
 
-saro:ensurevehiclesareequippedwithaccessibilityequipment a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "ensure vehicles are equipped with accessibility equipment" .
-
 saro:integratecontentintooutputmedia a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -4103,12 +4096,12 @@ saro:performveterinarydiagnosis a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "perform veterinary diagnosis" .
 
-saro:mechanicalcomponentsofvehicles a saro:Skill ;
+saro:ensurevehiclesareequippedwithaccessibilityequipment a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
+	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "mechanical components of vehicles" .
+	rdfs:label "ensure vehicles are equipped with accessibility equipment" .
 
 saro:communicationsciences a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4116,6 +4109,13 @@ saro:communicationsciences a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "communication sciences" .
+
+saro:mechanicalcomponentsofvehicles a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "mechanical components of vehicles" .
 
 saro:assessstudentspreliminarylearningexperiences a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4138,20 +4138,6 @@ saro:politicalideologies a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "political ideologies" .
 
-saro:implementfundamentalsofnursing a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "implement fundamentals of nursing" .
-
-saro:ensureimplementationofsafedrivingpractices a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "ensure implementation of safe driving practices" .
-
 saro:supervisespokenlanguagelearning a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -4166,19 +4152,19 @@ saro:neurology a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "neurology" .
 
-saro:delegateactivities a saro:Skill ;
+saro:implementfundamentalsofnursing a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "delegate activities" .
+	rdfs:label "implement fundamentals of nursing" .
 
-saro:performmaintenanceonlocomotives a saro:Skill ;
+saro:ensureimplementationofsafedrivingpractices a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "perform maintenance on locomotives" .
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "ensure implementation of safe driving practices" .
 
 saro:fundingmethods a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4187,12 +4173,26 @@ saro:fundingmethods a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "funding methods" .
 
+saro:delegateactivities a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "delegate activities" .
+
 saro:clinicalcytology a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "clinical cytology" .
+
+saro:performmaintenanceonlocomotives a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "perform maintenance on locomotives" .
 
 saro:presentreports a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4271,19 +4271,19 @@ saro:logic a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "logic" .
 
-saro:performin-circuittest a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "perform in-circuit test" .
-
 saro:measurelightlevels a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "measure light levels" .
+
+saro:performin-circuittest a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "perform in-circuit test" .
 
 saro:financialmarkets a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4299,19 +4299,19 @@ saro:unifiedmodellinglanguage a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "unified modelling language" .
 
-saro:learningneedsanalysis a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "learning needs analysis" .
-
 saro:rhetoric a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "rhetoric" .
+
+saro:learningneedsanalysis a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "learning needs analysis" .
 
 saro:followsignallinginstructions a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4341,19 +4341,19 @@ saro:servefoodintableservice a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "serve food in table service" .
 
-saro:newborncare a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "newborn care" .
-
 saro:orthopaedics a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "orthopaedics" .
+
+saro:newborncare a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "newborn care" .
 
 saro:facilitatemotorskillactivities a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4418,13 +4418,6 @@ saro:assistinchildrensdevelopmentofbasicpersonalskills a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "assist in children's development of basic personal skills" .
 
-saro:analysework-relatedwrittenreports a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "analyse work-related written reports" .
-
 saro:visualdisability a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -4439,19 +4432,12 @@ saro:dermato-venereology a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "dermato-venereology" .
 
-saro:teachuniversityclass a saro:Skill ;
+saro:analysework-relatedwrittenreports a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "teach university class" .
-
-saro:studentfinancialaidprogrammes a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "student financial aid programmes" .
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "analyse work-related written reports" .
 
 saro:stimulatecreativityintheteam a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4460,12 +4446,19 @@ saro:stimulatecreativityintheteam a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "stimulate creativity in the team" .
 
-saro:manoeuvreheavytrucks a saro:Skill ;
+saro:studentfinancialaidprogrammes a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "student financial aid programmes" .
+
+saro:teachuniversityclass a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "manoeuvre heavy trucks" .
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "teach university class" .
 
 saro:developeducationalactivities a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4473,6 +4466,20 @@ saro:developeducationalactivities a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "develop educational activities" .
+
+saro:manoeuvreheavytrucks a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "manoeuvre heavy trucks" .
+
+saro:statisticalanalysissystemsoftware a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "statistical analysis system software" .
 
 saro:healthandsafetymeasuresintransportation a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4487,13 +4494,6 @@ saro:applyfirstresponse a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "apply first response" .
-
-saro:statisticalanalysissystemsoftware a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "statistical analysis system software" .
 
 saro:fire-fightingsystems a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4565,19 +4565,19 @@ saro:acutecare a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "acute care" .
 
-saro:inspecteducationinstitutions a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "inspect education institutions" .
-
 saro:selectillustrationstyles a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "select illustration styles" .
+
+saro:inspecteducationinstitutions a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "inspect education institutions" .
 
 saro:infectioncontrol a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4614,19 +4614,19 @@ saro:tropicalmedicine a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "tropical medicine" .
 
-saro:operatearmouredfightingvehicles a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "operate armoured fighting vehicles" .
-
 saro:curriculumstandards a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "curriculum standards" .
+
+saro:operatearmouredfightingvehicles a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "operate armoured fighting vehicles" .
 
 saro:thinkanalytically a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4726,19 +4726,19 @@ saro:coordinateartisticproduction a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "coordinate artistic production" .
 
-saro:hardwaretestingmethods a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "hardware testing methods" .
-
 saro:grammar a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "grammar" .
+
+saro:hardwaretestingmethods a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "hardware testing methods" .
 
 saro:engravingtechnologies a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4761,19 +4761,19 @@ saro:woodworkingtools a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "woodworking tools" .
 
-saro:organisemusicalevents a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "organise musical events" .
-
 saro:applyFreinetteachingstrategies a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "apply Freinet teaching strategies" .
+
+saro:organisemusicalevents a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "organise musical events" .
 
 saro:biologicalchemistry a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4782,13 +4782,6 @@ saro:biologicalchemistry a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "biological chemistry" .
 
-saro:usemodernelectronicnavigationalaids a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "use modern electronic navigational aids" .
-
 saro:multimediasystems a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -4796,12 +4789,12 @@ saro:multimediasystems a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "multimedia systems" .
 
-saro:marketingprinciples a saro:Skill ;
+saro:usemodernelectronicnavigationalaids a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "marketing principles" .
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "use modern electronic navigational aids" .
 
 saro:classicalantiquity a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4809,6 +4802,13 @@ saro:classicalantiquity a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "classical antiquity" .
+
+saro:marketingprinciples a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "marketing principles" .
 
 saro:teachliteracyasasocialpractice a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4831,19 +4831,19 @@ saro:pharmaceuticaltechnology a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "pharmaceutical technology" .
 
-saro:investigationresearchmethods a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "investigation research methods" .
-
 saro:teachpublicspeakingprinciples a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "teach public speaking principles" .
+
+saro:investigationresearchmethods a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "investigation research methods" .
 
 saro:identifynutritionalpropertiesoffood a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4915,19 +4915,19 @@ saro:typesofmedia a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "types of media" .
 
-saro:teachflyingpractices a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "teach flying practices" .
-
 saro:restrainindividuals a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "restrain individuals" .
+
+saro:teachflyingpractices a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "teach flying practices" .
 
 saro:performdefensivedriving a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4964,12 +4964,12 @@ saro:facilitateteamworkbetweenstudents a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "facilitate teamwork between students" .
 
-saro:cosmeticskintreatment a saro:Skill ;
+saro:assesssocialworkstudents a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "cosmetic skin treatment" .
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "assess social work students" .
 
 saro:conductscholarlyresearch a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4978,19 +4978,12 @@ saro:conductscholarlyresearch a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "conduct scholarly research" .
 
-saro:assesssocialworkstudents a saro:Skill ;
+saro:cosmeticskintreatment a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "assess social work students" .
-
-saro:analysedataforaeronauticalpublications a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "analyse data for aeronautical publications" .
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "cosmetic skin treatment" .
 
 saro:demonstratetechnicalexpertiseofyourdancestyle a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -4998,6 +4991,13 @@ saro:demonstratetechnicalexpertiseofyourdancestyle a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "demonstrate technical expertise of your dance style" .
+
+saro:analysedataforaeronauticalpublications a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "analyse data for aeronautical publications" .
 
 saro:electroniccommunication a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -5020,13 +5020,6 @@ saro:acoustics a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "acoustics" .
 
-saro:haircolouring a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "hair colouring" .
-
 saro:assiststudentswiththeirenrolment a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -5034,19 +5027,12 @@ saro:assiststudentswiththeirenrolment a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "assist students with their enrolment" .
 
-saro:teachhospitalityprinciples a saro:Skill ;
+saro:haircolouring a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
+	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "teach hospitality principles" .
-
-saro:providetourismrelatedinformation a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "provide tourism related information" .
+	rdfs:label "hair colouring" .
 
 saro:ensurecompliancewithpolicies a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -5061,6 +5047,20 @@ saro:polymerchemistry a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "polymer chemistry" .
+
+saro:teachhospitalityprinciples a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "teach hospitality principles" .
+
+saro:providetourismrelatedinformation a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "provide tourism related information" .
 
 saro:teachlanguages a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -5118,19 +5118,19 @@ saro:literarytechniques a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "literary techniques" .
 
-saro:interprettrafficsignals a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "interpret traffic signals" .
-
 saro:renaldiseases a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "renal diseases" .
+
+saro:interprettrafficsignals a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "interpret traffic signals" .
 
 saro:improvestudentsexaminationskills a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -5146,6 +5146,13 @@ saro:conductresearchonspeech-relatedtopics a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "conduct research on speech-related topics" .
 
+saro:electionlaw a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "election law" .
+
 saro:monitorcustomerservice a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -5160,12 +5167,12 @@ saro:operateradiodispatchsystemsfortaxis a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "operate radio dispatch systems for taxis" .
 
-saro:electionlaw a saro:Skill ;
+saro:collectsamplesforanalysis a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
+	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "election law" .
+	rdfs:label "collect samples for analysis" .
 
 saro:prepareexaminationsforvocationalcourses a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -5173,13 +5180,6 @@ saro:prepareexaminationsforvocationalcourses a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "prepare examinations for vocational courses" .
-
-saro:collectsamplesforanalysis a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "collect samples for analysis" .
 
 saro:militarydrill a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -5195,13 +5195,6 @@ saro:nursingprinciples a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "nursing principles" .
 
-saro:evaluateengineperformance a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "evaluate engine performance" .
-
 saro:deliveronlinetraining a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -5209,12 +5202,12 @@ saro:deliveronlinetraining a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "deliver online training" .
 
-saro:monitorpaintingoperations a saro:Skill ;
+saro:evaluateengineperformance a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "monitor painting operations" .
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "evaluate engine performance" .
 
 saro:ethics a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -5222,6 +5215,13 @@ saro:ethics a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "ethics" .
+
+saro:monitorpaintingoperations a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "monitor painting operations" .
 
 saro:cross-matchingtechniquesforbloodtransfusions a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -5321,19 +5321,19 @@ saro:buildhelpingrelationshipwithsocialserviceusers a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "build helping relationship with social service users" .
 
-saro:disabilitycare a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "disability care" .
-
 saro:ethnolinguistics a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "ethnolinguistics" .
+
+saro:disabilitycare a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "disability care" .
 
 saro:aircraftflightcontrolsystems a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -5370,19 +5370,19 @@ saro:safeworkpracticesinaveterinarysetting a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "safe work practices in a veterinary setting" .
 
-saro:applytechnicalcommunicationskills a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "apply technical communication skills" .
-
 saro:manageeducationalinstitutionsadministration a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "manage educational institution's administration" .
+
+saro:applytechnicalcommunicationskills a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "apply technical communication skills" .
 
 saro:Sass a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -5405,19 +5405,19 @@ saro:offercosmeticbeautyadvice a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "offer cosmetic beauty advice" .
 
-saro:signsofanimalillness a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "signs of animal illness" .
-
 saro:embeddedsystems a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "embedded systems" .
+
+saro:signsofanimalillness a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "signs of animal illness" .
 
 saro:businessprocesses a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -5461,19 +5461,19 @@ saro:Taleo a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "Taleo" .
 
-saro:automaticmeterreading a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "automatic meter reading" .
-
 saro:conductinterviewinsocialservice a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "conduct interview in social service" .
+
+saro:automaticmeterreading a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "automatic meter reading" .
 
 saro:documentmanagement a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -5489,12 +5489,12 @@ saro:teachmathematics a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "teach mathematics" .
 
-saro:foodallergies a saro:Skill ;
+saro:supervisionofpersons a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "food allergies" .
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "supervision of persons" .
 
 saro:supervisedoctoralstudents a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -5503,12 +5503,12 @@ saro:supervisedoctoralstudents a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "supervise doctoral students" .
 
-saro:supervisionofpersons a saro:Skill ;
+saro:foodallergies a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "supervision of persons" .
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "food allergies" .
 
 saro:selectartisticmaterialstocreateartworks a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -5524,19 +5524,19 @@ saro:literarytheory a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "literary theory" .
 
-saro:generalhaematology a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "general haematology" .
-
 saro:Haskell a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "Haskell" .
+
+saro:generalhaematology a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "general haematology" .
 
 saro:workwithdifferenttargetgroups a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -5566,19 +5566,19 @@ saro:teachprinciplesofarchitecturaldesign a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "teach principles of architectural design" .
 
-saro:mobilemarketing a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "mobile marketing" .
-
 saro:applyproblemsolvinginsocialservice a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "apply problem solving in social service" .
+
+saro:mobilemarketing a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "mobile marketing" .
 
 saro:assistintheorganisationofschoolevents a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -5622,6 +5622,13 @@ saro:servebeverages a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "serve beverages" .
 
+saro:finearts a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "fine arts" .
+
 saro:usedifferentcommunicationchannels a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -5635,13 +5642,6 @@ saro:checktrainengines a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "check train engines" .
-
-saro:finearts a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "fine arts" .
 
 saro:businessstrategyconcepts a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -5741,13 +5741,6 @@ saro:marketpricing a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "market pricing" .
 
-saro:salesactivities a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "sales activities" .
-
 saro:performICTtroubleshooting a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -5761,6 +5754,13 @@ saro:developprofessionalnetwork a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "develop professional network" .
+
+saro:salesactivities a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "sales activities" .
 
 saro:PHP a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -5944,12 +5944,12 @@ saro:engineeringprocesses a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "engineering processes" .
 
-saro:processbooking a saro:Skill ;
+saro:computerprogramming a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "process booking" .
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "transversal skills and competences" ;
+	rdfs:label "computer programming" .
 
 saro:generalsurgery a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -5958,19 +5958,12 @@ saro:generalsurgery a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "general surgery" .
 
-saro:computerprogramming a saro:Skill ;
+saro:processbooking a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "transversal skills and competences" ;
-	rdfs:label "computer programming" .
-
-saro:customsregulationsforpassengers a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "customs regulations for passengers" .
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "process booking" .
 
 saro:teachfirefightingprinciples a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -5979,26 +5972,19 @@ saro:teachfirefightingprinciples a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "teach fire fighting principles" .
 
+saro:customsregulationsforpassengers a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "customs regulations for passengers" .
+
 saro:pedagogy a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "pedagogy" .
-
-saro:operatemarinecommunicationsystems a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "operate marine communication systems" .
-
-saro:CADsoftware a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "CAD software" .
 
 saro:developcurriculum a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -6013,6 +5999,20 @@ saro:companypolicies a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "company policies" .
+
+saro:CADsoftware a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "CAD software" .
+
+saro:operatemarinecommunicationsystems a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "operate marine communication systems" .
 
 saro:maintainstudentsdiscipline a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -6056,19 +6056,19 @@ saro:playmusicalinstruments a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "play musical instruments" .
 
-saro:educatepubliconfiresafety a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "educate public on fire safety" .
-
 saro:childrensphysicaldevelopment a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "children's physical development" .
+
+saro:educatepubliconfiresafety a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "educate public on fire safety" .
 
 saro:teachdrivingtheory a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -6175,13 +6175,6 @@ saro:homedecorationtechniques a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "home decoration techniques" .
 
-saro:maintenanceandrepair a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "maintenance and repair" .
-
 saro:teachchemistry a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -6195,6 +6188,13 @@ saro:conductpsychologicalresearch a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "conduct psychological research" .
+
+saro:maintenanceandrepair a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "maintenance and repair" .
 
 saro:provideprofessionalcareinnursing a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -6252,19 +6252,19 @@ saro:electricalequipmentregulations a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "electrical equipment regulations" .
 
-saro:dyewigs a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "dye wigs" .
-
 saro:useacomputer a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "use a computer" .
+
+saro:dyewigs a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "dye wigs" .
 
 saro:dietetics a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -6315,19 +6315,19 @@ saro:sportgamesrules a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "sport games rules" .
 
-saro:theoreticallexicography a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "theoretical lexicography" .
-
 saro:TypeScript a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "TypeScript" .
+
+saro:theoreticallexicography a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "theoretical lexicography" .
 
 saro:maintainlaboratoryequipment a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -6336,19 +6336,19 @@ saro:maintainlaboratoryequipment a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "maintain laboratory equipment" .
 
-saro:handleevidence a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "handle evidence" .
-
 saro:promoteinclusion a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "promote inclusion" .
+
+saro:handleevidence a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "handle evidence" .
 
 saro:assesssocialserviceuserssituation a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -6518,6 +6518,13 @@ saro:schoolpsychology a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "school psychology" .
 
+saro:politicalparties a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "political parties" .
+
 saro:respondtochangingsituationsinhealthcare a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -6531,13 +6538,6 @@ saro:ensurecompliancewithtypesofweapons a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "ensure compliance with types of weapons" .
-
-saro:politicalparties a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "political parties" .
 
 saro:periodisation a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -6553,19 +6553,19 @@ saro:technicaldrawings a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "technical drawings" .
 
-saro:aquaculturereproduction a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "aquaculture reproduction" .
-
 saro:pharmaceuticalchemistry a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "pharmaceutical chemistry" .
+
+saro:aquaculturereproduction a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "aquaculture reproduction" .
 
 saro:teachcircusacts a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -6637,19 +6637,19 @@ saro:promotesocialchange a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "promote social change" .
 
-saro:drivetrams a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "drive trams" .
-
 saro:ensurevisualqualityoftheset a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "ensure visual quality of the set" .
+
+saro:drivetrams a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "drive trams" .
 
 saro:humanphysiology a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -6728,6 +6728,13 @@ saro:specialneedseducation a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "special needs education" .
 
+saro:applypre-teachingmethods a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "apply pre-teaching methods" .
+
 saro:localareatourismindustry a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -6741,13 +6748,6 @@ saro:checkofficialdocuments a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "check official documents" .
-
-saro:applypre-teachingmethods a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "apply pre-teaching methods" .
 
 saro:createdigitalimages a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -6763,13 +6763,6 @@ saro:ensurepublicsafetyandsecurity a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "ensure public safety and security" .
 
-saro:monitorcurriculumimplementation a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "monitor curriculum implementation" .
-
 saro:commercialphotography a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -6777,12 +6770,12 @@ saro:commercialphotography a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "commercial photography" .
 
-saro:drinksserviceoperations a saro:Skill ;
+saro:monitorcurriculumimplementation a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "drinks service operations" .
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "monitor curriculum implementation" .
 
 saro:metalcoatingtechnologies a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -6790,6 +6783,13 @@ saro:metalcoatingtechnologies a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "metal coating technologies" .
+
+saro:drinksserviceoperations a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "drinks service operations" .
 
 saro:preparesyllabusesforvocationalcourses a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -6819,13 +6819,6 @@ saro:fisheriesmanagement a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "fisheries management" .
 
-saro:practiceemergencystops a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "practice emergency stops" .
-
 saro:dealwithpublic a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -6840,6 +6833,13 @@ saro:assistscientificresearch a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "assist scientific research" .
 
+saro:practiceemergencystops a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "practice emergency stops" .
+
 saro:civillaw a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -6847,19 +6847,19 @@ saro:civillaw a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "civil law" .
 
-saro:geriatrics a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "geriatrics" .
-
 saro:discussresearchproposals a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "discuss research proposals" .
+
+saro:geriatrics a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "geriatrics" .
 
 saro:usetraditionalillustrationtechniques a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -6938,19 +6938,19 @@ saro:SketchBookPro a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "SketchBook Pro" .
 
-saro:careforfoodaesthetic a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "care for food aesthetic" .
-
 saro:repairwigs a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "repair wigs" .
+
+saro:careforfoodaesthetic a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "care for food aesthetic" .
 
 saro:drivevehicles a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7001,19 +7001,19 @@ saro:languageteachingmethods a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "language teaching methods" .
 
-saro:performtestsonairportvehicles a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "perform tests on airport vehicles" .
-
 saro:adviseonlegislativeacts a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "advise on legislative acts" .
+
+saro:performtestsonairportvehicles a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "perform tests on airport vehicles" .
 
 saro:managestudentadmissions a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7078,13 +7078,6 @@ saro:liaisewitheducationalsupportstaff a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "liaise with educational support staff" .
 
-saro:inorganicchemistry a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "inorganic chemistry" .
-
 saro:APL a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -7092,12 +7085,12 @@ saro:APL a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "APL" .
 
-saro:enginecomponents a saro:Skill ;
+saro:inorganicchemistry a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "engine components" .
+	rdfs:label "inorganic chemistry" .
 
 saro:maintainforestryequipment a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7105,6 +7098,13 @@ saro:maintainforestryequipment a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "maintain forestry equipment" .
+
+saro:enginecomponents a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "engine components" .
 
 saro:useartisticmaterialsfordrawing a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7127,19 +7127,19 @@ saro:performclassroommanagement a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "perform classroom management" .
 
-saro:make-uptechniques a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "make-up techniques" .
-
 saro:theology a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "theology" .
+
+saro:make-uptechniques a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "make-up techniques" .
 
 saro:teachsociology a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7169,13 +7169,6 @@ saro:teachartsprinciples a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "teach arts principles" .
 
-saro:femalereproductivesystempathology a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "female reproductive system pathology" .
-
 saro:musicalnotation a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -7190,6 +7183,13 @@ saro:hospitalisedanimalnursingcare a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "hospitalised animal nursing care" .
 
+saro:femalereproductivesystempathology a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "female reproductive system pathology" .
+
 saro:teachprinciplesofliterature a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -7197,19 +7197,19 @@ saro:teachprinciplesofliterature a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "teach principles of literature" .
 
-saro:searchhistoricalsourcesinarchives a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "search historical sources in archives" .
-
 saro:MATLAB a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "MATLAB" .
+
+saro:searchhistoricalsourcesinarchives a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "search historical sources in archives" .
 
 saro:adviseoncurriculumdevelopment a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7274,19 +7274,19 @@ saro:utilisecontenttypes a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "utilise content types" .
 
-saro:featuresofsportingequipment a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "features of sporting equipment" .
-
 saro:writingtechniques a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "writing techniques" .
+
+saro:featuresofsportingequipment a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "features of sporting equipment" .
 
 saro:hydroelectricity a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7295,19 +7295,19 @@ saro:hydroelectricity a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "hydroelectricity" .
 
-saro:carryoutpre-flightduties a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "carry out pre-flight duties" .
-
 saro:aerospaceengineering a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "aerospace engineering" .
+
+saro:carryoutpre-flightduties a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "carry out pre-flight duties" .
 
 saro:observehumanbehaviour a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7400,13 +7400,6 @@ saro:designhairstyle a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "design hair style" .
 
-saro:providemultimediacontent a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "provide multimedia content" .
-
 saro:identifycustomerrequirements a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -7414,12 +7407,12 @@ saro:identifycustomerrequirements a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "identify customer requirements" .
 
-saro:usemeteorologicalinformation a saro:Skill ;
+saro:providemultimediacontent a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "use meteorological information" .
+	rdfs:label "provide multimedia content" .
 
 saro:speechtechniques a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7427,6 +7420,13 @@ saro:speechtechniques a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "speech techniques" .
+
+saro:usemeteorologicalinformation a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "use meteorological information" .
 
 saro:havecomputerliteracy a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7449,19 +7449,19 @@ saro:controltrainmovement a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "control train movement" .
 
-saro:providefoodandbeverages a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "provide food and beverages" .
-
 saro:typesofliteraturegenres a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "types of literature genres" .
+
+saro:providefoodandbeverages a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "provide food and beverages" .
 
 saro:inspireenthusiasmfordance a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7477,19 +7477,19 @@ saro:ethicalcodeofconductofjournalists a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "ethical code of conduct of journalists" .
 
-saro:landscapedesign a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "landscape design" .
-
 saro:historicalmethods a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "historical methods" .
+
+saro:landscapedesign a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "landscape design" .
 
 saro:neurophysiology a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7505,13 +7505,6 @@ saro:locomotivebrakeapplications a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "locomotive brake applications" .
 
-saro:sterilizationtechniques a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "sterilization techniques" .
-
 saro:criminology a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -7519,12 +7512,12 @@ saro:criminology a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "criminology" .
 
-saro:divingoperationrequirements a saro:Skill ;
+saro:sterilizationtechniques a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "diving operation requirements" .
+	rdfs:label "sterilization techniques" .
 
 saro:mechanicalengineering a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7533,19 +7526,19 @@ saro:mechanicalengineering a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "mechanical engineering" .
 
+saro:divingoperationrequirements a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "diving operation requirements" .
+
 saro:developdigitaleducationalmaterials a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "develop digital educational materials" .
-
-saro:roadtrafficlaws a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "road traffic laws" .
 
 saro:communityeducation a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7554,12 +7547,26 @@ saro:communityeducation a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "community education" .
 
+saro:roadtrafficlaws a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "road traffic laws" .
+
 saro:bicyclemechanics a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "bicycle mechanics" .
+
+saro:adviseonteachingmethods a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "advise on teaching methods" .
 
 saro:distinguishvarioustypesofships a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7574,13 +7581,6 @@ saro:militarycode a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "military code" .
-
-saro:adviseonteachingmethods a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "advise on teaching methods" .
 
 saro:hairdressing a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7673,19 +7673,19 @@ saro:Erlang a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "Erlang" .
 
-saro:assesssportiveperformance a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "assess sportive performance" .
-
 saro:dealwithairtrafficissues a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "deal with air traffic issues" .
+
+saro:assesssportiveperformance a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "assess sportive performance" .
 
 saro:electricityprinciples a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7722,19 +7722,19 @@ saro:geographicareas a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "geographic areas" .
 
-saro:repairengines a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "repair engines" .
-
 saro:conductcontentqualityassurance a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "conduct content quality assurance" .
+
+saro:repairengines a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "repair engines" .
 
 saro:preparelessoncontent a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7743,19 +7743,19 @@ saro:preparelessoncontent a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "prepare lesson content" .
 
-saro:dealwithemergencycaresituations a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "deal with emergency care situations" .
-
 saro:organisetraining a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "organise training" .
+
+saro:dealwithemergencycaresituations a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "deal with emergency care situations" .
 
 saro:involveserviceusersandcarersincareplanning a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7806,12 +7806,12 @@ saro:assessstudents a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "assess students" .
 
-saro:worksafelywithchemicals a saro:Skill ;
+saro:compilecoursematerial a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "work safely with chemicals" .
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "compile course material" .
 
 saro:operateforestrymachinery a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7820,12 +7820,12 @@ saro:operateforestrymachinery a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "operate forestry machinery" .
 
-saro:compilecoursematerial a saro:Skill ;
+saro:worksafelywithchemicals a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "compile course material" .
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "work safely with chemicals" .
 
 saro:contextualiseartisticwork a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7939,13 +7939,6 @@ saro:marketanalysis a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "market analysis" .
 
-saro:travelbookingsprocesses a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "travel bookings processes" .
-
 saro:cosmeticdentalprocedures a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -7953,19 +7946,19 @@ saro:cosmeticdentalprocedures a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "cosmetic dental procedures" .
 
+saro:travelbookingsprocesses a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "travel bookings processes" .
+
 saro:interpretlaw a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "interpret law" .
-
-saro:developaspecificinteriordesign a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "develop a specific interior design" .
 
 saro:LAMS a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -7981,6 +7974,13 @@ saro:stylesheetlanguages a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "style sheet languages" .
 
+saro:developaspecificinteriordesign a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "develop a specific interior design" .
+
 saro:learningdifficulties a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -7988,19 +7988,19 @@ saro:learningdifficulties a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "learning difficulties" .
 
-saro:teachdrivingpractices a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "teach driving practices" .
-
 saro:performtoxicologicalstudies a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "perform toxicological studies" .
+
+saro:teachdrivingpractices a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "teach driving practices" .
 
 saro:adaptteachingtostudentscapabilities a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -8079,19 +8079,19 @@ saro:corrosiontypes a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "corrosion types" .
 
-saro:hearingloss a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "hearing loss" .
-
 saro:assessoffendersriskbehaviour a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "assess offenders' risk behaviour" .
+
+saro:hearingloss a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "hearing loss" .
 
 saro:physics a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -8135,13 +8135,6 @@ saro:actinganddirectingtechniques a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "acting and directing techniques" .
 
-saro:learnaboutcustomerservice a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "occupation specific skills and competences" ;
-	rdfs:label "learn about customer service" .
-
 saro:developartisticprojectbudgets a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -8149,12 +8142,12 @@ saro:developartisticprojectbudgets a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "develop artistic project budgets" .
 
-saro:teachenergyprinciples a saro:Skill ;
+saro:learnaboutcustomerservice a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "teach energy principles" .
+	saro:hasReuseLevel "occupation specific skills and competences" ;
+	rdfs:label "learn about customer service" .
 
 saro:ICTsoftwarespecifications a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -8162,6 +8155,13 @@ saro:ICTsoftwarespecifications a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "ICT software specifications" .
+
+saro:teachenergyprinciples a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "teach energy principles" .
 
 saro:assessdangerinriskareas a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -8226,19 +8226,19 @@ saro:salesdepartmentprocesses a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "sales department processes" .
 
-saro:complywiththeprinciplesofself-defence a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "comply with the principles of self-defence" .
-
 saro:applytoolsforcontentdevelopment a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "apply tools for content development" .
+
+saro:complywiththeprinciplesofself-defence a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "comply with the principles of self-defence" .
 
 saro:preventsocialproblems a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -8254,19 +8254,19 @@ saro:courtprocedures a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "court procedures" .
 
-saro:metalworkingtools a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "metalworking tools" .
-
 saro:VBScript a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "VBScript" .
+
+saro:metalworkingtools a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "metalworking tools" .
 
 saro:operatefishingequipment a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -8282,19 +8282,19 @@ saro:administerexams a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "administer exams" .
 
-saro:biologicalhaematology a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "biological haematology" .
-
 saro:fundamentalveterinarysciences a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "fundamental veterinary sciences" .
+
+saro:biologicalhaematology a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "biological haematology" .
 
 saro:criminallaw a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -8359,19 +8359,19 @@ saro:osteology a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "osteology" .
 
-saro:labourmarket a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "labour market" .
-
 saro:renewartisticpractice a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "renew artistic practice" .
+
+saro:labourmarket a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "labour market" .
 
 saro:ICTcommunicationsprotocols a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -8387,12 +8387,12 @@ saro:createtrainingmaterials a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "create training materials" .
 
-saro:electricalpowersafetyregulations a saro:Skill ;
+saro:practicevigilance a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
+	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "electrical power safety regulations" .
+	rdfs:label "practice vigilance" .
 
 saro:assessanareaasatourismdestination a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -8401,12 +8401,12 @@ saro:assessanareaasatourismdestination a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "assess an area as a tourism destination" .
 
-saro:practicevigilance a saro:Skill ;
+saro:electricalpowersafetyregulations a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
+	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "practice vigilance" .
+	rdfs:label "electrical power safety regulations" .
 
 saro:pharmaceuticalprocesses a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -8436,13 +8436,6 @@ saro:executeanalyticalmathematicalcalculations a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "execute analytical mathematical calculations" .
 
-saro:railinfrastructure a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "rail infrastructure" .
-
 saro:Sakai a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -8456,6 +8449,13 @@ saro:radiology a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "radiology" .
+
+saro:railinfrastructure a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "rail infrastructure" .
 
 saro:possessvisualliteracy a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -8527,12 +8527,12 @@ saro:devisemilitarytactics a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "devise military tactics" .
 
-saro:operateGPSsystems a saro:Skill ;
+saro:usedigitalillustrationtechniques a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "operate GPS systems" .
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "use digital illustration techniques" .
 
 saro:selectmusicforperformance a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -8541,12 +8541,12 @@ saro:selectmusicforperformance a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "select music for performance" .
 
-saro:usedigitalillustrationtechniques a saro:Skill ;
+saro:operateGPSsystems a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "use digital illustration techniques" .
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "operate GPS systems" .
 
 saro:businessanalysis a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -8639,19 +8639,19 @@ saro:reviewsocialserviceplan a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "review social service plan" .
 
-saro:guideshipsintodocks a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "guide ships into docks" .
-
 saro:chemistry a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "chemistry" .
+
+saro:guideshipsintodocks a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "guide ships into docks" .
 
 saro:conductfieldwork a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -8702,13 +8702,6 @@ saro:supervisecraftproduction a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "supervise craft production" .
 
-saro:manufacturingprocesses a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "manufacturing processes" .
-
 saro:applyforgovernmentfunding a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -8716,12 +8709,12 @@ saro:applyforgovernmentfunding a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "apply for government funding" .
 
-saro:ensuremaintenanceoftrains a saro:Skill ;
+saro:manufacturingprocesses a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "ensure maintenance of trains" .
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "manufacturing processes" .
 
 saro:analyseascript a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -8736,6 +8729,13 @@ saro:conductquantitativeresearch a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "conduct quantitative research" .
+
+saro:ensuremaintenanceoftrains a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ensure maintenance of trains" .
 
 saro:orthodontics a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -8793,19 +8793,19 @@ saro:evaluatetraining a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "evaluate training" .
 
-saro:motiongraphics a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "motion graphics" .
-
 saro:makelegislationtransparentforusersofsocialservices a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "make legislation transparent for users of social services" .
+
+saro:motiongraphics a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "motion graphics" .
 
 saro:adaptinstructiontolabourmarket a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -8842,19 +8842,19 @@ saro:microbiology-bacteriology a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "microbiology-bacteriology" .
 
-saro:supervisemovementofcrew a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "supervise movement of crew" .
-
 saro:usepaintingtechniques a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "use painting techniques" .
+
+saro:supervisemovementofcrew a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "supervise movement of crew" .
 
 saro:monitorsociologicaltrends a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -8877,6 +8877,13 @@ saro:agriculturalbusinessmanagement a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "agricultural business management" .
 
+saro:teachmusicprinciples a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "teach music principles" .
+
 saro:coordinatehumanitarianaidmissions a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -8890,13 +8897,6 @@ saro:communicatewithcustomers a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "communicate with customers" .
-
-saro:teachmusicprinciples a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "teach music principles" .
 
 saro:supportgiftedstudents a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -8933,19 +8933,19 @@ saro:stimulatestudentsindependence a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "stimulate students' independence" .
 
-saro:engineeringprinciples a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "engineering principles" .
-
 saro:buildingcodes a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "building codes" .
+
+saro:engineeringprinciples a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "engineering principles" .
 
 saro:liaisewitheducationalinstitutions a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -9052,19 +9052,19 @@ saro:providetrainingone-learning a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "provide training on e-learning" .
 
-saro:managerestaurantservice a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "manage restaurant service" .
-
 saro:monitorlegislationdevelopments a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "monitor legislation developments" .
+
+saro:managerestaurantservice a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "manage restaurant service" .
 
 saro:ensurelawapplication a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -9115,19 +9115,19 @@ saro:sporthistory a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "sport history" .
 
-saro:setupautomotiverobot a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "set up automotive robot" .
-
 saro:listenactively a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "listen actively" .
+
+saro:setupautomotiverobot a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "set up automotive robot" .
 
 saro:writeresearchproposals a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -9143,19 +9143,19 @@ saro:behaviouraldisorders a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "behavioural disorders" .
 
-saro:anaesthetics a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "anaesthetics" .
-
 saro:ASP.NET a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "ASP.NET" .
+
+saro:anaesthetics a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "anaesthetics" .
 
 saro:landscapearchitecture a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -9297,13 +9297,6 @@ saro:astronomy a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "astronomy" .
 
-saro:re-assembleengines a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "re-assemble engines" .
-
 saro:meetstandardsofpracticeinsocialservices a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -9311,12 +9304,12 @@ saro:meetstandardsofpracticeinsocialservices a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "meet standards of practice in social services" .
 
-saro:performmilitaryoperations a saro:Skill ;
+saro:re-assembleengines a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "perform military operations" .
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "re-assemble engines" .
 
 saro:electricalengineering a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -9324,6 +9317,13 @@ saro:electricalengineering a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "electrical engineering" .
+
+saro:performmilitaryoperations a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "perform military operations" .
 
 saro:observeteachingactivities a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -9395,13 +9395,6 @@ saro:demonstrateleadershipinsocialservicecases a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "demonstrate leadership in social service cases" .
 
-saro:teachboatingprinciples a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "teach boating principles" .
-
 saro:disabilitytypes a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -9415,6 +9408,13 @@ saro:ensurecurriculumadherence a saro:Skill ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "ensure curriculum adherence" .
+
+saro:teachboatingprinciples a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "teach boating principles" .
 
 saro:resuscitation a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -9437,12 +9437,12 @@ saro:post-secondaryschoolprocedures a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "post-secondary school procedures" .
 
-saro:communicationrelatedtohearingimpairment a saro:Skill ;
+saro:history a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "communication related to hearing impairment" .
+	rdfs:label "history" .
 
 saro:pronunciationtechniques a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -9451,12 +9451,12 @@ saro:pronunciationtechniques a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "pronunciation techniques" .
 
-saro:history a saro:Skill ;
+saro:communicationrelatedtohearingimpairment a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "history" .
+	rdfs:label "communication related to hearing impairment" .
 
 saro:genderstudies a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -9486,19 +9486,19 @@ saro:applycompanypolicies a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "apply company policies" .
 
-saro:performriskanalysis a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "perform risk analysis" .
-
 saro:forensicanthropology a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "forensic anthropology" .
+
+saro:performriskanalysis a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "perform risk analysis" .
 
 saro:managegovernment-fundedprogrammes a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -9514,19 +9514,19 @@ saro:GIMPgraphicseditorsoftware a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "GIMP (graphics editor software)" .
 
-saro:ensurestudentwelfare a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "ensure student welfare" .
-
 saro:computertechnology a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "computer technology" .
+
+saro:ensurestudentwelfare a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "ensure student welfare" .
 
 saro:preparetrainingeventsforteachers a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -9535,19 +9535,19 @@ saro:preparetrainingeventsforteachers a saro:Skill ;
 	saro:hasReuseLevel "occupation specific skills and competences" ;
 	rdfs:label "prepare training events for teachers" .
 
-saro:conductonboardsafetyinspections a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "conduct on board safety inspections" .
-
 saro:animalwelfare a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "animal welfare" .
+
+saro:conductonboardsafetyinspections a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "conduct on board safety inspections" .
 
 saro:salonmanagement a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -9598,19 +9598,19 @@ saro:helpperformersinternalisechoreographicmaterial a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "help performers internalise choreographic material" .
 
-saro:preparationforchilddelivery a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "preparation for child delivery" .
-
 saro:genetics a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "genetics" .
+
+saro:preparationforchilddelivery a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "preparation for child delivery" .
 
 saro:teachESOLliteracyclass a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -9633,13 +9633,6 @@ saro:communication a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "communication" .
 
-saro:ICTsalesmethodologies a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "ICT sales methodologies" .
-
 saro:applyperson-centredcare a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -9647,12 +9640,12 @@ saro:applyperson-centredcare a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "apply person-centred care" .
 
-saro:healthcarelegislation a saro:Skill ;
+saro:ICTsalesmethodologies a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "health care legislation" .
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "ICT sales methodologies" .
 
 saro:officesoftware a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -9660,6 +9653,13 @@ saro:officesoftware a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "office software" .
+
+saro:healthcarelegislation a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "health care legislation" .
 
 saro:Spiraldevelopment a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -9717,13 +9717,6 @@ saro:culturalcustomsonfoodpreparation a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "cultural customs on food preparation" .
 
-saro:hair a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "hair" .
-
 saro:provideassistancetolecturer a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -9738,12 +9731,26 @@ saro:medicalterminology a saro:Skill ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "medical terminology" .
 
+saro:hair a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "hair" .
+
 saro:develope-learningplan a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "develop e-learning plan" .
+
+saro:protectclientinterests a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "protect client interests" .
 
 saro:electricity a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -9758,13 +9765,6 @@ saro:firepreventionprocedures a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "fire prevention procedures" .
-
-saro:protectclientinterests a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "protect client interests" .
 
 saro:client-centredcounselling a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -9787,19 +9787,19 @@ saro:appliedzoology a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "applied zoology" .
 
-saro:useglobaldistributionsystem a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "use global distribution system" .
-
 saro:conducteducationalactivities a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "conduct educational activities" .
+
+saro:useglobaldistributionsystem a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "use global distribution system" .
 
 saro:climbtrees a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -9815,13 +9815,6 @@ saro:executechillingprocessestofoodproducts a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "execute chilling processes to food products" .
 
-saro:channelmarketing a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "knowledge" ;
-	saro:hasReuseLevel "cross-sector skills and competences" ;
-	rdfs:label "channel marketing" .
-
 saro:performimprovisation a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
@@ -9835,6 +9828,13 @@ saro:virology a saro:Skill ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "cross-sector skills and competences" ;
 	rdfs:label "virology" .
+
+saro:channelmarketing a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "knowledge" ;
+	saro:hasReuseLevel "cross-sector skills and competences" ;
+	rdfs:label "channel marketing" .
 
 saro:energymarket a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
@@ -9878,19 +9878,19 @@ saro:chemicalprocesses a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "chemical processes" .
 
-saro:providehigh-enddrivingservices a saro:Skill ;
-	saro:isCoreTo saro:TEACHING ;
-	saro:isFrom "ESCO" ;
-	saro:hasSkillType "skill" ;
-	saro:hasReuseLevel "sector specific skills and competences" ;
-	rdfs:label "provide high-end driving services" .
-
 saro:CommonLisp a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "knowledge" ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "Common Lisp" .
+
+saro:providehigh-enddrivingservices a saro:Skill ;
+	saro:isCoreTo saro:TEACHING ;
+	saro:isFrom "ESCO" ;
+	saro:hasSkillType "skill" ;
+	saro:hasReuseLevel "sector specific skills and competences" ;
+	rdfs:label "provide high-end driving services" .
 
 saro:agriculturalproductionprinciples a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
