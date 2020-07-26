@@ -2101,7 +2101,7 @@ saro:salesstrategies a saro:Skill ;
 	saro:hasReuseLevel "sector specific skills and competences" ;
 	rdfs:label "sales strategies" .
 
-saro:bringoutperformers’artisticpotential a saro:Skill ;
+saro:bringoutperformersartisticpotential a saro:Skill ;
 	saro:isCoreTo saro:TEACHING ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
