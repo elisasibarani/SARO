@@ -133,7 +133,7 @@ saro:attendtohygiene a saro:TransversalSkill ;
 	saro:hasReuseLevel "transversal skills and competences" ;
 	rdfs:label "attend to hygiene" .
 
-saro:browse,searchandfilterdata,informationanddigitalcontent a saro:TransversalSkill ;
+saro:browsesearchandfilterdatainformationanddigitalcontent a saro:TransversalSkill ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "transversal skills and competences" ;
@@ -253,7 +253,7 @@ saro:engageincitizenshipthroughdigitaltechnologies a saro:TransversalSkill ;
 	saro:hasReuseLevel "transversal skills and competences" ;
 	rdfs:label "engage in citizenship through digital technologies" .
 
-saro:evaluatedata,informationanddigitalcontent a saro:TransversalSkill ;
+saro:evaluatedatainformationanddigitalcontent a saro:TransversalSkill ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "transversal skills and competences" ;
@@ -391,7 +391,7 @@ saro:makeuseofpersonalrobotsforpracticalsupport a saro:TransversalSkill ;
 	saro:hasReuseLevel "transversal skills and competences" ;
 	rdfs:label "make use of personal robots for practical support" .
 
-saro:managedata,informationanddigitalcontent a saro:TransversalSkill ;
+saro:managedatainformationanddigitalcontent a saro:TransversalSkill ;
 	saro:isFrom "ESCO" ;
 	saro:hasSkillType "skill" ;
 	saro:hasReuseLevel "transversal skills and competences" ;
