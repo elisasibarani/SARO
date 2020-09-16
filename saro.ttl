@@ -441,3 +441,9 @@ saro:toAbsorb a rdf:Property ;
     rdfs:comment "This property is used to refer to a capacity which could absorb the specific skill." ;
     rdfs:domain saro:Capacity ;
     rdfs:range saro:Skill .
+	
+saro:isBroaderThan a rdf:Property ;
+    rdfs:label "isBroaderThan" ;
+	rdfs:comment "A skill can be characterised by means of other related specific skills, or a skill can be mapped to a higher-level skills. " ;
+	rdfs:domain saro:Skill ;
+	rdfs:range saro:Skill .
