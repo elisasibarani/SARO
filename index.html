@@ -18,7 +18,7 @@
 <h1>Skills and Recruitment Ontology</h1>
 
 
-<big style="color: rgb(0, 90, 156);">Updated: July 2019</big>
+<big style="color: rgb(0, 90, 156);">Updated: September 2020</big>
 
 <br>
 
@@ -27,7 +27,7 @@
 
   <dt>Authors:</dt>
 
-  <dd>Elisa Margareth Sibarani, University of Bonn, <a href="mailto:sibarani@cs.uni-bonn.de">sibarani@cs.uni-bonn.de</a></dd>
+  <dd>Elisa Margareth Sibarani, Fraunhofer IAIS, Germany, <a href="mailto:sibarani@cs.uni-bonn.de">elisa.margareth.sibarani@iais.fraunhofer.de</a></dd>
   <dd>Simon Scerri, Fraunhofer IAIS, Germany, <a href="mailto:simon.scerri@iais.fraunhofer.de">simon.scerri@iais.fraunhofer.de</a></dd>
   <dd>Aba-Sah Dadzie, KMi, The Open University, UK, <a href="mailto:aba-sah.dadzie@open.ac.uk">aba-sah.dadzie@open.ac.uk</a></dd>
 </dl>
@@ -38,7 +38,7 @@
   <dt>Editor:</dt>
   
   
-  <dd>Elisa Margareth Sibarani, University of Bonn, <a href="mailto:sibarani@cs.uni-bonn.de">sibarani@cs.uni-bonn.de</a></dd>
+  <dd>Elisa Margareth Sibarani, Fraunhofer IAIS, <a href="mailto:sibarani@cs.uni-bonn.de">elisa.margareth.sibarani@iais.fraunhofer.de</a></dd>
   <dd>Simon Scerri, Fraunhofer IAIS, <a href="mailto:simon.scerri@iais.fraunhofer.de">simon.scerri@iais.fraunhofer.de</a></dd>
 </dl>
 
@@ -463,6 +463,28 @@ covered in the specifications below. For an example list please refer to
 <tr><td>Description </td><td> This class represents list of skills which are relevant to a broad range of occupations and sectors. They are often referred to as core skills, basic skills or soft skills </td></tr> 
 </table>
 
+<a name="Language">
+<h3>Language</h3>
+
+<table class="ontdoctable"> 
+<tr><td class="rowheader">Superclasses </td><td> saro:TransversalSkill, rdfs:Resource</td></tr> 
+<tr><td class="rowheader">Subclasses </td><td> --</td></tr> 
+<tr><td class="rowheader">In domain of: </td><td> --</td></tr> 
+<tr><td class="rowheader">In range of: </td><td> --</td></tr> 
+<tr><td>Description </td><td> Ability in spoken or written natural languages, as a skill </td></tr> 
+</table>
+
+
+<a name="ComplexSkill">
+<h3>ComplexSkill</h3>
+
+<table class="ontdoctable"> 
+<tr><td class="rowheader">Superclasses </td><td> esco:Concept, rdfs:Resource,  <a href="#Skill">saro:Skill</a></td></tr> 
+<tr><td class="rowheader">Subclasses </td><td> --</td></tr> 
+<tr><td class="rowheader">In domain of: </td><td> <a href="#subSkill">saro:subSkill</a></td></tr> 
+<tr><td class="rowheader">In range of: </td><td> --</td></tr> 
+<tr><td>Description </td><td> A specialised skill that is composed of multiple other known skills, e.g. IT Project Management, but is not as yet defined as a standalone skill </td></tr> 
+</table>
 
 <a name="User">
 <h3>User</h3>
@@ -489,6 +511,19 @@ covered in the specifications below. For an example list please refer to
 
 
 <h2>Ontology Properties Description</h2>
+
+<a name="subSkill">
+<h3>subSkill</h3> 
+
+<table class="ontdoctable"> 
+<tr><td class="rowheader">Type </td><td> rdf:Property, rdfs:Resource</td></tr> 
+<tr><td class="rowheader">Domain </td><td>  <a href="#Skill">saro:ComplexSkill</a></td></tr> 
+<tr><td class="rowheader">Range </td><td>  <a href="#TrainingResource">saro:Skill</a></td></tr> 
+<tr><td class="rowheader">Superproperties </td><td> --</td></tr> 
+<tr><td class="rowheader">Subproperties </td><td> --</td></tr> 
+<tr><td>Description </td><td> A subskill that a complex skill is composed of. </td></tr> 
+</table>
+
 
 <a name="acquiredVia">
 <h3>acquiredVia</h3> 
@@ -1100,6 +1135,16 @@ covered in the specifications below. For an example list please refer to
 <tr><td>Description </td><td> This property is used to refer to a capacity which could absorb the specific skill.</td></tr> 
 </table>
 
+<a name="isBroaderThan">
+<h3>isBroaderThan</h3> 
 
+<table class="ontdoctable"> 
+<tr><td class="rowheader">Type </td><td> rdf:Property, rdfs:Resource</td></tr> 
+<tr><td class="rowheader">Domain </td><td>  <a href="#Capacity">saro:Skill</a></td></tr> 
+<tr><td class="rowheader">Range </td><td>  <a href="#Skill">saro:Skill</a></td></tr> 
+<tr><td class="rowheader">Superproperties </td><td> --</td></tr> 
+<tr><td class="rowheader">Subproperties </td><td> --</td></tr> 
+<tr><td>Description </td><td> A skill can be characterised by means of other related specific skills, or a skill can be mapped to a higher-level skills.</td></tr> 
+</table>
 
 </body></html>
