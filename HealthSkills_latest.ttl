@@ -1,4 +1,12 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix saro: <http://w3id.org/saro#> .
+@prefix esco: <http://data.europa.eu/esco/model#> .
 
+saro:HEALTH a saro:Sector ;
+	 rdfs:label "Health" ;
+	 rdfs:seeAlso <http://data.europa.eu/esco/isco/C22> .
 
 saro:engageinphysiotherapyresearch a saro:Skill ;
 	saro:isCoreTo saro:HEALTH ;
