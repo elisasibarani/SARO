@@ -3,6 +3,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix saro: <http://w3id.org/saro#> .
 @prefix esco: <http://data.europa.eu/esco/model#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 saro:LEGALSOCIALCULTURAL a saro:Sector ;
 	 rdfs:label "Legal, social and cultural" ;
